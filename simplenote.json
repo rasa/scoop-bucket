@@ -1,0 +1,25 @@
+{
+    "homepage":  "https://simplenote.com/",
+    "version":  "1.5.0",
+    "license":  "GPL-2.0-only",
+    "url":  "https://github.com/Automattic/simplenote-electron/releases/download/v1.5.0/Simplenote-win-1.5.0.exe",
+    "hash":  "sha512: 310vbyIqYg2W7ydv1WHAQxtpO38J5U1UWea9OXNmtLjlMB6wPHiMjXRzfNOhurw6w8md6oTILcWrFhDRrSU3KA== ",
+	"extract_dir": "",
+    "bin":  "Simplenote.exe",
+	"shortcuts": [
+		[
+			"Simplenote.exe",
+			"Simplenote"
+		]
+	],
+	"checkver": {
+        "url":"https://github.com/Automattic/simplenote-electron/releases/latest",
+    },
+	"autoupdate": {
+		"url": "https://github.com/Automattic/simplenote-electron/releases/download/v$version/Simplenote-win-$version.exe",
+		"hash": {
+			"url": "https://github.com/Automattic/simplenote-electron/releases/download/v$version/latest.yml",
+			"re": "sha512:\\s*[\\w\\d]{88}"
+		}
+	}
+}

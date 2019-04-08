@@ -1,0 +1,18 @@
+{
+    "homepage":  "https://www.undeleteplus.com/",
+    "version":  "3.0.19.329",
+    "url":  "https://www.undeleteplus.com/files/undeleteplus_setup.exe",
+    "license":  "freeware",
+    "hash":  "md5:8e928af295445b2dfba561de362f361f",
+    "innosetup":  "true",
+    "shortcuts":  [
+        [
+            "UndeletePlus.exe",
+            "Undelete Plus"
+        ]
+	],
+        "checkver": {
+            "url":"https://www.undeleteplus.com/download.html",
+            "re":"Version ([\\d.]+)"
+        }
+}

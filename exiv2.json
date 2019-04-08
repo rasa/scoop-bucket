@@ -1,0 +1,55 @@
+{
+    "homepage":  "https://www.exiv2.org/",
+    "version":  "0.27.0",
+    "description":"A Cross-platform C++ library and a command line utility to manage image metadata.",
+    "license":  "GPL-2.0-only",
+    "architecture":{
+        "64bit": {
+            "url":  "https://www.exiv2.org/builds/exiv2-0.27.0-msvc64.zip",
+            "hash":  "DB28F0A6E85974C43C1D94960E06B1960E7BCE058D301D19FF7C4447F3F012EE",
+            "extract_dir":  "exiv2-0.27.0-msvc64",
+            "autoupdate":{
+                "url":"https://www.exiv2.org/builds/exiv2-$version-msvc64.zip",
+                "extract_dir":  "exiv2-$version-msvc64"
+            }
+        }
+    },
+    "bin":  [
+        "addmoddel.exe",
+        "convert-test.exe",
+        "easyaccess-test.exe",
+        "exifcomment.exe",
+        "exifdata-test.exe",
+        "exifdata.exe",
+        "exifprint.exe",
+        "exifvalue.exe",
+        "exiv2.exe",
+        "exiv2json.exe",
+        "geotag.exe",
+        "ini-test.exe",
+        "iotest.exe",
+        "iptceasy.exe",
+        "iptcprint.exe",
+        "iptctest.exe",
+        "key-test.exe",
+        "largeiptc-test.exe",
+        "metacopy.exe",
+        "mmap-test.exe",
+        "path-test.exe",
+        "prevtest.exe",
+        "stringto-test.exe",
+        "taglist.exe",
+        "tiff-test.exe",
+        "werror-test.exe",
+        "write-test.exe",
+        "write2-test.exe",
+        "xmlwf.exe",
+        "xmpparse.exe",
+        "xmpparser-test.exe",
+        "xmpsample.exe"
+    ],
+    "checkver": {
+        "url":"https://www.exiv2.org/download.html",
+        "re":"Download Exiv2 v([\\d.]+)"
+    }
+}

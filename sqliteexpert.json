@@ -1,0 +1,38 @@
+{
+    "homepage":  "https://www.sqliteexpert.com/",
+    "version":  "5.3.4.435",
+    "license":  "Freeware",
+    "architecture": {
+        "64bit": {
+            "url":  "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup64.exe",
+            "hash":  "md5:9CE1A8BAA36E6A216FCC8707FCF28D36",
+            "bin":  "SQLiteExpertPers64.exe",
+            "shortcuts":[
+                [
+                    "SQLiteExpertPers64.exe",
+                    "SQLite Expert Personal"
+                ]
+            ],
+            "autoupdate": {
+                "url":"http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup64.exe",
+                "hash":"http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup64.md5"
+            }
+       },
+        "32bit": {
+            "url":  "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup32.exe",
+            "hash":  "md5:2D901FE403147566C18E0106148178F8",
+            "bin":  "SQLiteExpertPers.exe",
+            "shortcuts":[
+                [
+                    "SQLiteExpertPers.exe",
+                    "SQLite Expert Personal"
+                ]
+            ],
+            "autoupdate": {
+                "url":"http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup32.exe",
+                "hash":"http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup32.md5"
+            }
+        }
+   },
+    "innosetup":  "true"
+}

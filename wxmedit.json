@@ -1,0 +1,23 @@
+{
+    "homepage":  "http://wxmedit.github.io/",
+    "version":  "3.1",
+    "license":  "GPL-3.0-only",
+    "extract_dir":  "wxMEdit",
+    "url":  "https://sourceforge.net/projects/wxmedit/files/3.1/wxMEdit-3.1-win32-bin.7z/download#/dl.7z",
+    "hash":  "ACA7F626CC1F4A1328AFBE8E5E64A9F1D3B73C713942E53AD87D6F517B836205",
+    "persist": [
+        "wxmedit.cfg",
+        "FontWidth.dat"
+    ],
+    "bin":  "wxmedit.exe",
+    "shortcuts":[
+        [
+            "wxmedit.exe",
+            "wxMEdit"
+        ]
+    ],
+    "checkver": {
+        "url":"https://sourceforge.net/projects/wxmedit/files/",
+        "re":"wxMEdit-([\\d.]+)-win32-bin.7z"
+    }
+}

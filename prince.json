@@ -1,0 +1,18 @@
+﻿{
+    "homepage":  "http://www.princexml.com",
+    "version":  "12.4",
+    "license":  "free for non-commercial use",
+    "architecture": {
+        "64bit": {
+            "url":  "https://www.princexml.com/download/prince-20190325-win64.zip",
+            "hash": "F717DF761BEC8F13325C76B8BBFB9B1259433FAD98C109BDF1E6E2929A5D060C",
+            "extract_dir":"prince-20190325-win64"
+        },
+        "32bit": {
+            "url":  "https://www.princexml.com/download/prince-20190325-win32.zip",
+            "hash":"198F5CEE32A7FA51E5C80A67A0D4C292CC69ACF8A1377C69A4D4A060B80D4A41",
+            "extract_dir":"prince-20190325-win32"
+        }
+    },    
+    "bin":  "bin\\prince.exe"
+}

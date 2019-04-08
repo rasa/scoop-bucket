@@ -1,0 +1,18 @@
+﻿{
+    "homepage":  "https://github.com/fcFn/traymond/",
+    "description": "A very simple app for minimizing any window in Win key + Shift + Z to tray as an icon. Runs in the background.",
+    "version":  "1.0.2",
+    "license":  "MIT",
+    "url":  "https://github.com/fcFn/traymond/releases/download/v1.0.2/Traymond.exe",
+    "hash":  "7EBC06F9F8602F013034ED6BA93722EDC1E62557DED21E0E028665235B3B6F94",
+    "bin":  "Traymond.exe",
+    "shortcuts":[
+        [
+            "Traymond.exe",
+            "Traymond"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate":"https://github.com/fcFn/traymond/releases/download/v$version/Traymond.exe",
+    "persist":"traymond.dat"
+}

@@ -1,0 +1,32 @@
+{
+    "homepage": "https://ivarptr.github.io/yu-writer.site",
+    "version": "0.5.2",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ivarptr/yu-writer.site/releases/download/beta.0.5.2/yu-writer-beta-0.5.2-windows-x64.zip",
+            "hash":"C1EF3735AC15C850204A9606C0FA4A40DAC045069FCF129B17721BF8CA33820A",
+            "autoupdate":{"url":"https://github.com/ivarptr/yu-writer.site/releases/download/beta.$version/yu-writer-beta-$version-windows-x64.zip"}
+        },
+        "32bit": {
+            "url": "https://github.com/ivarptr/yu-writer.site/releases/download/beta.0.5.2/yu-writer-beta-0.5.2-windows.zip",
+            "hash":"D245C006599EF7C223EE632F8C26759147CE2BC45BFD3DF697BDC28C77628C3E",
+            "autoupdate":{"url":"https://github.com/ivarptr/yu-writer.site/releases/download/beta.$version/yu-writer-beta-$version-windows.zip"}
+        }
+    },
+    "shortcuts": [
+        [
+            "Yu Writer\\Yu Writer.exe",
+            "Yu Writer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/ivarptr/yu-writer.site/releases/latest",
+        "re": "Release Beta ([\\d.]+)"
+    },
+    "persist":[
+        "Yu Writer\\bootstrap.config",
+        "Libraries",
+        "Resources"
+    ]
+}

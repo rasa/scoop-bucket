@@ -1,0 +1,22 @@
+﻿{
+    "homepage":  "https://otter-browser.org/",
+    "version":  "272",
+    "license":  "MPL-2.0",
+    "extract_dir":  "",
+    "url":  "https://master.dl.sourceforge.net/project/otter-browser/otter-browser-1.0.01/otter-browser-win64-1.0.01.7z",
+    "hash":  "sha1:986ABEEC81017C5703B13456B573DDC04054C61A",
+    "bin":  "otter-browser.exe",
+    "shortcuts": [
+        [
+            "otter-browser.exe",
+            "Otter Browser"
+        ]
+    ],
+    "checkver": {
+        "url":"https://sourceforge.net/projects/otter-browser/rss?path=/",
+        "re": "otter-browser-win32-weekly([\\d.]+).7z"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/otter-browser/files/otter-browser-weekly$version/otter-browser-win64-$version.7z/download"
+    }
+}

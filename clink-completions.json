@@ -1,0 +1,8 @@
+{
+    "homepage":  "https://github.com/vladimir-kotikov/clink-completions/",
+    "version":  "0.3.3",
+    "license":  "MIT",
+    "extract_dir":  "clink-completions-0.3.3",
+    "url":  "https://github.com/vladimir-kotikov/clink-completions/archive/0.3.3.zip",
+    "checkver": "github"
+}

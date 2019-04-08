@@ -1,0 +1,31 @@
+{
+    "homepage":  "http://www.gnuplot.info",
+    "description":"A portable command-line driven graphing utility.",
+    "version":  "5.2.6",
+    "license":  {
+        "identifier": "gnuplot",
+        "url": "https://fedoraproject.org/wiki/Licensing/Gnuplot"
+    },
+    "architecture":{
+        "64bit":{
+            "url":"https://sourceforge.net/projects/gnuplot/files/gnuplot/5.2.6/gp526-win64-mingw.7z/download#/gnuplot.7z",
+            "hash":"03fdc8b4a8f12beb378349c46d28d734521135f3f7227d53be8c8fded70683c4",
+            "autoupdate":"https://sourceforge.net/projects/gnuplot/files/gnuplot/$version/gp$cleanVersion-win64-mingw.7z/download#/gnuplot.7z"
+        }
+    },
+    "extract_dir":"gnuplot",
+    "checkver": {
+        "url":  "https://sourceforge.net/projects/gnuplot/rss?path=/gnuplot",
+        "re": "gnuplot/([\\d.]+)/gp"
+    },
+    "bin":  [
+        "bin\\gnuplot.exe",
+        "bin\\wgnuplot.exe"
+    ],
+    "shortcuts":[
+        [
+            "bin\\wgnuplot.exe",
+            "GNUPlot"
+        ]
+    ]
+}

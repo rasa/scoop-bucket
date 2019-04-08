@@ -1,0 +1,15 @@
+﻿{
+    "homepage":  "http://www.joerg-rosenthal.com/en/antitwin/",
+    "version":  "1.8d",
+    "license":  "freeware for private use",
+    "url":  "https://www.aidex.de/software/antitwin/AntiTwin.exe",
+    "hash":  "8AA4BBB52FEF0F2A5814DC95B790604BF31CB3AE38B1F85AFE05325F95B5FF5A",
+    "persist": "AntiTwin.ini",
+    "bin":  "AntiTwin.exe",
+    "shortcuts": [
+        [
+            "AntiTwin.exe",
+            "AntiTwin"
+        ]
+    ]
+}
