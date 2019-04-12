@@ -2,9 +2,9 @@
     "homepage":  "https://otter-browser.org/",
     "version":  "272",
     "license":  "MPL-2.0",
-    "extract_dir":  "",
+    "extract_dir":  "otter-browser-win64-1.0.01",
     "url":  "https://master.dl.sourceforge.net/project/otter-browser/otter-browser-1.0.01/otter-browser-win64-1.0.01.7z",
-    "hash":  "sha1:986ABEEC81017C5703B13456B573DDC04054C61A",
+    "hash":  "sha1:db2dd0ae2119983e186fb592c943a648738cc509",
     "bin":  "otter-browser.exe",
     "shortcuts": [
         [

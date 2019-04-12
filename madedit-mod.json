@@ -1,17 +1,23 @@
 {
-    "homepage":  "http://sourceforge.net/projects/madedit-mod/ ",
+    "homepage":  "http://sourceforge.net/projects/madedit-mod/",
     "version":  "0.4.15",
     "license":  "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url":  "https://downloads.sourceforge.net/project/madedit-mod/0.4.15/MadEdit-Mod0.4.15_X64.7z/download#/dl.7z",
+            "url":  "https://master.dl.sourceforge.net/projects/madedit-mod/0.4.16/MadEdit-Mod0.4.16_X64.7z",
             "hash":  "4EB7AE10998EA290A3ACBF9BD227C5676F345E61885FF04CEAC2609AD1B1D5BA",
-            "autoupdate":"https://downloads.sourceforge.net/project/madedit-mod/$version/MadEdit-Mod$version_X64.7z/download#/dl.7z"
+            "autoupdate":{
+                "url":"https://master.dl.sourceforge.net/projects/madedit-mod/$version/MadEdit-Mod$version_X64.7z",
+                "hash":{"mode":"sourceforge"}
+            }
         },
         "32bit": {
-            "url":  "https://downloads.sourceforge.net/project/madedit-mod/0.4.15/MadEdit-Mod0.4.15_X86.7z/download#/dl.7z",
+            "url":  "https://master.dl.sourceforge.net/projects/madedit-mod/0.4.16/MadEdit-Mod0.4.16_X86.7z",
             "hash":  "ACA7F626CC1F4A1328AFBE8E5E64A9F1D3B73C713942E53AD87D6F517B836205",
-            "autoupdate":"https://downloads.sourceforge.net/project/madedit-mod/$version/MadEdit-Mod$version_X86.7z/download#/dl.7z"
+            "autoupdate":{
+                "url":"https://master.dl.sourceforge.net/projects/madedit-mod/$version/MadEdit-Mod$version_X86.7z",
+                "hash":{"mode":"sourceforge"}
+            }
         }
     },
     "persist": [

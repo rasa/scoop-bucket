@@ -17,6 +17,6 @@
         "category.db"
     ],
     "checkver":{
-        "re":"Download XnView ([\\d.]+) for Windows:"
+        "re":"<strong>XnView ([\\d.]+)</strong>"
     }
 }

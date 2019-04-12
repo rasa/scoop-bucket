@@ -6,7 +6,7 @@
     "url": "https://github.com/marktext/marktext/releases/download/v0.13.65/marktext-setup-0.13.65.exe#/marktext.7z",
     "autoupdate": {
         "url":"https://github.com/marktext/marktext/releases/download/v$version/marktext-setup-$version.exe#/marktext.7z"
-    }
+    },
     "architecture": {
         "64bit": {
             "installer": {
