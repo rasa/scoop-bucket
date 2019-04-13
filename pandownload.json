@@ -1,0 +1,21 @@
+{
+	"homepage": "https://pandownload.com/",
+	"description": "一个小巧、安全、简洁的 OFFICE 管理、下载、安装器",
+	"version": "2.0.5",
+	"url": "http://pandownload.club/dl/PanDownload_v2.0.6.zip",
+	"hash": "c4e65258fa99e58002411bafb45069650dfec5bbe5fdc062c3656e29c5192e79",
+	"extract_dir": "PanDownload",
+	"shortcuts": [
+		[
+			"PanDownload.exe",
+			"PanDownload"
+		]
+	],
+	"checkver": {
+		"url": "https://pandownload.com/",
+		"re": ">v([\\d.]+)<"
+	},
+	"autoupdate": {
+		"url": "http://pandownload.com/dl/PanDownload_v$version.zip"
+	}
+}
