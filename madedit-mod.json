@@ -1,6 +1,6 @@
 {
     "homepage":  "http://sourceforge.net/projects/madedit-mod/",
-    "version":  "0.4.15",
+    "version":  "0.4.16",
     "license":  "GPL-3.0-only",
     "architecture": {
         "64bit": {

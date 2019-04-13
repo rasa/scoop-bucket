@@ -9,6 +9,11 @@
             "installer": {
                 "script": "extract_7zip \"$dir\\app-64.7z\" \"$dir\""
             }
+        },
+        "32bit": {
+            "installer": {
+                "script": "extract_7zip \"$dir\\app-32.7z\" \"$dir\""
+            }
         }
 	},
     "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\app-32.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\SpiderBanner.dll\",\"$dir\\WinShell.dll\"",
@@ -21,7 +26,7 @@
 		]
     ],
 	"checkver": {
-        "url":"https://github.com/Automattic/simplenote-electron/"
+        "github":"https://github.com/Automattic/simplenote-electron/"
     },
     "autoupdate": {
 		"url": "https://github.com/Automattic/simplenote-electron/releases/download/v$version/Simplenote-win-$version.exe"

@@ -1,4 +1,4 @@
-﻿{
+{
     "homepage":  "https://github.com/fcFn/traymond/",
     "description": "A very simple app for minimizing any window in Win key + Shift + Z to tray as an icon. Runs in the background.",
     "version":  "1.0.2",

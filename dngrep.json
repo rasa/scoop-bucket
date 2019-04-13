@@ -1,1 +1,34 @@
-{    "homepage": "http://dngrep.github.io/",	"description": "Graphical GREP tool for Windows",	"version": "2.8.16.0",	"license": "GPL-2.0",	"architecture": {        "64bit": {            "url":  "https://github.com/dnGrep/dnGrep/releases/download/v2.8.16.0/dnGREP.2.8.16.x64.msi",            "hash": "62F582ED97E738200EB3B0BD753CD6CA0E76AB9D27B1FB4783A6F5C4CD3D0CB4",            "autoupdate":{                "url":    "https://github.com/dnGrep/dnGrep/releases/download/v$version/dnGREP.$matchHead.x64.msi"            }        },        "32bit":{            "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.8.16.0/dnGREP.2.8.16.x86.msi",            "hash": "293FAEB0AE8D51F06327D7ED571BE42289F64136DC6FC1C3DB91FFA81D7D12EF",            "autoupdate":{                "url":    "https://github.com/dnGrep/dnGrep/releases/download/v$version/dnGREP.$matchHead.x86.msi"            }        }	},    "bin":"dnGREP.exe",    "checkver": {        "github": "https://github.com/dnGrep/dnGrep/"    },    "shortcuts": [        [            "dnGREP.exe",            "dnGREP"        ]    ],    "persist":"dnGREP.Settings.dat",    "extract_dir":"dnGREP"}
+{
+    "homepage": "http://dngrep.github.io/",
+	"description": "Graphical GREP tool for Windows",
+	"version": "2.8.16.0",
+	"license": "GPL-2.0",
+	"architecture": {
+        "64bit": {
+            "url":  "https://github.com/dnGrep/dnGrep/releases/download/v2.8.16.0/dnGREP.2.8.16.x64.msi",
+            "hash": "62F582ED97E738200EB3B0BD753CD6CA0E76AB9D27B1FB4783A6F5C4CD3D0CB4",
+            "autoupdate":{
+                "url":    "https://github.com/dnGrep/dnGrep/releases/download/v$version/dnGREP.$matchHead.x64.msi"
+            }
+        },
+        "32bit":{
+            "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.8.16.0/dnGREP.2.8.16.x86.msi",
+            "hash": "293FAEB0AE8D51F06327D7ED571BE42289F64136DC6FC1C3DB91FFA81D7D12EF",
+            "autoupdate":{
+                "url":    "https://github.com/dnGrep/dnGrep/releases/download/v$version/dnGREP.$matchHead.x86.msi"
+            }
+        }
+	},
+    "bin":"dnGREP.exe",
+    "checkver": {
+        "github": "https://github.com/dnGrep/dnGrep/"
+    },
+    "shortcuts": [
+        [
+            "dnGREP.exe",
+            "dnGREP"
+        ]
+    ],
+    "persist":"dnGREP.Settings.dat",
+    "extract_dir":"dnGREP"
+}

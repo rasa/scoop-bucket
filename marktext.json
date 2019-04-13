@@ -1,11 +1,12 @@
 {
-    "homepage":  "https://marktext.app/",
-    "version":  "0.13.65",
-    "license":  "MIT",
+    "homepage": "https://marktext.app/",
+    "version": "0.14.0",
+    "license": "MIT",
     "extract_dir": "\\$PLUGINSDIR",
-    "url": "https://github.com/marktext/marktext/releases/download/v0.13.65/marktext-setup-0.13.65.exe#/marktext.7z",
+    "url": "https://github.com/marktext/marktext/releases/download/v0.14.0/marktext-setup-0.14.0.exe#/marktext.7z",
+    "hash": "a87c0eea1ea68670425ef8d72d3690a9f0c0c7d6565020ed68847a2bf97bfdb2",
     "autoupdate": {
-        "url":"https://github.com/marktext/marktext/releases/download/v$version/marktext-setup-$version.exe#/marktext.7z"
+        "url": "https://github.com/marktext/marktext/releases/download/v$version/marktext-setup-$version.exe#/marktext.7z"
     },
     "architecture": {
         "64bit": {
@@ -15,19 +16,19 @@
         },
         "32bit": {
             "installer": {
-				"script": "extract_7zip \"$dir\\app-32.7z\" \"$dir\""
+                "script": "extract_7zip \"$dir\\app-32.7z\" \"$dir\""
             }
         }
     },
     "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\app-32.7z\",\"$dir\\UAC.dll\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\nsDialogs.dll\",\"$dir\\WinShell.dll\",\"$dir\\modern-wizard.bmp\"",
     "bin": "Mark Text.exe",
-    "shortcuts":  [
+    "shortcuts": [
         [
-                "Mark Text.exe",
-                "Mark Text"
+            "Mark Text.exe",
+            "Mark Text"
         ]
     ],
-    "checkver":{
-        "github":"https://github.com/marktext/marktext/"
+    "checkver": {
+        "github": "https://github.com/marktext/marktext/"
     }
 }
