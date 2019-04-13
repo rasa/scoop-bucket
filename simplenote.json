@@ -9,7 +9,8 @@
             "installer": {
                 "script": "extract_7zip \"$dir\\app-64.7z\" \"$dir\""
             }
-        },
+        }
+	},
     "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\app-32.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\SpiderBanner.dll\",\"$dir\\WinShell.dll\"",
 	"extract_dir": "\\$PLUGINSDIR",
     "bin":  "Simplenote.exe",
