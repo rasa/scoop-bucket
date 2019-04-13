@@ -18,6 +18,6 @@
     },
     "autoupdate":{
         "url":  "http://github.com/downloads/jjafuller/DarkRoomW/dark_room_$version.zip",
-        "extract_dir":"Dark Room $version",
+        "extract_dir":"Dark Room $version"
     }
 }

@@ -5,11 +5,11 @@
     "hash":"F95CB2B4E5BD144F559F28C84C07B52070B7496430E1A8806C7F5CB17D19BACF",
     "persist":"Bulk Rename Utility.ini",
     "architecture": {
-        64bit: {
+        "64bit": {
             "extract_dir":["64-bit","All"],
             "shortcuts": [["Bulk Rename Utility.exe", "Bulk Rename Utility"]]
         },
-        32bit: {
+        "32bit": {
             "extract_dir":["32-bit","All"],
             "shortcuts": [["Bulk Rename Utility.exe", "Bulk Rename Utility"]]
         }
