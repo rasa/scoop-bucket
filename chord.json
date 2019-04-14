@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/PeterDing/chord",
+    "version": "0.2.8",
+    "license": "MIT",
+    "url": "https://github.com/PeterDing/chord/releases/download/v0.2.8/chord-0.2.8-win.exe#/chord.7z",
+    "hash": "a0be0c46278bd20e5b3de090762e9085e9f82bfc51367edc9762c3f81682afc9",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": "extract_7zip \"$dir\\app-64.7z\" \"$dir\""
+            }
+        }
+	},
+    "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\nsExec.dll\",\"$dir\\nsDialogs.dll\",\"$dir\\UAC.dll\",\"$dir\\WinShell.dll\",\"$dir\\modern-wizard.bmp\"",
+	"extract_dir": "\\$PLUGINSDIR",
+    "bin": "chord.exe",
+    "shortcuts": [
+        [
+            "chord.exe",
+            "Chord"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/PeterDing/chord/releases/download/v$version/chord-$version-win.exe#/chord.7z"
+    }
+}
