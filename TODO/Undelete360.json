@@ -1,0 +1,15 @@
+{
+    "homepage":  "http://www.undelete360.com/",
+    "version":  "2.15",
+    "license":  "freeware",
+    "url":  "http://www.undelete360.com/files/undelete-360.exe",
+    "hash":  "",
+    "bin":  "undelete-360.exe",
+    "persist":"undelete-360.xml",
+    "shortcuts":[["undelete-360.exe","Undelete 360"]],
+    "checkver":{
+        "url":"http://www.undelete360.com/download.html",
+        "re":"([\\d.]+)"
+    },
+    "autoupdate":{"url":  "http://www.undelete360.com/files/undelete-360.exe"}
+}

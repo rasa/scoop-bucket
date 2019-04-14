@@ -18,7 +18,10 @@
             "Xml Notepad"
         ]
     ],
-    "checkver":"github",
+    "checkver":{
+        "url":"https://github.com/Microsoft/XmlNotepad/releases/latest",
+        "re":"\\<title\\>Release XML Notepad ([\\d.]+)"
+    },
     "autoupdate":{
         "url":"https://github.com/Microsoft/XmlNotepad/releases/download/v$majorVersion.$minorVersion/XmlNotepad.$version.zip",
         "extract_dir":"XmlNotepad $version"
