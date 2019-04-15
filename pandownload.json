@@ -5,6 +5,18 @@
     "url": "http://pandownload.club/dl/PanDownload_v2.0.9.zip",
     "hash": "cd9b2617fc8634d9fb3c5ee0f87c8c74e86fa7c0053073439ab25a175754c556",
     "extract_dir": "PanDownload",
+    "persist":[
+        "PanData\\config.ini",
+        "PanData\\pan.conf",
+        "PanData\\share.db",
+        "PanData\\task.db",
+        "PanData\\user.db",
+        "PanData\\aria2.conf",
+        "PanData\\cookie",
+        "PanData\\list",
+        "PanData\\history",
+        "PanData\\log"
+    ],
     "shortcuts": [
         [
             "PanDownload.exe",
