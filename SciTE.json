@@ -1,0 +1,20 @@
+{
+    "homepage": "https://www.scintilla.org/SciTEDownload.html",
+    "version": "4.1.4",
+    "license": "freeware",
+    "url": "https://www.scintilla.org/wscite414.zip",
+    "hash": "c878a4c62a85c9e8f596a413907cfe2c263b786ee486366d72ec23f085677e55",
+    "extract_dir": "wscite",
+    "bin": "SciTE.exe",
+    "persist": "",
+    "shortcuts": [
+        [
+            "SciTE.exe",
+            "SciTE"
+        ]
+    ],
+    "checkver": "Release ([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.scintilla.org/wscite$cleanVersion.zip"
+    }
+}
