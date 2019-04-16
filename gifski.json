@@ -1,0 +1,13 @@
+{
+    "homepage": "https://gif.ski/",
+    "version": "0.8.5",
+    "license": "AGPL-3.0-only",
+    "extract_dir": "win",
+    "url": "https://gif.ski/gifski-0.8.5.zip",
+    "hash": "b8a354cebb8f5e0f499947ad0e3e85bb08a1a81678da739a41022aca403fbd3e",
+    "bin": "gifski.exe",
+    "checkver": "/gifski-([\\d.]+).zip",
+    "autoupdate": {
+        "url": "https://gif.ski/gifski-$version.zip"
+    }
+}
