@@ -1,0 +1,58 @@
+{
+    "homepage": "https://www.smplayer.info/",
+    "version": "19.1.0",
+    "license": "GPLv2",
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.1.0/smplayer-19.1.0-x64.exe#/dl.7z",
+            "hash": "3c6f46e6b61b25b76ee82e70ee3a817f5a4262d5b8966c4f1fcb79bb374ff7bf"
+        },
+        "32bit": {
+            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.1.0/smplayer-19.1.0-win32.exe#/dl.7z",
+            "hash": "85e314785eb76a249b03789e7bce210e64b93d6238bf5c6be5a8045c2758667e"
+        }
+    },
+    "bin": "smplayer.exe",
+    "persist":[
+        "smplayer.ini",
+        "playlist.ini",
+        "player_info.ini",
+        "hdpi.ini",
+        "favorites.m3u8",
+        "radio.m3u8",
+        "tv.m3u8",
+        "file_settings"
+    ],
+    "shortcuts": [
+        [
+            "smplayer.exe",
+            "SMPlayer"
+        ]
+    ],
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+        "Remove-Item \"$dir\\uninst.exe.nsis\""
+    ],
+    "checkver": {
+        "url": "https://www.smplayer.info/downloads/",
+        "re": "Click here to download SMPlayer ([\\d.]+) \\(32-bit\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-$version-x64.exe#/dl.7z",
+                "hash": {
+                    "url": "https://www.fosshub.com/SMPlayer.html",
+                    "find": "SMPlayer  Windows 64 bit.*\\n.*\\n.*\\n.*\\n.*\\n.*\\n.*SHA256: ([a-fA-F0-9]{64})</strong>"
+                }
+            },
+            "32bit": {
+                "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-$version-win32.exe#/dl.7z",
+                "hash": {
+                    "url": "https://www.fosshub.com/SMPlayer.html",
+                    "find": "SMPlayer  Windows 32 bit.*\\n.*\\n.*\\n.*\\n.*\\n.*\\n.*SHA256: ([a-fA-F0-9]{64})</strong>"
+                }
+            }
+        }
+    }
+}
