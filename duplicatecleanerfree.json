@@ -1,23 +1,22 @@
 {
-    "homepage":  "https://www.digitalvolcano.co.uk/duplicatecleaner.html",
-    "version":  "4.1.1",
-    "license":  "freeware",
-    "url":  "https://www.digitalvolcano.co.uk/download/DuplicateCleanerFree4_setup.exe#/dcf.7z",
-    "url":  "https://www.digitalvolcano.co.uk/download/DuplicateCleanerFree4_setup.exe#/dcf.7z",
-    "hash":  "298c9a663e2c36928f21ab97d93b8879f72e4672ae1b2200c14ff2a6d3b8f58b",
-    "bin":  "DuplicateCleaner.exe",
+    "homepage": "https://www.digitalvolcano.co.uk/duplicatecleaner.html",
+    "version": "4.1.1",
+    "license": "freeware",
+    "url": "https://www.digitalvolcano.co.uk/download/DuplicateCleanerFree4_setup.exe#/dcf.7z",
+    "hash": "298c9a663e2c36928f21ab97d93b8879f72e4672ae1b2200c14ff2a6d3b8f58b",
+    "bin": "DuplicateCleaner.exe",
     "shortcuts": [
         [
             "DuplicateCleaner.exe",
             "Duplicate Cleaner Free"
         ]
     ],
-	"post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
     "checkver": {
         "url": "https://www.digitalvolcano.co.uk/dcchangelog.html",
         "re": "Updates in Duplicate Cleaner v([\\d.]+)"
     },
-    "autoupdate":{
-        "url":"https://www.digitalvolcano.co.uk/download/DuplicateCleanerFree$majorVersion_setup.exe"
+    "autoupdate": {
+        "url": "https://www.digitalvolcano.co.uk/download/DuplicateCleanerFree$majorVersion_setup.exe"
     }
 }

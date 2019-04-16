@@ -1,20 +1,20 @@
 {
-    "homepage":  "http://www.baara.com/q10",
-    "version":  "1.2.21",
-    "license":  "freeware",
-    "url":  "http://www.baara.com/q10/downloads/q10-1.2-spell.zip",
-    "bin":  "Q10.exe",
-    "shortcuts":[
+    "homepage": "http://www.baara.com/q10",
+    "version": "1.2.21",
+    "license": "freeware",
+    "url": "http://www.baara.com/q10/downloads/q10-1.2-spell.zip",
+    "bin": "Q10.exe",
+    "shortcuts": [
         [
             "Q10.exe",
             "Q10"
         ]
     ],
-    "persist":"Q10.ini",
+    "persist": "Q10.ini",
     "checkver": {
-        "re":"Q10 ([\\d.]+)"
+        "re": "Q10 ([\\d.]+)"
     },
     "autoupdate": {
-        "url":  "http://www.baara.com/q10/downloads/q10-$majorVersion.$minorVersion-spell.zip"
+        "url": "http://www.baara.com/q10/downloads/q10-$majorVersion.$minorVersion-spell.zip"
     }
 }

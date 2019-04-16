@@ -1,29 +1,27 @@
 {
-    "homepage":  "https://github.com/Microsoft/XmlNotepad",
-    "version":  "2.7.1.5",
-    "license":  "MIT",
-    "extract_dir":  "XmlNotepad 2.7.1.5",
-    "url":  "https://github.com/Microsoft/XmlNotepad/releases/download/v2.7/XmlNotepad.2.7.1.5.zip",
-    "hash":  "E2658BCEB589F2B17353E38D4ACCEF6969276ECAACD089428338F9F5490367B4",
+    "homepage": "https://github.com/Microsoft/XmlNotepad",
+    "version": "2.7.1.5",
+    "license": "MIT",
+    "extract_dir": "XmlNotepad 2.7.1.5",
+    "url": "https://github.com/Microsoft/XmlNotepad/releases/download/v2.7/XmlNotepad.2.7.1.5.zip",
+    "hash": "E2658BCEB589F2B17353E38D4ACCEF6969276ECAACD089428338F9F5490367B4",
     "installer": {
-        "script": [
-            "extract_7zip \"$dir\\cab1.cab\" \"$dir\""
-        ]
+        "script": "extract_7zip \"$dir\\cab1.cab\" \"$dir\""
     },
     "post_install": "Remove-Item \"$dir\\XmlNotepadSetup.msis\",\"$dir\\cab1.cab\"",
-    "bin":  "XmlNotepad.exe",
-    "shortcuts":[
+    "bin": "XmlNotepad.exe",
+    "shortcuts": [
         [
             "XmlNotepad.exe",
             "Xml Notepad"
         ]
     ],
-    "checkver":{
-        "url":"https://github.com/Microsoft/XmlNotepad/releases/latest",
-        "re":"\\<title\\>Release XML Notepad ([\\d.]+)"
+    "checkver": {
+        "url": "https://github.com/Microsoft/XmlNotepad/releases/latest",
+        "re": "\\<title\\>Release XML Notepad ([\\d.]+)"
     },
-    "autoupdate":{
-        "url":"https://github.com/Microsoft/XmlNotepad/releases/download/v$majorVersion.$minorVersion/XmlNotepad.$version.zip",
-        "extract_dir":"XmlNotepad $version"
+    "autoupdate": {
+        "url": "https://github.com/Microsoft/XmlNotepad/releases/download/v$majorVersion.$minorVersion/XmlNotepad.$version.zip",
+        "extract_dir": "XmlNotepad $version"
     }
 }

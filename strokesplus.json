@@ -1,31 +1,31 @@
 {
-    "homepage":  "https://www.strokesplus.com/",
-    "version":  "2.8.6.4",
-    "license":  "freeware",
-    "architecture":{
-        "64bit":{
-            "url":  "http://www.strokesplus.com/files/StrokesPlus_2.8.6.4_x64.zip",
-            "hash":"C0380DB2F51F5000834A8FDC94DA110EE70133D666F999044F3B1BB6449811B1",
-            "extract_dir":"StrokesPlus_x64",
-            "autoupdate":{
-                "url":"http://www.strokesplus.com/files/StrokesPlus_$version_x64.zip"
+    "homepage": "https://www.strokesplus.com/",
+    "version": "2.8.6.4",
+    "license": "freeware",
+    "architecture": {
+        "64bit": {
+            "url": "http://www.strokesplus.com/files/StrokesPlus_2.8.6.4_x64.zip",
+            "hash": "C0380DB2F51F5000834A8FDC94DA110EE70133D666F999044F3B1BB6449811B1",
+            "extract_dir": "StrokesPlus_x64",
+            "autoupdate": {
+                "url": "http://www.strokesplus.com/files/StrokesPlus_$version_x64.zip"
             }
         },
-        "32bit":{
-            "url":  "http://www.strokesplus.com/files/StrokesPlus_2.8.6.4_x86.zip",
-            "extract_dir":"StrokesPlus_x86",
-            "autoupdate":{
-                "url":"http://www.strokesplus.com/files/StrokesPlus_$version_x86.zip"
+        "32bit": {
+            "url": "http://www.strokesplus.com/files/StrokesPlus_2.8.6.4_x86.zip",
+            "extract_dir": "StrokesPlus_x86",
+            "autoupdate": {
+                "url": "http://www.strokesplus.com/files/StrokesPlus_$version_x86.zip"
             }
         }
-	},
-    "bin":  "StrokesPlus.exe",
-    "persist": "StrokesPlus.xml",
-    "checkver":{
-        "url":"https://www.strokesplus.com/latestrelease.xml",
-        "re":"Version ([\\d.]+)"
     },
-    "shortcuts":[
+    "bin": "StrokesPlus.exe",
+    "persist": "StrokesPlus.xml",
+    "checkver": {
+        "url": "https://www.strokesplus.com/latestrelease.xml",
+        "re": "Version ([\\d.]+)"
+    },
+    "shortcuts": [
         [
             "StrokesPlus.exe",
             "Strokes Plus"

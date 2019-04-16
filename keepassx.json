@@ -5,7 +5,7 @@
     "url": "https://www.keepassx.org/releases/2.0.3/KeePassX-2.0.3.zip",
     "hash": "f6df49982423bc0fae7b6b294e7cdb4566506f5ed72f3118241a648a023a6dca",
     "extract_dir": "KeePassX-2.0.3",
-    "bin":  "KeePassX.exe",
+    "bin": "KeePassX.exe",
     "shortcuts": [
         [
             "KeePassX.exe",

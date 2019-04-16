@@ -1,9 +1,14 @@
 {
-    "homepage":"http://www.aardio.com/",
+    "homepage": "http://www.aardio.com/",
     "version": "21.73",
-    "license":"freeware",
+    "license": "freeware",
     "url": "http://ide.update.aardio.com/releases/aardio.7z",
-    "bin":"aardio.exe",
-    "shortcuts": [["aardio.exe", "aardio"]],
-    "persist":"config\\USE10.CFG"
+    "bin": "aardio.exe",
+    "shortcuts": [
+        [
+            "aardio.exe",
+            "aardio"
+        ]
+    ],
+    "persist": "config\\USE10.CFG"
 }

@@ -1,16 +1,16 @@
 {
-    "homepage":  "http://www.jonasjohn.de/red.htm",
-    "description":"Remove Empty Directories",
-    "version":  "2.2",
-    "license":  "freeware",
-    "url":  "http://sourceforge.net/projects/rem-empty-dir/files/red-v2.2-portable.zip/download#/dl.zip",
+    "homepage": "http://www.jonasjohn.de/red.htm",
+    "description": "Remove Empty Directories",
+    "version": "2.2",
+    "license": "freeware",
+    "url": "http://sourceforge.net/projects/rem-empty-dir/files/red-v2.2-portable.zip/download#/dl.zip",
     "hash": "C3DCAF87A336EA2BF71A6E183D8C7BAE2923258A10586284CA23C985D2C688D5",
     "checkver": {
         "url": "http://www.jonasjohn.de/red.htm",
         "re": "Download latest version \\(([\\d.]+)\\)"
     },
-    "bin":"RED2.exe",
-    "shortcuts":[
+    "bin": "RED2.exe",
+    "shortcuts": [
         [
             "RED2.exe",
             "Remove Empty Directories"

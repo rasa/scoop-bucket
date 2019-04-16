@@ -17,6 +17,6 @@
         "ConsoleZ": "extras/consolez"
     },
     "extract_dir": "Console2",
-    "persist":"console.xml",
-   "bin": "Console.exe"
+    "persist": "console.xml",
+    "bin": "Console.exe"
 }

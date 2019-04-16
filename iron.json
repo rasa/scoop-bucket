@@ -1,1 +1,24 @@
-{    	"homepage": "https://www.srware.net/en/software_srware_iron.php",	"description": "Iron",	"version": "72.0.3750.0",	"license": "BSD-3-Clause",	"architecture": {                "64bit": {                    "url":    "https://www.srware.net/downloads/IronPortable64.zip",                    "hash": "e3cc296b87b6cb4f0071ef9e88834165091ad32f06a9b8845cb2a5d11f001f63",                    "extract_dir":"IronPortable64\\Iron"                },                "32bit":{                    "url": "https://www.srware.net/downloads/IronPortable.zip",                    "hash": "015A9427D29BE42DFA0DEFC73AA613A44D6EB3B0F5B76152F988D941FB8D9868",                    "extract_dir":"IronPortable\\Iron"                }	},	"shortcuts":[        [            "iron.exe",            "Iron"        ]    ]} 
+{
+    "homepage": "https://www.srware.net/en/software_srware_iron.php",
+    "description": "Iron",
+    "version": "72.0.3750.0",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.srware.net/downloads/IronPortable64.zip",
+            "hash": "e3cc296b87b6cb4f0071ef9e88834165091ad32f06a9b8845cb2a5d11f001f63",
+            "extract_dir": "IronPortable64\\Iron"
+        },
+        "32bit": {
+            "url": "https://www.srware.net/downloads/IronPortable.zip",
+            "hash": "015A9427D29BE42DFA0DEFC73AA613A44D6EB3B0F5B76152F988D941FB8D9868",
+            "extract_dir": "IronPortable\\Iron"
+        }
+    },
+    "shortcuts": [
+        [
+            "iron.exe",
+            "Iron"
+        ]
+    ]
+}

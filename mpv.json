@@ -21,8 +21,8 @@
         ]
     ],
     "persist": [
-      "portable_config",
-      "watch_later"
+        "portable_config",
+        "watch_later"
     ],
     "post_install": [
         "(Get-Content \"$(shimdir $global)\\mpv.ps1\").replace('mpv.exe','mpv.com') | Out-File \"$(shimdir $global)\\mpv.ps1\" -encoding utf8",

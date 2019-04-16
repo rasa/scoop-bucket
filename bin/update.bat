@@ -1,1 +1,0 @@
-pwsh -f "%~dp0checkver.ps1" %* -u

@@ -1,24 +1,24 @@
 {
-    "homepage":  "https://gottcode.org/focuswriter/",
-    "version":  "1.7.2",
-    "license":  "freeware",
-    "extract_dir":  "",
+    "homepage": "https://gottcode.org/focuswriter/",
+    "version": "1.7.2",
+    "license": "freeware",
+    "extract_dir": "",
     "architecture": {
         "64bit": {
-            "url":  "https://gottcode.org/focuswriter/FocusWriter_1.7.2.zip",
-            "hash":  "D93F0665F9242114B97D1AB30F072AB84071097F2890F20E0B51AD7C804C03FA"
+            "url": "https://gottcode.org/focuswriter/FocusWriter_1.7.2.zip",
+            "hash": "D93F0665F9242114B97D1AB30F072AB84071097F2890F20E0B51AD7C804C03FA"
         }
     },
-    "persist":"Data",
-    "bin":  "FocusWriter.exe",
-    "shortcuts":[
+    "persist": "Data",
+    "bin": "FocusWriter.exe",
+    "shortcuts": [
         [
             "FocusWriter.exe",
             "FocusWriter"
         ]
     ],
     "checkver": {
-        "url":"https://gottcode.org/feed.atom",
-        "re":"FocusWriter ([\\d.]+) released"
+        "url": "https://gottcode.org/feed.atom",
+        "re": "FocusWriter ([\\d.]+) released"
     }
 }

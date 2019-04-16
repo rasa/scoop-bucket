@@ -1,24 +1,24 @@
 {
-    "homepage":  "https://zim.glump.net/windows/",
-    "version":  "0.69.1",
-    "license":  "GPL-2.0-or-later",
-    "url":  "https://zim.glump.net/site/assets/files/1095/zim-desktop-wiki-portable-0_69_1.exe#/zim.7z",
+    "homepage": "https://zim.glump.net/windows/",
+    "version": "0.69.1",
+    "license": "GPL-2.0-or-later",
+    "url": "https://zim.glump.net/site/assets/files/1095/zim-desktop-wiki-portable-0_69_1.exe#/zim.7z",
     "hash": "679B31763BC73CAD0C823583695A63FE915A9F167FF663D8FD3F834A51CB9DAF",
     "shortcuts": [
-      [
-          "zim.exe",
-          "Zim Desktop Wiki"
-      ]
+        [
+            "zim.exe",
+            "Zim Desktop Wiki"
+        ]
     ],
     "checkver": {
         "re": "zim-desktop-wiki-setup-([\\d.]+).exe"
     },
-    "persist":[
+    "persist": [
         "Notebooks",
         "App\\Config"
     ],
     "autoupdate": {
-        "url":"https://zim.glump.net/site/assets/files/1095/zim-desktop-wiki-portable-$version.exe#/zim.7z",
-        "hash":"https://zim.glump.net/site/assets/files/1095/zim-desktop-wiki-portable-$version.exe/?format=sha256sum"
+        "url": "https://zim.glump.net/site/assets/files/1095/zim-desktop-wiki-portable-$version.exe#/zim.7z",
+        "hash": "https://zim.glump.net/site/assets/files/1095/zim-desktop-wiki-portable-$version.exe/?format=sha256sum"
     }
 }

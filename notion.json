@@ -1,19 +1,19 @@
 {
-    "homepage":  "https://www.notion.so/",
-    "version":  "1.0.4",
-    "license":  "freeware",
-    "url":  "https://desktop-release.notion-static.com/Notion%20Setup%201.0.5.exe#/notion.7z",
-    "hash":  "d4e71e712de7bd31ef6499321acbc4a7d5be1a2310351a142dab5541cc0f6a2f",
+    "homepage": "https://www.notion.so/",
+    "version": "1.0.4",
+    "license": "freeware",
+    "url": "https://desktop-release.notion-static.com/Notion%20Setup%201.0.5.exe#/notion.7z",
+    "hash": "d4e71e712de7bd31ef6499321acbc4a7d5be1a2310351a142dab5541cc0f6a2f",
     "architecture": {
         "64bit": {
             "installer": {
                 "script": "extract_7zip \"$dir\\app-64.7z\" \"$dir\""
             }
         }
-	},
+    },
     "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\SpiderBanner.dll\",\"$dir\\WinShell.dll\"",
     "extract_dir": "\\$PLUGINSDIR",
-    "bin":  "Notion.exe",
+    "bin": "Notion.exe",
     "shortcuts": [
         [
             "Notion.exe",

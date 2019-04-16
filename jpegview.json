@@ -24,7 +24,11 @@
         "url": "https://sourceforge.net/projects/jpegview/rss?path=/",
         "re": "/jpegview/([\\d.]+)/JPEGView_"
     },
-    "persist": ["JPEGView.ini","KeyMap.txt","ParamDB.db"],
+    "persist": [
+        "JPEGView.ini",
+        "KeyMap.txt",
+        "ParamDB.db"
+    ],
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/jpegview/jpegview/$version/JPEGView_$version.zip"
     }

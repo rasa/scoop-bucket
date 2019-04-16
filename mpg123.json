@@ -1,34 +1,34 @@
 {
-    "version":  "1.25.10",
+    "version": "1.25.10",
     "description": "Fast console MPEG Audio Player and decoder library",
-    "license":  "Freeware",
-    "homepage":   "https://mpg123.org/",
+    "license": "Freeware",
+    "homepage": "https://mpg123.org/",
     "architecture": {
         "64bit": {
-                "url": "https://mpg123.org/download/win64/1.25.10/mpg123-1.25.10-static-x86-64.zip",
-                "hash":  "6B0A0018E50B8DAED0DE03A214323EC6634D3597C738151A4CAA2E0F5515E8DF",
-                "extract_dir":  "mpg123-1.25.10-static-x86-64",
-                "autoupdate":{
-                        "url":"https://mpg123.org/download/win64/$version/mpg123-$version-static-x86-64.zip"
-                }
+            "url": "https://mpg123.org/download/win64/1.25.10/mpg123-1.25.10-static-x86-64.zip",
+            "hash": "6B0A0018E50B8DAED0DE03A214323EC6634D3597C738151A4CAA2E0F5515E8DF",
+            "extract_dir": "mpg123-1.25.10-static-x86-64",
+            "autoupdate": {
+                "url": "https://mpg123.org/download/win64/$version/mpg123-$version-static-x86-64.zip"
+            }
         },
         "32bit": {
-                "url": "https://mpg123.org/download/win32/1.25.10/mpg123-1.25.10-static-x86.zip",
-                "hash":  "6B0A0018E50B8DAED0DE03A214323EC6634D3597C738151A4CAA2E0F5515E8DF",
-                "extract_dir":  "mpg123-1.25.10-static-x86",
-                "autoupdate":{
-                        "url":"https://mpg123.org/download/win32/$version/mpg123-$version-static-x86.zip"
-                }
+            "url": "https://mpg123.org/download/win32/1.25.10/mpg123-1.25.10-static-x86.zip",
+            "hash": "6B0A0018E50B8DAED0DE03A214323EC6634D3597C738151A4CAA2E0F5515E8DF",
+            "extract_dir": "mpg123-1.25.10-static-x86",
+            "autoupdate": {
+                "url": "https://mpg123.org/download/win32/$version/mpg123-$version-static-x86.zip"
+            }
         }
     },
-    "bin":  [
+    "bin": [
         "mpg123.exe",
         "out123.exe",
         "mpg123-id3dump.exe",
         "mpg123-strip.exe"
     ],
-    "checkver":{
-        "url":"https://sourceforge.net/projects/mpg123/rss?path=/mpg123",
-        "re":"mpg123-([\\d.]+).tar.bz2"
-     }
+    "checkver": {
+        "url": "https://sourceforge.net/projects/mpg123/rss?path=/mpg123",
+        "re": "mpg123-([\\d.]+).tar.bz2"
+    }
 }

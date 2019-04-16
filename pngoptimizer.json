@@ -1,27 +1,27 @@
 {
-    "homepage":  "http://psydk.org/pngoptimizer",
-    "version":  "2.5",
-    "license":  "GPL-2.0-only",
-    "extract_dir":"PngOptimizer",
+    "homepage": "http://psydk.org/pngoptimizer",
+    "version": "2.5",
+    "license": "GPL-2.0-only",
+    "extract_dir": "PngOptimizer",
     "architecture": {
         "64bit": {
-            "url":  "http://psydk.org/download/pngoptimizer-2.5.1-win-x64.zip",
-            "hash":"45B7BA920BA9A0E904EAF36B1E8665A2A8BE0E0D696AED94EDE87CFCC86737D4",
-            "re":"/download/pngoptimizer-([\\d.]+)-win-x64",
+            "url": "http://psydk.org/download/pngoptimizer-2.5.1-win-x64.zip",
+            "hash": "45B7BA920BA9A0E904EAF36B1E8665A2A8BE0E0D696AED94EDE87CFCC86737D4",
+            "re": "/download/pngoptimizer-([\\d.]+)-win-x64",
             "autoupdate": {
-                "url":"http://psydk.org/download/pngoptimizer-$version-win-x64.zip"
+                "url": "http://psydk.org/download/pngoptimizer-$version-win-x64.zip"
             }
         },
-        "32bit":{
-            "url":  "http://psydk.org/download/pngoptimizer-2.5.1-win-x86.zip",
-            "hash":"A13A9DC5FC9ADE46006D954CBB9D0312B891A2487093823E9D4A408D6232EE59",
-            "re":"/download/pngoptimizer-([\\d.]+)-win-x86",
+        "32bit": {
+            "url": "http://psydk.org/download/pngoptimizer-2.5.1-win-x86.zip",
+            "hash": "A13A9DC5FC9ADE46006D954CBB9D0312B891A2487093823E9D4A408D6232EE59",
+            "re": "/download/pngoptimizer-([\\d.]+)-win-x86",
             "autoupdate": {
-                "url":"http://psydk.org/download/pngoptimizer-$version-win-x86.zip"
+                "url": "http://psydk.org/download/pngoptimizer-$version-win-x86.zip"
             }
         }
     },
-    "shortcuts":[
+    "shortcuts": [
         [
             "PngOptimizer.exe",
             "PngOptimizer"

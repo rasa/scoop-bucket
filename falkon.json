@@ -1,14 +1,14 @@
 {
-    "homepage":  "https://www.falkon.org/",
-    "version":  "3.1.0",
-    "license":  "LGPL",
+    "homepage": "https://www.falkon.org/",
+    "version": "3.1.0",
+    "license": "LGPL",
     "architecture": {
-        "64bit":{
-            "url":  "https://download.kde.org/stable/falkon/3.1/Falkon.Installer.3.1.0.x64.exe#/Falkon.7z",
-            "hash":"5ab4c139dee19c21114f7acbe38c40babb392bfb875cb977db11fd390b7aa7ee"
+        "64bit": {
+            "url": "https://download.kde.org/stable/falkon/3.1/Falkon.Installer.3.1.0.x64.exe#/Falkon.7z",
+            "hash": "5ab4c139dee19c21114f7acbe38c40babb392bfb875cb977db11fd390b7aa7ee"
         },
-        "32bit":{
-            "url":  "https://download.kde.org/stable/falkon/3.1/Falkon.Installer.3.1.0.exe#/Falkon.7z"
+        "32bit": {
+            "url": "https://download.kde.org/stable/falkon/3.1/Falkon.Installer.3.1.0.exe#/Falkon.7z"
         }
     },
     "persist": [

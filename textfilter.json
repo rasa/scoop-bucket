@@ -1,18 +1,18 @@
 {
-    "homepage":  "http://www.musetips.com/text-filter.html",
-    "url":  "http://www.musetips.com/downloads/TextFilter_Portable.zip",
-    "version":  "1.7",
-    "license":  "freeware",
-    "hash":  "F91D36E115364BCE412AE2EF439072B90D3001DEB1570017BB1E977D1C2D6F6E",
-    "bin":  "TextFilter.exe",
-    "persist":"Settings.xml",
-    "shortcuts":[
+    "homepage": "http://www.musetips.com/text-filter.html",
+    "url": "http://www.musetips.com/downloads/TextFilter_Portable.zip",
+    "version": "1.7",
+    "license": "freeware",
+    "hash": "F91D36E115364BCE412AE2EF439072B90D3001DEB1570017BB1E977D1C2D6F6E",
+    "bin": "TextFilter.exe",
+    "persist": "Settings.xml",
+    "shortcuts": [
         [
             "TextFilter.exe",
             "Text Filter"
         ]
     ],
-    "checkver":{
-        "re":"<td>([\\d.]+)</td>"
+    "checkver": {
+        "re": "<td>([\\d.]+)</td>"
     }
 }

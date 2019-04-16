@@ -28,7 +28,11 @@
         "url": "http://fmedia.firmdev.com/",
         "regex": "fmedia-([\\d.]+)-win-x64.zip"
     },
-    "persist":["fmedia.conf","fmedia.gui.conf","fmedia-user.conf"],
+    "persist": [
+        "fmedia.conf",
+        "fmedia.gui.conf",
+        "fmedia-user.conf"
+    ],
     "autoupdate": {
         "architecture": {
             "64bit": {

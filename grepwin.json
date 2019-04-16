@@ -1,31 +1,31 @@
 {
     "homepage": "https://tools.stefankueng.com/grepWin.html",
-	"description": "grepWin",
-	"version": "1.9.1",
-	"license": "GPLv3",
+    "description": "grepWin",
+    "version": "1.9.1",
+    "license": "GPLv3",
     "checkver": {
         "github": "https://github.com/stefankueng/grepWin/"
     },
-	"architecture": {
+    "architecture": {
         "64bit": {
-            "url":    "https://github.com/stefankueng/grepWin/releases/download/1.9.1/grepWin-x64-1.9.1_portable.exe",
+            "url": "https://github.com/stefankueng/grepWin/releases/download/1.9.1/grepWin-x64-1.9.1_portable.exe",
             "hash": "95335B4AD1E42149A8E5E3CE4CE7114BA8CC50D5D671209A917C4AA6B8ECA653",
-            "pre_install":"rename-item \"$dir\\grepWin-x64-1.9.1_portable.exe\" \"$dir\\grepWin.exe\"",
-            "autoupdate":{
-                "url":    "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-x64-$version_portable.exe"
+            "pre_install": "rename-item \"$dir\\grepWin-x64-1.9.1_portable.exe\" \"$dir\\grepWin.exe\"",
+            "autoupdate": {
+                "url": "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-x64-$version_portable.exe"
             }
         },
-        "32bit":{
+        "32bit": {
             "url": "https://github.com/stefankueng/grepWin/releases/download/1.9.1/grepWin-1.9.1_portable.exe",
             "hash": "015A9427D29BE42DFA0DEFC73AA613A44D6EB3B0F5B76152F988D941FB8D9868",
-            "pre_install":"rename-item \"$dir\\grepWin-1.9.1_portable.exe\" \"$dir\\grepWin.exe\"",
-            "autoupdate":{
-                "url":    "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-$version_portable.exe"
+            "pre_install": "rename-item \"$dir\\grepWin-1.9.1_portable.exe\" \"$dir\\grepWin.exe\"",
+            "autoupdate": {
+                "url": "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-$version_portable.exe"
             }
         }
-	},
-    "persist":"grepWin.ini",
-	"bin":"grepWin.exe",
+    },
+    "persist": "grepWin.ini",
+    "bin": "grepWin.exe",
     "shortcuts": [
         [
             "grepWin.exe",

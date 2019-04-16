@@ -1,37 +1,37 @@
 {
-    "homepage":  "https://sourceforge.net/projects/pycmd/",
-    "description":"A smart command prompt extension for Windows' cmd.exe; its purpose is to emulate a few power features of UNIX shells (decent Tab-completion, persistent history, etc.)",
-    "version":  "20171215",
-    "license":  "",
-    "extract_dir":"PyCmd",
+    "homepage": "https://sourceforge.net/projects/pycmd/",
+    "description": "A smart command prompt extension for Windows' cmd.exe; its purpose is to emulate a few power features of UNIX shells (decent Tab-completion, persistent history, etc.)",
+    "version": "20171215",
+    "license": "",
+    "extract_dir": "PyCmd",
     "architecture": {
         "64bit": {
-            "url":  "https://sourceforge.net/projects/pycmd/files/pycmd/snapshots/PyCmd-20171215-w64.zip/download#/pycmd.7z",
+            "url": "https://sourceforge.net/projects/pycmd/files/pycmd/snapshots/PyCmd-20171215-w64.zip/download#/pycmd.7z",
             "hash": "sha1:636d49a6b4a4d6b5cbcd53fefe780337232b6c89",
-            "autoupdate":{
-                "url":"https://sourceforge.net/projects/pycmd/files/pycmd/snapshots/PyCmd-$version-w64.zip/download#/pycmd.7z",
-                "extract_dir":"$version"
+            "autoupdate": {
+                "url": "https://sourceforge.net/projects/pycmd/files/pycmd/snapshots/PyCmd-$version-w64.zip/download#/pycmd.7z",
+                "extract_dir": "$version"
             }
         },
         "32bit": {
-            "url":  "https://sourceforge.net/projects/pycmd/files/pycmd/snapshots/PyCmd-20171215-w32.zip/download#/pycmd.7z",
+            "url": "https://sourceforge.net/projects/pycmd/files/pycmd/snapshots/PyCmd-20171215-w32.zip/download#/pycmd.7z",
             "hash": "sha1:bb0f1234259556b49d821644e1daaf9305357860",
-            "autoupdate":{
-                "url":"https://sourceforge.net/projects/pycmd/files/pycmd/snapshots/PyCmd-$version-w32.zip/download#/pycmd.7z",
-                "extract_dir":"$version"
+            "autoupdate": {
+                "url": "https://sourceforge.net/projects/pycmd/files/pycmd/snapshots/PyCmd-$version-w32.zip/download#/pycmd.7z",
+                "extract_dir": "$version"
             }
         }
     },
-    "bin":  "PyCmd.exe",
-	"persist": "init.py",
-    "shortcuts":[
+    "bin": "PyCmd.exe",
+    "persist": "init.py",
+    "shortcuts": [
         [
             "PyCmd.exe",
             "PyCmd"
         ]
     ],
-    "checkver":{
-        "url":"https://sourceforge.net/projects/pycmd/rss?path=/pycmd/snapshots",
-        "re":"\\[CDATA\\[/pycmd/snapshots/PyCmd-(\\d{8})-w64.zip\\]\\]"
+    "checkver": {
+        "url": "https://sourceforge.net/projects/pycmd/rss?path=/pycmd/snapshots",
+        "re": "\\[CDATA\\[/pycmd/snapshots/PyCmd-(\\d{8})-w64.zip\\]\\]"
     }
 }

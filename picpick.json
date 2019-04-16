@@ -1,22 +1,22 @@
 {
-    "homepage":  "https://www.picpick.org/",
-    "version":  "5.0.4",
-    "license":  "freeware for personal use",
-    "url":  "https://www.picpick.org/releases/latest/picpick_portable.zip",
-    "hash":  "46B2D2676D7F7035C7E26912903119B2E16FF9843905248262C515A2470A3AE1",
-    "bin":  "picpick.exe",
+    "homepage": "https://www.picpick.org/",
+    "version": "5.0.4",
+    "license": "freeware for personal use",
+    "url": "https://www.picpick.org/releases/latest/picpick_portable.zip",
+    "hash": "46B2D2676D7F7035C7E26912903119B2E16FF9843905248262C515A2470A3AE1",
+    "bin": "picpick.exe",
     "persist": [
         "picpick.ini",
         "picpick_uploader.ini"
     ],
-    "shortcuts":[
+    "shortcuts": [
         [
             "picpick.exe",
             "PicPick"
         ]
     ],
-    "checkver":{
-        "url":"https://picpick.app/en/download",
-        "re":"v([\\d.]+)<!"
+    "checkver": {
+        "url": "https://picpick.app/en/download",
+        "re": "v([\\d.]+)<!"
     }
 }
