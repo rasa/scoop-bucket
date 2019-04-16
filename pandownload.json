@@ -23,10 +23,7 @@
             "PanDownload"
         ]
     ],
-    "checkver": {
-        "url": "https://pandownload.com/",
-        "re": ">v([\\d.]+)<"
-    },
+    "checkver":  ">v([\\d.]+)<",
     "autoupdate": {
         "url": "http://pandownload.club/dl/PanDownload_v$version.zip"
     }

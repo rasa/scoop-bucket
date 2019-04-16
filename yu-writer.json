@@ -4,13 +4,13 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ivarptr/yu-writer.site/releases/download/beta.0.5.2/yu-writer-beta-0.5.2-windows-x64.zip",
-            "hash":"C1EF3735AC15C850204A9606C0FA4A40DAC045069FCF129B17721BF8CA33820A",
+            "url": "https://github.com/ivarptr/yu-writer.site/releases/download/v0.5.3/yu-writer-beta-0.5.3-windows-x64.zip",
+            "hash":"09C018F254D610A983EB1910CD7F7B549B883AB252D5922A2736B169A7DC3D3C",
             "autoupdate":{"url":"https://github.com/ivarptr/yu-writer.site/releases/download/beta.$version/yu-writer-beta-$version-windows-x64.zip"}
         },
         "32bit": {
-            "url": "https://github.com/ivarptr/yu-writer.site/releases/download/beta.0.5.2/yu-writer-beta-0.5.2-windows.zip",
-            "hash":"D245C006599EF7C223EE632F8C26759147CE2BC45BFD3DF697BDC28C77628C3E",
+            "url": "https://github.com/ivarptr/yu-writer.site/releases/download/v0.5.3/yu-writer-beta-0.5.3-windows.zip",
+            "hash":"50E8F7457BC591B1393F3EA30696E9C5DBBA135DA61FD50F7A0144682D048A09",
             "autoupdate":{"url":"https://github.com/ivarptr/yu-writer.site/releases/download/beta.$version/yu-writer-beta-$version-windows.zip"}
         }
     },
@@ -21,8 +21,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/ivarptr/yu-writer.site/releases/latest",
-        "re": "Release Beta ([\\d.]+)"
+        "url": "https://github.com/ivarptr/yu-writer.site/releases",
+        "re": "Beta ([\\d.]+)"
     },
     "persist":[
         "Yu Writer\\bootstrap.config",

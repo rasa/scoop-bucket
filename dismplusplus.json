@@ -1,26 +1,26 @@
 {
     "homepage": "https://www.chuyu.me",
     "description": "A gatis Windows utility similar to DISM, but with a GUI and based on CBS",
-    "version": "10.1.1000.90",
+    "version": "10.1.1000.90B",
     "license": "freeware",
-    "url": "http://cdn.chuyu.me/Dism++10.1.1000.90_f670d6439af2f4cd2090d7d348fa56b7547d02a4.zip",
-    "hash": "sha1:f670d6439af2f4cd2090d7d348fa56b7547d02a4",
-    "architecture":{
-        "64bit":{
-            "post_install": "Remove-Item \"$dir\\Dism++ARM64.exe\"; Remove-Item \"$dir\\Dism++x86.exe\"",
+    "url": "http://cdn.chuyu.me/Dism++10.1.1000.90B_6db9c6e8045f93cc899878ccb48e2bc1e9d8bb72.zip",
+    "hash": "sha1:6db9c6e8045f93cc899878ccb48e2bc1e9d8bb72",
+    "architecture": {
+        "64bit": {
+            "post_install": "Remove-Item \"$dir\\Dism++ARM64.exe\", \"$dir\\Dism++x86.exe\"",
             "bin": [
                 "DISM++x64.exe",
                 "DISM++"
             ],
-            "shortcuts":[
+            "shortcuts": [
                 [
                     "Dism++x64.exe",
                     "Dism++"
                 ]
             ]
         },
-         "32bit":{
-            "post_install": "Remove-Item \"$dir\\Dism++ARM64.exe\",Remove-Item \"$dir\\Dism++x64.exe\"",
+        "32bit": {
+            "post_install": "Remove-Item \"$dir\\Dism++ARM64.exe\", \"$dir\\Dism++x64.exe\"",
             "bin": [
                 "DISM++x86.exe",
                 "DISM++"
@@ -40,9 +40,8 @@
     "autoupdate": {
         "url": "http://cdn.chuyu.me/Dism++$version_$matchHash.zip",
         "hash": {
-            "url": "http://www.chuyu.me/",
+            "url": "http://www.chuyu.me/en/",
             "find": "<a href=\"http://cdn.chuyu.me/Dism.*_([a-fA-F\\d]{40})\\.zip\""
         }
     }
-
 }
