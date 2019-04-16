@@ -1,0 +1,50 @@
+{
+    "homepage": "http://www.peazip.org/peazip-portable.html",
+    "version": "6.7.0",
+    "license": "freeware",
+    "architecture":
+    {
+        "64bit":
+        {
+            "url": "https://osdn.net/dl/peazip/peazip_portable-6.7.1.WIN64.zip",
+            "hash": "B20C9EF44F2D3679A7FADBCBC47913AA9BC345C89AD475A8D85C711ACB79E676",
+            "checkver":
+            {
+                "re":"peazip_portable\\-([\\d.]+)\\.WIN64\\.zip"
+            },
+            "extract_dir": "peazip_portable-6.7.1.WIN64",
+            "autoupdate":{
+                "url":"https://osdn.net/dl/peazip/peazip_portable-$version.WIN64.zip",
+                "extract_dir": "peazip_portable-$version.WIN64"
+            }
+        },
+        "32bit":
+        {
+            "url": "https://osdn.net/dl/peazip/peazip_portable-6.7.1.WINDOWS.zip",
+            "hash": "9390EDFBE9F438B6992AA6A3769023A589AB07FE2DE8EF6474D413C7CB5C7921",
+            "checkver":
+            {
+                "re": "peazip_portable\\-([\\d.]+)\\.WINDOWS\\.zip"
+            },
+            "extract_dir": "peazip_portable-6.7.1.WINDOWS",
+            "autoupdate":{
+                "url":"https://osdn.net/dl/peazip/peazip_portable-$version.WINDOWS.zip",
+                "extract_dir": "peazip_portable-$version.WINDOWS"
+            }
+        }
+    },
+    "bin":"peazip.exe",
+    "shortcuts": [
+        [
+            "peazip.exe",
+            "PeaZip"
+        ]
+    ],
+    "persist": [
+        "res\\conf.txt",
+        "res\\conf-lastgood.txt",
+        "res\\bookmarks.txt",
+        "res\\altconf.txt",
+        "res\\custedit.txt"
+    ]
+}

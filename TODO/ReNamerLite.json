@@ -1,0 +1,14 @@
+{
+    "homepage":  "http://www.den4b.com/products/renamer",
+    "version":  "7.0.0.4-beta",
+    "license":  "freeware",
+    "url":"http://www.den4b.com/download/renamer/portable?key=508fb8c0289428a7abc952842c378fc4c2efed9b9f770c2e",
+    "hash":  "",
+    "bin":  "ReNamer.exe",
+    "persist":"ReNamer.ini",
+    "shortcuts":[["ReNamer.exe","ReNamer"]],
+    "checkver":{
+    "url":  "http://www.den4b.com/changelogs/renamer",
+    "re":"tbody id=\"([\\d.]+)\" class=\"changelogVersionBlock"
+}
+}
