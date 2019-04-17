@@ -1,0 +1,30 @@
+{
+    "homepage": "https://www.bandisoft.com/honeyview/",
+    "version": "5.31",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.bandisoft.com/honeyview/eula/"
+    },
+    "url": "https://dl.bandisoft.com/honeyview/HONEYVIEW-SETUP.EXE#/dl.7z",
+    "hash": "086e3c5a83c69e95447704c533ce8b9a9d4cf655f46d644fdde6b8f92f22d175",
+    "architecture":{
+        "64bit":{
+            "bin": "Honeyview.exe",
+            "shortcuts": [
+                [
+                    "Honeyview.exe",
+                    "Honeyview"
+                ]
+            ]
+        }
+	},
+	"post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\etc\", \"$dir\\Uninstall.exe\", \"$dir\\HVShell32.dll\", \"$dir\\HVShell64.dll\" -Force -Recurse",
+	"persist":[
+        "config.ini",
+        "setting.ini"
+    ],
+    "checkver": "Download Honeyview \\(v([\\d.]+)\\)",
+    "autoupdate": {
+        "url": "https://dl.bandisoft.com/honeyview/HONEYVIEW-PORTABLE.ZIP"
+    }
+}
