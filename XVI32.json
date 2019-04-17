@@ -1,0 +1,17 @@
+{
+    "homepage":  "www.chmaas.handshake.de/delphi/freeware/xvi32/xvi32.htm",
+    "version":  "2.54",
+    "license":  "freeware",
+    "url":  "http://www.handshake.de/user/chmaas/delphi/download/xvi32.zip",
+    "hash":  "",
+    "bin":  "XVI32.exe",
+    "persist":"XVI32.ini",
+    "shortcuts":[
+        [
+            "XVI32.exe",
+            "XVI32"
+        ]
+    ],
+    "checkver":"Download XVI32 release ([\\d.]+)",
+    "autoupdate":"http://www.handshake.de/user/chmaas/delphi/download/xvi32.zip"
+}

@@ -1,0 +1,9 @@
+﻿{
+    "homepage":  "http://mpesch3.de1.cc/1by1.html",
+    "version":  "1.93",
+    "license":  "freeware",
+    "url":  "https://www.fosshub.com/1by1.html?dwl=1by1_193.exe",
+    "hash":  "0c6b060982f20218bf2a7ecec0afbdb8429679efa46d7f5ca80a3dbc9e1ee1a2",
+    "bin":  "1by1",
+    "persist":"1by1.ini"
+}
