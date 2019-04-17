@@ -6,11 +6,11 @@
     "architecture":{
         "64bit":{
             "url":  "https://github.com/jfchapman/VUPlayer/releases/download/v4.6/VUPlayer4_64bit.zip",
-            "hash":  "20a463afaf33c9ee342d441c85afde136386e30f35221c0632c151bede1e7712"
+            "hash":  "46a85b5f2a0fd02af97b249d141992b0ec849169a1849cb5077249c36597b964"
         },
         "32bit":{
             "url":  "https://github.com/jfchapman/VUPlayer/releases/download/v4.6/VUPlayer4_32bit.zip",
-            "hash":  "20a463afaf33c9ee342d441c85afde136386e30f35221c0632c151bede1e7712"
+            "hash":  "41aa43463b20098e65cd33952b5a16afb8ba1eeba82be93d78fdb2c26892d841"
         }
     },
     "bin":  "VUPlayer.exe",
