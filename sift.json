@@ -1,0 +1,18 @@
+{
+    "homepage":  "https://sift-tool.org/",
+    "version":  "0.9.0",
+    "license":  "GPL-3.0-only",
+    "extract_dir":  "",
+    "hash":  "",
+    "architecture":{
+        "64bit":{
+            "url":  "https://sift-tool.org/downloads/sift/sift_0.9.0_windows_amd64.zip",
+			"autoupdate":{"url":"https://sift-tool.org/downloads/sift/sift_$version_windows_amd64.zip"}
+        },
+        "32bit":{
+            "url":  "https://sift-tool.org/downloads/sift/sift_0.9.0_windows_386.zip",
+			"autoupdate":{"url":"https://sift-tool.org/downloads/sift/sift_$version_windows_amd64.zip"}
+        }
+	},
+    "bin":  "sift.exe"
+}
