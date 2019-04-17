@@ -1,0 +1,55 @@
+{
+    "homepage":  "http://www.softwareok.com/?seite=Freeware/ProcessKO",
+    "version":  "4.57",
+    "license":  "freeware",
+    "extract_dir":  "",
+    "architecture":{
+        "64bit":{
+            "url":  "http://www.softwareok.com/Download/ProcessKO_x64.zip",
+            "hash":  "",
+            "bin":  [
+                [
+                    "ProcessKO_x64.exe",
+                    "ProcessKO"
+                ]
+            ],
+            "shortcuts":[
+                [
+                    "ProcessKO_x64.exe",
+                    "ProcessKO"
+                ]
+            ]
+        },
+        "32bit":{
+            "url":  "http://www.softwareok.com/Download/ProcessKO_Unicode.zip",
+            "hash":  "",
+            "bin":  [
+                [
+                    "ProcessKO_Unicode.exe",
+                    "ProcessKO"
+                ]
+            ],
+            "shortcuts":[
+                [
+                    "ProcessKO_Unicode.exe",
+                    "ProcessKO"
+                ]
+            ]
+		}
+	},
+    "persist":[
+        "ProcessKO.ini",
+        "Settings.cfi"
+    ],
+    "checkver":"Download ProcessKO ([\\d.]+) for Windows",
+    "autoupdate":{
+        "architecture":{
+            "64bit":{
+                "url":  "http://www.softwareok.com/Download/ProcessKO_x64.zip"
+            },
+            "32bit":{
+                "url":  "http://www.softwareok.com/Download/ProcessKO_Unicode.zip"
+            }
+        }
+    }
+}
