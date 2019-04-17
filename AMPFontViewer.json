@@ -1,0 +1,16 @@
+{
+    "homepage":  "http://www.ampsoft.net/utilities/FontViewer.php",
+    "version":  "3.86",
+    "license":  "freeware",
+    "url":  "http://www.ampsoft.net/files/FontViewer.zip",
+    "hash":  "",
+    "bin":  "FontViewer.exe",
+    "shortcuts":[
+        [
+            "FontViewer.exe",
+            "AMP Font Viewer"
+        ]
+    ],
+    "checkver":"Version ([\\d.]+)",
+    "autoupdate":{"url":"http://www.ampsoft.net/files/FontViewer.zip"}
+}
