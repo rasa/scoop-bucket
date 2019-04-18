@@ -18,6 +18,6 @@
     ],
     "checkver": {
         "url": "https://perkele.cc/software/boom",
-        "re": "Current version: ([\\d.]+)"
+        "re": "Current version: ([\\d\\.]+)"
     }
 }

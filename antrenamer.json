@@ -12,7 +12,7 @@
     ],
     "checkver": {
         "url": "http://www.antp.be/software/renamer/download",
-        "re": "Version ([\\d.]+) - Complete package without installation"
+        "re": "Version ([\\d\\.]+) - Complete package without installation"
     },
     "persist": "Renamer.xml"
 }

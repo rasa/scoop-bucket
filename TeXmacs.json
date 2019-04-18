@@ -1,0 +1,22 @@
+{
+    "homepage": "http://www.texmacs.org/",
+    "version": "1.99.9",
+    "license": "GPL-3.0-only",
+    "url": "http://www.texmacs.org/Download/ftp/tmftp/windows/TeXmacs-1.99.9-installer.exe",
+    "hash": "7a9f58e2b0bc3dbf0551b14239c5d92563ea37c036b24cfcd217f9ed70a0d517",
+    "innosetup": "true",
+    "bin": "bin\\TeXmacs.exe",
+    "shortcuts": [
+        [
+            "bin\\TeXmacs.exe",
+            "TeXmacs"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.texmacs.org/tmweb/download/windows.en.html",
+        "re": "TeXmacs\\-([\\d\\.]+)\\-installer.exe"
+    },
+    "autoupdate": {
+        "url": "http://www.texmacs.org/Download/ftp/tmftp/windows/TeXmacs-$version-installer.exe"
+    }
+}

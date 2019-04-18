@@ -11,7 +11,7 @@
             "ASharperScaling"
         ]
     ],
-    "checkver": "Version\\:\\<b\\> ([\\d.]+)",
+    "checkver": "Version\\:\\<b\\> ([\\d\\.]+)",
     "autoupdate": {
         "url": "http://a-sharper-scaling.com/download/a_sharper_scaling_$underscoreVersion.zip"
     }

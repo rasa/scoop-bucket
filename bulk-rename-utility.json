@@ -32,6 +32,6 @@
     },
     "checkver": {
         "url": "https://www.bulkrenameutility.co.uk/Download.php",
-        "re": "version\\s*<b>([\\d.]+)"
+        "re": "version\\s*<b>([\\d\\.]+)"
     }
 }
