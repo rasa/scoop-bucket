@@ -3,8 +3,19 @@
     "version": "2.0.5.10",
     "license": "freeware",
     "url": "http://dl.eagleget.com/latest/EagleGetProtable_2.0.5.10.zip",
-    "hash": "sha1:ecfc51262e178cfcd4bdc757eae96a4ea5e8ecd2",
-    "bin": "EGMonitor.exe",
+    "hash": "4aaf93bfdd39524e34690813debdf2c37178f208456d57a60efbcdf1ac61b8b5",
+    "bin": "EagleGet.exe",
+    "persist":"EagleGet\\configs",
+    "shortcuts":[
+        [
+            "EagleGet.exe",
+            "EagleGet"
+        ],
+        [
+            "EGMonitor.exe",
+            "EagleGet Monitor"
+        ]
+    ],
     "checkver": {
         "url": "http://www.eagleget.com/download-eagleget-portable/",
         "re": "Download EagleGet Portable v([\\d\\.]+)"
@@ -12,8 +23,7 @@
     "autoupdate": {
         "url": "http://dl.eagleget.com/latest/EagleGetProtable_$version.zip",
         "hash": {
-            "url": "http://www.eagleget.com/download-eagleget-portable/",
-            "regex": "SHA1: ($sha1)"
+            "url": "http://www.eagleget.com/download-eagleget-portable/"
         }
     }
 }
