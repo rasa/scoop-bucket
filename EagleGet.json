@@ -22,8 +22,5 @@
     },
     "autoupdate": {
         "url": "http://dl.eagleget.com/latest/EagleGetProtable_$version.zip",
-        "hash": {
-            "url": "http://www.eagleget.com/download-eagleget-portable/"
-        }
     }
 }
