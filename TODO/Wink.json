@@ -1,0 +1,23 @@
+{
+    "homepage": "http://www.debugmode.com/wink/",
+    "version": "2.0-1060",
+    "license": "freeware",
+    "url": "http://files.snapfiles.com/directdl/wink20-1060.zip",
+    "hash": "d92e2a17288df1183b9b3d478bbe574df8eba2d3b20f5f7bb074f91440974a32",
+    "innosetup":"true",
+    "bin": "Wink.exe",
+    "shortcuts": [
+        [
+            "Wink.exe",
+            "Wink"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.debugmode.com/wink/download.htm",
+        "re": "For Windows \\(\\<b\\>version (?<ver>[\\d\\.]+)\\<\\/b\\> build (?<build>[\\d]+)\\)",
+        "replace": "${ver}-${build}"
+    },
+    "autoupdate": {
+        "url": "http://files.snapfiles.com/directdl/wink20-1060.zip"
+    }
+}
