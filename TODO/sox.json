@@ -1,0 +1,14 @@
+﻿{
+    "version":  "14.4.2",
+    "license":  "GPL2",
+    "extract_dir":  "sox-14.4.2",
+    "url":  "http://downloads.sourceforge.net/project/sox/sox/14.4.2/sox-14.4.2-win32.zip",
+    "homepage":  "http://sox.sourceforge.net/",
+    "hash":  "8072cc147cf1a3b3713b8b97d6844bb9389e211ab9e1101e432193fad6ae6662",
+    "bin":  "sox.exe",
+    "notes": [
+      "Sox on Windows includes a copy of wget for pulling sound files",
+      "from urls, but this is not included in the scoop bin or as a scoop",
+      "dependency"
+    ]
+}
