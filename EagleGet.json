@@ -21,6 +21,6 @@
         "re": "Download EagleGet Portable v([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "http://dl.eagleget.com/latest/EagleGetProtable_$version.zip",
+        "url": "http://dl.eagleget.com/latest/EagleGetProtable_$version.zip"
     }
 }

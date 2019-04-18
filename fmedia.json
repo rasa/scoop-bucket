@@ -36,10 +36,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://fmedia.firmdev.com/fmedia-$version-win-x64.zip#/fmedia.7z"
+                "url": "http://fmedia.firmdev.com/fmedia-$version-win-x64.zip#/dl.7z"
             },
             "32bit": {
-                "url": "http://fmedia.firmdev.com/fmedia-$version-win-x86.zip#/fmedia.7z"
+                "url": "http://fmedia.firmdev.com/fmedia-$version-win-x86.zip#/dl.7z"
             }
         }
     }

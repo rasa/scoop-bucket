@@ -1,9 +1,11 @@
 {
-    "homepage": "https://simplenote.com/",
     "version": "1.5.0",
-    "license": "GPL-2.0-only",
-    "url": "https://github.com/Automattic/simplenote-electron/releases/download/v1.5.0/Simplenote-win-1.5.0.exe#/simplenote.7z",
+    "description": "Simplenote is an easy way to keep notes, lists, ideas and more. Your notes stay in sync with all your devices for free.",
+    "homepage": "https://simplenote.com",
+    "license": "GPL-2.0",
+    "url": "https://github.com/Automattic/simplenote-electron/releases/download/v1.5.0/Simplenote-win-1.5.0.exe#/dl.7z",
     "hash": "B86A7B5F5E81E65D8E999E8A3D36C4B4484DB9A11ADF818FC714A267A40F3AB5",
+    "extract_dir": "\\$PLUGINSDIR",
     "architecture": {
         "64bit": {
             "installer": {
@@ -17,7 +19,6 @@
         }
     },
     "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\app-32.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\SpiderBanner.dll\",\"$dir\\WinShell.dll\"",
-    "extract_dir": "\\$PLUGINSDIR",
     "bin": "Simplenote.exe",
     "shortcuts": [
         [
@@ -26,9 +27,13 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/Automattic/simplenote-electron/"
+        "github": "https://github.com/Automattic/simplenote-electron"
     },
     "autoupdate": {
-        "url": "https://github.com/Automattic/simplenote-electron/releases/download/v$version/Simplenote-win-$version.exe"
+        "url": "https://github.com/Automattic/simplenote-electron/releases/download/v$version/Simplenote-win-$version.exe#/dl.7z",
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "find": "sha512:\\s+(.*)"
+        }
     }
 }
