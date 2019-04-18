@@ -1,0 +1,36 @@
+{
+    "homepage":  "http://ipe.otfried.org/",
+    "version":  "7.2.10",
+    "license":  "GPL-3.0-only",
+    "extract_dir":  "",
+    "architecture":{
+        "64bit":{
+            "url":  "https://dl.bintray.com/otfried/generic/ipe/7.2/ipe-7.2.11-win64.zip",
+            "hash":"",
+            "extract_dir":""
+        },
+        "32bit":{
+            "url":  "https://dl.bintray.com/otfried/generic/ipe/7.2/ipe-7.2.11-win32.zip",
+            "hash":"",
+            "extract_dir":""
+        }
+	},
+    "bin":  "bin\\ipe.exe",
+    "shortcuts":[
+        [
+            "bin\\ipe.exe",
+            "Ipe"
+        ]
+    ],
+    "checkver":"The current version of Ipe is \\<span class=\"tex-bf\"\\>Ipe ([\\d.]+)",
+    "autoupdate":{
+        "architecture":{
+            "64bit":{
+                "url":  "https://dl.bintray.com/otfried/generic/ipe/$majorVersion.$minorVersion/ipe-$version-win64.zip"
+            },
+            "32bit":{
+                "url":  "https://dl.bintray.com/otfried/generic/ipe/$majorVersion.$minorVersion/ipe-$version-win32.zip"
+            }
+        }
+    }
+}
