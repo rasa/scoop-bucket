@@ -1,0 +1,19 @@
+{
+    "homepage": "http://www.4yec.cn/",
+    "version": "1.2.0.0",
+    "license": "freeware",
+    "url": "http://www.4yec.cn/download/CloverPdf_1.2.0.0.exe#/dl.7z",
+    "hash": "246f115fb35ff8c871d2a271d278f62d731598bb9a9b79bd951a2de2e79155a1",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Force -Recurse",
+    "bin": "CloverPdf.exe",
+    "shortcuts": [
+        [
+            "CloverPdf.exe",
+            "CloverPdf"
+        ]
+    ],
+    "checkver": "最新版本：([\\d\\.]+)",
+    "autoupdate": {
+        "url": "http://www.4yec.cn/download/CloverPdf_$version.exe#/dl.7z"
+    }
+}
