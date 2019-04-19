@@ -1,0 +1,24 @@
+{
+    "homepage":  "http://exmplayer.sourceforge.net/",
+    "version":  "3.0.0",
+    "url":  "https://downloads.sourceforge.net/project/exmplayer/files/ExMplayer-5.0.0/exmplayer-portable-5.0.0.7z",
+    "hash":  "",
+    "bin":  "ExMplayer.exe",
+    "persist":  "ExMplayer.ini",
+    "shortcuts":[
+        [
+            "ExMplayer.exe",
+            "ExMplayer"
+        ]
+    ],
+    "checkver":{
+        "url":"https://sourceforge.net/projects/exmplayer/rss?path=/",
+        "re":"\\/ExMplayer\\-([\\d\\.]+)\\/exmplayer\\-portable\\-[\\d\\.]+\\.7z"
+    },
+    "autoupdte":{
+        "url":  "https://downloads.sourceforge.net/project/exmplayer/files/ExMplayer-$version/exmplayer-portable-$version.7z",
+        "hash":{
+            "mode":"sourceforge"
+        }
+    }
+}
