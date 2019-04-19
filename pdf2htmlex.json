@@ -1,7 +1,7 @@
 {
     "homepage": "http://coolwanglu.github.io/pdf2htmlEX/",
     "version": "0.14.6",
-    "license": "GPL-3.0-only",
+    "license": "GPL-3.0",
     "url": "http://soft.rubypdf.com/download/pdf2htmlex/pdf2htmlEX-win32-0.14.6-with-poppler-data.zip",
     "hash": "E92AA55699C3E9D9B4B4954BEA157E59B5C3363CBE9A7713495C553544026354",
     "bin": "pdf2htmlEX.exe",

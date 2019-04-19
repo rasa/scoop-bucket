@@ -1,7 +1,7 @@
 {
     "homepage": "https://katahiromz.web.fc2.com/re/en",
     "version": "5.1.7",
-    "license": "GPL-3.0-only",
+    "license": "GPL-3.0",
     "url": "https://raw.githubusercontent.com/katahiromz/downloads/master/re-5.1.7-bin.zip",
     "hash": "42b0cd23443e0e43935a0fa8ed04020e256e2d551a272a61bd54bd3e8a91a820",
     "extract_dir": "re-5.1.7-bin",

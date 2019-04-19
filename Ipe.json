@@ -1,7 +1,7 @@
 {
     "homepage": "http://ipe.otfried.org/",
     "version": "7.2.11",
-    "license": "GPL-3.0-only",
+    "license": "GPL-3.0",
     "extract_dir": "",
     "architecture": {
         "64bit": {

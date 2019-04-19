@@ -1,7 +1,7 @@
 {
     "homepage": "http://app.etizer.org/",
     "version": "1.4.7.508",
-    "license": "GPL-3.0-only",
+    "license": "GPL-3.0",
     "extract_dir": "",
     "url": "https://sourceforge.net/projects/appetizer/files/Appetizer/Appetizer_1.4.7.508.zip",
     "hash": "sha1:7898419f1d70b1c3f92af1595d98ca9f9b189534",
