@@ -6,9 +6,16 @@
     "url": "https://github.com/Microsoft/XmlNotepad/releases/download/v2.7/XmlNotepad.2.7.1.5.zip",
     "hash": "E2658BCEB589F2B17353E38D4ACCEF6969276ECAACD089428338F9F5490367B4",
     "installer": {
-        "script": "extract_7zip \"$dir\\cab1.cab\" \"$dir\""
+        "script": [
+            "extract_7zip \"$dir\\cab1.cab\" \"$dir\"",
+            "New-Item \"$dir\\Help\\images\" -Type Directory | Out-Null",
+            "Move-Item \"$dir\\*.htm\" \"$dir\\Help\"",
+            "Move-Item \"$dir\\*.css\" \"$dir\\Help\"",
+            "Move-Item \"$dir\\*.jpg\" \"$dir\\Help\\images\"",
+            "Move-Item \"$dir\\*.png\" \"$dir\\Help\\images\"",
+            "Remove-Item \"$dir\\cab1.cab\",\"$dir\\XmlNotepadSetup.msi\""
+        ]
     },
-    "post_install": "Remove-Item \"$dir\\XmlNotepadSetup.msis\",\"$dir\\cab1.cab\"",
     "bin": "XmlNotepad.exe",
     "shortcuts": [
         [
