@@ -1,12 +1,12 @@
 {
     "homepage": "http://www.eagleget.com/",
-    "version": "2.0.5.10",
+    "version": "2.0.5.20",
     "license": "freeware",
-    "url": "http://dl.eagleget.com/latest/EagleGetProtable_2.0.5.10.zip",
-    "hash": "4aaf93bfdd39524e34690813debdf2c37178f208456d57a60efbcdf1ac61b8b5",
+    "url": "http://dl.eagleget.com/latest/EagleGetProtable_2.0.5.20.zip",
+    "hash": "c3a1f593ac66cebe2c747172788579da5973389557c8990e41dc3f0a2cb9913c",
     "bin": "EagleGet.exe",
-    "persist":"EagleGet\\configs",
-    "shortcuts":[
+    "persist": "EagleGet\\configs",
+    "shortcuts": [
         [
             "EagleGet.exe",
             "EagleGet"
