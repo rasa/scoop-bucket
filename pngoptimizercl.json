@@ -1,7 +1,7 @@
 {
     "homepage": "http://psydk.org/pngoptimizer",
     "version": "2.5",
-    "license": "GPL-2.0-only",
+    "license": "GPL-2.0",
     "extract_dir": "PngOptimizerCL",
     "architecture": {
         "64bit": {

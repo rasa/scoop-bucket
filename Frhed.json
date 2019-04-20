@@ -1,7 +1,7 @@
 {
     "homepage": "https://frhed.sourceforge.net/",
     "version": "1.6.0",
-    "license": "GPL-2.0-only",
+    "license": "GPL-2.0",
     "url": "https://sourceforge.net/projects/frhed/files/1.%20Stable%20Releases/1.6.0/Frhed-1.6.0-exe.7z",
     "hash": "sha1:a51e61069f9028d3980a57785eae69f01d98d55f",
     "extract_dir": "Frhed-1.6.0-exe",

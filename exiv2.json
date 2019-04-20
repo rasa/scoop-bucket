@@ -2,7 +2,7 @@
     "homepage": "https://www.exiv2.org/",
     "version": "0.27.0",
     "description": "A Cross-platform C++ library and a command line utility to manage image metadata.",
-    "license": "GPL-2.0-only",
+    "license": "GPL-2.0",
     "architecture": {
         "64bit": {
             "url": "https://www.exiv2.org/builds/exiv2-0.27.0-msvc64.zip",
