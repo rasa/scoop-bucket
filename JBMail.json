@@ -10,6 +10,7 @@
         "jbmail.ini",
         "jbmail.dat"
     ],
+    "post_install": "Remove-Item \"$dir\\jbmail.exe.md5\" -Force -Recurse",
     "shortcuts": [
         [
             "jbmail.exe",
