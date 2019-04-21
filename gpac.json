@@ -11,6 +11,7 @@
             "url": "https://download.tsi.telecom-paristech.fr/gpac/release/0.7.0/gpac-0.7.0-rev0-gbd5c9af-master-win32.exe#/gpac.7z"
         }
     },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Force -Recurse",
     "bin": [
         "mp4box.exe",
         "dashcast.exe",
@@ -23,5 +24,8 @@
             "MP4Client"
         ]
     ],
-    "persist": "GPAC.cfg"
+    "persist": [
+        "GPAC.cfg",
+        "Storage"
+    ]
 }
