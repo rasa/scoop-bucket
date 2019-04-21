@@ -1,0 +1,38 @@
+{
+    "homepage": "http://fixounet.free.fr/avidemux/",
+    "version": "2.7.3",
+    "license": "GPLv2",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/projects/avidemux/files/avidemux/2.7.3/Avidemux_2.7.3%20VC%2B%2B%2064bits%20.exe",
+            "hash": "eb2e264b261d023d3b6891877dd8b5f9b6e32300ab363c2e04a60b5085ba4051"
+        }
+    },
+    "innosetup":true,
+    "bin": [
+        "avidemux.exe",
+        "avidemux_cli.exe",
+        "avsproxy_gui.exe"
+    ],
+    "shortcuts": [
+        [
+            "avidemux.exe",
+            "Avidemux"
+        ],
+        [
+            "avsproxy_gui.exe",
+            "Avisynth Proxy"
+        ]
+    ],
+    "checkver": "\\<strong\\>\\<span class=\"date\"\\>\\d{4}-\\d{2}-\\d{2}:\\<\\/span\\> ([\\d\\.]+):",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/projects/avidemux/files/avidemux/$version/Avidemux_$version%20VC%2B%2B%2064bits%20.exe",
+                "hash": {
+                    "mode": "sourceforge"
+                }
+            }
+        }
+    }
+}
