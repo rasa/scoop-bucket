@@ -1,5 +1,4 @@
 {
-    "##": "開発は終了しているが時折マイナー更新がある模様",
     "homepage": "https://www.tracker-software.com/product/pdf-xchange-viewer",
     "description": "The smallest, fastest, most feature-rich PDF reader/viewer available",
     "version": "2.5.322.10",
@@ -9,7 +8,7 @@
     "shortcuts": [
         [
             "PDFXCview.exe",
-            "PDF\\PDF-XChangeViewer Portable"
+            "PDF-XChange Viewer"
         ]
     ],
     "persist": "Settings.dat",
