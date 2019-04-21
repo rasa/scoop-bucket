@@ -1,0 +1,17 @@
+{
+    "homepage":  "http://www.adminscope.com/downloads/process-closer/",
+    "version":  "1.0.4",
+    "license":  "freeware",
+    "extract_dir":  "Portable",
+    "url":  "http://www.adminscope.com/?ddownload=977",
+    "hash":  "86f2a8907612338e3da1ad82f5717b0fcbaeae86af2219b6baa86a7ba736269b",
+    "bin":  "ProcessCloser.exe",
+    "shortcuts":[
+        [
+            "ProcessCloser.exe",
+            "ProcessCloser"
+        ]
+    ],
+    "checkver":"Version\\<\\/span\\>:\\<\\/strong\\> ([\\d\\.]+)",
+    "autoupdate":{"url":  "http://www.adminscope.com/?ddownload=977"}
+}
