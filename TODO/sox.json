@@ -1,14 +1,37 @@
-﻿{
-    "version":  "14.4.2",
-    "license":  "GPL2",
-    "extract_dir":  "sox-14.4.2",
-    "url":  "http://downloads.sourceforge.net/project/sox/sox/14.4.2/sox-14.4.2-win32.zip",
-    "homepage":  "http://sox.sourceforge.net/",
-    "hash":  "8072cc147cf1a3b3713b8b97d6844bb9389e211ab9e1101e432193fad6ae6662",
-    "bin":  "sox.exe",
-    "notes": [
-      "Sox on Windows includes a copy of wget for pulling sound files",
-      "from urls, but this is not included in the scoop bin or as a scoop",
-      "dependency"
-    ]
+{
+    "homepage": "http://sox.sourceforge.net/",
+    "description": "The Swiss Army knife of sound processing programs",
+    "version": "14.4.1",
+    "license": "GPL-2.0",
+    "url": "https://sourceforge.net/projects/sox/files/sox/14.4.2/sox-14.4.2-win32.zip",
+    "hash": "8072CC147CF1A3B3713B8B97D6844BB9389E211AB9E1101E432193FAD6AE6662",
+    "extract_dir": "sox-14.4.2",
+    "bin":  [
+        "sox.exe",
+        [
+                "sox.exe",
+                "play",
+                "play"
+        ],
+        [
+                "sox.exe",
+                "rec",
+                "rec"
+        ],
+        [
+                "sox.exe",
+                "soxi",
+                "soxi"
+        ]
+    ],
+    "checkver": {
+        "url":"https://sourceforge.net/projects/sox/rss?path=/sox",
+        "re":"sox-([\\d.]+)-win32.zip"
+        },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/sox/files/sox/$version/sox-$version-win32.zip",
+        "hash":{
+            "mode":"sourceforge"
+        }
+    }
 }

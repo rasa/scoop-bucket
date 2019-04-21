@@ -26,6 +26,7 @@
             "PeaZip"
         ]
     ],
+    "checkver":"PeaZip[\\s\\S]Portable (\\d\\.[\\d\\.]+)",
     "autoupdate":{
         "64bit":{
             "url":"https://osdn.net/dl/peazip/peazip_portable-$version.WIN64.zip",
