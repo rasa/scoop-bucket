@@ -1,0 +1,28 @@
+{
+    "homepage":  "http://www.dropitproject.com/",
+    "version":  "8.5.1",
+    "license":  "",
+    "url": "https://downloads.sourceforge.net/project/dropit/files/DropIt/v8.5.1/DropIt_v8.5.1_Portable.zip",
+    "hash":  "",
+    "extract_dir":  "DropIt_v8.5.1_Portable",
+    "bin":  "DropIt.exe",
+    "persist": [
+        "settings.ini",
+        "Profiles",
+        "Backup"
+    ],
+    "shortcuts": [
+        [
+            "DropIt.exe",
+            "DropIt"
+        ]
+    ],
+    "checkver":"\\/DropIt\\/v([\\d\\.]+)\\/",
+    "autoupdate": {
+        "url":"https://downloads.sourceforge.net/project/dropit/files/DropIt/v$version/DropIt_v$version_Portable.zip",
+        "hash": {
+            "mode": "sourceforge"
+        },
+        "extract_dir":  "DropIt_v$version_Portable_Portable"
+    }
+}
