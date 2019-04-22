@@ -1,0 +1,35 @@
+{
+    "homepage": "https://explorerplusplus.com/",
+    "version": "1.3.5",
+    "license": "freeware",
+    "extract_dir": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://explorerplusplus.com/software/explorer++_1.3.5_x64.zip",
+            "hash": "24f09076d2cef6d8f20394c1b17685871c077b957a1fe76ba83ad1b07830775e"
+        },
+        "32bit": {
+            "url": "https://explorerplusplus.com/software/explorer++_1.3.5_x86.zip",
+            "hash": "575ac27046fcc685ee6009964d031d4cb30c0292699c54df300bd1bf93e922df"
+        }
+    },
+    "bin": "Explorer++.exe",
+    "persist": "config.xml",
+    "shortcuts": [
+        [
+            "Explorer++.exe",
+            "Explorer++"
+        ]
+    ],
+    "checkver": "Get version \\<strong\\>([\\d\\.]+)",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://explorerplusplus.com/software/explorer++_$version_x64.zip"
+            },
+            "32bit": {
+                "url": "https://explorerplusplus.com/software/explorer++_$version_x86.zip"
+            }
+        }
+    }
+}
