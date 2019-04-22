@@ -1,0 +1,25 @@
+{
+    "homepage": "https://www.2brightsparks.com/freeware/",
+    "version": "8.6.3.0",
+    "license": "freeware",
+    "url": "https://www.2brightsparks.com/assets/software/SyncBack_Setup.exe",
+    "hash": "a06c4b69f58a96700312f3ee7737272fa310ef7f0e57fb8d9161efe5156d665b",
+    "innosetup": true,
+    "bin": "SyncBackFree.exe",
+    "shortcuts": [
+        [
+            "SyncBackFree.exe",
+            "SyncBack Free"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.2brightsparks.com/download-syncbackfree.html",
+        "re": "Download SyncBackFree V([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.2brightsparks.com/assets/software/SyncBack_Setup.exe",
+        "hash": {
+            "regex": "SHA-256 = ($sha256)"
+        }
+    }
+}
