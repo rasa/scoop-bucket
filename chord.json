@@ -22,6 +22,10 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/PeterDing/chord/releases/download/v$version/chord-$version-win.exe#/chord.7z"
+        "architecture": {
+            "64bit": {  
+                "url": "https://github.com/PeterDing/chord/releases/download/v$version/chord-$version-win.exe#/chord.7z"
+            }
+        }
     }
 }
