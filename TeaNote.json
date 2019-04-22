@@ -1,0 +1,30 @@
+{
+    "homepage":  "https://haocha.co/",
+    "version":  "0.9.0",
+    "license":  "freeware",
+    "url":  "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%200.9.0.exe#/dl.7z",
+    "hash":  "",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": "extract_7zip \"$dir\\app-64.7z\" \"$dir\""
+            }
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\WinShell.dll\",\"$dir\\nsExec.dll\",\"$dir\\SpiderBanner.dll\"",
+    "extract_dir": "\\$PLUGINSDIR",
+    "bin": "Tea.exe",
+    "shortcuts": [
+        [
+            "Tea.exe",
+            "Tea Note"
+        ]
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {  
+                "url": "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%20$version.exe#/dl.7z"
+            }
+        }
+    }
+}
