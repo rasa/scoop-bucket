@@ -1,9 +1,9 @@
 {
     "homepage": "https://pandownload.com/",
     "description": "一个小巧、安全、简洁的 OFFICE 管理、下载、安装器",
-    "version": "2.0.9",
-    "url": "http://pandownload.club/dl/PanDownload_v2.0.9.zip",
-    "hash": "cd9b2617fc8634d9fb3c5ee0f87c8c74e86fa7c0053073439ab25a175754c556",
+    "version": "2.1.0",
+    "url": "http://pandownload.club/dl/PanDownload_v2.1.0.zip",
+    "hash": "71EAB7EE717ABB56C3C14C7963E07D44FDE61B18D495E379248F498FB0125054",
     "extract_dir": "PanDownload",
     "persist": [
         "PanData\\config.ini",

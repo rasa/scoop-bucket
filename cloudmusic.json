@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/sunzongzheng/music",
     "description": "网易云音乐客户端.",
-    "version": "2.5.2.197037",
+    "version": "2.5.2.197409",
     "license": "Freeware",
-    "url": "https://d1.music.126.net/dmusic/cloudmusicsetup_2.5.2.197037.exe#/neteasemusic.7z",
-    "hash": "836A561E53301C727766C580C46F32E06C9EDC808A4349DAA47FF8B58F99127D",
+    "url": "https://d1.music.126.net/dmusic/cloudmusicsetup_2.5.2.197409.exe#/neteasemusic.7z",
+    "hash": "38C526813AEBB40BE33F181131B07F3518FA560329DCC68D89E11B9240219AEF",
     "bin": "cloudmusic.exe",
     "shortcuts": [
         [
