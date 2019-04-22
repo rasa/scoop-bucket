@@ -1,4 +1,4 @@
-GanttProject.json TODO: extract_dir
+GanttProject.json TODO: '-r2364' in extract_dir\nmaybe use "Get-ChildItem'Â
 LaTeXDraw.json TODO: installer
 Scilab.json TODO: hash, update
 OSFMount.json TODO: exe

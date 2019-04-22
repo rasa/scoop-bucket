@@ -15,6 +15,6 @@
     "checkver": "\\<h4\\>Download new\\<\\/h4\\>GanttProject ([\\d.]+)",
     "autoupdate": {
         "url": "https://www.ganttproject.biz/dl/$version/any#/dl.7z",
-        "extract_dir":"ganttproject-$version"
+        "extract_dir": "ganttproject-$version"
     }
 }
