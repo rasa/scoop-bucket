@@ -1,0 +1,27 @@
+{
+    "homepage": "https://www.zabkat.com/x2lite.htm",
+    "version": "4.1.0.1",
+    "license": "freeware",
+    "extract_dir": "",
+    "url": "http://zabkat.com/xplorer2_lite_setup.exe#/dl.7z",
+    "hash": "ff59df9bd2cdaa0e63394239be9df163e8dfb4ed87685e1d01554a2481c465c8",
+    "bin": [
+        "xplorer2_lite.exe",
+        "editor2.exe"
+    ],
+	"post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe.nsis\" -Force -Recurse",
+    "shortcuts": [
+        [
+            "xplorer2_lite.exe",
+            "Xplorer2 lite"
+        ],
+        [
+            "editor2.exe",
+            "Editor2"
+        ]
+    ],
+    "checkver": "\\<br\\>v([\\d\\.]+) \\(",
+    "autoupdate": {
+        "url": "http://zabkat.com/xplorer2_lite_setup.exe#/dl.7z"
+    }
+}
