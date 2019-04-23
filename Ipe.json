@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://dl.bintray.com/otfried/generic/ipe/7.2/ipe-7.2.11-win64.zip",
-            "hash": "5785bff7c4940b74345cef585c47c4c86939adb3fb5918cb9e0606d2cba5d184",
+            "hash": "5785bff7c4940b74345cef585c47c4c86939adb3fb5918cb9e0606d2cba5d184"
         },
         "32bit": {
             "url": "https://dl.bintray.com/otfried/generic/ipe/7.2/ipe-7.2.11-win32.zip",
-            "hash": "840570e7e1a765cdc736bb5e399b1aa23fe5f985e1c36dd3a335963c33dd52f5",
+            "hash": "840570e7e1a765cdc736bb5e399b1aa23fe5f985e1c36dd3a335963c33dd52f5"
         }
     },
     "bin": "bin\\ipe.exe",
