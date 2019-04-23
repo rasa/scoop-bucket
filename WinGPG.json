@@ -1,7 +1,7 @@
 {
     "homepage": "https://scand.com/products/wingpg/",
     "version": "1.0",
-    "license": "",
+    "license": "GPL-3.0",
     "architecture": {
         "64bit": {
             "url": "https://s3.amazonaws.com/assets.scand.com/WinGPG/WinGPG-1.0-Portable-x64.zip",
