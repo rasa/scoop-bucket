@@ -1,0 +1,134 @@
+{
+    "homepage": "https://explorerplusplus.com/",
+    "version": "1.3.4",
+    "license": "freeware",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://explorerplusplus.com/software/explorer++_1.3.5_x64.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_CA.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_ZH.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_CS.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_DA.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_NL.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_FA.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_FR.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_DE.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_HU.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_IT.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_JA.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_KO.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_NO.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_PL.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_PT.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_RO.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_RU.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_SI.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_ES.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_SV.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_TR.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_UK.zip",
+                "https://explorerplusplus.com/software/explorer++_help.zip"
+            ],
+            "hash": ["","","","","","","","","","","","","","","","","","","","","","","",""]
+        },
+        "32bit": {
+            "url": [
+                "https://explorerplusplus.com/software/explorer++_1.3.5_x86.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_CA.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_ZH.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_CS.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_DA.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_NL.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_FA.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_FR.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_DE.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_HU.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_IT.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_JA.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_KO.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_NO.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_PL.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_PT.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_RO.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_RU.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_SI.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_ES.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_SV.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_TR.zip",
+                "https://explorerplusplus.com/software/translations/explorer++_1.3.5_UK.zip",
+                "https://explorerplusplus.com/software/explorer++_help.zip"
+            ],
+            "hash": ["","","","","","","","","","","","","","","","","","","","","","","",""]
+        }
+    },
+    "bin": "Explorer++.exe",
+    "persist": "config.xml",
+    "shortcuts": [
+        [
+            "Explorer++.exe",
+            "Explorer++"
+        ]
+    ],
+    "checkver": "Get version \\<strong\\>([\\d\\.]+)",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://explorerplusplus.com/software/explorer++_$version_x64.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_CA.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_ZH.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_CS.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_DA.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_NL.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_FA.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_FR.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_DE.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_HU.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_IT.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_JA.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_KO.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_NO.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_PL.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_PT.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_RO.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_RU.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_SI.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_ES.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_SV.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_TR.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_UK.zip",
+                    "https://explorerplusplus.com/software/explorer++_help.zip"
+                ]
+            },
+            "32bit": {
+                "url": [
+                    "https://explorerplusplus.com/software/explorer++_$version_x86.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_CA.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_ZH.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_CS.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_DA.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_NL.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_FA.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_FR.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_DE.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_HU.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_IT.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_JA.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_KO.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_NO.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_PL.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_PT.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_RO.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_RU.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_SI.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_ES.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_SV.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_TR.zip",
+                    "https://explorerplusplus.com/software/translations/explorer++_$version_UK.zip",
+                    "https://explorerplusplus.com/software/explorer++_help.zip"
+               ]
+            }
+        }
+    }
+}

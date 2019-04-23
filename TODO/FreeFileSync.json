@@ -1,0 +1,20 @@
+{
+    "homepage":  "https://freefilesync.org/",
+    "version":  "10.10",
+    "license":  "freeware",
+    "extract_dir":  "",
+    "url":  "https://freefilesync.org/download/FreeFileSync_10.11_Windows_Setup.exe",
+    "hash":  "",
+    "bin":  ["FreeFileSync.exe","RealTimeSync.exe"],
+    "shortcuts":[
+        ["FreeFileSync.exe","FreeFileSync"],
+        ["RealTimeSync.exe","RealTimeSync"]
+    ],
+    "checkver":{
+        "url":"https://freefilesync.org/news-feed.php",
+        "re":"FreeFileSync ([\\d\\.]+) has been released"
+    },
+    "autoupdate":{
+        "url":  "https://freefilesync.org/download/FreeFileSync_$version_Windows_Setup.exe"
+    }
+}
