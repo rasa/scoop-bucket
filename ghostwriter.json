@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/wereturtle/ghostwriter",
+    "version": "1.7.4",
+    "license": "GPL-3.0",
+    "extract_dir": "",
+    "url": "https://github.com/michelolvera/vs-ghostwriter/releases/download/1.7.4/ghostwriter_x64_installer.exe",
+    "innosetup":true,
+    "hash": "9fb49ce830901fc8e387d939f68226b75a0bc434bf00381b802d4bcd9091d75c",
+    "bin": "ghostwriter.exe",
+    "shortcuts": [
+        [
+            "ghostwriter.exe",
+            "ghostwriter"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/michelolvera/vs-ghostwriter/"
+    },
+    "autoupdate": {
+        "url": "https://github.com/michelolvera/vs-ghostwriter/releases/download/$version/ghostwriter_x64_installer.exe"
+    }
+}
