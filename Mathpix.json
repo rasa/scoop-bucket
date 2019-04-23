@@ -1,0 +1,16 @@
+﻿{
+    "homepage":  "https://mathpix.com/",
+    "version":  "01.02.0031",
+    "license":  "",
+    "extract_dir":  "",
+    "url":  "https://mathpix.com/win_app/mathpix_snipping_tool_setup.exe",
+    "hash":  "",
+    "innosetup":true,
+    "bin":  "mathpix-snipping-tool.exe",
+    "shortcuts":[
+        [
+            "mathpix-snipping-tool.exe",
+            "Mathpix Snipping Tool"
+        ]
+    ]
+}
