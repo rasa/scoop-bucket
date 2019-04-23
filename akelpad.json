@@ -2,7 +2,6 @@
     "homepage": "https://sourceforge.net/projects/akelpad/",
     "version": "4.9.8",
     "license": "",
-    "extract_dir": "",
     "architecture": {
         "64bit": {
             "url": "https://downloads.sourceforge.net/project/akelpad/files/AkelPad%204/4.9.8/x64/AkelPad-4.9.8-x64-bin-eng.zip",
