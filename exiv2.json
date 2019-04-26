@@ -7,11 +7,7 @@
         "64bit": {
             "url": "https://www.exiv2.org/builds/exiv2-0.27.0-msvc64.zip",
             "hash": "DB28F0A6E85974C43C1D94960E06B1960E7BCE058D301D19FF7C4447F3F012EE",
-            "extract_dir": "exiv2-0.27.0-msvc64",
-            "autoupdate": {
-                "url": "https://www.exiv2.org/builds/exiv2-$version-msvc64.zip",
-                "extract_dir": "exiv2-$version-msvc64"
-            }
+            "extract_dir": "exiv2-0.27.0-msvc64"
         }
     },
     "bin": [
@@ -52,5 +48,9 @@
     "checkver": {
         "url": "https://www.exiv2.org/download.html",
         "re": "Download Exiv2  v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.exiv2.org/builds/exiv2-$version-msvc64.zip",
+        "extract_dir": "exiv2-$version-msvc64"
     }
 }
