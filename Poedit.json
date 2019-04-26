@@ -1,0 +1,22 @@
+{
+    "homepage": "https://poedit.net/",
+    "version": "2.2.1",
+    "license": "MIT",
+    "extract_dir": "",
+    "url": "https://download.poedit.net/Poedit-2.2.1-setup.exe",
+    "hash": "63906ceba58954b0c7083f28e6b964ea36d96ad91a37ee751311758e8e963107",
+    "innosetup": true,
+    "bin": "Poedit.exe",
+    "shortcuts": [
+        [
+            "Poedit.exe",
+            "Poedit"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/vslavik/poedit"
+    },
+    "autoupdate": {
+        "url": "https://download.poedit.net/Poedit-$version-setup.exe"
+    }
+}
