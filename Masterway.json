@@ -1,0 +1,20 @@
+{
+    "homepage":  "https://masterway.cc/",
+    "version":  "0.5.3",
+    "url":  "https://masterway.cc/download/win#/dl.7z",
+    "hash":  "82ff7cdb9f3939c2f69a3323fca3cff62c80de26ff46ec7fd2ad0107769f1363",
+    "installer": {
+        "script": [
+            "extract_7zip \"$dir\\Masterway-0.5.3-full.nupkg\" \"$dir\"",
+            "Move-Item \"$dir\\lib\\net45\\*\" \"$dir\""
+        ]
+    },
+    "post_install":"Remove-Item \"$dir\\package\",\"$dir\\_rels\",\"$dir\\Masterway.nuspec\",\"$dir\\[Content_Types].xml\",\"$dir\\*.nupkg\",\"$dir\\background.gif\" -Recurse",
+    "bin":  "Masterway.exe",
+    "shortcuts":[
+        [
+            "Masterway.exe",
+            "Masterway"
+        ]
+    ]
+}
