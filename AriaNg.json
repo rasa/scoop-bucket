@@ -1,0 +1,36 @@
+{
+    "homepage": "http://ariang.mayswind.net/",
+    "description": "native GUI client for download tool Aria",
+    "version": "1.1.0",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mayswind/AriaNg-Native/releases/download/1.1.0/AriaNg_Native-1.1.0-Windows-x64.7z",
+            "hash": "ee8c6169f1d9f77b4301e8cf87fe9efe522f9b0594a1379d864ee9569e80799b"
+        },
+        "32bit": {
+            "url": "https://github.com/mayswind/AriaNg-Native/releases/download/1.1.0/AriaNg_Native-1.1.0-Windows-x86.7z",
+            "hash": "e840ff3043698643c9d1643ff1556757ce0e649213d24f1714d0175c31d263a9"
+        }
+    },
+    "bin": "AriaNg Native.exe",
+    "shortcuts": [
+        [
+            "AriaNg Native.exe",
+            "AriaNg"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/mayswind/AriaNg-Native"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mayswind/AriaNg-Native/releases/download/$version/AriaNg_Native-$version-Windows-x64.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/mayswind/AriaNg-Native/releases/download/$version/AriaNg_Native-$version-Windows-x86.7z"
+            }
+        }
+    }
+}
