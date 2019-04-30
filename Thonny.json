@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/thonny/thonny/"
+        "github": "https://github.com/thonny/thonny"
     },
     "autoupdate": {
         "url": "https://github.com/thonny/thonny/releases/download/v$version/thonny-$version.exe"

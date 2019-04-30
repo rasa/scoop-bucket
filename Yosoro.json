@@ -11,7 +11,7 @@
     "extract_dir": "Yosoro-win32-x64",
     "bin": "Yosoro.exe",
     "checkver": {
-        "github": "https://github.com/IceEnd/Yosoro/"
+        "github": "https://github.com/IceEnd/Yosoro"
     },
     "autoupdate": {
         "architecture": {

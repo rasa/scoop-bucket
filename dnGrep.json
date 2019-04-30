@@ -21,7 +21,7 @@
     },
     "bin": "dnGREP.exe",
     "checkver": {
-        "github": "https://github.com/dnGrep/dnGrep/"
+        "github": "https://github.com/dnGrep/dnGrep"
     },
     "shortcuts": [
         [

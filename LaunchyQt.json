@@ -17,7 +17,7 @@
     "bin": "Launchy.exe",
     "persist": "config",
     "checkver": {
-        "github": "https://github.com/samsonwang/LaunchyQt/"
+        "github": "https://github.com/samsonwang/LaunchyQt"
     },
     "autoupdate": {
         "architecture": {

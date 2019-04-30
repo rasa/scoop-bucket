@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/Alisovsky/NotationPage/"
+        "github": "https://github.com/Alisovsky/NotationPage"
     },
     "autoupdate": {
         "url": "https://github.com/Alisovsky/NotationPage/releases/download/$version/Notation_$version.exe"

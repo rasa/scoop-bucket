@@ -21,7 +21,7 @@
     },
     "bin": "Marp.exe",
     "checkver": {
-        "github": "https://github.com/yhatt/marp/"
+        "github": "https://github.com/yhatt/marp"
     },
     "shortcuts": [
         [

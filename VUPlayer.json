@@ -15,7 +15,7 @@
     },
     "bin": "VUPlayer.exe",
     "checkver": {
-        "github": "https://github.com/jfchapman/VUPlayer/"
+        "github": "https://github.com/jfchapman/VUPlayer"
     },
     "autoupdate": {
         "architecture": {

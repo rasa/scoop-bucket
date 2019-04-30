@@ -4,7 +4,7 @@
     "version": "1.9.1",
     "license": "GPLv3",
     "checkver": {
-        "github": "https://github.com/stefankueng/grepWin/"
+        "github": "https://github.com/stefankueng/grepWin"
     },
     "architecture": {
         "64bit": {

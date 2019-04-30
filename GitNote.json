@@ -14,7 +14,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/zhaopengme/gitnote/"
+        "github": "https://github.com/zhaopengme/gitnote"
     },
     "autoupdate": {
         "url": "https://github.com/zhaopengme/gitnote/releases/download/$version/GitNote_portable_$version.zip",

@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/katahiromz/RisohEditor/"
+        "github": "https://github.com/katahiromz/RisohEditor"
     },
     "autoupdate": {
         "url": "https://raw.githubusercontent.com/katahiromz/downloads/master/re-$version-bin.zip",

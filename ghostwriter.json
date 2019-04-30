@@ -14,7 +14,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/michelolvera/vs-ghostwriter/"
+        "github": "https://github.com/michelolvera/vs-ghostwriter"
     },
     "autoupdate": {
         "url": "https://github.com/michelolvera/vs-ghostwriter/releases/download/$version/ghostwriter_x64_installer.exe"

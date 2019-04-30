@@ -12,7 +12,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/chenguanzhou/MarkDownEditor/"
+        "github": "https://github.com/chenguanzhou/MarkDownEditor"
     },
     "autoupdate": {
         "url": "https://github.com/chenguanzhou/MarkDownEditor/releases/download/v$version/MarkDownEditor.Setup.msi"

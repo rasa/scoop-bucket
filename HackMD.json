@@ -21,7 +21,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/hackmdio/hackmd-desktop/"
+        "github": "https://github.com/hackmdio/hackmd-desktop"
     },
     "autoupdate": {
         "architecture": {
