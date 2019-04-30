@@ -7,7 +7,7 @@
     "hash": "8328cb033096a9a8be87a9ea3a255d9b203ba7f4297a7638b1017548ace0d65b",
     "extract_dir": "\\$PLUGINSDIR",
     "installer": {
-        "script": "extract_7zip \"$dir\\app-64.7z\" \"$dir\""
+        "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
     },
     "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\nsExec.dll\",\"$dir\\nsDialogs.dll\",\"$dir\\UAC.dll\",\"$dir\\WinShell.dll\",\"$dir\\modern-wizard.bmp\"",
     "bin": "Gridea.exe",

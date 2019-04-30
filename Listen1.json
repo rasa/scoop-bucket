@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://github.com/listen1/listen1_desktop/releases/download/v2.1.5/Listen1_2.1.5_win64.exe#/listen1.7z",
             "installer": {
-                "script": "extract_7zip \"$dir\\app-64.7z\" \"$dir\""
+                "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
             },
             "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\UAC.dll\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsExec.dll\",\"$dir\\nsProcess.dll\",\"$dir\\nsDialogs.dll\",\"$dir\\WinShell.dll\",\"$dir\\modern-wizard.bmp\"",
             "autoupdate": "https://github.com/listen1/listen1_desktop/releases/download/v$version/Listen1_$version_win64.exe#/listen1.7z",
@@ -16,7 +16,7 @@
         "32bit": {
             "url": "https://github.com/listen1/listen1_desktop/releases/download/v2.1.5/Listen1_2.1.5_win32.exe#/listen1.7z",
             "installer": {
-                "script": "extract_7zip \"$dir\\app-32.7z\" \"$dir\""
+                "script": "Expand-7ZipArchive \"$dir\\app-32.7z\" \"$dir\""
             },
             "post_install": "Remove-Item \"$dir\\app-32.7z\",\"$dir\\UAC.dll\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsExec.dll\",\"$dir\\nsProcess.dll\",\"$dir\\nsDialogs.dll\",\"$dir\\WinShell.dll\",\"$dir\\modern-wizard.bmp\"",
             "autoupdate": "https://github.com/listen1/listen1_desktop/releases/download/v$version/Listen1_$version_win32.exe#/listen1.7z",

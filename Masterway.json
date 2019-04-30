@@ -5,7 +5,7 @@
     "hash":  "82ff7cdb9f3939c2f69a3323fca3cff62c80de26ff46ec7fd2ad0107769f1363",
     "installer": {
         "script": [
-            "extract_7zip \"$dir\\Masterway-0.5.3-full.nupkg\" \"$dir\"",
+            "Expand-7ZipArchive \"$dir\\Masterway-0.5.3-full.nupkg\" \"$dir\"",
             "Move-Item \"$dir\\lib\\net45\\*\" \"$dir\""
         ]
     },

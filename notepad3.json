@@ -7,12 +7,12 @@
     "architecture": {
         "64bit": {
             "installer": {
-                "script": "extract_7zip \"$dir\\Notepad3_5.19.108.1602_x64.zip\" \"$dir\""
+                "script": "Expand-7ZipArchive \"$dir\\Notepad3_5.19.108.1602_x64.zip\" \"$dir\""
             }
         },
         "32bit": {
             "installer": {
-                "script": "extract_7zip \"$dir\\Notepad3_5.19.108.1602_x86.zip\" \"$dir\""
+                "script": "Expand-7ZipArchive \"$dir\\Notepad3_5.19.108.1602_x86.zip\" \"$dir\""
             }
         }
     },

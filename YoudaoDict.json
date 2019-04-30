@@ -4,7 +4,7 @@
     "license": "freeware",
     "url": "http://cidian.youdao.com/download/YoudaoDict.exe#/dl.7z",
     "installer": {
-        "script": "extract_7zip \"$dir\\`$PLUGINSDIR\\dict.7z\" \"$dir\""
+        "script": "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\dict.7z\" \"$dir\""
     },
     "hash": "ed1233dbb95fadc2cf3751890cf70491bb4ecadee3c3c4342e7d78aaec64a861",
 	"post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$_54_\", \"$dir\\uninst.exe\" -Force -Recurse",
