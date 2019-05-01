@@ -1,7 +1,7 @@
 {
     "homepage": "http://fmedia.firmdev.com/",
     "description": "fmedia is a fast media player/recorder/converter for Windows, macOS, Linux and FreeBSD.",
-    "license": "GPL-3.0",
+    "license": "GPL-3.0-only",
     "version": "1.6",
     "architecture": {
         "64bit": {
