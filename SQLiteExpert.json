@@ -34,5 +34,5 @@
             }
         }
     },
-    "innosetup": "true"
+    "innosetup": true
 }

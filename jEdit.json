@@ -3,7 +3,7 @@
     "version": "5.5.0",
     "url": "https://sourceforge.net/projects/jedit/files/jedit/5.5.0/jedit5.5.0install.exe",
     "hash": "sha1:7acf9f97e598a7d760b44827ebc476168433a756",
-    "innosetup": "true",
+    "innosetup": true,
     "bin": "jedit.jar",
     "shortcuts": [
         [

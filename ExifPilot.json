@@ -5,7 +5,7 @@
     "license": "freeware",
     "url": "https://www.colorpilot.com/load/exif.exe",
     "hash": "BAA63209400F60036EC80C327E509064280C830B988E4CD024B3059808E0BF14",
-    "innosetup": "true",
+    "innosetup": true,
     "persist": "ExifPilot.tags",
     "bin": "ExifPilot.exe",
     "shortcuts": [

@@ -3,8 +3,8 @@
     "version": "3.0.19.415",
     "url": "https://www.undeleteplus.com/files/undeleteplus_setup.exe",
     "license": "freeware",
-    "hash": "d1c32c984c53adcb58e4c76b51340b12b43fb8b470da1fb0ab6cefe7c336b02f",
-    "innosetup": "true",
+    "hash": "md5:ae98bcf8076d750b65dd97285518e898",
+    "innosetup": true,
     "shortcuts": [
         [
             "UndeletePlus.exe",
