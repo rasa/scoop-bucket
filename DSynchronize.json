@@ -1,0 +1,30 @@
+{
+    "homepage": "http://dimio.altervista.org/eng/#DSynchronize",
+    "version": "2.43",
+    "license": "freeware",
+    "url": "http://dimiodati.altervista.org/zip/dsynchronize.zip",
+    "hash": "aa1af5ef903796f41404910ee408bc08fcfbe08b5ce625fd93a17a58ba328b26",
+    "extract_dir": "dsynchronize",
+    "bin": "DSynchronize.exe",
+    "persist": [
+        "DSynchronize.ini",
+        "Remote Controller.ini"
+    ],
+    "shortcuts": [
+        [
+            "DSynchronize.exe",
+            "DSynchronize"
+        ],
+        [
+            "Remote Controller.exe",
+            "DSynchronize Remote Controller"
+        ]
+    ],
+    "checkver": {
+        "url": "http://dimio.altervista.org/eng/",
+        "re": "DSynchronize v([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "http://dimiodati.altervista.org/zip/dsynchronize.zip"
+    }
+}
