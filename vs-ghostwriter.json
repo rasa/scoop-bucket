@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/michelolvera/vs-ghostwriter",
-    "description": "Fork of Ghostwriter, a beautiful cross-platform markdown editor"
+    "description": "Fork of Ghostwriter, a beautiful cross-platform markdown editor",
     "license": "GPL-3.0-only",
     "version": "1.7.4",
     "url": "https://github.com/michelolvera/vs-ghostwriter/releases/download/1.7.4/ghostwriter_x64_installer.exe",
