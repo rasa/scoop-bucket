@@ -1,6 +1,5 @@
 {
     "homepage": "http://coolplayer.sourceforge.net/",
-    "description": "A smart command prompt extension for Windows' cmd.exe; its purpose is to emulate a few power features of UNIX shells (decent Tab-completion, persistent history, etc.)",
     "version": "219",
     "license": "GPL-2.0-only",
     "extract_dir": "",
