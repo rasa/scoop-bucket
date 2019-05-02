@@ -1,5 +1,6 @@
 {
     "homepage": "http://coolplayer.sourceforge.net/",
+    "description": "Blazing Fast Audio Player",
     "version": "219",
     "license": "GPL-2.0-only",
     "extract_dir": "",
