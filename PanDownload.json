@@ -1,9 +1,9 @@
 {
     "homepage": "http://pandownload.club/",
-    "description": "一个小巧、安全、简洁的 OFFICE 管理、下载、安装器",
+    "description": "A downloader of Baidu disk",
     "version": "2.1.0",
     "url": "http://pandownload.club/dl/PanDownload_v2.1.0.zip",
-    "hash": "71EAB7EE717ABB56C3C14C7963E07D44FDE61B18D495E379248F498FB0125054",
+    "hash": "71eab7ee717abb56c3c14c7963e07d44fde61b18d495e379248f498fb0125054",
     "extract_dir": "PanDownload",
     "persist": [
         "PanData\\config.ini",
@@ -17,6 +17,7 @@
         "PanData\\history",
         "PanData\\log"
     ],
+    "bin": "PanDownload.exe",
     "shortcuts": [
         [
             "PanDownload.exe",
