@@ -1,15 +1,15 @@
 {
-    "homepage": "http://fmedia.firmdev.com/",
+    "homepage": "https://fmedia.firmdev.com/",
     "description": "fmedia is a fast media player/recorder/converter for Windows, macOS, Linux and FreeBSD.",
     "license": "GPL-3.0-only",
-    "version": "1.6",
+    "version": "1.8",
     "architecture": {
         "64bit": {
-            "url": "http://fmedia.firmdev.com/fmedia-1.6-win-x64.zip#/dl.7z",
-            "hash": "ce7d7e74b091e3aa111615b473d85b1137301979a6cb4ec500942da3ac3e5dbb"
+            "url": "http://fmedia.firmdev.com/fmedia-1.8-win-x64.zip",
+            "hash": "f3925f78c79e0794ab5f308ecdcfee94a0981c535f4c202f73cf7d56b748762a"
         },
         "32bit": {
-            "url": "http://fmedia.firmdev.com/fmedia-1.6-win-x86.zip#/dl.7z",
+            "url": "http://fmedia.firmdev.com/fmedia-1.6-win-x86.zip",
             "hash": "bf7f0d7c9a9c38c1ebf2c4a49c36656e80cb5b433de5b36d12692c985b62bf42"
         }
     },
@@ -25,7 +25,7 @@
         "fmedia-gui.exe"
     ],
     "checkver": {
-        "url": "http://fmedia.firmdev.com/",
+        "url": "https://fmedia.firmdev.com/",
         "regex": "fmedia-([\\d.]+)-win-x64.zip"
     },
     "persist": [
@@ -36,10 +36,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://fmedia.firmdev.com/fmedia-$version-win-x64.zip#/dl.7z"
+                "url": "http://fmedia.firmdev.com/fmedia-$version-win-x64.zip"
             },
             "32bit": {
-                "url": "http://fmedia.firmdev.com/fmedia-$version-win-x86.zip#/dl.7z"
+                "url": "http://fmedia.firmdev.com/fmedia-$version-win-x86.zip"
             }
         }
     }
