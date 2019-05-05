@@ -1,0 +1,45 @@
+{
+    "homepage": "https://www.xmind.net/zen/",
+    "version": "9.2.0",
+    "license": "shareware",
+    "extract_dir": "\\$PLUGINSDIR",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl2.xmind.cn/XMind-ZEN-Update-2019-for-Windows-64bit-9.2.0-201904271935.exe#/dl.7z",
+            "hash": "ffed5bca6fc0c3b88f38f0d0a6d766b86ec69ac7f8018198df77963f0f5b4583",
+            "installer": {
+                "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
+            },
+            "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\WinShell.dll\",\"$dir\\SpiderBanner.dll\""
+        },
+        "32bit": {
+            "url": "https://dl2.xmind.cn/XMind-ZEN-Update-2019-for-Windows-32bit-9.2.0-201904271926.exe#/dl.7z",
+            "hash": "82d5d9804a25f16c83a0656d826f5f1bd0b62479b65e495cfc8e9af95b861bd3",
+            "installer": {
+                "script": "Expand-7ZipArchive \"$dir\\app-32.7z\" \"$dir\""
+            },
+            "post_install": "Remove-Item \"$dir\\app-32.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\WinShell.dll\",\"$dir\\SpiderBanner.dll\""
+        }
+    },
+    "bin": "XMind ZEN.exe",
+    "shortcuts": [
+        [
+            "XMind ZEN.exe",
+            "XMind ZEN"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.xmind.net/download/zen",
+        "re": "\\<a href=\\/\\/www\\.xmind\\.net\\/xmind\\/downloads\\/XMind-ZEN-Update-\\d{4}-for-Windows-32bit-[\\d\\.]+-(?<date32>\\d{12})\\.exe\\>Windows \\(32Bit\\)\\<\\/a\\>[\\w\\W]*\\<a href=\\/\\/www\\.xmind\\.net\\/xmind\\/downloads\\/XMind-ZEN-Update-(?<year>\\d{4})-for-Windows-64bit-([\\d\\.]+)-(?<date64>\\d{12})\\.exe\\>Windows \\(64Bit\\)\\<\\/a\\>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl2.xmind.cn/XMind-ZEN-Update-$matchYear-for-Windows-64bit-$version-$matchDate64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://dl2.xmind.cn/XMind-ZEN-Update-$matchYear-for-Windows-32bit-$version-$matchDate32.exe#/dl.7z"
+            }
+        }
+    }
+}
