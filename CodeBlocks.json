@@ -7,7 +7,7 @@
     "bin": [
         [
             "CbLauncher.exe",
-            "cb"
+            "CodeBlocks"
         ]
     ],
     "shortcuts": [
