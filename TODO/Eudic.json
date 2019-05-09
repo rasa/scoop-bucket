@@ -1,0 +1,29 @@
+{
+    "homepage":  "https://www.eudic.net/",
+    "version":  "12.2.3",
+    "license":  "freeware",
+    "url":  "http://static.frdic.com/pkg/eudic_win.zip",
+    "hash":  "c5bbbf1f1b36b02ff4ef893e072474b6915377a3ff27a700d742809366222522",
+    "installer": {
+        "script": [
+            "innounp \"$dir\\eudic_win.exe\" \"$dir\\\"",
+            "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
+		]
+    },
+    "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\uninst.exe.nsis\"",
+    "bin":  "eudic.exe",
+    "shortcuts": [
+        [
+            "eudic.exe",
+            "Eudic"
+        ]
+    ],
+    "depends": "innounp",
+    "checkver": {
+        "url": "https://www.eudic.net/v4/en/app/history",
+        "re": "Windows ×ÀÃæ°æ ([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url":  "http://static.frdic.com/pkg/eudic_win.zip"
+    }
+}
