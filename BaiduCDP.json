@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/cool2528/baiduCDP",
+    "description": "A downloader of Baidu disk",
+    "version": "1.0.1",
+    "url": "https://github.com/cool2528/baiduCDP/releases/download/1.0.1/BaiduCdp_1_0_1.zip",
+    "hash": "9ca1860fc3e90c9e3f3cc8be40c3e3b2ee95af1fac85b5d3cba25c9a7ea5fac6",
+    "persist": [
+        "ui\\config.ini",
+        "log"
+    ],
+    "bin": "BaiduCdp.exe",
+    "shortcuts": [
+        [
+            "BaiduCdp.exe",
+            "BaiduCDP"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/cool2528/baiduCDP/releases/download/$version/BaiduCdp_$underscoreVersion.zip"
+    }
+}
