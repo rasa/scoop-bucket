@@ -1,0 +1,36 @@
+{
+    "homepage": "https://www.bitcomet.com/",
+    "version": "1.56",
+    "license": {
+        "identifier": "freeware for non-commercial use",
+        "url": "https://www.bitcomet.com/en/license"
+    },
+    "extract_dir": "",
+    "url": "https://download.bitcomet.com/achive/BitComet_1.56.zip",
+    "hash": "8cb81903d89a2b28d13a75b47c45975a3fc094fc433f7a3c6885fde6811d4638",
+    "bin": "BitComet.exe",
+    "persist": [
+        "BitComet.xml",
+        "Downloads.xml",
+        "torrents",
+        "share",
+        "archive"
+    ],
+    "shortcuts": [
+        [
+            "BitComet.exe",
+            "BitComet"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.bitcomet.com/en/archive",
+        "re": "BitComet_([\\d\\.]+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://download.bitcomet.com/achive/BitComet_$version.zip",
+        "hash": {
+            "url": "https://www.bitcomet.com/en/archive",
+            "find": "BitComet_$version.zip.*?($sha256)"
+        }
+    }
+}
