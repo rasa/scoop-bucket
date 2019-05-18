@@ -1,0 +1,30 @@
+{
+    "homepage": "https://www.xnview.com/en/xnview/",
+    "version": "2.48",
+    "license": "freeware",
+    "extract_dir": "XnView",
+    "url": "https://download.xnview.com/XnView-win-small.zip",
+    "hash": "A4B19EF6D1EF873C9AA47BD8A3492EDDFED9A304945AE9BDC8908565C9B6588E",
+    "bin": "xnview.exe",
+    "shortcuts": [
+        [
+            "xnview.exe",
+            "XnView"
+        ]
+    ],
+    "persist": [
+        "xnview.ini",
+        "category.db"
+    ],
+    "checkver": {
+        "url":"https://www.xnview.com/en/",
+        "re": "XnView \\<small\\>([\\d\\.]+)\\<\\/small\\>"
+    },
+    "autoupdate": {
+        "url":"https://download.xnview.com/XnView-win-small.zip",
+        "hash": {
+            "url": "https://www.xnview.com/en/xnview/",
+            "find": "XnView-win-small.zip:($sha256)"
+        }
+    }
+}
