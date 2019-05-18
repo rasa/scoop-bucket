@@ -1,0 +1,23 @@
+{
+    "homepage": "http://flavio.tordini.org/musique",
+    "description": "A music player",
+    "version": "1.6",
+    "license": "freeware",
+    "url": "https://flavio.tordini.org/files/musique/musique.exe#/dl.7z",
+    "hash": "931f37c3562b99d31c069f001d61366d11521d112add5aaebf8bad9de3b55fa2",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+    "bin": "Musique.exe",
+    "shortcuts": [
+        [
+            "Musique.exe",
+            "Musique"
+        ]
+    ],
+    "checkver": {
+        "url": "https://flavio.tordini.org/feed",
+        "re": "\\<title\\>Musique ([\\d\\.]+)\\<\\/title\\>"
+    },
+    "autoupdate": {
+        "url": "https://flavio.tordini.org/files/musique/musique.exe#/dl.7z"
+    }
+}
