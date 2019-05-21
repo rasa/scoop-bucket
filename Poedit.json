@@ -1,10 +1,10 @@
 {
     "homepage": "https://poedit.net/",
-    "version": "2.2.2",
+    "version": "2.2.3",
     "license": "MIT",
     "extract_dir": "",
-    "url": "https://download.poedit.net/Poedit-2.2.2-setup.exe",
-    "hash": "7c258794c9b8b6e0fece4bda858a55465b84c53d4c5047ab4edc10170d6087f9",
+    "url": "https://download.poedit.net/Poedit-2.2.3-setup.exe",
+    "hash": "86f2446f7c23ae8b05c8263e0ba2bed711e4f48c6a43a9c6bd6826eee0ad7148",
     "innosetup": true,
     "bin": "Poedit.exe",
     "shortcuts": [
