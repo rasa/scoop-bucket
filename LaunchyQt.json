@@ -1,17 +1,17 @@
 {
     "homepage": "https://launchyqt.com/",
-    "version": "3.0.8",
+    "version": "3.0.9",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/samsonwang/LaunchyQt/releases/download/v3.0.8/Launchy-3.0.8-win-amd64.7z",
-            "hash": "e9a21a30bd1632ee560bbe5f00a498136fab4d1e0366d30791ca2f36bef68eba",
-            "extract_dir": "Launchy-3.0.8-win-amd64"
+            "url": "https://github.com/samsonwang/LaunchyQt/releases/download/v3.0.9/Launchy-3.0.9-win-amd64.7z",
+            "hash": "cb3183105af62eed2ce50d52dcc1e540e4c54d4d86768547ca72a21013084a92",
+            "extract_dir": "Launchy-3.0.9-win-amd64"
         },
         "32bit": {
-            "url": "https://github.com/samsonwang/LaunchyQt/releases/download/v3.0.8/Launchy-3.0.8-win-x86.7z",
-            "hash": "bd38b853acf42b34b07efae1d6da952b3837a4b311d1947b3bd6cfc781dd9cda",
-            "extract_dir": "Launchy-3.0.8-win-x86"
+            "url": "https://github.com/samsonwang/LaunchyQt/releases/download/v3.0.9/Launchy-3.0.9-win-x86.7z",
+            "hash": "a57942575ad29912ba459333153f9d3ef36584e3b9793cebf35f2f781298939c",
+            "extract_dir": "Launchy-3.0.9-win-x86"
         }
     },
     "bin": "Launchy.exe",
