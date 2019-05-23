@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://www.exiv2.org/builds/exiv2-0.27.1-msvc64.zip",
             "hash": "d45d8e81c3ed002c6ce1098d6a0c4e997905d5330f9201fb6da3b0527ff11321",
-            "extract_dir": "exiv2-0.27.0-msvc64"
+            "extract_dir": "exiv2-0.27.1-msvc64"
         }
     },
     "bin": [
