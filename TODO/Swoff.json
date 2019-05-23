@@ -1,0 +1,27 @@
+{
+    "homepage":  "http://www.airytec.com/en/",
+    "version":  "3.5",
+    "license":  "freeware",
+    "architecture": {
+        "64bit": {
+            "url":  "http://www.airytec.com/files/3.5/swoff35x64.zip",
+            "hash": ""
+        },
+        "32bit": {
+            "url":  "http://www.airytec.com/files/3.5/swoff35x86.zip",
+            "hash": ""
+        }
+    },
+    "bin":  "Swoff.exe",
+    "checkver": "",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url":  "http://www.airytec.com/files/$matchShort/swoff$matchShortx64.zip"
+            },
+            "32bit": {
+                "url":  "http://www.airytec.com/files/$matchShort/swoff$matchShortx86.zip"
+            }
+        }
+    }
+}

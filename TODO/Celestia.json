@@ -1,0 +1,23 @@
+{
+    "homepage":  "https://celestia.space/",
+    "version":  "1.6.1",
+    "license":  "GPL-2.0-only",
+    "extract_dir":  "",
+    "url":  "https://celestia.space/files/celestia/1.6.1/celestia-win32-1.6.1.exe",
+    "hash":  "",
+    "innoextract": true,
+    "bin":  "celestia.exe",
+    "shortcuts":  [
+        [
+            "celestia.exe",
+            "Celestia"
+        ]
+    ],
+    "checkver": {
+        "url": "https://celestia.space/download.html",
+        "re": "Celestia ([\\d\\.]+) \\(x86"
+    },
+    "autoupdate": {
+        "url":  "https://celestia.space/files/celestia/$version/celestia-win32-$version.exe"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "homepage": "http://stellarium.org/",
+    "version": "0.19.0",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Stellarium/stellarium/releases/download/v0.19.0/stellarium-0.19.0.1-win64.exe",
+            "hash": "88fd7a8d372d614e402860628a842d61c6424432bfd488bf848a439416eab422"
+        },
+        "32bit": {
+            "url": "https://github.com/Stellarium/stellarium/releases/download/v0.19.0/stellarium-0.19.0.1-win32.exe",
+            "hash": "0a3a1d434c433f94a0b5102fcba760b1861dfb5a1cf944fe67942739f9bbed6a"
+        }
+    },
+    "bin": "stellarium.exe",
+    "shortcuts": [
+        [
+            "stellarium.exe",
+            "Stellarium"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Stellarium/stellarium"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Stellarium/stellarium/releases/download/v$version/stellarium-$version.1-win64.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/Stellarium/stellarium/releases/download/v$version/stellarium-$version.1-win32.exe"
+            }
+        }
+    }
+}
