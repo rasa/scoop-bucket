@@ -8,10 +8,7 @@
     "architecture": {
         "64bit": {
             "post_install": "Remove-Item \"$dir\\Dism++ARM64.exe\", \"$dir\\Dism++x86.exe\"",
-            "bin": [
-                "DISM++x64.exe",
-                "DISM++"
-            ],
+            "bin": "DISM++x64.exe",
             "shortcuts": [
                 [
                     "Dism++x64.exe",
@@ -21,10 +18,7 @@
         },
         "32bit": {
             "post_install": "Remove-Item \"$dir\\Dism++ARM64.exe\", \"$dir\\Dism++x64.exe\"",
-            "bin": [
-                "DISM++x86.exe",
-                "DISM++"
-            ],
+            "bin": "DISM++x86.exe",
             "shortcuts": [
                 [
                     "Dism++x86.exe",
