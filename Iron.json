@@ -1,5 +1,5 @@
 {
-    "homepage": "https://www.srware.net/en/software_srware_iron.php",
+    "homepage": "https://www.srware.net/",
     "description": "Iron",
     "version": "72.0.3750.0",
     "license": "BSD-3-Clause",
@@ -20,5 +20,19 @@
             "iron.exe",
             "Iron"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.srware.net/en/software_srware_iron_download.php",
+        "re": "([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.srware.net/downloads/IronPortable64.zip"
+            },
+            "32bit": {
+                "url": "https://www.srware.net/downloads/IronPortable.zip"
+            }
+        }
+    }
 }
