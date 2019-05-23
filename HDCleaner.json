@@ -1,15 +1,15 @@
 {
     "homepage": "https://kurtzimmermann.com",
-    "version": "1.248",
+    "version": "1.249",
     "license": "freeware",
     "architecture": {
         "64bit": {
             "url": "https://kurtzimmermann.com/files/HDCleanerX64.zip",
-            "hash": "35c83111c213e336bc4a074a736dabae73368ce24fe97e004e57a02f4be23c88"
+            "hash": "692fa3a7219f252936452fc9f0ee9b262547bad627b7576308c50c0219be66f2"
         },
         "32bit": {
             "url": "https://kurtzimmermann.com/files/HDCleanerX32.zip",
-            "hash": "e81a178a0cbc246b107a80ee00d130d4cbb45d50caa432b51e7e72b0c171751a"
+            "hash": "5ef4cc0c9e7777ee5c45d1d23a8069b1a197c24b32c861a045afcb39d50daad5"
         }
     },
     "bin": "HDCleaner.exe",
@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "https://kurtzimmermann.com/index_e.html",
-        "re": "\\<h5 class=\"card-subtitle\"\\>Version ([\\d\\.]+)"
+        "re": "HDCleaner\\<\\/h4\\>[\\w\\W]*?Version ([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {
