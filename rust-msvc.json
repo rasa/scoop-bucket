@@ -6,12 +6,12 @@
         "64bit": {
             "url": "https://static.rust-lang.org/dist/rust-1.34.2-x86_64-pc-windows-msvc.msi",
             "hash": "467dc5af5a216619c34793d7c65616d8177df19062253b47da2b73c31d18edeb",
-            "post_install": "rm \"$dir\\rust-1.34.0-x86_64-pc-windows-msvc.msi\""
+            "post_install": "rm \"$dir\\rust-1.34.2-x86_64-pc-windows-msvc.msi\""
         },
         "32bit": {
             "url": "https://static.rust-lang.org/dist/rust-1.34.2-i686-pc-windows-msvc.msi",
             "hash": "092cb6b3ad85653c6c4ca4537d804e041bbed701392895af27227d6eb73fa7fd",
-            "post_install": "rm \"$dir\\rust-1.34.0-i686-pc-windows-msvc.msi\""
+            "post_install": "rm \"$dir\\rust-1.34.2-i686-pc-windows-msvc.msi\""
         }
     },
     "extract_dir": "Rust",
