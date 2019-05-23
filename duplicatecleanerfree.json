@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.digitalvolcano.co.uk/duplicatecleaner.html",
-    "version": "4.1.1",
+    "version": "4.1.2",
     "license": "freeware",
-    "url": "https://www.digitalvolcano.co.uk/download/DuplicateCleanerFree4_setup.exe#/dcf.7z",
-    "hash": "298c9a663e2c36928f21ab97d93b8879f72e4672ae1b2200c14ff2a6d3b8f58b",
+    "url": "https://www.digitalvolcano.co.uk/download/DuplicateCleanerFree4_setup.exe",
+    "hash": "d9d2e9ec3752cbd70c7acc3fe1d9b8ab275c8685632425eb14c8d2199a4d5d32",
     "bin": "DuplicateCleaner.exe",
     "shortcuts": [
         [
