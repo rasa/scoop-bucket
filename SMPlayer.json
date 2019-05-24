@@ -4,14 +4,15 @@
     "license": "GPLv2",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.5.0/smplayer-19.5.0-x64.exe#/dl.7z",
-            "hash": "c7085e1f52a8f066260d521315e38746bc54628e10a0c33d2e91fc73a6137c50"
+            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.5.0/smplayer-portable-19.5.0.0-x64.7z",
+            "hash": "5de447429d49e6b376347ec93c523f97a2dcff74f0728b63a6236da5334f4e3d"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.5.0/smplayer-19.5.0-win32.exe#/dl.7z",
-            "hash": "28de936f40969ecdb13f53f66a38ed25fb848bbb0ed07a08319fdb4925c2d959"
+            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.5.0/smplayer-portable-19.5.0.0.7z",
+            "hash": "32f65557de877b6a2df99b135d534a318f19b27436b43fd13f52147f15060151"
         }
     },
+    "extract_dir": "smplayer-portable-19.5.0.0",
     "bin": "smplayer.exe",
     "persist": [
         "smplayer.ini",
@@ -29,10 +30,6 @@
             "SMPlayer"
         ]
     ],
-    "post_install": [
-        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
-        "Remove-Item \"$dir\\uninst.exe.nsis\""
-    ],
     "checkver": {
         "url": "https://www.smplayer.info/downloads/",
         "re": "Click here to download SMPlayer ([\\d.]+) \\(32-bit\\)"
@@ -40,14 +37,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-$version-x64.exe#/dl.7z",
+                "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-portable-$version.0-x64.7z",
                 "hash": {
                     "url": "https://www.fosshub.com/SMPlayer.html",
                     "find": "SMPlayer  Windows 64 bit.*\\n.*\\n.*\\n.*\\n.*\\n.*\\n.*SHA256: ([a-fA-F0-9]{64})</strong>"
                 }
             },
             "32bit": {
-                "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-$version-win32.exe#/dl.7z",
+                "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-portable-$version.0.7z",
                 "hash": {
                     "url": "https://www.fosshub.com/SMPlayer.html",
                     "find": "SMPlayer  Windows 32 bit.*\\n.*\\n.*\\n.*\\n.*\\n.*\\n.*SHA256: ([a-fA-F0-9]{64})</strong>"
