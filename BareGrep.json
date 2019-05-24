@@ -14,5 +14,9 @@
             "BareGrep"
         ]
     ],
-    "persist": "BareGrep.udm"
+    "persist": "BareGrep.udm",
+    "checkver": "Release ([\\d\\.\\w]+)",
+    "autoupdate": {
+        "url": "https://www.baremetalsoft.com/baregrep/download.php?p=m#/baregrep.exe"
+    }
 }
