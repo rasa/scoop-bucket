@@ -24,5 +24,25 @@
         "AkelFiles\\Docs",
         "AkelFiles\\Plugs",
         "AkelFiles\\Langs"
-    ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/akelpad/rss?path=/AkelPad%204",
+        "re": "!\\[CDATA\\[\\/AkelPad 4\\/([\\d\\.]+)\\/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/akelpad/files/AkelPad%20$majorVersion/$version/x64/AkelPad-$version-x64-bin-eng.zip",
+                "hash": {
+                    "mode": "sourceforge"
+                }
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/akelpad/files/AkelPad%20$majorVersion/$version/AkelPad-$version-bin-eng.zip",
+                "hash": {
+                    "mode": "sourceforge"
+                }
+            }
+        }
+    }
 }
