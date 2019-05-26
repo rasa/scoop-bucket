@@ -1,0 +1,34 @@
+{
+    "homepage": "https://www.zettlr.com/",
+    "description": "A Markdown Editor",
+    "version": "1.2.3",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Zettlr/Zettlr/releases/download/v1.2.3/Zettlr-win32-x64-1.2.3.exe#/dl.7z",
+            "hash": "5b88fc8432bb47e913caa3fa3088799605b07e960734badfd17c3247ba8d9524"
+        }
+    },
+    "extract_dir": "\\$PLUGINSDIR",
+    "installer": {
+        "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
+    },
+    "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\nsExec.dll\",\"$dir\\nsDialogs.dll\",\"$dir\\UAC.dll\",\"$dir\\WinShell.dll\",\"$dir\\modern-wizard.bmp\"",
+    "bin": "zettlr.exe",
+    "shortcuts": [
+        [
+            "zettlr.exe",
+            "Zettlr"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Zettlr/Zettlr"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Zettlr/Zettlr/releases/download/v$version/Zettlr-win32-x64-$version.exe#/dl.7z"
+            }
+        }
+    }
+}
