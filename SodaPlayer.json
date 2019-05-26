@@ -19,7 +19,7 @@
     ],
     "checkver": "Download ([\\d\\.]+) for Windows",
     "autoupdate": {
-        "url": "https://releases.sodaplayer.com/win/SodaPlayerSetup%20$version.exe#/dl.7z"
+        "url": "https://releases.sodaplayer.com/win/SodaPlayerSetup%20$version.exe#/dl.7z",
         "installer": {
             "script": [
                 "Expand-7ZipArchive \"$dir\\sodaplayer-$version-full.nupkg\" \"$dir\"",
