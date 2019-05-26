@@ -1,12 +1,12 @@
 {
     "homepage": "https://www.bitcomet.com/",
-    "version": "1.57",
+    "version": "1.56",
     "license": {
         "identifier": "freeware for non-commercial use",
         "url": "https://www.bitcomet.com/en/license"
     },
-    "url": "https://download.bitcomet.com/achive/BitComet_1.57.zip",
-    "hash": "5cca074189361cc389c2ddb98d533fe196530ca768619992e9e03555c174afef",
+    "url": "https://download.bitcomet.com/achive/BitComet_1.56.zip",
+    "hash": "8cb81903d89a2b28d13a75b47c45975a3fc094fc433f7a3c6885fde6811d4638",
     "bin": "BitComet.exe",
     "persist": [
         "BitComet.xml",
