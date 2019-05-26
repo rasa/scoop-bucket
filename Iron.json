@@ -1,17 +1,17 @@
 {
     "homepage": "https://www.srware.net/",
-    "description": "Iron",
-    "version": "72.0.3750.0",
+    "description": "A browser based on Chromium",
+    "version": "73.0.3800.0",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
             "url": "https://www.srware.net/downloads/IronPortable64.zip",
-            "hash": "e3cc296b87b6cb4f0071ef9e88834165091ad32f06a9b8845cb2a5d11f001f63",
+            "hash": "dec74ec9c778345a04bbc4b447f22b04fcd3c7fe6a820382966e4cdb073c35f9",
             "extract_dir": "IronPortable64\\Iron"
         },
         "32bit": {
             "url": "https://www.srware.net/downloads/IronPortable.zip",
-            "hash": "015A9427D29BE42DFA0DEFC73AA613A44D6EB3B0F5B76152F988D941FB8D9868",
+            "hash": "4d065a8b2f3f68a3f7999c73100ff4bf141bcd0ce4ae3ac2c39533ab903486f1",
             "extract_dir": "IronPortable\\Iron"
         }
     },
@@ -22,8 +22,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.srware.net/en/software_srware_iron_download.php",
-        "re": "([\\d\\.]+)"
+        "url": "https://www.srware.net/software_srware_iron_download.php",
+        "re": "Version: \\<strong\\>([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {
