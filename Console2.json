@@ -1,6 +1,6 @@
 {
     "homepage": "https://sourceforge.net/projects/console/",
-    "version": "2.0.0.148",
+    "version": "2.00b148-Beta",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
@@ -18,5 +18,31 @@
     },
     "extract_dir": "Console2",
     "persist": "console.xml",
-    "bin": "Console.exe"
+    "bin": "Console.exe",
+    "shortcuts": [
+        [
+            "Console.exe",
+            "Console2"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/console/rss?path=/",
+        "re": "Console-([\\d\\.\w]+)_src.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/console/console-devel/2.00/Console-$version_64bit.zip",
+                "hash": {
+                    "mode": "sourceforge"
+                }
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/console/console-devel/2.00/Console-$version_32bit.zip",
+                "hash": {
+                    "mode": "sourceforge"
+                }
+            }
+        }
+    }
 }
