@@ -1,10 +1,10 @@
 {
     "homepage": "https://gridea.dev/",
     "description": "A static blog client",
-    "version": "0.8.0",
+    "version": "0.8.1",
     "license": "MIT",
-    "url": "https://github.com/getgridea/gridea/releases/download/v0.8.0/Gridea.Setup.0.8.0.exe#/dl.7z",
-    "hash": "8328cb033096a9a8be87a9ea3a255d9b203ba7f4297a7638b1017548ace0d65b",
+    "url": "https://github.com/getgridea/gridea/releases/download/v0.8.1/Gridea.Setup.0.8.1.exe#/dl.7z",
+    "hash": "469556e6e3e912794a9a12c8645dede470a8defeab648082c84b30ff02a7e89f",
     "extract_dir": "\\$PLUGINSDIR",
     "installer": {
         "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
