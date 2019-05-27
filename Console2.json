@@ -27,7 +27,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/console/rss?path=/",
-        "re": "Console-([\\d\\.\w]+)_src.zip"
+        "re": "Console-([\\d\\.\\w]+)_src.zip"
     },
     "autoupdate": {
         "architecture": {
