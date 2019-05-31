@@ -6,17 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "http://static.centbrowser.com/installer_64/centbrowser_3.9.2.45_x64_portable.exe",
-            "hash": "A7ADE8D9FB84B4B36377CDDCD3E41E9CF93532D405CAA76D2F4DEFD8CCBB5389",
-            "autoupdate": {
-                "url": "http://static.centbrowser.com/installer_64/centbrowser_$version_x64_portable.exe"
-            }
+            "hash": "A7ADE8D9FB84B4B36377CDDCD3E41E9CF93532D405CAA76D2F4DEFD8CCBB5389"
         },
         "32bit": {
             "url": "http://static.centbrowser.com/installer_32/centbrowser_3.9.2.45_portable.exe",
-            "hash": "952cb3467726f6fd6ddb200695c560f6261cec6ef6d2bb8f59debf2e00ea232a",
-            "autoupdate": {
-                "url": "http://static.centbrowser.com/installer_32/centbrowser_$version_portable.exe"
-            }
+            "hash": "952cb3467726f6fd6ddb200695c560f6261cec6ef6d2bb8f59debf2e00ea232a"
         }
     },
     "installer": {
@@ -40,5 +34,15 @@
     "checkver": {
         "url": "https://www.centbrowser.com",
         "re": "<p>Version: ([\\d\\.]+)"
-    }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://static.centbrowser.com/installer_64/centbrowser_$version_x64_portable.exe"
+            },
+            "32bit": {
+                "url": "http://static.centbrowser.com/installer_32/centbrowser_$version_portable.exe"
+            }
+		}
+	}
 }
