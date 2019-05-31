@@ -1,16 +1,16 @@
 {
     "homepage": "https://www.centbrowser.com/",
     "description": "The Most Feature Rich Chromium",
-    "version": "3.9.2.45",
+    "version": "4.0.9.102",
     "persist": "User Data",
     "architecture": {
         "64bit": {
-            "url": "http://static.centbrowser.com/installer_64/centbrowser_3.9.2.45_x64_portable.exe",
-            "hash": "A7ADE8D9FB84B4B36377CDDCD3E41E9CF93532D405CAA76D2F4DEFD8CCBB5389"
+            "url": "http://static.centbrowser.com/installer_64/centbrowser_4.0.9.102_x64_portable.exe",
+            "hash": "ed7eaee2a25476d6716a057aba8cbf9c2058699c30fd60b58262b7706074da10"
         },
         "32bit": {
-            "url": "http://static.centbrowser.com/installer_32/centbrowser_3.9.2.45_portable.exe",
-            "hash": "952cb3467726f6fd6ddb200695c560f6261cec6ef6d2bb8f59debf2e00ea232a"
+            "url": "http://static.centbrowser.com/installer_32/centbrowser_4.0.9.102_portable.exe",
+            "hash": "54e006ff1ff3b08dc1b73aeb4dbafb3943865fbab30f2a3b5eb07d6438d0874f"
         }
     },
     "installer": {
@@ -43,6 +43,6 @@
             "32bit": {
                 "url": "http://static.centbrowser.com/installer_32/centbrowser_$version_portable.exe"
             }
-		}
-	}
+        }
+    }
 }
