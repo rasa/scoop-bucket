@@ -2,7 +2,7 @@
     "homepage": "https://www.osforensics.com/tools/mount-disk-images.html",
     "version": "3.0.1000",
     "license": "freeware",
-    "url": "https://www.osforensics.com/downloads/osfmount.exe#/osf.exe",
+    "url": "https://www.osforensics.com/downloads/osfmount.exe#/dl.exe",
     "hash": "5348838dd60607057dbd1448e5173d1c4c6280b82afe9967a837499822fc8c5d",
     "innosetup": true,
     "bin": "OSFMount.exe",
@@ -11,5 +11,9 @@
             "OSFMount.exe",
             "OSFMount"
         ]
-    ]
+    ],
+    "checkver": "Please click below to download the OSFMount V([\\d\\.]+) installation package",
+    "autoupdate": {
+            "url": "https://www.osforensics.com/downloads/osfmount.exe#/dl.exe"
+    }
 }
