@@ -1,15 +1,22 @@
 {
     "homepage": "http://onecommander.com/",
     "description": "A file manager for Microsoft Windows with improved functionality, re-imagined user interface and experience of navigating filesystem and manipulating files.",
-    "version": "2.4.5.1",
+    "version": "2.5.8",
     "license": "freeware",
     "url": "http://onecommander.com/OneCommanderPortable.zip",
-    "hash": "49F301B6289C5157057DC558EA0AA3BE00423F4DB72FC284CC54D296ECB303DB",
+    "hash": "7598baf3fe82019029a1d0f663ce50e430ead8682b2b3509f14d67ac858fd4df",
     "bin": "OneCommanderV2.exe",
     "shortcuts": [
         [
             "OneCommanderV2.exe",
             "OneCommander"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "http://onecommander.com/blog/",
+        "re": "Update ([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "http://onecommander.com/OneCommanderPortable.zip"
+    }
 }
