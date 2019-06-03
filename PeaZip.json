@@ -5,12 +5,12 @@
     "architecture": {
         "64bit": {
             "url": "https://osdn.net/dl/peazip/peazip_portable-6.8.0.WIN64.zip",
-            "hash": "74e49b3e68c33cd0a02236356afb5d9f632b0a785a346896c4bd94e4cc8a0d49",
+            "hash": "891cef1cb4652537bc3e3924aaf910dc0cd99821215a7c15821337bbe172ef4a",
             "extract_dir": "peazip_portable-6.8.0.WIN64"
         },
         "32bit": {
             "url": "https://osdn.net/dl/peazip/peazip_portable-6.8.0.WINDOWS.zip",
-            "hash": "9a4f17e683708ca00b66c3f17af571e015b8e39d25cd820e07820460a857f34b",
+            "hash": "e53449dbde201bc3967cb9a970fec7ad994c433803d3e0541e1af7c3d81e0025",
             "extract_dir": "peazip_portable-6.8.0.WINDOWS"
         }
     },
