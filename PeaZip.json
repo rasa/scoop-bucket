@@ -1,0 +1,44 @@
+{
+    "homepage": "http://www.peazip.org/peazip-portable.html",
+    "version": "6.8.0",
+    "license": "freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://osdn.net/frs/redir.php?m=xtom_hk&f=peazip%2F71074%2Fpeazip_portable-6.8.0.WIN64.zip#/dl.7z",
+            "hash": "2e313b953007a474bc431cfd62c94c50d018166ad94e988605b5f6af455b15fb",
+            "extract_dir": "peazip_portable-6.8.0.WIN64"
+        },
+        "32bit": {
+            "url": "https://osdn.net/frs/redir.php?m=xtom_hk&f=peazip%2F71074%2Fpeazip_portable-6.8.0.WINDOWS.zip#/dl.7z",
+            "hash": "120aa4e2ae30006484ac131aa6466daabf65a3b43c0b7b171d7b129a3cf5856b",
+            "extract_dir": "peazip_portable-6.8.0.WINDOWS"
+        }
+    },
+    "bin": "peazip.exe",
+    "shortcuts": [
+        [
+            "peazip.exe",
+            "PeaZip"
+        ]
+    ],
+    "checkver": "Portable ([\\d\\.]+)",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://osdn.net/frs/redir.php?m=xtom_hk&f=peazip%2F71074%2Fpeazip_portable-$version.WIN64.zip#/dl.7z",
+                "extract_dir": "peazip_portable-$version.WIN64"
+            },
+            "32bit": {
+                "url": "https://osdn.net/frs/redir.php?m=xtom_hk&f=peazip%2F71074%2Fpeazip_portable-$version.WINDOWS.zip#/dl.7z",
+                "extract_dir": "peazip_portable-$version.WINDOWS"
+            }
+        }
+    },
+    "persist": [
+        "res\\conf.txt",
+        "res\\conf-lastgood.txt",
+        "res\\bookmarks.txt",
+        "res\\altconf.txt",
+        "res\\custedit.txt"
+    ]
+}
