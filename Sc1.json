@@ -1,0 +1,29 @@
+{
+    "homepage": "https://www.scintilla.org/SciTEDownload.html",
+    "version": "4.1.5",
+    "license": "freeware",
+    "url": "https://www.scintilla.org/Sc415.exe",
+    "hash": "680ad0bbaff561862bce36845fa952da26b27e5ba167e74099350bf1685bb2e4",
+    "installer": {
+        "script": "rename-item \"$dir\\Sc415.exe\" \"$dir\\Sc1.exe\""
+    },
+    "bin": "Sc1.exe",
+    "persist": [
+        "SciTEGlobal.properties",
+        "SciTE.properties",
+        "locale.properties"
+    ],
+    "shortcuts": [
+        [
+            "Sc1.exe",
+            "SciTE1"
+        ]
+    ],
+    "checkver": "Release ([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.scintilla.org/Sc$cleanVersion.exe",
+        "installer": {
+            "script": "rename-item \"$dir\\Sc$cleanVersion.exe\" \"$dir\\Sc1.exe\""
+        }
+    }
+}
