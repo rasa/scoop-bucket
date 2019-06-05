@@ -6,7 +6,11 @@
     "hash": "bfe871cd5131a04692082d57e5016d18f6ffb4bb50199b86578c2eabbac057a9",
     "extract_dir": "wscite",
     "bin": "SciTE.exe",
-    "persist": "",
+    "persist": [
+        "SciTEGlobal.properties",
+        "SciTE.properties",
+        "locale.properties"
+    ],
     "shortcuts": [
         [
             "SciTE.exe",
