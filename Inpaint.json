@@ -1,0 +1,41 @@
+{
+    "homepage": "https://www.theinpaint.com/",
+    "version": "7.2",
+    "license": "shareware",
+    "extract_dir": "",
+    "url": "https://www.theinpaint.com/download/InpaintSetup.exe",
+    "innosetup": true,
+    "hash": "e4668c5d8773aa51451ac05d80f39ad53d92685b56cda538df469f9a7b952ab5",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Rename-Item \"$dir\\Inpaint,1.exe\" \"$dir\\Inpaint.exe\"",
+                    "Remove-Item \"$dir\\Inpaint,2.exe\""
+                ]
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": [
+                    "Rename-Item \"$dir\\Inpaint,2.exe\" \"$dir\\Inpaint.exe\"",
+                    "Remove-Item \"$dir\\Inpaint,1.exe\""
+                ]
+            }
+        }
+    },
+    "bin": "Inpaint.exe",
+    "shortcuts": [
+        [
+            "Inpaint.exe",
+            "Inpaint"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.theinpaint.com/download.html",
+        "re": "Inpaint for Windows[\\w\\W]*?Version ([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.theinpaint.com/download/InpaintSetup.exe"
+    }
+}
