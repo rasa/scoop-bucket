@@ -1,4 +1,4 @@
-ï»¿{
+{
     "homepage":  "http://www.flvcd.com/",
     "version":  "0.4.8.1",
     "license":  "freeware",
@@ -11,7 +11,7 @@
     ],
     "checkver": {
         "url": "http://download.flvcd.com/",
-        "re": "æ­£å¼ç‰ˆ v([\\d\\.]+)"
+        "re": "ÕıÊ½°æ v([\\d\\.]+)"
     },
     "autoupdate": {
         "url":  "http://app.flvcd.com/bigrats_setup_$version.exe#/dl.7z"
