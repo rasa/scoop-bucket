@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/sunzongzheng/music",
+    "version": "1.2.0",
+    "license": "",
+    "url": "https://github.com/sunzongzheng/music/releases/download/v1.2.0/player-1.2.0-win.exe#/dl.7z",
+    "hash": "sha512:c56347f26a686d72f7b52ec51eef202b1c2d0e082f9704e73901358b7476df36aefb68e8481552e929bd3996fb7e1081979228e6513323a6eac271e060a59e09",
+    "extract_dir": "\\$PLUGINSDIR",
+    "installer": {
+        "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
+    },
+    "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\nsDialogs.dll\",\"$dir\\UAC.dll\",\"$dir\\WinShell.dll\",\"$dir\\modern-wizard.bmp\"",
+    "bin": "MusicLake.exe",
+    "shortcuts": [
+        [
+            "MusicLake.exe",
+            "MusicLake"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/sunzongzheng/music/releases/download/v$version/player-$version-win.exe#/dl.7z",
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "find": "sha512:\\s+(.*)"
+        }
+    }
+}
