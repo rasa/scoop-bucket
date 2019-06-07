@@ -15,6 +15,27 @@
     },
     "extract_dir": "Double Commander",
     "bin": "doublecmd.exe",
+    "persist": [
+        "doublecmd.xml",
+        "session.ini",
+        "doublecmd.ext",
+        "extassoc.xml",
+        "highlighters.xml",
+        "default.bar",
+        "ignorelist.txt",
+        "shortcuts.scf",
+        "history.xml",
+        "cmdhistory.txt",
+        "dirhistory.txt",
+        "maskhistory.txt",
+        "searchhistory.txt",
+        "replacehistory.txt",
+        "pwd.ini",
+        "wcx.ini",
+        "multiarc.ini",
+        "zip.ini",
+        "sevenzip.ini"
+    ],
     "shortcuts": [
         [
             "doublecmd.exe",
