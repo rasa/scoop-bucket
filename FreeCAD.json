@@ -1,0 +1,43 @@
+{
+    "homepage":  "https://www.freecadweb.org/",
+    "version":  "0.18.0",
+    "license":  "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url":  "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.1/FreeCAD-0.18.16110.f7dccfa-WIN-x64-portable.7z",
+            "hash":"f8d5e069931fd7ef7ee55287409ef9a2a5af0ff54b09177e1ab0a71e5c30f5f5"
+        },
+        "32bit": {
+            "url":  "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.1/FreeCAD-0.18.16110.f7dccfa-WIN-x32-portable.7z",
+            "hash":""
+        }
+    },
+    "bin":  "bin\\FreeCAD.exe",
+    "shortcuts": [
+        [
+            "bin\\FreeCAD.exe",
+            "FreeCAD"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/FreeCAD/FreeCAD"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url":  "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchShort.16110.f7dccfa-WIN-x64-portable.7z",
+                "hash": {
+                    "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchShort.16110.f7dccfa-WIN-x64-portable-SHA256.txt",
+                    "find": "(([a-f0-9][a-f0-9] ){40}[a-f0-9][a-f0-9])"
+                }
+            },
+            "32bit": {
+                "url":  "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchShort.16110.f7dccfa-WIN-x32-portable.7z",
+                "hash": {
+                    "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchShort.16110.f7dccfa-WIN-x32-portable-SHA256.txt",
+                    "find": "(([a-f0-9][a-f0-9] ){40}[a-f0-9][a-f0-9])"
+                }
+            }
+        }
+    }
+}
