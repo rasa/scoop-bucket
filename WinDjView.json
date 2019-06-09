@@ -1,26 +1,16 @@
 {
-    "homepage": "http://windjview.sourceforge.net/",
+    "homepage": "https://windjview.sourceforge.io/",
     "version": "2.1",
-    "license": "",
-    "extract_dir": "",
-    "url": "https://sourceforge.net/projects/windjview/files/WinDjView/2.1/WinDjView-2.1-Setup.exe#/dl.7z",
+    "license": "GPL-2.0-or-later",
+    "url": "https://downloads.sourceforge.net/project/windjview/WinDjView/2.1/WinDjView-2.1-Setup.exe#/dl.7z",
     "hash": "sha1:bbf32f86dc8db03a73c1331a04d73b41bc80c52b",
-    "bin": "WinDjView.exe",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse",
-    "shortcuts": [
-        [
-            "WinDjView.exe",
-            "WinDjView"
-        ]
-    ],
+    "bin": "WinDjView.exe",
     "checkver": {
         "url": "https://sourceforge.net/projects/windjview/rss?path=/WinDjView",
-        "re": "WinDjView\\-([\\d\\.]+)\\-Setup\\.exe"
+        "re": "WinDjView\\/([\\d\\.]+)/WinDjView-[\\d\\.]+-Setup\\.exe"
     },
     "autoupdate": {
-        "url": "https://sourceforge.net/projects/windjview/files/WinDjView/2.1/WinDjView-2.1-Setup.exe#/dl.7z",
-        "hash": {
-            "mode": "sourceforge"
-        }
+        "url": "https://downloads.sourceforge.net/project/windjview/WinDjView/$version/WinDjView-$version-Setup.exe#/dl.7z"
     }
 }
