@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.scintilla.org/SciTEDownload.html",
-    "version": "4.1.5",
+    "version": "4.1.6",
     "license": "freeware",
-    "url": "https://www.scintilla.org/Sc415.exe",
-    "hash": "680ad0bbaff561862bce36845fa952da26b27e5ba167e74099350bf1685bb2e4",
+    "url": "https://www.scintilla.org/Sc416.exe",
+    "hash": "1b4083cd726cf3e2f7e51b757f533c45268a195c5a7663350a9796a0c2ff277a",
     "installer": {
         "script": "rename-item \"$dir\\Sc415.exe\" \"$dir\\Sc1.exe\""
     },
