@@ -3,7 +3,7 @@
     "url": "http://www.musetips.com/downloads/TextFilter_Portable.zip",
     "version": "1.7",
     "license": "freeware",
-    "hash": "F91D36E115364BCE412AE2EF439072B90D3001DEB1570017BB1E977D1C2D6F6E",
+    "hash": "5979e94b1b00f46fbc29100f50ff2618cb83f636924ed85ece7b08e9cf3383e9",
     "bin": "TextFilter.exe",
     "persist": "Settings.xml",
     "shortcuts": [
@@ -14,5 +14,8 @@
     ],
     "checkver": {
         "re": "<td>([\\d.]+)</td>"
+    },
+    "autoupdate": {
+        "url": "http://www.musetips.com/downloads/TextFilter_Portable.zip"
     }
 }
