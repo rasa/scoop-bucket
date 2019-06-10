@@ -1,16 +1,16 @@
 {
     "homepage": "http://www.diskgenius.cn/",
-    "version": "5.1.1",
+    "version": "5.1.1.696",
     "license": "freeware",
     "extract_dir": "DiskGenius",
     "architecture": {
         "64bit": {
             "url": "http://download.eassos.cn/DG511696_x64.zip",
-            "hash": "41DFB96677D9F8CD5E4E7EAC848FC7FDD38A4C852B5481921B5ABC2DE9BCF484"
+            "hash": "41dfb96677d9f8cd5e4e7eac848fc7fdd38a4c852b5481921b5abc2de9bcf484"
         },
         "32bit": {
-            "url": "http://download.eassos.cn/DG$cleanVersion_x86.zip",
-            "hash": "37F4379B5D525256EF9D53333703A7742AA7C3BD22779D61F2DE902903DD9DF2"
+            "url": "http://download.eassos.cn/DG511696_x86.zip",
+            "hash": "37f4379b5d525256ef9d53333703a7742aa7c3bd22779d61f2de902903dd9df2"
         }
     },
     "persist": "Options.ini",
@@ -23,6 +23,16 @@
     ],
     "checkver": {
         "url": "http://www.diskgenius.cn/download.php",
-        "re": "最新版本：([\\d.]+)"
+        "re": "<h4>\\[V([\\d\\.]+)\\]"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://download.eassos.cn/DG$cleanVersion_x64.zip"
+            },
+            "32bit": {
+                "url": "http://download.eassos.cn/DG$cleanVersion_x86.zip"
+            }
+        }
     }
 }
