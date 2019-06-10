@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://gottcode.org/focuswriter/FocusWriter_1.7.2.zip",
-            "hash": "D93F0665F9242114B97D1AB30F072AB84071097F2890F20E0B51AD7C804C03FA"
+            "hash": "d93f0665f9242114b97d1ab30f072ab84071097f2890f20e0b51ad7c804c03fa"
         }
     },
     "persist": "Data",
@@ -20,5 +20,12 @@
     "checkver": {
         "url": "https://gottcode.org/feed.atom",
         "re": "FocusWriter ([\\d.]+) released"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gottcode.org/focuswriter/FocusWriter_$version.zip"
+            }
+        }
     }
 }
