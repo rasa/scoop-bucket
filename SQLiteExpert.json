@@ -1,38 +1,52 @@
 {
-    "homepage": "https://www.sqliteexpert.com/",
-    "version": "5.3.4.435",
+    "homepage": "http://www.sqliteexpert.com/",
+    "version": "5.3.3",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup64.exe",
-            "hash": "md5:9CE1A8BAA36E6A216FCC8707FCF28D36",
+            "hash": "md5:bdad172d22e45e864fa3ac27d00c2b55",
             "bin": "SQLiteExpertPers64.exe",
             "shortcuts": [
                 [
                     "SQLiteExpertPers64.exe",
                     "SQLite Expert Personal"
                 ]
-            ],
-            "autoupdate": {
-                "url": "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup64.exe",
-                "hash": "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup64.md5"
-            }
+            ]
         },
         "32bit": {
             "url": "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup32.exe",
-            "hash": "md5:2D901FE403147566C18E0106148178F8",
-            "bin": "SQLiteExpertPers.exe",
+            "hash": "md5:fee2275b2a487099b13185a183481166",
+            "bin": "SQLiteExpertPers32.exe",
             "shortcuts": [
                 [
-                    "SQLiteExpertPers.exe",
+                    "SQLiteExpertPers32.exe",
                     "SQLite Expert Personal"
                 ]
-            ],
-            "autoupdate": {
-                "url": "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup32.exe",
-                "hash": "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup32.md5"
-            }
+            ]
         }
     },
-    "innosetup": true
+    "innosetup": true,
+    "checkver": {
+        "url": "http://www.sqliteexpert.com/download.html",
+        "re": "SQLite Expert Personal[\\w\\W]*?Version[\\w\\W]*?([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://www.sqliteexpert.com/v$majorVersion/SQLiteExpertPersSetup64.exe",
+                "hash": {
+                    "url": "http://www.sqliteexpert.com/v$majorVersion/SQLiteExpertPersSetup64.md5",
+                    "find": "($md5)\\s+SQLiteExpertPersSetup64.exe"
+                }
+            },
+            "32bit": {
+                "url": "http://www.sqliteexpert.com/v$majorVersion/SQLiteExpertPersSetup32.exe",
+                "hash": {
+                    "url": "http://www.sqliteexpert.com/v$majorVersion/SQLiteExpertPersSetup32.md5",
+                    "find": "($md5)\\s+SQLiteExpertPersSetup32.exe"
+                }
+            }
+        }
+    }
 }
