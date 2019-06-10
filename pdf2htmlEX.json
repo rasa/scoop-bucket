@@ -3,9 +3,12 @@
     "version": "0.14.6",
     "license": "GPL-3.0",
     "url": "http://soft.rubypdf.com/download/pdf2htmlex/pdf2htmlEX-win32-0.14.6-with-poppler-data.zip",
-    "hash": "E92AA55699C3E9D9B4B4954BEA157E59B5C3363CBE9A7713495C553544026354",
+    "hash": "e92aa55699c3e9d9b4b4954bea157e59b5c3363cbe9a7713495c553544026354",
     "bin": "pdf2htmlEX.exe",
     "checkver": {
         "github": "http://github.com/coolwanglu/pdf2htmlEX"
+    },
+    "autoupdate": {
+        "url": "http://soft.rubypdf.com/download/pdf2htmlex/pdf2htmlEX-win32-$version-with-poppler-data.zip"
     }
 }
