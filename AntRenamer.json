@@ -3,7 +3,9 @@
     "version": "2.12.0",
     "license": "Freeware",
     "url": "http://update.antp.be/renamer/antrenamer2.zip",
-    "hash": "1FFDA970C81FE83C9A481BAE1F9F7C39FDDD91E46BCC48841E8172E729248086",
+    "hash": "1ffda970c81fe83c9a481bae1f9f7c39fddd91e46bcc48841e8172e729248086",
+    "bin": "Renamer.exe",
+    "persist": "Renamer.xml",
     "shortcuts": [
         [
             "Renamer.exe",
@@ -14,5 +16,7 @@
         "url": "http://www.antp.be/software/renamer/download",
         "re": "Version ([\\d\\.]+) - Complete package without installation"
     },
-    "persist": "Renamer.xml"
+    "autoupdate": {
+        "url": "http://update.antp.be/renamer/antrenamer$majorVersion.zip"
+    }
 }
