@@ -4,7 +4,7 @@
     "version": "5.4",
     "license": "freeware",
     "url": "https://www.colorpilot.com/load/exif.exe",
-    "hash": "BAA63209400F60036EC80C327E509064280C830B988E4CD024B3059808E0BF14",
+    "hash": "baa63209400f60036ec80c327e509064280c830b988e4cd024b3059808e0bf14",
     "innosetup": true,
     "persist": "ExifPilot.tags",
     "bin": "ExifPilot.exe",
@@ -17,5 +17,8 @@
     "checkver": {
         "url": "https://www.colorpilot.com/exif.html",
         "re": ":: Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.colorpilot.com/load/exif.exe"
     }
 }
