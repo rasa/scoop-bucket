@@ -2,36 +2,34 @@
     "homepage": "http://www.bulkrenameutility.co.uk/",
     "version": "3.0.0.1",
     "url": "https://www.bulkrenameutility.co.uk/Downloads/BRU_NoInstall.zip",
-    "hash": "F95CB2B4E5BD144F559F28C84C07B52070B7496430E1A8806C7F5CB17D19BACF",
-    "persist": "Bulk Rename Utility.ini",
+    "hash": "5a937012376f5533433c4b054e6f5c00d1f83b839c7a17f4f2ff6b5bc9a5cbc3",
     "architecture": {
         "64bit": {
             "extract_dir": [
                 "64-bit",
                 "All"
             ],
-            "shortcuts": [
-                [
-                    "Bulk Rename Utility.exe",
-                    "Bulk Rename Utility"
-                ]
-            ]
         },
         "32bit": {
             "extract_dir": [
                 "32-bit",
                 "All"
             ],
-            "shortcuts": [
-                [
-                    "Bulk Rename Utility.exe",
-                    "Bulk Rename Utility"
-                ]
-            ]
         }
     },
+    "bin": "Bulk Rename Utility.exe",
+    "persist": "Bulk Rename Utility.ini",
+    "shortcuts": [
+        [
+            "Bulk Rename Utility.exe",
+            "Bulk Rename Utility"
+        ]
+    ],
     "checkver": {
         "url": "https://www.bulkrenameutility.co.uk/Download.php",
         "re": "version\\s*<b>([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.bulkrenameutility.co.uk/Downloads/BRU_NoInstall.zip"
     }
 }
