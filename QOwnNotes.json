@@ -1,6 +1,6 @@
 {
     "homepage":  "https://www.qownnotes.org/",
-    "version":  "19.4.5build4259",
+    "version":  "4259",
     "license":  "GPL-2.0-only",
     "url":  "https://github.com/pbek/QOwnNotes/releases/download/windows-b4259/QOwnNotes.zip",
     "hash":  "d74bba33593f025624431890c3ffaec262d8fb97461948f9f9323681aac389ce",
@@ -10,5 +10,12 @@
             "QOwnNotes.exe",
             "QOwnNotes"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://github.com/pbek/QOwnNotes/releases",
+        "re": "windows-b(\\d+)"
+    },
+    "autoupdates": {
+        "url":  "https://github.com/pbek/QOwnNotes/releases/download/$version/QOwnNotes.zip"
+	}
 }
