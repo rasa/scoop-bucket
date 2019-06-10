@@ -7,5 +7,12 @@
     "persist":"es.ini",
     "bin": [
 		"es.exe"
-	]
+	],
+    "checkver": {
+        "url": "https://www.voidtools.com/downloads/",
+        "re": "ES-([\\d\\.]+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://www.voidtools.com/es.zip"
+    }
 }
