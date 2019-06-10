@@ -3,7 +3,14 @@
     "version": "1.0.6",
     "license": "Freeware",
     "url": "http://www.dcmembers.com/skwire/wp-content/uploads/sites/5/apps/trout/trout_portable.zip",
-    "hash": "2A3812CC21F02F388ED501074AE9E7EC86351F74137D2315DF1D56A0AD4E9061",
+    "hash": "2a3812cc21f02f388ed501074ae9e7ec86351f74137d2315df1d56a0ad4e9061",
+    "bin": "Trout.exe",
+    "persist": [
+        "config.ini",
+        "list.tpl",
+        "dcuniversaloneLicenseKey.dat",
+        "database"
+    ],
     "shortcuts": [
         [
             "Trout.exe",
@@ -14,10 +21,7 @@
         "url": "http://www.dcmembers.com/skwire/download/trout/",
         "re": "Version:</strong>\\s*([\\d.]+)\\s*build"
     },
-    "persist": [
-        "config.ini",
-        "list.tpl",
-        "dcuniversaloneLicenseKey.dat",
-        "database"
-    ]
+    "autoupdate": {
+        "url": "http://www.dcmembers.com/skwire/wp-content/uploads/sites/5/apps/trout/trout_portable.zip"
+    }
 }
