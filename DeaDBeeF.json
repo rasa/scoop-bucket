@@ -16,10 +16,9 @@
     ],
     "checkver": {
         "url": "https://github.com/DeaDBeeF-for-Windows/deadbeef/releases/latest",
-        "re": "\\/DeaDBeeF-for-Windows\\/deadbeef\\/releases\\/tag\\/([\\d\\.]+)-windows\"\\>DeaDBeeF for Windows (\\d{4}-\\d{2}-\\d{2})",
-        "replace": "${1}-${2}"
+        "re": "\\/DeaDBeeF-for-Windows\\/deadbeef\\/releases\\/tag\\/([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/DeaDBeeF-for-Windows/deadbeef/releases/download/$matchHead-windows/deadbeef-x86_64$matchTail.zip"
+        "url": "https://github.com/DeaDBeeF-for-Windows/deadbeef/releases/download/$version/deadbeef-x86_64-$version.zip"
     }
 }
