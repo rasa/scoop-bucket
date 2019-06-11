@@ -1,7 +1,7 @@
 {
     "homepage": "https://regshot.sourceforge.io/",
     "version": "1.9.1-beta_r321",
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-only",
     "url": "https://downloads.sourceforge.net/project/regshot/files/regshot/1.9.1-beta/Regshot-1.9.1-beta_r321.7z",
     "hash": "sha1:f01136a342916987299caae254e8d56f79973791",
     "architecture": {

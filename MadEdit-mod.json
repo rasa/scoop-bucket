@@ -1,7 +1,7 @@
 {
     "homepage": "http://sourceforge.net/projects/madedit-mod/",
     "version": "0.4.16",
-    "license": "GPL-3.0",
+    "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": "https://downloads.sourceforge.net/projects/madedit-mod/0.4.16/MadEdit-Mod0.4.16_X64.7z",

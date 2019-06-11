@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/NaoTu/DesktopNaotu",
     "version": "3.2.3",
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
             "url": "https://github.com/NaoTu/DesktopNaotu/releases/download/v3.2.3/DesktopNaotu-win32-x64.zip",

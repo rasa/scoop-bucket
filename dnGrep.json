@@ -2,7 +2,7 @@
     "homepage": "http://dngrep.github.io/",
     "description": "Graphical GREP tool for Windows",
     "version": "2.9.140.0",
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
             "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.9.140.0/dnGREP.2.9.140.x64.msi",

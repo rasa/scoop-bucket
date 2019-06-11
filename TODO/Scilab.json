@@ -1,7 +1,7 @@
 {
     "homepage":  "https://www.scilab.org/",
     "version":  "6.0.1",
-    "license":  "GPL-2.0",
+    "license":  "GPL-2.0-only",
     "architecture":{
         "64bit":{
             "url":  "https://www.scilab.org/download/6.0.2/scilab-6.0.2_x64.exe#/dl.7z",
