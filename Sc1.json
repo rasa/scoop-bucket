@@ -4,9 +4,7 @@
     "license": "freeware",
     "url": "https://www.scintilla.org/Sc416.exe",
     "hash": "1b4083cd726cf3e2f7e51b757f533c45268a195c5a7663350a9796a0c2ff277a",
-    "installer": {
-        "script": "rename-item \"$dir\\Sc415.exe\" \"$dir\\Sc1.exe\""
-    },
+    "pre_install": "rename-item \"$dir\\Sc416.exe\" \"$dir\\Sc1.exe\"",
     "bin": "Sc1.exe",
     "persist": [
         "SciTEGlobal.properties",
@@ -22,8 +20,6 @@
     "checkver": "Release ([\\d.]+)",
     "autoupdate": {
         "url": "https://www.scintilla.org/Sc$cleanVersion.exe",
-        "installer": {
-            "script": "rename-item \"$dir\\Sc$cleanVersion.exe\" \"$dir\\Sc1.exe\""
-        }
+        "pre_install": "rename-item \"$dir\\Sc$cleanVersion.exe\" \"$dir\\Sc1.exe\""
     }
 }
