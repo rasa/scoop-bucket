@@ -8,13 +8,13 @@
             "extract_dir": [
                 "64-bit",
                 "All"
-            ],
+            ]
         },
         "32bit": {
             "extract_dir": [
                 "32-bit",
                 "All"
-            ],
+            ]
         }
     },
     "bin": "Bulk Rename Utility.exe",
