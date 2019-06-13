@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.scintilla.org/SciTEDownload.html",
-    "version": "4.1.6",
+    "version": "4.1.7",
     "license": "freeware",
-    "url": "https://www.scintilla.org/wscite416.zip",
-    "hash": "2893e14d59f2bfd7c05fbf9da4d5d2e8f98d0a0a6c78f2f7551f9b78a825ebe8",
+    "url": "https://www.scintilla.org/wscite417.zip",
+    "hash": "ebfb689310cd919fb1d5bca0aed481eba1c3f160e17f00c3ff751721b78520a6",
     "extract_dir": "wscite",
     "bin": "SciTE.exe",
     "persist": [
