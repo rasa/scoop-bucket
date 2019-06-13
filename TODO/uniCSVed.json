@@ -1,0 +1,21 @@
+{
+    "homepage": "https://csved.sjfrancke.nl/",
+    "version": "1.1",
+    "license": "freeware",
+    "extract_dir": "",
+    "url": "http://home.hccnet.nl/s.j.francke/csved/unicsvedsetup.exe",
+    "hash": "ccb01add9ac7e9399e920aa6b563d74811f523d2fe20fc7ea7115de700730969",
+    "innosetup": true,
+    "bin": "uniCSVed.exe",
+    "persist": "uniCSVed.ini",
+    "shortcuts": [
+        [
+            "uniCSVed.exe",
+            "CSVed Unicode"
+        ]
+    ],
+    "checkver": "uniCSVed ([\\d\\.]+)",
+    "autoupdate": {
+        "url": "http://home.hccnet.nl/s.j.francke/csved/unicsvedsetup.exe"
+    }
+}
