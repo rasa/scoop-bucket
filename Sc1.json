@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.scintilla.org/SciTEDownload.html",
-    "version": "4.1.6",
+    "version": "4.1.7",
     "license": "freeware",
-    "url": "https://www.scintilla.org/Sc416.exe",
-    "hash": "1b4083cd726cf3e2f7e51b757f533c45268a195c5a7663350a9796a0c2ff277a",
+    "url": "https://www.scintilla.org/Sc417.exe",
+    "hash": "4f0c9a238ed4ff28f4574a4ac085fcabb85752781f9a08a78f933f429e0a78f1",
     "pre_install": "rename-item \"$dir\\Sc416.exe\" \"$dir\\Sc1.exe\"",
     "bin": "Sc1.exe",
     "persist": [
