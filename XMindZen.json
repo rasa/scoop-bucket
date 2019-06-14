@@ -1,20 +1,20 @@
 {
     "homepage": "https://www.xmind.net/zen/",
-    "version": "9.2.0",
+    "version": "9.2.1",
     "license": "shareware",
     "extract_dir": "\\$PLUGINSDIR",
     "architecture": {
         "64bit": {
-            "url": "https://dl2.xmind.cn/XMind-ZEN-Update-2019-for-Windows-64bit-9.2.0-201904271935.exe#/dl.7z",
-            "hash": "ffed5bca6fc0c3b88f38f0d0a6d766b86ec69ac7f8018198df77963f0f5b4583",
+            "url": "https://dl2.xmind.cn/XMind-ZEN-Update-2019-for-Windows-64bit-9.2.1-201906120058.exe#/dl.7z",
+            "hash": "f54ff2332bd22ff504bfb5818c121ed475d3ff92960027eca86e0c4e05ecc40d",
             "installer": {
                 "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
             },
             "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\WinShell.dll\",\"$dir\\SpiderBanner.dll\""
         },
         "32bit": {
-            "url": "https://dl2.xmind.cn/XMind-ZEN-Update-2019-for-Windows-32bit-9.2.0-201904271926.exe#/dl.7z",
-            "hash": "82d5d9804a25f16c83a0656d826f5f1bd0b62479b65e495cfc8e9af95b861bd3",
+            "url": "https://dl2.xmind.cn/XMind-ZEN-Update-2019-for-Windows-32bit-9.2.1-201906121931.exe#/dl.7z",
+            "hash": "486f29cfbdf38ef1b7f4f4a63088e361eab7231b0a02660b8e28ff66d104df9e",
             "installer": {
                 "script": "Expand-7ZipArchive \"$dir\\app-32.7z\" \"$dir\""
             },
