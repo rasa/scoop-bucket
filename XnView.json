@@ -4,7 +4,7 @@
     "license": "freeware",
     "extract_dir": "XnView",
     "url": "https://download.xnview.com/XnView-win.zip",
-    "hash": "82E9B132CD47A2259D0137329B9E65D7AB9A835BDD86A58247A92C8915FCA7A6",
+    "hash": "55b3027d1bb0b9e281d64201608c4988b7d4d397bae6ead3569e79f67af317a0",
     "bin": "xnview.exe",
     "shortcuts": [
         [
