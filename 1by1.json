@@ -1,0 +1,23 @@
+{
+    "homepage": "http://mpesch3.de1.cc/1by1.html",
+    "version": "1.93",
+    "license": "freeware",
+    "url": "https://www.fosshub.com/1by1.html?dwl=1by1_193.exe",
+    "hash": "0c6b060982f20218bf2a7ecec0afbdb8429679efa46d7f5ca80a3dbc9e1ee1a2",
+    "installer": {
+        "script": "Expand-7ZipArchive \"$dir\\1by1.html\" \"$dir\""
+    },
+    "post-install": "Remove-Item \"$dir\\1by1.html\" -Force",
+    "bin": "1by1.exe",
+    "persist": "1by1.ini",
+    "shortcuts": [
+        [
+            "1by1.exe",
+            "1by1"
+        ]
+    ],
+    "checkver": "Version ([\\d\\.]+) ",
+    "autoupdate": {
+        "url": "https://www.fosshub.com/1by1.html?dwl=1by1_$cleanVersion.exe"
+    }
+}
