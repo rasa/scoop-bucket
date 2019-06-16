@@ -1,13 +1,12 @@
 {
-    "homepage":  "https://celestia.space/",
-    "version":  "1.6.1",
-    "license":  "GPL-2.0-only",
-    "extract_dir":  "",
-    "url":  "https://celestia.space/files/celestia/1.6.1/celestia-win32-1.6.1.exe",
-    "hash":  "",
+    "homepage": "https://celestia.space/",
+    "version": "1.6.1",
+    "license": "GPL-2.0-only",
+    "url": "https://celestia.space/files/celestia/1.6.1/celestia-win32-1.6.1.exe",
+    "hash": "e7b9945e6aca5f5696d3c3be030963faef4c4991cd184222c7a4afbd72b5fd26",
     "innoextract": true,
-    "bin":  "celestia.exe",
-    "shortcuts":  [
+    "bin": "celestia.exe",
+    "shortcuts": [
         [
             "celestia.exe",
             "Celestia"
@@ -18,6 +17,6 @@
         "re": "Celestia ([\\d\\.]+) \\(x86"
     },
     "autoupdate": {
-        "url":  "https://celestia.space/files/celestia/$version/celestia-win32-$version.exe"
+        "url": "https://celestia.space/files/celestia/$version/celestia-win32-$version.exe"
     }
 }
