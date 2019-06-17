@@ -1,0 +1,16 @@
+﻿{
+    "homepage":  "https://www.thebrain.com/",
+    "version":  "10.0.50.0",
+    "license":  "freeware",
+    "url":  "http://updater.thebrain.com/files/TheBrain%2010.0.50.0%20Installer.exe",
+    "hash":  "01a997823bbf41a5b277e8ab65131aa0b9fe95cce7ae4299711a678194d94c5e",
+    "innosetup": true,
+    "bin":  "TheBrain.exe",
+    "shortcuts":  [
+        [
+            "TheBrain.exe",
+            "TheBrain"
+        ]
+    ],
+    "url":  "http://updater.thebrain.com/files/TheBrain%2010.0.50.0%20Installer.exe"
+}
