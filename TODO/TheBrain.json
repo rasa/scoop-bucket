@@ -2,9 +2,11 @@
     "homepage":  "https://www.thebrain.com/",
     "version":  "10.0.50.0",
     "license":  "freeware",
-    "url":  "http://updater.thebrain.com/files/TheBrain%2010.0.50.0%20Installer.exe",
+    "url":  "http://updater.thebrain.com/files/TheBrain%2010.0.50.0%20Installer.exe#/dl.7z",
     "hash":  "01a997823bbf41a5b277e8ab65131aa0b9fe95cce7ae4299711a678194d94c5e",
-    "innosetup": true,
+    "installer": {
+        "script": "Expand-7ZipArchive \"$dir\\dl.7z\" \"$dir\""
+    },
     "bin":  "TheBrain.exe",
     "shortcuts":  [
         [
@@ -12,5 +14,7 @@
             "TheBrain"
         ]
     ],
-    "url":  "http://updater.thebrain.com/files/TheBrain%2010.0.50.0%20Installer.exe"
+    "autoupdate": {
+        "url":  "http://updater.thebrain.com/files/TheBrain%20$version%20Installer.exe#/dl.7z"
+    }
 }
