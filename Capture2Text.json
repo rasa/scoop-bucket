@@ -4,11 +4,11 @@
     "architecture": {
         "64bit": {
             "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v4.6.0/Capture2Text_v4.6.0_64bit.zip",
-            "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+            "hash": "sha1:1f66eca9aba562b25c4d7a068de42cc7d9cbf2df"
         },
         "32bit": {
             "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v4.6.0/Capture2Text_v4.6.0_32bit.zip",
-            "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+            "hash": "sha1:20bcfac8a234a968c7049a908bec86b04d1f596c"
         }
     },
     "extract_dir": "Capture2Text",
@@ -23,16 +23,18 @@
         "re": "Capture2Text_v([\\d\\.]+)"
     },
     "autoupdate": {
-        "64bit": {
-            "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_64bit.zip",
-            "hash": {
-                "mode": "sourceforge"
-            }
-        },
-        "32bit": {
-            "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_32bit.zip",
-            "hash": {
-                "mode": "sourceforge"
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_64bit.zip",
+                "hash": {
+                    "mode": "sourceforge"
+                }
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_32bit.zip",
+                "hash": {
+                    "mode": "sourceforge"
+                }
             }
         }
     }
