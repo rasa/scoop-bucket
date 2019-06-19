@@ -1,0 +1,40 @@
+{
+    "homepage": "https://graviton.ml/",
+    "version": "1.0.1",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Graviton-Code-Editor/Graviton-App/releases/download/1.0.1/Graviton.Setup.1.0.1.64-bits.exe#/dl.7z",
+            "hash": "ab4c1b70338c994a694b5bd5cabf6d0e5810fd11ad770409825cf97f817e01fe"
+        },
+        "32bit": {
+            "url": "https://github.com/Graviton-Code-Editor/Graviton-App/releases/download/1.0.1/Graviton.Setup.1.0.1.32-bits.exe#/dl.7z",
+            "hash": "916f67495348529cea799453bb1fda73d8c8927d5f8bca93f30b06eab4e26cb6"
+        }
+    },
+    "extract_dir": "\\$PLUGINSDIR",
+    "installer": {
+        "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
+    },
+    "bin": "Graviton.exe",
+    "shortcuts": [
+        [
+            "Graviton.exe",
+            "Graviton"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\nsExec.dll\",\"$dir\\SpiderBanner.dll\",\"$dir\\WinShell.dll\"",
+    "checkver": {
+        "github": "https://github.com/Graviton-Code-Editor/Graviton-App"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Graviton-Code-Editor/Graviton-App/releases/download/1.0.1/Graviton.Setup.$version.64-bits.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/Graviton-Code-Editor/Graviton-App/releases/download/1.0.1/Graviton.Setup.$version.32-bits.exe#/dl.7z"
+            }
+        }
+    }
+}
