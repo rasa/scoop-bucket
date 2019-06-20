@@ -6,7 +6,7 @@
         "url": "https://www.tcbmi.com/strokeit/docs/license.txt"
     },
     "url": [
-        "http://download.tcbmi.com/ZTP4LI5/strokeit/StrokeIt_0.9.7-Home-English.exe#/dl.7z",
+        "http://download.tcbmi.com/ZTP62T6/strokeit/StrokeIt_0.9.7-Home-English.exe#/dl.7z",
         "http://download.tcbmi.com/strokeit/strings/StrokeIt_Bulgarian.exe#/bu.7z",
         "http://download.tcbmi.com/strokeit/strings/StrokeIt_Chinese-GBK.exe#/gbk.7z",
         "http://download.tcbmi.com/strokeit/strings/StrokeIt_Czech.exe#/cz.7z",
@@ -21,22 +21,7 @@
         "http://download.tcbmi.com/strokeit/strings/StrokeIt_Polish.exe#/po.7z",
         "http://download.tcbmi.com/strokeit/strings/StrokeIt_Russian.exe#/ru.7z"
     ],
-    "hash": [
-        "85cff616b00c15129a2ef299acd24e0de6abfeb4c3bc8aaabce93dcd5712e92c",
-        "fa96a4d5ef6bbc32938f97a4e628110e19061e884eaeb15bc63b34e5f6301242",
-        "740a1b2b0f4ba65f9eccb1d11c7bc244d5b5b2a576816f9d7ff1659e438fb2d5",
-        "996b83277fc0b4a2aa1aa13faa48ca4dc32b1cceeab3ff443adcb64bf62fec5a",
-        "bb2241ca5d216e681671ac3369683284fe6a005d13be3bb6beb2468999fdbb24",
-        "6fe10156c4ce5096b2d4c2e24c3c9c132c7211a04c914c60de9760c1e4ced7ac",
-        "bbc29aaf3cdae75346eb235470c3165918c81a3757633cabd3da110275e75e24",
-        "7767466996fe1a8bf501f476f291ecf48b937e33a5234dbdd8650546754d2731",
-        "9ba1652f07b0e383ebef0cb67e3e4540daafe718a63dfb193608bfa18f68cf62",
-        "f5f896e7489a4b597d50402e1d2a321f48a1f3d93e943e87409ed29de7caeedc",
-        "bfeffc4c94e0e83aa8b2bfa4c1ca5d63917cb93bc49e3b8bffd7bcaf2c6b1f4d",
-        "bf4f43500f77abf3150da7d71cb139d2aede384a8a7b2e06eef4f087384d4149",
-        "2252e4ec6e1cf88ade5bb53676bf10a6773721e9008c52e0239e788e6285db01",
-        "51d67d7575fb680975a6c18addd779692c72792e81900c38653f44563c247e41"
-    ],
+    "hash": "85cff616b00c15129a2ef299acd24e0de6abfeb4c3bc8aaabce93dcd5712e92c",
     "bin": "strokeit.exe",
     "persist": [
         "Actions",
