@@ -9,14 +9,18 @@
     "architecture": {
         "64bit": {
             "post_install": [
-                "ren \"$dir\\TeraCopyService,1.exe\" \"TeraCopyService.exe\"",
-                "ren \"$dir\\TeraCopyExt,1.dll\" \"TeraCopyExt.dll\""
+                "Rename-Item \"$dir\\TeraCopyService,1.exe\" \"TeraCopyService.exe\"",
+                "Rename-Item \"$dir\\TeraCopyExt,1.dll\" \"TeraCopyExt.dll\"",
+                "Remove-Item \"$dir\\TeraCopyExt,2.dll\"",
+                "Remove-Item \"$dir\\TeraCopyService,2.exe\""
             ]
         },
         "32bit": {
             "post_install": [
-                "ren \"$dir\\TeraCopyService,3.exe\" \"TeraCopyService.exe\"",
-                "ren \"$dir\\TeraCopyExt,3.dll\" \"TeraCopyExt.dll\""
+                "Rename-Item \"$dir\\TeraCopyService,2.exe\" \"TeraCopyService.exe\"",
+                "Rename-Item \"$dir\\TeraCopyExt,2.dll\" \"TeraCopyExt.dll\"",
+                "Remove-Item \"$dir\\TeraCopyExt,1.dll\"",
+                "Remove-Item \"$dir\\TeraCopyService,1.exe\""
             ]
         }
     },
