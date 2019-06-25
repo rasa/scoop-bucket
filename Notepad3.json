@@ -4,6 +4,7 @@
     "version": "5.19.108.1602",
     "bin": "Notepad3.exe",
     "url": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_5.19.108.1602/Notepad3_5.19.108.1602.zip",
+    "hash": "df952cbb4f19888732b75dee04c81527ec9a3abdf9e079f12efff1b223afec74",
     "architecture": {
         "64bit": {
             "installer": {
