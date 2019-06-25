@@ -1,8 +1,9 @@
 {
     "homepage": "https://github.com/x1y9/justmd/",
     "license": "MIT",
-    "version": "1.1.1",
+    "version": "1.1.0",
     "url": "https://github.com/x1y9/justmd/releases/download/v1.1.1/justmd-win32-x64-v1.1.1.7z",
+    "hash": "",
     "extract_dir": "justmd-win32-x64-v1.1.1",
     "shortcuts": [
         [
