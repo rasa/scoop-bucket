@@ -1,6 +1,6 @@
 {
     "homepage": "http://www.debugmode.com/wink/",
-    "version": "2.0-1060",
+    "version": "2.0",
     "license": "freeware",
     "url": "http://files.snapfiles.com/directdl/wink20-1060.zip",
     "hash": "d92e2a17288df1183b9b3d478bbe574df8eba2d3b20f5f7bb074f91440974a32",
@@ -24,6 +24,6 @@
         "replace": "${ver}-${build}"
     },
     "autoupdate": {
-        "url": "http://files.snapfiles.com/directdl/wink20-1060.zip"
+        "url": "http://files.snapfiles.com/directdl/wink$cleanVersion-$matchBuild.zip"
     }
 }
