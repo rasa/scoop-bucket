@@ -1,23 +1,11 @@
 {
     "homepage": "https://pandownload.com/",
-    "description": "A downloader of Baidu disk",
-    "version": "2.1.1",
-    "url": "http://pandownload.club/dl/PanDownload_v2.1.1.zip",
-    "hash": "106176cc83e86db4ff595f01ad5574ba1e1b0b407136d3f3f122d62e4721ed70",
+    "description": "A Baidu Netdisk Downloader",
+    "version": "2.1.2",
+    "license": "Freeware",
+    "url": "http://dl.pandownload.club/dl/PanDownload_v2.1.2.zip",
+    "hash": "244d156e87684bba581e49e44068cd306288f289d31db49f5e291d3e29d626c0",
     "extract_dir": "PanDownload",
-    "persist": [
-        "PanData\\config.ini",
-        "PanData\\pan.conf",
-        "PanData\\share.db",
-        "PanData\\task.db",
-        "PanData\\user.db",
-        "PanData\\aria2.conf",
-        "PanData\\cookie",
-        "PanData\\list",
-        "PanData\\history",
-        "PanData\\log",
-        "PanData\\script"
-    ],
     "bin": "PanDownload.exe",
     "shortcuts": [
         [
@@ -25,8 +13,21 @@
             "PanDownload"
         ]
     ],
-    "checkver": ">v([\\d.]+)<",
+    "persist": [
+        "PanData/config.ini",
+        "PanData/pan.conf",
+        "PanData/share.db",
+        "PanData/task.db",
+        "PanData/user.db",
+        "PanData/aria2.conf",
+        "PanData/cookie",
+        "PanData/list",
+        "PanData/history",
+        "PanData/log",
+        "PanData/script"
+    ],
+    "checkver": "<strong>v([\\d.]+)</strong>",
     "autoupdate": {
-        "url": "http://pandownload.club/dl/PanDownload_v$version.zip"
+        "url": "http://dl.pandownload.club/dl/PanDownload_v$version.zip"
     }
 }
