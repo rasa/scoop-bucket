@@ -1,16 +1,16 @@
 {
     "homepage": "https://tuxproject.de/projects/vim/",
     "description": "Vim build from TurProject",
-    "version": "8.1.1587",
+    "version": "8.1.1601",
     "license": "Vim",
     "architecture": {
         "64bit": {
             "url": "http://tuxproject.de/projects/vim/complete-x64.7z",
-            "hash": "b3cfac0cf76a877070edd4bbd7513b79f24600b1816fdfb9f1b038957b7167b0"
+            "hash": "62fcf5822a31d6ecd4c97808bdb54ecba817055cbc60266bfd8630eaaa140d6c"
         },
         "32bit": {
             "url": "http://tuxproject.de/projects/vim/complete-x86.7z",
-            "hash": "f8ff29e1fbaf7301454cee4b24a3e2e441590781c899660c74781a0883c0818c"
+            "hash": "fda409de4bd35aa81517540084441e53604d88cbf22c17bba049df21c74907f8"
         }
     },
     "bin": [
