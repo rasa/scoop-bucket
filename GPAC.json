@@ -1,15 +1,15 @@
 {
     "homepage": "http://gpac.io",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "license": "LGPL-2.1",
     "architecture": {
         "64bit": {
-            "url": "https://download.tsi.telecom-paristech.fr/gpac/release/0.7.0/gpac-0.7.0-rev0-gbd5c9af-master-x64.exe#/dl.7z",
-            "hash": "cf877b88020441b32350356066151e9b11547ccbcd8fc298bdb71662f1ff0b93"
+            "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-0.8.0-rev1-gc1990d5c-master-x64.exe#/dl.7z",
+            "hash": "905d119a3d261d2dad1f3cf716449f7b96fba3dc7485e4350f293d3a8720957b"
         },
         "32bit": {
-            "url": "https://download.tsi.telecom-paristech.fr/gpac/release/0.7.0/gpac-0.7.0-rev0-gbd5c9af-master-win32.exe#/dl.7z",
-            "hash": "39afe993464bbf7b1d29c35c05adab317a028192e968ae033f15a8265c34e076"
+            "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-0.8.0-rev1-gc1990d5c-master-win32.exe#/dl.7z",
+            "hash": "22cacee82c1aa2cf8b12eccde2001e4852956668f2ec511adad603f7d79a78c6"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Force -Recurse",
