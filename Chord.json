@@ -5,10 +5,11 @@
     "url": "https://github.com/PeterDing/chord/releases/download/v0.2.19/chord-0.2.19-win.exe#/dl.7z",
     "hash": "88669d0f740cd8f2fec8c85b789926630853bffd2743b231d14825844dc52219",
     "installer": {
-        "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
+        "script": [
+            "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\"  -Force -Recurse"
+        ]
     },
-    "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\nsExec.dll\",\"$dir\\nsDialogs.dll\",\"$dir\\UAC.dll\",\"$dir\\WinShell.dll\",\"$dir\\modern-wizard.bmp\"",
-    "extract_dir": "\\$PLUGINSDIR",
     "bin": "chord.exe",
     "shortcuts": [
         [
