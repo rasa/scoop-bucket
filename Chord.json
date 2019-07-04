@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/PeterDing/chord",
-    "version": "0.2.19",
+    "version": "0.2.20",
     "license": "MIT",
-    "url": "https://github.com/PeterDing/chord/releases/download/v0.2.19/chord-0.2.19-win.exe#/dl.7z",
-    "hash": "88669d0f740cd8f2fec8c85b789926630853bffd2743b231d14825844dc52219",
+    "url": "https://github.com/PeterDing/chord/releases/download/v0.2.20/chord-0.2.20-win.exe#/dl.7z",
+    "hash": "df218470145b7677c8188b1edb441a02a9457a857d1dee325dea3e1e03aa8be3",
     "installer": {
         "script": [
             "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
