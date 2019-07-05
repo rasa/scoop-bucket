@@ -1,14 +1,14 @@
 {
     "homepage": "http://capture2text.sourceforge.net/",
-    "version": "4.6.0",
+    "version": "4.6.1",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v4.6.0/Capture2Text_v4.6.0_64bit.zip",
-            "hash": "sha1:1f66eca9aba562b25c4d7a068de42cc7d9cbf2df"
+            "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v4.6.1/Capture2Text_v4.6.1_64bit.zip",
+            "hash": "sha1:d44367779c0efcd9e85943058688cf83a03874aa"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v4.6.0/Capture2Text_v4.6.0_32bit.zip",
-            "hash": "sha1:20bcfac8a234a968c7049a908bec86b04d1f596c"
+            "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v4.6.1/Capture2Text_v4.6.1_32bit.zip",
+            "hash": "sha1:95406b4b408a94deca76d06e72c664246d824778"
         }
     },
     "extract_dir": "Capture2Text",
