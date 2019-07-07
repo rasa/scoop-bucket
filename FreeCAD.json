@@ -1,18 +1,23 @@
 {
     "homepage":  "https://www.freecadweb.org/",
-    "version":  "0.18.0",
+    "description": "Free and open-source general-purpose parametric 3D CAD modeler and a building information modeling software with finite-element-method support.",
     "license":  "GPL-2.0-only",
+    "version":  "0.18.2",
     "architecture": {
         "64bit": {
-            "url":  "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.1/FreeCAD-0.18.16110.f7dccfa-WIN-x64-portable.7z",
-            "hash":"f8d5e069931fd7ef7ee55287409ef9a2a5af0ff54b09177e1ab0a71e5c30f5f5"
+            "url": "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.2/FreeCAD-0.18.16117.dbb4cc6-WIN-x64-portable.7z",
+            "hash":"82cbf6152f2ef7579569a24466ee1986bf8630ce0b9cfaccb6f12f34d3ceb9c2"
         },
         "32bit": {
-            "url":  "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.1/FreeCAD-0.18.16110.f7dccfa-WIN-x32-portable.7z",
-            "hash":""
+            "url": "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.2/FreeCAD-0.18.16117.dbb4cc6-WIN-x32-installer.exe#/dl.7z",
+            "hash":"10cae09ad5f86d8045a7ba0770f69ef5961f4d58a83ee87eb235a7b44ecdbd35",
+            "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse -Force"
         }
     },
-    "bin":  "bin\\FreeCAD.exe",
+    "bin":  [
+        "bin\\FreeCAD.exe",
+        "bin\\FreeCADcmd.exe"
+    ],
     "shortcuts": [
         [
             "bin\\FreeCAD.exe",
@@ -20,22 +25,23 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/FreeCAD/FreeCAD"
+        "github": "https://github.com/FreeCAD/FreeCAD",
+        "regex": "releases/download/([\\d.]+)/FreeCAD-(?<build>[\\w.]+)-WIN"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url":  "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchShort.16110.f7dccfa-WIN-x64-portable.7z",
+                "url":  "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x64-portable.7z",
                 "hash": {
-                    "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchShort.16110.f7dccfa-WIN-x64-portable-SHA256.txt",
-                    "find": "(([a-f0-9][a-f0-9] ){40}[a-f0-9][a-f0-9])"
+                    "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x64-portable-SHA256.txt",
+                    "find": "(([a-f0-9][a-f0-9]\\s+){32})"
                 }
             },
             "32bit": {
-                "url":  "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchShort.16110.f7dccfa-WIN-x32-portable.7z",
+                "url":  "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x32-installer.exe#/dl.7z",
                 "hash": {
-                    "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchShort.16110.f7dccfa-WIN-x32-portable-SHA256.txt",
-                    "find": "(([a-f0-9][a-f0-9] ){40}[a-f0-9][a-f0-9])"
+                    "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x32-installer.exe-SHA256.txt",
+                    "find": "(([a-f0-9][a-f0-9]\\s+){32})"
                 }
             }
         }
