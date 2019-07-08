@@ -12,7 +12,7 @@
         ]
     ],
     "checkver": {
-        "url":  "https://www.calculator.org/",
+        "url":  "https://www.calculator.org/download.html",
         "re": "The current version \\(([\\d\\.]+)\\) is available"
     },
     "autoupdate": {
