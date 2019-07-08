@@ -1,15 +1,15 @@
 {
     "homepage": "https://graviton.ml/",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Graviton-Code-Editor/Graviton-App/releases/download/1.0.1/Graviton.Setup.1.0.1.64-bits.exe#/dl.7z",
-            "hash": "ab4c1b70338c994a694b5bd5cabf6d0e5810fd11ad770409825cf97f817e01fe"
+            "url": "https://github.com/Graviton-Code-Editor/Graviton-App/releases/download/1.0.2/Graviton-1.0.2-64bits.exe#/dl.7z",
+            "hash": "1e01e903310ce61be10c2cabdc57187492cbda743257f94cd93216c7449a9977"
         },
         "32bit": {
-            "url": "https://github.com/Graviton-Code-Editor/Graviton-App/releases/download/1.0.1/Graviton.Setup.1.0.1.32-bits.exe#/dl.7z",
-            "hash": "916f67495348529cea799453bb1fda73d8c8927d5f8bca93f30b06eab4e26cb6"
+            "url": "https://github.com/Graviton-Code-Editor/Graviton-App/releases/download/1.0.2/Graviton-1.0.2-32bits.exe#/dl.7z",
+            "hash": "8d28619d9b441776985e1445cf5f73a11b86de2d55fbf126d32616386674f2b1"
         }
     },
     "extract_dir": "\\$PLUGINSDIR",
