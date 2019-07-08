@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "url": "http://www.airytec.com/en/switch-off/get.aspx",
-        "re": "<b>Switch Off ([\\d\\.]+)</b>"
+        "re": "<h3 class=\"page-section-header\">Switch Off ([\\d\\.]+)</h3>"
     },
     "autoupdate": {
         "architecture": {
