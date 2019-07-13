@@ -3,13 +3,12 @@
     "version":  "12.2.3",
     "license":  "freeware",
     "url":  "http://static.frdic.com/pkg/eudic_win.zip",
-    "hash":  "75843de63102b693a0161052be58c6701ba3544eed7a4b60157af2098b9f4bd4",
-    "innosetup": true,
+    "hash":  "f33508d41402cc1ab0de52ee6165f459887ccf7c9cc8435cd7315a7f0fcf49ec",
     "installer": {
         "script": [
-            "innounp \"$dir\\eudic_win.exe\" \"$dir\\\"",
-            "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\"",
-            "Remove-Item \"$dir\\app-64.7z\",\"$dir\\uninst.exe.nsis\""
+            "Expand-7ZipArchive \"$dir\\eudic_win.exe\" \"$dir\\\"",
+            "Expand-7ZipArchive \"$dir\\app.7z\" \"$dir\"",
+            "Remove-Item \"$dir\\app.7z\",\"$dir\\uninst.exe.nsis\",\"$dir\\`$PLUGINSDIR\"  -Force -Recurse"
 		]
     },
     "bin":  "eudic.exe",
