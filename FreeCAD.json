@@ -1,8 +1,8 @@
 {
-    "homepage":  "https://www.freecadweb.org/",
+    "homepage": "https://www.freecadweb.org/",
     "description": "Free and open-source general-purpose parametric 3D CAD modeler and a building information modeling software with finite-element-method support.",
-    "license":  "GPL-2.0-only",
-    "version":  "0.18.2",
+    "license": "GPL-2.0-only",
+    "version": "0.18.2",
     "architecture": {
         "64bit": {
             "url": "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.2/FreeCAD-0.18.16117.dbb4cc6-WIN-x64-portable.7z",
@@ -14,9 +14,9 @@
             "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse -Force"
         }
     },
-    "bin":  [
+    "bin": [
         "bin\\FreeCAD.exe",
-        "bin\\FreeCADcmd.exe"
+        "bin\\FreeCADCmd.exe"
     ],
     "shortcuts": [
         [
@@ -31,14 +31,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url":  "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x64-portable.7z",
+                "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x64-portable.7z",
                 "hash": {
                     "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x64-portable-SHA256.txt",
                     "find": "(([a-f0-9][a-f0-9]\\s+){32})"
                 }
             },
             "32bit": {
-                "url":  "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x32-installer.exe#/dl.7z",
+                "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x32-installer.exe#/dl.7z",
                 "hash": {
                     "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x32-installer.exe-SHA256.txt",
                     "find": "(([a-f0-9][a-f0-9]\\s+){32})"

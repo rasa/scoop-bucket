@@ -13,6 +13,7 @@
         }
     },
     "bin": "console.exe",
+    "persist": "Console.xml",
     "shortcuts": [
         [
             "console.exe",
@@ -23,7 +24,6 @@
         "github": "https://github.com/cbucher/console",
         "re": "ConsoleZ.x64.(?<version>(?<short>[\\d.]+)\\.[\\d]+).zip"
     },
-    "persist": "console.xml",
     "autoupdate": {
         "architecture": {
             "64bit": {
