@@ -8,7 +8,6 @@
     "persist": [
         "FindAndRunRobot.ini",
         "ConfigDir.ini",
-        "dcuniversaloneLicenseKey.dat",
         "FindAndRunRobot_launchhistory.ini",
         "FindAndRunRobot_searchhistory.ini",
         "FindAndRunUserToolbar.ini",

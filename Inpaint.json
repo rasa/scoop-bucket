@@ -2,7 +2,6 @@
     "homepage": "https://www.theinpaint.com/",
     "version": "7.2",
     "license": "shareware",
-    "extract_dir": "",
     "url": "https://www.theinpaint.com/download/InpaintSetup.exe",
     "innosetup": true,
     "hash": "e4668c5d8773aa51451ac05d80f39ad53d92685b56cda538df469f9a7b952ab5",
