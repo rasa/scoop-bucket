@@ -8,8 +8,7 @@
     "persist": [
         "Viewer.ini",
         "Portable.ini",
-        "ViewerHistory.ini",
-        "Key.txt"
+        "ViewerHistory.ini"
     ],
     "shortcuts": [
         [
