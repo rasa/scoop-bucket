@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup64.exe",
-            "hash": "md5:bdad172d22e45e864fa3ac27d00c2b55",
+            "hash": "md5:7fc034da7e6381cfa72208d5ee7c692a",
             "bin": "SQLiteExpertPers64.exe",
             "shortcuts": [
                 [
@@ -16,7 +16,7 @@
         },
         "32bit": {
             "url": "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup32.exe",
-            "hash": "md5:fee2275b2a487099b13185a183481166",
+            "hash": "md5:c5e5483b31c612bbd50db19e67112d80",
             "bin": "SQLiteExpertPers32.exe",
             "shortcuts": [
                 [
