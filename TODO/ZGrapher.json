@@ -4,6 +4,11 @@
     "license": "freeware",
     "url": "http://www.palamsoft.com/zgrapher/zgrapher.zip",
     "hash": "4c90a34e660cef48262e5ecd6a70cdc35f20fb38bf46bbb286ace6ae8152a777",
+    "installer": {
+        "script": [
+            "innounp -d$dir \"$dir\\setup.exe\""
+        ]
+    },
     "bin": "ZGrapher.exe",
     "shortcuts": [
         [
