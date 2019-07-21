@@ -15,7 +15,7 @@
     "installer": {
         "script": "Expand-7ZipArchive \"$dir\\1by1.html\" \"$dir\""
     },
-    "post-install": "Remove-Item \"$dir\\1by1.html\" -Force",
+    "post_install": "Remove-Item \"$dir\\1by1.html\" -Force",
     "bin": "1by1.exe",
     "persist": "1by1.ini",
     "shortcuts": [
