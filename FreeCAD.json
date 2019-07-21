@@ -2,11 +2,11 @@
     "homepage": "https://www.freecadweb.org/",
     "description": "Free and open-source general-purpose parametric 3D CAD modeler and a building information modeling software with finite-element-method support.",
     "license": "GPL-2.0-only",
-    "version": "0.18.2",
+    "version": "0.18.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.2/FreeCAD-0.18.16117.dbb4cc6-WIN-x64-portable.7z",
-            "hash":"82cbf6152f2ef7579569a24466ee1986bf8630ce0b9cfaccb6f12f34d3ceb9c2"
+            "url": "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.3/FreeCAD-0.18.16131.3129ae4-WIN-x64-portable.7z",
+            "hash":"2237f0ee8fc4998f949f7d66ebd4b7a1e5eb3fe0198e0951dd3a19e2fe6494e2"
         },
         "32bit": {
             "url": "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.2/FreeCAD-0.18.16117.dbb4cc6-WIN-x32-installer.exe#/dl.7z",
