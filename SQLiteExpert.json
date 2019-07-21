@@ -6,10 +6,13 @@
         "64bit": {
             "url": "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup64.exe",
             "hash": "md5:7fc034da7e6381cfa72208d5ee7c692a",
-            "bin": "SQLiteExpertPers64.exe",
+            "installer": {
+                "script": "Rename-Item \"$dir\\SQLiteExpertPers64.exe\" \"$dir\\SQLiteExpertPers.exe\""
+            },
+            "bin": "SQLiteExpertPers.exe",
             "shortcuts": [
                 [
-                    "SQLiteExpertPers64.exe",
+                    "SQLiteExpertPers.exe",
                     "SQLite Expert Personal"
                 ]
             ]
@@ -17,10 +20,13 @@
         "32bit": {
             "url": "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup32.exe",
             "hash": "md5:c5e5483b31c612bbd50db19e67112d80",
-            "bin": "SQLiteExpertPers32.exe",
+            "installer": {
+                "script": "Rename-Item \"$dir\\SQLiteExpertPers32.exe\" \"$dir\\SQLiteExpertPers.exe\""
+            },
+            "bin": "SQLiteExpertPers.exe",
             "shortcuts": [
                 [
-                    "SQLiteExpertPers32.exe",
+                    "SQLiteExpertPers.exe",
                     "SQLite Expert Personal"
                 ]
             ]
