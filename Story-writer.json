@@ -1,0 +1,34 @@
+{
+    "homepage": "https://github.com/suziwen/markdownxiaoshujiang",
+    "license": "shareware",
+    "version": "7.7.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/suziwen/markdownxiaoshujiang/releases/download/v7.7.0/Story-writer-win64-setup.exe",
+            "hash": "1884491dd2e7503697e8c8fd760abdac830e24878d4c1ba95eb44d4bd0f03d0c"
+        },
+        "32bit": {
+            "url": "https://github.com/suziwen/markdownxiaoshujiang/releases/download/v7.7.0/Story-writer-win32-setup.exe",
+            "hash": "59edf56b45944b70a035bd43e96ff485a47efd87313d2b26e99240353aaff62d"
+        }
+    },
+    "innosetup": true,
+    "bin": "Story-writer.exe",
+    "shortcut": [
+        [
+            "Story-writer.exe",
+            "Story-writer 小书匠"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/suziwen/markdownxiaoshujiang/releases/download/v$version/Story-writer-win64-setup.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/suziwen/markdownxiaoshujiang/releases/download/v$version/Story-writer-win32-setup.exe"
+            }
+        }
+    }
+}
