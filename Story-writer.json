@@ -14,10 +14,10 @@
     },
     "innosetup": true,
     "bin": "Story-writer.exe",
-    "shortcut": [
+    "shortcuts": [
         [
             "Story-writer.exe",
-            "Story-writer 小书匠"
+            "Story Writer С�齳"
         ]
     ],
     "checkver": "github",
