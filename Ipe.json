@@ -20,7 +20,7 @@
             "Ipe"
         ]
     ],
-    "checkver": "The current version of Ipe is \\<span class=\"tex-bf\"\\>Ipe ([\\d.]+)",
+    "checkver": "The current version of Ipe is <span class=\"tex-bf\">Ipe ([\\d.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {

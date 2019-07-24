@@ -33,7 +33,7 @@
         ]
     ],
     "checkver": {
-        "re": "os=windows\"\\>\\s+\\<span class=\"button_download_text\"\\>v(?<ver>\\d+\\.\\d+)\\s*Build\\s*(?<build>\\d+).+\\<\\/span\\>",
+        "re": "os=windows\">\\s+<span class=\"button_download_text\">v(?<ver>\\d+\\.\\d+)\\s*Build\\s*(?<build>\\d+).+</span>",
         "replace": "${ver}.${build}"
     },
     "hash": "499aba4a495ed32994de04ac18fd06ce74c297949a2b16c440823d54391c6ef0",

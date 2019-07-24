@@ -13,7 +13,7 @@
             "Index Your Files"
         ]
     ],
-    "checkver": "\\<strong\\>([\\d.]+) Portable\\<\\/strong\\>",
+    "checkver": "<strong>([\\d.]+) Portable</strong>",
     "autoupdate": {
         "url": "http://www.indexyourfiles.com/download/iyf.zip"
     }

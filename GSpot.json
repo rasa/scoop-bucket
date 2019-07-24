@@ -11,7 +11,7 @@
             "GSpot"
         ]
     ],
-    "checkver": "Current version: GSpot v([\\d\\.\\w]+)\\<\\/a\\>",
+    "checkver": "Current version: GSpot v([\\d\\.\\w]+)</a>",
     "autoupdate": {
         "url": "http://gspot.headbands.com/v26x/GSpot$cleanVersion.zip"
     }

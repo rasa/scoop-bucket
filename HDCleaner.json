@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "https://kurtzimmermann.com/index_e.html",
-        "re": "HDCleaner\\<\\/h4\\>[\\w\\W]*?Version ([\\d\\.]+)"
+        "re": "HDCleaner</h4>[\\w\\W]*?Version ([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {

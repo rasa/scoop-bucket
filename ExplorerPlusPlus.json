@@ -121,7 +121,7 @@
             "Explorer++"
         ]
     ],
-    "checkver": "Get version \\<strong\\>([\\d\\.]+)",
+    "checkver": "Get version <strong>([\\d\\.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {
