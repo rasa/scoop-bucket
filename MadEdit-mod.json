@@ -1,15 +1,15 @@
 {
     "homepage": "http://sourceforge.net/projects/madedit-mod/",
-    "version": "0.4.16",
+    "version": "0.4.17",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/projects/madedit-mod/0.4.16/MadEdit-Mod0.4.16_X64.7z",
-            "hash": "4EB7AE10998EA290A3ACBF9BD227C5676F345E61885FF04CEAC2609AD1B1D5BA"
+            "url": "https://downloads.sourceforge.net/projects/madedit-mod/0.4.17/MadEdit-Mod0.4.17_X64.7z",
+            "hash": "sha1:ed484aabe29863bfc7ffd57e9ed0c85808111994"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/projects/madedit-mod/0.4.16/MadEdit-Mod0.4.16_X86.7z",
-            "hash": "ACA7F626CC1F4A1328AFBE8E5E64A9F1D3B73C713942E53AD87D6F517B836205"
+            "url": "https://downloads.sourceforge.net/projects/madedit-mod/0.4.17/MadEdit-Mod0.4.17_X86.7z",
+            "hash": "sha1:d97c0432331ddae166f5c062a0ea372689c04879"
         }
     },
     "persist": [
