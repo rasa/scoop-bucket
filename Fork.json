@@ -1,0 +1,33 @@
+{
+    "homepage": "https://git-fork.com",
+    "version": "1.37",
+    "license": "freeware",
+    "url": "https://git-fork.com/update/win/ForkInstaller.exe#dl.7z",
+    "hash": "81451221a3b7b02eecb4fac0282fb0fcb32241829b0dda3a5f53e54ee50ab312",
+    "installer": {
+        "script": [
+            "Expand-7ZipArchive \"$dir\\Fork-1.37.1-full.nupkg\" \"$dir\"-Removal",
+            "Move-Item \"$dir\\lib\\net45\\*\" \"$dir\""
+        ]
+    },
+    "bin": "Fork.exe",
+    "shortcuts": [
+        [
+            "Fork.exe",
+            "Fork"
+        ]
+    ],
+    "checkver": {
+        "url": "https://git-fork.com/releasenoteswin",
+        "re": "<h4 class=\"header4\">Fork ([\\d\\.]+)</h4>"
+    },
+    "autoupdate": {
+        "url": "https://git-fork.com/update/win/ForkInstaller.exe#dl.7z",
+        "installer": {
+            "script": [
+                "Expand-7ZipArchive \"$dir\\Fork-$version.1-full.nupkg\" \"$dir\"-Removal",
+                "Move-Item \"$dir\\lib\\net45\\*\" \"$dir\""
+            ]
+        }
+    }
+}
