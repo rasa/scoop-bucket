@@ -12,7 +12,7 @@
             "Touchpad Blocker"
         ]
     ],
-    "checkver": "\\<dd\\>([\\d\\.]+)\\<\\/dd\\>",
+    "checkver": "<dd>([\\d\\.]+)</dd>",
     "autoupdate": {
         "url": "https://touchpad-blocker.com/files/touchpad-blocker.exe#/dl.7z"
     }

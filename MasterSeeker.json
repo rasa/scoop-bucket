@@ -11,6 +11,6 @@
             "MasterSeeker"
         ]
     ],
-    "checkver":"\\<span class=\"version\"\\>([\\d.]+)\\<\\/span\\>",
+    "checkver":"<span class=\"version\">([\\d.]+)</span>",
     "autoupdate":"http://www.master-seeker.com/download"
 }

@@ -15,7 +15,7 @@
             "XMPlay"
         ]
     ],
-    "checkver": "\\<span class='title-header'\\>XMPlay ([\\d\\.]+)\\<\\/span\\>",
+    "checkver": "<span class='title-header'>XMPlay ([\\d\\.]+)</span>",
     "autoupdate": {
         "url": "http://support.xmplay.com/files/20/xmplay$cleanVersion.zip"
     }

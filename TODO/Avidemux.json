@@ -35,7 +35,7 @@
     ],
     "checkver": {
         "url": "http://fixounet.free.fr/avidemux/download.html",
-        "re": "win64\\/VC\\+\\+ \\<b\\>([\\d\\.]+)"
+        "re": "win64/VC\\+\\+ <b>([\\d\\.]+)"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/avidemux/files/avidemux/$version/Avidemux_$version%20VC%2B%2B%2064bits%20.exe",

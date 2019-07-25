@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/jedit/rss?path=/jedit",
-        "re": "\\/jedit\\/([\\d.]+)\\/jedit[\\d.]+install\\.exe"
+        "re": "/jedit/([\\d.]+)/jedit[\\d.]+install\\.exe"
     },
     "autoupdate": {
         "url": "https://sourceforge.net/projects/jedit/files/jedit/$version/jedit$versioninstall.exe",

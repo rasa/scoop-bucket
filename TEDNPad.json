@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "http://jsimlo.sk/notepad/download.php",
-        "re": "<b>([\\d\\.]+)<\\/b>"
+        "re": "<b>([\\d\\.]+)</b>"
     },
     "autoupdate": {
         "url": "http://jsimlo.sk/notepad/files.php/tnp$cleanVersionse_uni.zip"

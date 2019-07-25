@@ -22,7 +22,7 @@
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Force -Recurse",
     "checkver": {
         "url": "https://sourceforge.net/projects/freemat/rss?path=/FreeMat4",
-        "re": "!\\[CDATA\\[\\/FreeMat4\\/FreeMat-([\\d\\.]+)-Source\\.tar\\.gz\\]\\]"
+        "re": "!\\[CDATA\\[/FreeMat4/FreeMat-([\\d\\.]+)-Source\\.tar\\.gz\\]\\]"
     },
     "autoupdate": {
         "architecture": {

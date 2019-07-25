@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url":"https://www.xnview.com/en/",
-        "re": "XnView \\<small\\>([\\d\\.]+)\\<\\/small\\>"
+        "re": "XnView <small>([\\d\\.]+)</small>"
     },
     "autoupdate": {
         "url":"https://download.xnview.com/XnView-win.zip",

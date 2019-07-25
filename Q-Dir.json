@@ -39,7 +39,7 @@
                 "hash": {
                     "mode": "extract",
                     "url": "https://www.softwareok.com/?Download=Q-Dir",
-                    "find": "Q-Dir_Portable_x64\\.zip\\<div id=[\\w\\d]{5} align=right\\>\\<a href=\"https:\\/\\/www\\.virustotal\\.com\\/de\\/file\\/($sha256)"
+                    "find": "Q-Dir_Portable_x64\\.zip<div id=[\\w\\d]{5} align=right><a href=\"https://www\\.virustotal\\.com/de/file/($sha256)"
                 }
             },
             "32bit": {
@@ -47,7 +47,7 @@
                 "hash": {
                     "mode": "extract",
                     "url": "https://www.softwareok.com/?Download=Q-Dir",
-                    "find": "Q-Dir_Portable\\.zip\\<div id=[\\w\\d]{5} align=right\\>\\<a href=\"https:\\/\\/www\\.virustotal\\.com\\/de\\/file\\/($sha256)"
+                    "find": "Q-Dir_Portable\\.zip<div id=[\\w\\d]{5} align=right><a href=\"https://www\\.virustotal\\.com/de/file/($sha256)"
                 }
             }
         }

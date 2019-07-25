@@ -12,7 +12,7 @@
             "MiniHex"
         ]
     ],
-    "checkver": "download\\/minihex-([\\d.]+)\\.zip",
+    "checkver": "download/minihex-([\\d.]+)\\.zip",
     "autoupdate": {
         "url": "http://www.haoxg.net/download/minihex-$version.zip"
     }
