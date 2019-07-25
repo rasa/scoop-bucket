@@ -6,20 +6,12 @@
         "64bit": {
             "url": "https://dl.bintray.com/byvoid/opencc/:opencc-1.0.1-win64.7z",
             "hash": "ACFAFD87B7A7BF9DA092E9117E7E644816A76CDAAA5801009C83B70A60AC6F1A",
-            "extract_dir": "opencc-1.0.1-win64",
-            "autoupdate": {
-                "url": "https://dl.bintray.com/byvoid/opencc/:opencc-$version-win64.7z",
-                "extract_dir": "opencc-$version-win64"
-            }
+            "extract_dir": "opencc-1.0.1-win64"
         },
         "32bit": {
             "url": "https://dl.bintray.com/byvoid/opencc/:opencc-1.0.1-win32.7z",
             "hash": "ACFAFD87B7A7BF9DA092E9117E7E644816A76CDAAA5801009C83B70A60AC6F1A",
-            "extract_dir": "opencc-1.0.1-win32",
-            "autoupdate": {
-                "url": "https://dl.bintray.com/byvoid/opencc/:opencc-$version-win32.7z",
-                "extract_dir": "opencc-$version-win32"
-            }
+            "extract_dir": "opencc-1.0.1-win32"
         }
     },
     "bin": [
@@ -29,5 +21,17 @@
     "checkver": {
         "url": "https://dl.bintray.com/byvoid/opencc/",
         "re": "opencc-([\\d.]+)-win64.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.bintray.com/byvoid/opencc/:opencc-$version-win64.7z",
+                "extract_dir": "opencc-$version-win64"
+            },
+            "32bit": {
+                "url": "https://dl.bintray.com/byvoid/opencc/:opencc-$version-win32.7z",
+                "extract_dir": "opencc-$version-win32"
+            }
+        }
     }
 }

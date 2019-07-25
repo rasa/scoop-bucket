@@ -12,10 +12,7 @@
                     "Imagine64.exe",
                     "Imagine"
                 ]
-            ],
-            "autoupdate": {
-                "url": "http://www.nyam.pe.kr/dev/imagine/download/x64/Imagine_$version_x64_Unicode.zip"
-            }
+            ]
         },
         "32bit": {
             "url": "http://www.nyam.pe.kr/dev/imagine/download/unicode/Imagine_1.1.0_Unicode.zip",
@@ -26,10 +23,7 @@
                     "Imagine.exe",
                     "Imagine"
                 ]
-            ],
-            "autoupdate": {
-                "url": "http://www.nyam.pe.kr/dev/imagine/download/x64/Imagine_$version_x64_Unicode.zip"
-            }
+            ]
         }
     },
     "persist": [
@@ -37,5 +31,15 @@
         "PlugInst.inf",
         "Plugin"
     ],
-    "checkver": "v(\\d[\\d.]+)"
+    "checkver": "v(\\d[\\d.]+)",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://www.nyam.pe.kr/dev/imagine/download/x64/Imagine_$version_x64_Unicode.zip"
+            },
+            "32bit": {
+                "url": "http://www.nyam.pe.kr/dev/imagine/download/x64/Imagine_$version_x64_Unicode.zip"
+            }
+        }
+    }
 }
