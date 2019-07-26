@@ -1,0 +1,37 @@
+{
+    "homepage": "https://www.facebook.com/LazPaint",
+    "version": "6.4.1",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/lazpaint/files/bin/lazpaint6.4.1_win64.zip",
+            "hash": "sha1:6d1e859bea1afe3fa224794ee1887c2fe4e572c7"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/lazpaint/files/bin/lazpaint6.4.1_win32.zip",
+            "hash": "sha1:9a92c1d14dd272bce41a0e45d3dc85ec20d46f4d"
+        }
+    },
+    "extract_dir": "lazpaint6.4.1",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/lazpaint/rss?path=/bin",
+        "re": "lazpaint([\\d\\.]+)_win64\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/lazpaint/files/bin/lazpaint$version_win64.zip",
+                "hash": {
+                    "mode": "sourceforge"
+                }
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/lazpaint/files/bin/lazpaint$version_win32.zip",
+                "hash": {
+                    "mode": "sourceforge"
+                }
+            }
+        },
+        "extract_dir": "lazpaint$version"
+    }
+}

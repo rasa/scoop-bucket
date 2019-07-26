@@ -13,7 +13,7 @@
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/impressive/files/Impressive/0.12.0/Impressive-0.12.0-win32.zip",
         "hash": {
-            "mode": "sourceforege"
+            "mode": "sourceforge"
         }
     }
 }
