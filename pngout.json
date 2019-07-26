@@ -1,0 +1,10 @@
+﻿{
+    "version":  "2015.13.02",
+    "license":  "http://advsys.net/ken/utils.htm#pngoutkziplicense",
+    "extract_dir":  "",
+    "url":  "http://advsys.net/ken/util/pngout.exe",
+    "depends":  "",
+    "homepage":  "http://advsys.net/ken/utils.htm#pngout",
+    "hash":  "",
+    "bin":  "pngout.exe"
+}
