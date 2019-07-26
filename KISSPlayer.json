@@ -11,7 +11,7 @@
     "shortcuts": [
         [
             "kissplayer.exe",
-            "kissplayer"
+            "KISS Player"
         ]
     ],
     "checkver": "github",

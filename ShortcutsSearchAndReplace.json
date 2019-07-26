@@ -7,7 +7,7 @@
             "url": "http://jacquelin.potier.free.fr/exe/ShortcutsSearchAndReplace_bin64.zip",
             "hash": "a7db92b0e51fdefc3c467cae652531979573acea6a60faaec2379ae5b89eb12d",
 			"installer": {
-				"script": "ren \"$dir\\ShortcutsSearchAndReplace64.exe\" \"ShortcutsSearchAndReplace.exe\""
+				"script": "Rename-Item \"$dir\\ShortcutsSearchAndReplace64.exe\" \"ShortcutsSearchAndReplace.exe\""
 			}
         },
         "32bit": {
