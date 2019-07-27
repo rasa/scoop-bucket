@@ -1,15 +1,15 @@
 {
     "homepage": "https://getquicker.net/",
-    "version": "1.0.0.0",
+    "version": "1.0.4.0",
     "license": "freeware",
     "architecture": {
         "64bit": {
-            "url": "https://deskpad.oss-cn-shanghai.aliyuncs.com/_productfiles/20190719/Quicker.x64.1.0.0.0.msi",
-            "hash": "6aae8c815273bf84180f851c57961b92237edc02bdbaad0a3890e7989fd5ceeb"
+            "url": "https://deskpad.oss-cn-shanghai.aliyuncs.com/_productfiles/20190726/Quicker.x64.1.0.4.0.msi",
+            "hash": "1fbcdb42ff730f0ea4bf7f92d8e8d6b78b06a2766b952134057b48ef6bf0fdab"
         },
         "32bit": {
-            "url": "https://deskpad.oss-cn-shanghai.aliyuncs.com/_productfiles/20190719/Quicker.x86.1.0.0.0.msi",
-            "hash": "a92af6ecdc7201d66eab718b77e096189ae7f347e922ae4889b404314ed3d08d"
+            "url": "https://deskpad.oss-cn-shanghai.aliyuncs.com/_productfiles/20190726/Quicker.x86.1.0.4.0.msi",
+            "hash": "2e9e2ca9f542a95632ce6d95da26b439ffbc7707ac95abe9fca73ab5349ca667"
         }
     },
     "extract_dir": "Quicker",
@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://deskpad.oss-cn-shanghai.aliyuncs.com/_productfiles/20190719/Quicker.x64.$version.msi"
+                "url": "https://deskpad.oss-cn-shanghai.aliyuncs.com/_productfiles/20190726/Quicker.x64.$version.msi"
             },
             "32bit": {
-                "url": "https://deskpad.oss-cn-shanghai.aliyuncs.com/_productfiles/20190719/Quicker.x86.$version.msi"
+                "url": "https://deskpad.oss-cn-shanghai.aliyuncs.com/_productfiles/20190726/Quicker.x86.$version.msi"
             }
         }
     }
