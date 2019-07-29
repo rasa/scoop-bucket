@@ -1,16 +1,16 @@
 {
     "homepage": "http://www.vuplayer.com/vuplayer.php",
-    "version": "4.6",
+    "version": "4.7",
     "license": "freeware",
     "extract_dir": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jfchapman/VUPlayer/releases/download/v4.6/VUPlayer4_64bit.zip",
-            "hash": "46a85b5f2a0fd02af97b249d141992b0ec849169a1849cb5077249c36597b964"
+            "url": "https://github.com/jfchapman/VUPlayer/releases/download/v4.7/VUPlayer4_64bit.zip",
+            "hash": "61637575965470ce1cc8a695dcb459e369400172252ddfd6d5b99d6ab1714a91"
         },
         "32bit": {
-            "url": "https://github.com/jfchapman/VUPlayer/releases/download/v4.6/VUPlayer4_32bit.zip",
-            "hash": "41aa43463b20098e65cd33952b5a16afb8ba1eeba82be93d78fdb2c26892d841"
+            "url": "https://github.com/jfchapman/VUPlayer/releases/download/v4.7/VUPlayer4_32bit.zip",
+            "hash": "cc501819a7d683fd64ac26d28e7b135ff835c596021313b0e32eb798f8bd595e"
         }
     },
     "bin": "VUPlayer.exe",
