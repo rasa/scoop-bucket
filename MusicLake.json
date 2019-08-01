@@ -3,7 +3,7 @@
     "version": "1.2.0",
     "license": "",
     "url": "https://github.com/sunzongzheng/music/releases/download/v1.2.0/player-1.2.0-win.exe#/dl.7z",
-    "hash": "sha512:c56347f26a686d72f7b52ec51eef202b1c2d0e082f9704e73901358b7476df36aefb68e8481552e929bd3996fb7e1081979228e6513323a6eac271e060a59e09",
+    "hash": "sha512:a5f2fc426362344dd468b0f78f4206b19e1a4e7d7a5d517300ddfc2977c24bed690049a4e719b52199559c948ed1d02a60b95b2d0e451c3a36a7c6c808cb2725",
     "extract_dir": "\\$PLUGINSDIR",
     "installer": {
         "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
