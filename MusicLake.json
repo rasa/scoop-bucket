@@ -4,11 +4,10 @@
     "license": "",
     "url": "https://github.com/sunzongzheng/music/releases/download/v1.2.0/player-1.2.0-win.exe#/dl.7z",
     "hash": "sha512:a5f2fc426362344dd468b0f78f4206b19e1a4e7d7a5d517300ddfc2977c24bed690049a4e719b52199559c948ed1d02a60b95b2d0e451c3a36a7c6c808cb2725",
-    "extract_dir": "\\$PLUGINSDIR",
     "installer": {
-        "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
+        "script": "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
     },
-    "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\nsDialogs.dll\",\"$dir\\UAC.dll\",\"$dir\\WinShell.dll\",\"$dir\\modern-wizard.bmp\"",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
     "bin": "MusicLake.exe",
     "shortcuts": [
         [
