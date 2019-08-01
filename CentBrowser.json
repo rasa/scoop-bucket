@@ -2,7 +2,6 @@
     "homepage": "https://www.centbrowser.com/",
     "description": "The Most Feature Rich Chromium",
     "version": "4.0.9.112",
-    "persist": "User Data",
     "architecture": {
         "64bit": {
             "url": "http://static.centbrowser.com/installer_64/centbrowser_4.0.9.112_x64_portable.exe",
@@ -31,6 +30,7 @@
             "Cent Browser"
         ]
     ],
+    "persist": "User Data",
     "checkver": {
         "url": "https://www.centbrowser.com",
         "re": "<p>Version: ([\\d\\.]+)"
