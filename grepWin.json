@@ -1,22 +1,23 @@
 {
     "homepage": "https://tools.stefankueng.com/grepWin.html",
-    "description": "grepWin",
+    "description": "Regular expression search and replace tool for Windows.",
     "version": "1.9.2",
-    "license": "GPLv3",
+    "license": "GPL-3.0-only",
+    "notes": "Run '$dir\\grepwin-install-context.reg' to add grepWin to right-click context menu.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stefankueng/grepWin/releases/download/1.9.2/grepWin-x64-1.9.2_portable.exe",
+            "https://github.com/stefankueng/grepWin/releases/download/1.9.2/grepWin-x64-1.9.2_portable.exe#/grepWin.exe",
             "hash": "4bf60732014c955a600c18236eb3a5dea4ae2f4f9f5d513de60235e0ae7bdbe1",
             "pre_install": "rename-item \"$dir\\grepWin-x64-1.9.2_portable.exe\" \"$dir\\grepWin.exe\""
         },
         "32bit": {
-            "url": "https://github.com/stefankueng/grepWin/releases/download/1.9.2/grepWin-1.9.2_portable.exe",
+            "https://github.com/stefankueng/grepWin/releases/download/1.9.2/grepWin-1.9.2_portable.exe#/grepWin.exe",
             "hash": "c1f154e8828e0a5724b3c6d0baabd1baa7471eed43fe73ebe274c56e95909e00",
             "pre_install": "rename-item \"$dir\\grepWin-1.9.2_portable.exe\" \"$dir\\grepWin.exe\""
         }
     },
-    "persist": "grepWin.ini",
     "bin": "grepWin.exe",
+    "persist": "grepWin.ini",
     "shortcuts": [
         [
             "grepWin.exe",
@@ -29,12 +30,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-x64-$version_portable.exe",
-                "pre_install": "rename-item \"$dir\\grepWin-x64-$version_portable.exe\" \"$dir\\grepWin.exe\""
+                "url": "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-x64-$version_portable.exe#/grepWin.exe"
             },
             "32bit": {
-                "url": "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-$version_portable.exe",
-                "pre_install": "rename-item \"$dir\\grepWin-$version_portable.exe\" \"$dir\\grepWin.exe\""
+                "url": "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-$version_portable.exe#/grepWin.exe"
             }
         }
     }
