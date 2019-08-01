@@ -42,15 +42,13 @@
             "64bit": {
                 "url": "http://www.sqliteexpert.com/v$majorVersion/SQLiteExpertPersSetup64.exe",
                 "hash": {
-                    "url": "http://www.sqliteexpert.com/v$majorVersion/SQLiteExpertPersSetup64.md5",
-                    "find": "($md5)\\s+SQLiteExpertPersSetup64.exe"
+                    "url": "http://www.sqliteexpert.com/v$majorVersion/SQLiteExpertPersSetup64.md5"
                 }
             },
             "32bit": {
                 "url": "http://www.sqliteexpert.com/v$majorVersion/SQLiteExpertPersSetup32.exe",
                 "hash": {
-                    "url": "http://www.sqliteexpert.com/v$majorVersion/SQLiteExpertPersSetup32.md5",
-                    "find": "($md5)\\s+SQLiteExpertPersSetup32.exe"
+                    "url": "http://www.sqliteexpert.com/v$majorVersion/SQLiteExpertPersSetup32.md5"
                 }
             }
         }

@@ -35,8 +35,7 @@
     "autoupdate": {
         "url": "https://pencil.evolus.vn/dl/V$version/Pencil-Setup-$version.exe#/dl.7z",
         "hash": {
-            "url": "https://pencil.evolus.vn/dl/V$version/CHECKSUM",
-            "find": "($sha1)\\s+Pencil-Setup-$version\\.exe"
+            "url": "https://pencil.evolus.vn/dl/V$version/CHECKSUM"
         }
     }
 }

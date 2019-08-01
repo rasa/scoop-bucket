@@ -1,7 +1,8 @@
 {
     "homepage": "https://git-fork.com",
-    "version": "1.37",
+    "description": "A fast and friendly git client",
     "license": "freeware",
+    "version": "1.37",
     "url": "https://git-fork.com/update/win/ForkInstaller.exe#dl.7z",
     "hash": "81451221a3b7b02eecb4fac0282fb0fcb32241829b0dda3a5f53e54ee50ab312",
     "installer": {

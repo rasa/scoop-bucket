@@ -18,9 +18,7 @@
     "autoupdate": {
         "url": "http://code.kliu.org/misc/elevate/elevate-$version-redist.7z",
         "hash": {
-            "mode": "extract",
-            "url": "$baseurl/elevate-$version-redist.md5",
-            "find": "($md5) *elevate-$version-redist.7z"
+            "url": "$baseurl/elevate-$version-redist.md5"
         }
     }
 }

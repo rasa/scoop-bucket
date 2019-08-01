@@ -33,15 +33,13 @@
             "64bit": {
                 "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x64-portable.7z",
                 "hash": {
-                    "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x64-portable-SHA256.txt",
-                    "find": "(([a-f0-9][a-f0-9]\\s+){32})"
+                    "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x64-portable-SHA256.txt"
                 }
             },
             "32bit": {
                 "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x32-installer.exe#/dl.7z",
                 "hash": {
-                    "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x32-installer.exe-SHA256.txt",
-                    "find": "(([a-f0-9][a-f0-9]\\s+){32})"
+                    "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x32-installer.exe-SHA256.txt"
                 }
             }
         }
