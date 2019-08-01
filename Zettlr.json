@@ -27,8 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Zettlr/Zettlr/releases/download/v$version/Zettlr-win32-x64-$version.exe#/dl.7z"
-            }
+                "url": "https://github.com/Zettlr/Zettlr/releases/download/v$version/Zettlr-win32-x64-$version.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/SHA256SUMS.txt"
+                    }
         }
     }
 }
