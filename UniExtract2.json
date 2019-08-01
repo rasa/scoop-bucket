@@ -1,17 +1,23 @@
 {
     "homepage":  "https://github.com/Bioruebe/UniExtract2",
+    "description": "Decompress and extract files from any type of archive or installer.",
     "version":  "2.0.0-rc.2",
     "license":  "GPL-2.0-only",
-    "url":  "https://github.com/Bioruebe/UniExtract2/releases/download/v2.0.0-rc.2/UniExtractRC2.zip",
+    "url": "https://github.com/Bioruebe/UniExtract2/releases/download/v2.0.0-rc.2/UniExtractRC2.zip",
     "hash": "4ad412f2df056eb5cdf60078550d47c10fbbb67188aa915752d2757d95f1393b",
-    "extract_dir":"UniExtract",
-    "bin":  "UniExtract.exe",
-    "shortcuts":[["UniExtract.exe","UniExtract"]],
-    "persist":[
-        "UniExtract.ini",
-        "log"
+    "extract_dir": "UniExtract",
+    "bin": "UniExtract.exe",
+    "persist": [
+        "log",
+        "UniExtract.ini"
     ],
-    "checkver":{
+    "shortcuts": [
+        [
+            "UniExtract.exe",
+            "Universal Extractor"
+        ]
+    ],
+    "checkver": {
         "url":"https://github.com/Bioruebe/UniExtract2/releases/latest",
         "re":"/Bioruebe/UniExtract2/archive/v([\\d.\\w\\-]+)\\.zip"
     },
