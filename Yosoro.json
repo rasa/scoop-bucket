@@ -10,20 +10,20 @@
     },
     "extract_dir": "Yosoro-win32-x64",
     "bin": "Yosoro.exe",
-    "checkver": {
-        "github": "https://github.com/IceEnd/Yosoro"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/IceEnd/Yosoro/releases/download/v$version/Yosoro-win32-x64.zip"
-            }
-        }
-    },
     "shortcuts": [
         [
             "Yosoro.exe",
             "Yosoro"
         ]
-    ]
+    ],
+    "checkver": {
+        "github": "https://github.com/IceEnd/Yosoro"
+    },
+    "_autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/IceEnd/Yosoro/releases/download/v$version/Yosoro-win32-x64.zip"
+            }
+        }
+    }
 }

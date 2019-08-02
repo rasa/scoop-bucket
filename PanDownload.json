@@ -27,7 +27,7 @@
         "PanData/script"
     ],
     "checkver": "<strong>v([\\d.]+)</strong>",
-    "autoupdate": {
+    "_autoupdate": {
         "url": "http://dl.pandownload.club/dl/PanDownload_v$version.zip"
     }
 }

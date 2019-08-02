@@ -25,7 +25,7 @@
     "checkver": {
         "github": "https://github.com/dnGrep/dnGrep"
     },
-    "autoupdate": {
+    "_autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/dnGrep/dnGrep/releases/download/v$version/dnGREP.$matchHead.x64.msi"
