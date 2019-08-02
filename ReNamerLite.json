@@ -1,14 +1,27 @@
 {
-    "homepage":  "http://www.den4b.com/products/renamer",
-    "version":  "7.1",
-    "license":  "freeware",
-    "url":"http://www.den4b.com/download/renamer/portable?key=4db0eb0043b9e1c14d9db8daa8ed2ab5f0c93fc35338523f",
-    "hash":  "1a5384f75dea611434f37ff6a3ba8045fb060fb87eda0f3ce2bbf32b528c4939",
-    "bin":  "ReNamer.exe",
-    "persist":"ReNamer.ini",
-    "shortcuts":[["ReNamer.exe","ReNamer"]],
-    "checkver":{
-        "url":  "http://www.den4b.com/changelogs/renamer",
-        "re":"tbody id=\"v([\\d.]+)\" class=\"changelogVersionBlock"
+    "homepage": "http://www.den4b.com/products/renamer",
+    "version": "7.1.0.1-beta",
+    "license": "freeware",
+    "url": "http://www.den4b.com/download/renamer/portable?key=c1e1ce11c51ebeb18e5ce7e8459dd9c1489be9ab8a27e871#/dl.zip",
+    "hash": "9d0f586c0e1c65f06354a3c0bcc019b187372d167077238e6299246cb3986862",
+    "bin": [
+        [
+            "ReNamer.exe",
+            "ReNamerLite"
+        ]
+    ],
+    "persist": "Settings.ini",
+    "shortcuts": [
+        [
+            "ReNamer.exe",
+            "ReNamer Lite"
+        ]
+    ],
+    "checkver": {
+            "url": "http://www.den4b.com/changelogs/renamer",
+            "re": "tbody id=\"v(?<version>[\\d.\\w-]+)\" class=\"changelogVersionBlock"
+    },
+    "_autoupdate": {
+        "url": "http://www.den4b.com/download/renamer/portable?key=${key}"
     }
 }
