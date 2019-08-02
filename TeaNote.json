@@ -1,9 +1,9 @@
 {
-    "homepage":  "https://haocha.co/",
-    "version":  "0.9.0",
-    "license":  "freeware",
-    "url":  "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%200.9.0.exe#/dl.7z",
-    "hash":  "",
+    "homepage": "https://haocha.co/",
+    "version": "0.18.0",
+    "license": "freeware",
+    "url": "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%200.18.0.exe#/dl.7z",
+    "hash": "90e116e7795ae83e1d9cc38e8cc294e701190d7525759b4e2d523960bc99e645",
     "architecture": {
         "64bit": {
             "installer": {
@@ -23,7 +23,7 @@
     "checkver": {
         "url": "https://haocha.co/static/js/main.756de08f.chunk.js",
         "re": "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%20([\\d.]+).exe"
-	},
+    },
     "autoupdate": {
         "url": "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%20$version.exe#/dl.7z"
     }
