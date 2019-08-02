@@ -20,11 +20,11 @@
             "Tea Note"
         ]
     ],
+    "checkver": {
+        "url": "https://haocha.co/static/js/main.756de08f.chunk.js",
+        "re": "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%20([\\d.]+).exe"
+	},
     "autoupdate": {
-        "architecture": {
-            "64bit": {  
-                "url": "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%20$version.exe#/dl.7z"
-            }
-        }
+        "url": "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%20$version.exe#/dl.7z"
     }
 }
