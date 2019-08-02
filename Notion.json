@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.notion.so/",
-    "version": "1.0.4",
+    "version": "1.0.7",
     "license": "freeware",
-    "url": "https://desktop-release.notion-static.com/Notion%20Setup%201.0.5.exe#/notion.7z",
-    "hash": "d4e71e712de7bd31ef6499321acbc4a7d5be1a2310351a142dab5541cc0f6a2f",
+    "url": "https://desktop-release.notion-static.com/Notion%20Setup%201.0.7.exe#/notion.7z",
+    "hash": "cea7d4a7a67541eab82e6801ff2bd4feced8e13f9abec7f9d917a25bbf303c4b",
     "architecture": {
         "64bit": {
             "installer": {
@@ -19,5 +19,8 @@
             "Notion.exe",
             "Notion"
         ]
-    ]
+    ],
+    "autoupdate": {
+        "url": "https://desktop-release.notion-static.com/Notion%20Setup%20$version.exe#/notion.7z"
+    }
 }
