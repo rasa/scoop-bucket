@@ -14,7 +14,7 @@
         }
     },
     "bin": "elevate.exe",
-    "checkver": "elevate-([\\d\\.]+)-redist.7z",
+    "checkver": "elevate-([\\d.]+)-redist.7z",
     "autoupdate": {
         "url": "http://code.kliu.org/misc/elevate/elevate-$version-redist.7z",
         "hash": {

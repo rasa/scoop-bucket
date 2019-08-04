@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/klatexformula/rss?path=/klatexformula",
-        "re": "/klatexformula/klatexformula-([\\d\\.]+)/klatexformula-[\\d\\.]+-win32\\.exe"
+        "re": "/klatexformula/klatexformula-([\\d.]+)/klatexformula-[\\d.]+-win32\\.exe"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/klatexformula/klatexformula/klatexformula-$version/klatexformula-$version-win32.exe#/dl.7z",

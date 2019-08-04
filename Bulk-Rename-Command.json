@@ -16,7 +16,7 @@
     "bin": "BRC.exe",
     "checkver": {
         "url": "https://www.bulkrenameutility.co.uk/Download.php",
-        "re": "Bulk Rename Command</span>, version[\\W\\w]*?([\\d\\.]+)"
+        "re": "Bulk Rename Command</span>, version[\\W\\w]*?([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

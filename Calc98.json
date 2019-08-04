@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://www.calculator.org/download.html",
-        "re": "The current version \\(([\\d\\.]+)\\) is available"
+        "re": "The current version \\(([\\d.]+)\\) is available"
     },
     "autoupdate": {
         "url": "https://www.calculator.org/fsi/c98$cleanVersionu.exe#dl.7z"

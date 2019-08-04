@@ -17,7 +17,7 @@
     "bin": "bin\\prince.exe",
     "checkver": {
         "url": "https://www.princexml.com/download/",
-        "re": "<title>Prince - Download Prince ([\\d\\.]+)</title>"
+        "re": "<title>Prince - Download Prince ([\\d.]+)</title>"
     },
     "autoupdate": {
         "architecture": {

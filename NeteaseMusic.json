@@ -19,7 +19,7 @@
     "checkver": {
         "url": "https://h404bi.azurewebsites.net/ncmversion.php",
         "jp": "$.updateFiles[0].url",
-        "re": "(?<dir1>[\\d\\w]{4})/(?<dir2>\\d{11,13})/cloudmusicsetup([\\d\\.]+)\\.exe"
+        "re": "(?<dir1>[\\d\\w]{4})/(?<dir2>\\d{11,13})/cloudmusicsetup([\\d.]+)\\.exe"
     },
     "autoupdate": {
         "url": "https://d1.music.126.net/dmusic/$matchDir1/$matchDir2/cloudmusicsetup$version.exe#/dl.7z",

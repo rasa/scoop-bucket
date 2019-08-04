@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "https://www.gpg4usb.org/download.html",
-        "re": "<strong>gpg4usb-([\\d\\.-]+\\d)\\.zip</strong>"
+        "re": "<strong>gpg4usb-([\\d.-]+\\d)\\.zip</strong>"
     },
     "autoupdate": {
         "url": "https://www.gpg4usb.org/gpg4usb-0.3.3-2.zip",

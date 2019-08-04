@@ -35,7 +35,7 @@
     },
     "checkver": {
         "url": "https://www.bitcomet.com/en/archive",
-        "re": "BitComet_([\\d\\.]+)\\.zip"
+        "re": "BitComet_([\\d.]+)\\.zip"
     },
     "_autoupdate": {
         "url": "https://download.bitcomet.com/achive/BitComet_$version.zip",

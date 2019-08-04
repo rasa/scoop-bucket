@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/exmplayer/rss?path=/",
-        "re": "/ExMplayer\\-([\\d\\.]+)/exmplayer\\-portable\\-[\\d\\.]+\\.7z"
+        "re": "/ExMplayer\\-([\\d.]+)/exmplayer\\-portable\\-[\\d.]+\\.7z"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/exmplayer/files/ExMplayer-$version/exmplayer-portable-$version.7z",

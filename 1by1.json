@@ -24,7 +24,7 @@
             "1by1"
         ]
     ],
-    "checkver": "Version ([\\d\\.]+) ",
+    "checkver": "Version ([\\d.]+) ",
     "autoupdate": {
         "url": "https://www.fosshub.com/1by1.html?dwl=1by1_$cleanVersion.exe"
     }

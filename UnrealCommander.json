@@ -64,7 +64,7 @@
     ],
     "checkver": {
         "url": "https://x-diesel.com/",
-        "regex": "Unreal Commander v(?<pure>[\\d\\.]+) \\(build (?<build>\\d+)\\)",
+        "regex": "Unreal Commander v(?<pure>[\\d.]+) \\(build (?<build>\\d+)\\)",
         "replace": "${pure}.${build}"
     },
     "autoupdate": {

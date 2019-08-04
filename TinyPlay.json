@@ -12,7 +12,7 @@
             "Tiny Player"
         ]
     ],
-    "checkver": "Tiny Player ([\\d\\.]+)",
+    "checkver": "Tiny Player ([\\d.]+)",
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/tinyplayer/files/tinyplay.zip"
     }

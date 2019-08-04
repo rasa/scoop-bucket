@@ -41,7 +41,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/mpcbe/files/MPC-BE/Release%20builds/",
-        "regex": "title=\"([\\d\\.]+)\"\\s+class=\"folder"
+        "regex": "title=\"([\\d.]+)\"\\s+class=\"folder"
     },
     "autoupdate": {
         "architecture": {

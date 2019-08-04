@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "https://iridiumbrowser.de/downloads/windows",
-        "re": "current version ([\\d\\.]+)"
+        "re": "current version ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

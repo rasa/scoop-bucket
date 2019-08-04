@@ -33,7 +33,7 @@
     "persist": "User Data",
     "checkver": {
         "url": "https://www.centbrowser.com",
-        "re": "<p>Version: ([\\d\\.]+)"
+        "re": "<p>Version: ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

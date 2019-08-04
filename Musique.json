@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "https://flavio.tordini.org/feed",
-        "re": "<title>Musique ([\\d\\.]+)</title>"
+        "re": "<title>Musique ([\\d.]+)</title>"
     },
     "autoupdate": {
         "url": "https://flavio.tordini.org/files/musique/musique.exe#/dl.7z"

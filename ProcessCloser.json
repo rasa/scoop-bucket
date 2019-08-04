@@ -13,7 +13,7 @@
             "ProcessCloser"
         ]
     ],
-    "checkver": "Version</span>:</strong> ([\\d\\.]+)",
+    "checkver": "Version</span>:</strong> ([\\d.]+)",
     "autoupdate": {
         "url": "http://www.adminscope.com/?ddownload=977#/dl.7z"
     }

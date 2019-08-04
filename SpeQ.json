@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "http://www.speqmath.com/?id=4",
-        "re": "<h2>Download SpeQ Mathematics ([\\d\\.]+)</h2> "
+        "re": "<h2>Download SpeQ Mathematics ([\\d.]+)</h2> "
     },
     "autoupdate": {
         "url": "http://www.speqmath.com/files/speq.zip"

@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://icecreamapps.com/Download-PDF-Converter/",
-        "re": "<strong>Version:</strong> ([\\d\\.]+)"
+        "re": "<strong>Version:</strong> ([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://download.icecreamapps.com/pdf_converter_setup.exe"

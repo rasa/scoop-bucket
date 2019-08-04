@@ -35,7 +35,7 @@
     },
     "checkver": {
         "url": "https://sourceforge.net/projects/virtualdub/rss?path=/virtualdub-win",
-        "re": "!\\[CDATA\\[/virtualdub-win/([\\d\\.]+)/README\\]\\]"
+        "re": "!\\[CDATA\\[/virtualdub-win/([\\d.]+)/README\\]\\]"
     },
     "autoupdate": {
         "architecture": {

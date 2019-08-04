@@ -34,7 +34,7 @@
     ],
     "checkver": {
         "url": "https://www.sumatrapdfreader.org/news.html",
-        "regex": "([\\d\\.]+)\\s+\\(\\d+"
+        "regex": "([\\d.]+)\\s+\\(\\d+"
     },
     "autoupdate": {
         "architecture": {

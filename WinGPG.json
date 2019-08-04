@@ -33,7 +33,7 @@
             "WinGPG"
         ]
     ],
-    "checkver": "WinGPG-([\\d\\.]+)-Portable-x32\\.zip",
+    "checkver": "WinGPG-([\\d.]+)-Portable-x32\\.zip",
     "autoupdate": {
         "architecture": {
             "64bit": {

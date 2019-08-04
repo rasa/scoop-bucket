@@ -13,7 +13,7 @@
             "Audacious"
         ]
     ],
-    "checkver": "the latest version \\(currently ([\\d\\.]+)\\)",
+    "checkver": "the latest version \\(currently ([\\d.]+)\\)",
     "autoupdate": {
         "url": "https://distfiles.audacious-media-player.org/audacious-$version-win32.zip"
     }

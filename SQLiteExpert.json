@@ -35,7 +35,7 @@
     "innosetup": true,
     "checkver": {
         "url": "http://www.sqliteexpert.com/download.html",
-        "re": "SQLite Expert Personal[\\w\\W]*?Version[\\w\\W]*?([\\d\\.]+)"
+        "re": "SQLite Expert Personal[\\w\\W]*?Version[\\w\\W]*?([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

@@ -13,7 +13,7 @@
             "EasyTAG"
         ]
     ],
-    "checkver": "EasyTAG ([\\d\\.]+) released",
+    "checkver": "EasyTAG ([\\d.]+) released",
     "autoupdate": {
         "url": "https://download.gnome.org/binaries/win32/easytag/$majorVersion.$minorVersion/easytag-$version-setup.exe#/dl.7z"
     }

@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "http://www.antp.be/software/renamer/download",
-        "re": "Version ([\\d\\.]+) - Complete package without installation"
+        "re": "Version ([\\d.]+) - Complete package without installation"
     },
     "autoupdate": {
         "url": "http://update.antp.be/renamer/antrenamer$majorVersion.zip"

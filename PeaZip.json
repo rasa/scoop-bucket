@@ -21,7 +21,7 @@
             "PeaZip"
         ]
     ],
-    "checkver": "Portable ([\\d\\.]+)",
+    "checkver": "Portable ([\\d.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {

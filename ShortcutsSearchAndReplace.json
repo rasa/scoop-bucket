@@ -22,7 +22,7 @@
 			"Shortcuts Search And Replace"
 		]
 	],
-    "checkver": "Version&nbsp;\\:&nbsp;</td>\\s*<td>&nbsp;([\\d\\.]+)",
+    "checkver": "Version&nbsp;\\:&nbsp;</td>\\s*<td>&nbsp;([\\d.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {

@@ -27,7 +27,7 @@
     },
     "checkver": {
         "url": "https://calerga.com/products/relnotes/SQ.html",
-        "re": "Sysquake ([\\d\\.]+)"
+        "re": "Sysquake ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://calerga.com/download/Install_SQ.exe"

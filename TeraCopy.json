@@ -34,7 +34,7 @@
             "TeraCopy"
         ]
     ],
-    "checkver": "TeraCopy ([\\d\\.]+)",
+    "checkver": "TeraCopy ([\\d.]+)",
     "autoupdate": {
         "url": "http://www.codesector.com/files/teracopy.exe#tera.exe"
     }

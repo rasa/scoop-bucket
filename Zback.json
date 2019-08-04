@@ -15,7 +15,7 @@
             "Zback"
         ]
     ],
-    "checkver": "-version ([\\d\\.\\w]+)<br>",
+    "checkver": "-version ([\\d.\\w]+)<br>",
     "autoupdate": {
         "url": "http://titan.fsb.hr/~dzorc/zback$majorVersion$minorVersion.zip"
     }

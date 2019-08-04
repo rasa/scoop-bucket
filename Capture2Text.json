@@ -20,7 +20,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/capture2text/rss?path=/Capture2Text",
-        "re": "Capture2Text_v([\\d\\.]+)"
+        "re": "Capture2Text_v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

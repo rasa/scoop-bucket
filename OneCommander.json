@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "http://onecommander.com/blog/",
-        "re": "Update ([\\d\\.]+)"
+        "re": "Update ([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://onecommander.com/OneCommanderPortable.zip"

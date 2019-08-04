@@ -34,7 +34,7 @@
     ],
     "checkver": {
         "url": "http://www.torchsoft.com/node/12",
-        "re": "Version ([\\d\\.]+)"
+        "re": "Version ([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://www.torchsoft.com/download/RegistryWorkshop_chs.exe#dl.7z"

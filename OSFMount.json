@@ -12,7 +12,7 @@
             "OSFMount"
         ]
     ],
-    "checkver": "Please click below to download the OSFMount V([\\d\\.]+) installation package",
+    "checkver": "Please click below to download the OSFMount V([\\d.]+) installation package",
     "autoupdate": {
         "url": "https://www.osforensics.com/downloads/osfmount.exe#/dl.exe"
     }

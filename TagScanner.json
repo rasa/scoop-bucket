@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "https://www.xdlab.ru/en/download.htm",
-        "re": "/files/tagscan-([\\d\\.]+)-setup\\.exe"
+        "re": "/files/tagscan-([\\d.]+)-setup\\.exe"
     },
     "autoupdate": {
         "url": "https://www.xdlab.ru/files/tagscan-$version.zip"

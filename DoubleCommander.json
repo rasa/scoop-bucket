@@ -44,7 +44,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/p/doublecmd/wiki/Download/",
-        "regex": "doublecmd-([\\d\\.]+)\\.i386-win32\\.zip"
+        "regex": "doublecmd-([\\d.]+)\\.i386-win32\\.zip"
     },
     "autoupdate": {
         "architecture": {

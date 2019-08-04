@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://github.com/mucommander/mucommander/releases/latest",
-        "re": "/mucommander/mucommander/releases/tag/([\\d\\.-]+)"
+        "re": "/mucommander/mucommander/releases/tag/([\\d.-]+)"
     },
     "autoupdate": {
         "url": "https://github.com/mucommander/mucommander/releases/download/$version/mucommander-$matchHead-portable.tar.gz",

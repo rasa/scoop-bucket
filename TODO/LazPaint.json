@@ -15,7 +15,7 @@
     "extract_dir": "lazpaint6.4.1",
     "checkver": {
         "url": "https://sourceforge.net/projects/lazpaint/rss?path=/bin",
-        "re": "lazpaint([\\d\\.]+)_win64\\.zip"
+        "re": "lazpaint([\\d.]+)_win64\\.zip"
     },
     "autoupdate": {
         "architecture": {

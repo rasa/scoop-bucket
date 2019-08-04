@@ -17,7 +17,7 @@
             "DropIt"
         ]
     ],
-    "checkver":"/DropIt/v([\\d\\.]+)/",
+    "checkver":"/DropIt/v([\\d.]+)/",
     "autoupdate": {
         "url":"https://downloads.sourceforge.net/project/dropit/files/DropIt/v$version/DropIt_v$version_Portable.zip",
         "hash": {

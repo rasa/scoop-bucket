@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "http://www.diskgenius.cn/download.php",
-        "re": "<h4>\\[V([\\d\\.]+)\\]"
+        "re": "<h4>\\[V([\\d.]+)\\]"
     },
     "autoupdate": {
         "architecture": {

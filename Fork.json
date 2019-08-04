@@ -20,7 +20,7 @@
     ],
     "checkver": {
         "url": "https://git-fork.com/releasenoteswin",
-        "re": "<h4 class=\"header4\">Fork ([\\d\\.]+)</h4>"
+        "re": "<h4 class=\"header4\">Fork ([\\d.]+)</h4>"
     },
     "autoupdate": {
         "url": "https://git-fork.com/update/win/ForkInstaller.exe#dl.7z",

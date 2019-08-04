@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "https://u-tools.com/download_prod.asp?download_id=600&Agree=1",
-        "re": "Version: ([\\d\\.]+)<BR />"
+        "re": "Version: ([\\d.]+)<BR />"
     },
     "autoupdate": {
         "url": "https://u-tools.com/files/msls$patchVersion.exe#/dl.7z"

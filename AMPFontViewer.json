@@ -11,6 +11,6 @@
             "AMP Font Viewer"
         ]
     ],
-    "checkver":"Version ([\\d\\.]+)",
+    "checkver":"Version ([\\d.]+)",
     "autoupdate":{"url":"http://www.ampsoft.net/files/FontViewer.zip"}
 }

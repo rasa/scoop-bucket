@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "http://builds.libav.org/windows/release-gpl/?C=M&O=D",
-        "re": "libav-i686-w64-mingw32-([\\d\\.]+)\\.7z"
+        "re": "libav-i686-w64-mingw32-([\\d.]+)\\.7z"
     },
     "autoupdate": {
         "architecture": {

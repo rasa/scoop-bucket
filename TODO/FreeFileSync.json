@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "url":"https://freefilesync.org/download.php",
-        "re":"Download the latest FreeFileSync ([\\d\\.]+)\\."
+        "re":"Download the latest FreeFileSync ([\\d.]+)\\."
     },
     "autoupdate": {
         "url": "https://freefilesync.org/download/FreeFileSync_$version_Windows_Setup.exe#/dl.7z"

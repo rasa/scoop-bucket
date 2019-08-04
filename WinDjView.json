@@ -8,7 +8,7 @@
     "bin": "WinDjView.exe",
     "checkver": {
         "url": "https://sourceforge.net/projects/windjview/rss?path=/WinDjView",
-        "re": "WinDjView/([\\d\\.]+)/WinDjView-[\\d\\.]+-Setup\\.exe"
+        "re": "WinDjView/([\\d.]+)/WinDjView-[\\d.]+-Setup\\.exe"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/windjview/WinDjView/$version/WinDjView-$version-Setup.exe#/dl.7z"

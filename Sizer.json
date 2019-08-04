@@ -11,7 +11,7 @@
             "Sizer"
         ]
     ],
-    "checkver": "<h1>Sizer ([\\d\\.]+)</h1>",
+    "checkver": "<h1>Sizer ([\\d.]+)</h1>",
     "autoupdate": {
         "url": "http://www.brianapps.net/sizer/sizer$cleanVersion.zip"
     }

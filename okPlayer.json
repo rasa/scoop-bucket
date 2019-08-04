@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/okplayer/rss?path=/",
-        "re": "!\\[CDATA\\[/([\\d\\.]+)/okplayer-[\\d\\.]+-win32\\.exe\\]\\]"
+        "re": "!\\[CDATA\\[/([\\d.]+)/okplayer-[\\d.]+-win32\\.exe\\]\\]"
     },
     "autoupdate": {
         "url": "http://downloads.sourceforge.net/project/okplayer/files/$version/okplayer-$version-win32.exe",

@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://www.pdfmate.com/version-history-free-pdf-merger.html",
-        "re": "PDFMate Free PDF Merger V([\\d\\.]+)"
+        "re": "PDFMate Free PDF Merger V([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://www.pdfmate.com/setup_free_pdf_merger.exe#/dl.7z"

@@ -19,7 +19,7 @@
         ]
     ],
     "post_install": "Remove-Item \"$dir\\lib\" \"$dir\\_rels\" \"$dir\\package\" \"$dir\\[Content_Types].xml\" \"$dir\\background.gif\" \"$pkgfile\" -Force -Recurses",
-    "checkver": "Download ([\\d\\.]+) for Windows",
+    "checkver": "Download ([\\d.]+) for Windows",
     "autoupdate": {
         "url": "https://releases.sodaplayer.com/win/SodaPlayerSetup%20$version.exe#/dl.7z"
     }

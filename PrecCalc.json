@@ -20,7 +20,7 @@
             "Precise Calculator"
         ]
     ],
-    "checkver": "Precise Calculator ([\\d\\.]+)",
+    "checkver": "Precise Calculator ([\\d.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {

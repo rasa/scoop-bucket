@@ -16,7 +16,7 @@
     "bin": "INetGet.exe",
     "checkver": {
         "url": "https://github.com/lordmulder/INetGet/releases/latest",
-        "re": "<title>Release INetGet v([\\d\\.]+) \\((?<date>\\d{4}-\\d{2}-\\d{2})\\) · lordmulder/INetGet"
+        "re": "<title>Release INetGet v([\\d.]+) \\((?<date>\\d{4}-\\d{2}-\\d{2})\\) · lordmulder/INetGet"
     },
     "autoupdate": {
         "url": "https://github.com/lordmulder/INetGet/releases/download/$version/WinINetGet.$matchDate.zip"

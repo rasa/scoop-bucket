@@ -20,7 +20,7 @@
     ],
     "checkver": {
         "url": "http://www.debugmode.com/wink/download.htm",
-        "re": "For Windows .<b>version (?<ver>[\\d\\.]+)</b> build (?<build>[\\d]+)",
+        "re": "For Windows .<b>version (?<ver>[\\d.]+)</b> build (?<build>[\\d]+)",
         "replace": "${ver}-${build}"
     },
     "autoupdate": {

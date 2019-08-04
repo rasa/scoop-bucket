@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "http://cintanotes.com/download/",
-        "re": "Version ([\\d\\.]+) &#8226; Free &#8226; Windows"
+        "re": "Version ([\\d.]+) &#8226; Free &#8226; Windows"
     },
     "autoupdate": {
         "url": "http://cintanotes.com/files/CintaNotes_$underscoreVersion.zip",

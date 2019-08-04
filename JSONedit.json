@@ -12,7 +12,7 @@
             "JSONedit"
         ]
     ],
-    "checkver": " Version [\\s\\S]*(\\d[\\d\\.]+\\.[\\d\\.]+)",
+    "checkver": " Version [\\s\\S]*(\\d[\\d.]+\\.[\\d.]+)",
     "autoupdate": {
         "url": "http://tomeko.net/software/JSONedit/bin/JSONedit_$underscoreVersion.zip"
     }

@@ -16,7 +16,7 @@
             "ZGrapher"
         ]
     ],
-    "checkver": "here</a> to download ZGrapher ([\\d\\.]+)",
+    "checkver": "here</a> to download ZGrapher ([\\d.]+)",
     "autoupdate": {
         "url": "http://www.palamsoft.com/zgrapher/zgrapher.zip"
     }

@@ -16,6 +16,6 @@
             "KeepNote"
         ]
     ],
-    "checkver":"Released KeepNote ([\\d\\.]+)</h3>",
+    "checkver":"Released KeepNote ([\\d.]+)</h3>",
     "autoupdate":"http://keepnote.org/download/keepnote-$version.exe"
 }

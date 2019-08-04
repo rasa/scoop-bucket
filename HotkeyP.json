@@ -27,7 +27,7 @@
 			"HotkeyP Spy"
 		]
     ],
-    "checkver": "HotkeyP ([\\d\\.]+)",
+    "checkver": "HotkeyP ([\\d.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {

@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "url": "http://dimio.altervista.org/eng/",
-        "re": "DShutdown v([\\d\\.]+)"
+        "re": "DShutdown v([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://dimiodati.altervista.org/zip/dshutdown.zip"

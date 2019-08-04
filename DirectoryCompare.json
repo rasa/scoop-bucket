@@ -20,7 +20,7 @@
             "Directory Compare"
         ]
     ],
-    "checkver": "New\\s+in\\s+version\\s+([\\d\\.]+)",
+    "checkver": "New\\s+in\\s+version\\s+([\\d.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {

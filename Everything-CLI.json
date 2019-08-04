@@ -8,7 +8,7 @@
     "persist": "es.ini",
     "checkver": {
         "url": "https://www.voidtools.com/downloads/",
-        "re": "ES-([\\d\\.]+)\\.zip"
+        "re": "ES-([\\d.]+)\\.zip"
     },
     "autoupdate": {
         "url": "https://www.voidtools.com/es.zip"

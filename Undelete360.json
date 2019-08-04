@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "http://www.undelete360.com/download.html",
-        "re": "Version\\: (\\d\\.[\\d.]+)"
+        "re": "Version\\: (\\d.[\\d.]+)"
     },
     "autoupdate": {
         "url": "http://www.undelete360.com/files/undelete-360.exe"
