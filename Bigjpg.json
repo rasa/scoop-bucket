@@ -23,5 +23,15 @@
 			"bigjpg.exe",
 			"Bigjpg"
 		]
-	]
+	],
+	"autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url":  "https://cdn-ossd.zipjpg.com/app/bigjpg-win-x64.zip"
+            },
+            "32bit": {
+                "url": "https://cdn-ossd.zipjpg.com/app/bigjpg-win-x32.zip"
+            }
+        }
+    }
 }
