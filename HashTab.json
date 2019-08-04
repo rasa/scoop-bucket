@@ -21,6 +21,7 @@
             "post_install": "sudo \"$env:COMSPEC\" /c \"regsvr32 /s \"$dir\\HashTab32.dll\"\""
         }
     },
+    "notes": "Before uninstall it, please unregister the dll manully.",
     "checkver": "HashTab_v([\\d.]+)_Setup.exe",
     "autoupdate": {
         "url": "http://implbits.com/products/hashtab/HashTab_v$version_Setup.exe#/dl.7z"
