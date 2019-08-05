@@ -5,25 +5,47 @@
     "url": "http://implbits.com/products/hashtab/HashTab_v6.0.0.34_Setup.exe#/dl.7z",
     "hash": "85caa9ea0bb91da273e4d02b5f0a1c1736cc7314c4f2c839882339cc69ddaf10",
     "depends": "sudo",
-    "installer": {
-        "script": [
-            "Rename-Item \"$dir\\`$R0\" \"$dir\\HashTab64.dll\"",
-            "$hash32 = (Get-ChildItem \"$dir\" 'HashTab32*.dll' | Select-Object -First 1).FullName",
-            "Rename-Item \"$hash32\" \"$dir\\HashTab32.dll\"",
-            "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst.exe.nsis\" -Force -Recurse"
-        ]
-    },
     "architecture": {
         "64bit": {
-            "post_install": "sudo \"$env:COMSPEC\" /c \"regsvr32 /s \"$dir\\HashTab64.dll\"\""
+            "pre_install": [
+                "$hash32 = (Get-ChildItem \"$dir\" 'HashTab32*.dll' | Select-Object -First 1).FullName",
+                "Remove-Item \"$hash32\"",
+                "Rename-Item \"$dir\\`$R0\" \"$dir\\HashTab.dll\""
+            ]
         },
         "32bit": {
-            "post_install": "sudo \"$env:COMSPEC\" /c \"regsvr32 /s \"$dir\\HashTab32.dll\"\""
+            "pre_install": [
+                "$hash32 = (Get-ChildItem \"$dir\" 'HashTab32*.dll' | Select-Object -First 1).FullName",
+                "Rename-Item \"$hash32\" \"$dir\\HashTab32.dll\"",
+                "Remove-Item \"$dir\\`$R0\" -Force"
+            ]
         }
     },
-    "notes": "Before uninstall it, please unregister the dll manully.",
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst.exe.nsis\" -Force -Recurse",
+        "sudo \"$env:COMSPEC\" /c \"regsvr32 /s \"$dir\\HashTab.dll\"\""
+    ],
+    "uninstaller": {
+        "script": "sudo \"$env:COMSPEC\" /c \"regsvr32 /u /s \"$dir\\HashTab.dll\"\""
+    },
     "checkver": "HashTab_v([\\d.]+)_Setup.exe",
     "autoupdate": {
-        "url": "http://implbits.com/products/hashtab/HashTab_v$version_Setup.exe#/dl.7z"
+        "url": "http://implbits.com/products/hashtab/HashTab_v$version_Setup.exe#/dl.7z",
+        "architecture": {
+            "64bit": {
+                "pre_install": [
+                    "Rename-Item \"$dir\\`$R0\" \"$dir\\HashTab.dll\"",
+                    "Remove-Item \"$dir\\HashTab32-${version}.dll\" -Force",
+                    "sudo \"$env:COMSPEC\" /c \"regsvr32 /s \"$dir\\HashTab.dll\"\""
+                ]
+            },
+            "32bit": {
+                "pre_install": [
+                    "Rename-Item \"$HashTab32-${version}.dll\" \"$dir\\HashTab.dll\"",
+                    "Remove-Item \"$dir\\`$R0\" -Force",
+                    "sudo \"$env:COMSPEC\" /c \"regsvr32 /s \"$dir\\HashTab.dll\"\""
+                ]
+            }
+        }
     }
 }
