@@ -5,11 +5,11 @@
     "architecture": {
         "64bit": {
             "url": "https://kurtzimmermann.com/files/HDCleanerX64.zip",
-            "hash": "ada90c4ca8c99b9b758bbd2f55b95726a83b9172213f01486160248ae90a1514"
+            "hash": "4bb34b6e6f4b65378298056db0a9e1b600622c3f96ca06d833d82ee6e9178539"
         },
         "32bit": {
             "url": "https://kurtzimmermann.com/files/HDCleanerX32.zip",
-            "hash": "c95e1e406a279b0fce0a348752ef3af2f01e0a961476f1272380219c9e0bdc94"
+            "hash": "46db85609bb3b4d2a7763b4acfa798702fc9b172ad13b25fffea6de2cb1f9171"
         }
     },
     "bin": "HDCleaner.exe",
