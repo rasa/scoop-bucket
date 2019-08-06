@@ -12,7 +12,7 @@
             "hash": "eb467331e35e081adfa669d0e314aba742233bfc407bf39f1e927d2ca5559036"
         }
     },
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R2\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse",
     "bin": "ultracopier.exe",
     "shortcuts": [
         [
@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://files.first-world.info/ultracopier/1.6.1.5/ultracopier-windows-x86_64-1.6.1.5-setup.exe#/dl.7z"
+                "url": "http://files.first-world.info/ultracopier/$version/ultracopier-windows-x86_64-$version-setup.exe#/dl.7z"
             },
             "32bit": {
-                "url": "http://files.first-world.info/ultracopier/1.6.1.5/ultracopier-windows-x86-1.6.1.5-setup.exe#/dl.7z"
+                "url": "http://files.first-world.info/ultracopier/$version/ultracopier-windows-x86-$version-setup.exe#/dl.7z"
             }
         }
     }
