@@ -10,5 +10,8 @@
             "xdman.jar",
             "Xtreme Download Manager"
         ]
-    ]
+    ],
+    "autoupdate": {
+        "url":  "http://xdman.sourceforge.net/xdman.jar"
+    }
 }
