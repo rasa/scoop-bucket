@@ -1,6 +1,6 @@
 {
     "homepage": "https://mkvtoolnix.download/",
-    "description": "A set of tools to create, alter and inspect Matroska files.",
+    "description": "a set of tools to create, alter and inspect Matroska files.",
     "version": "35.0.0",
     "license": "GPL-2.0-only",
     "architecture": {

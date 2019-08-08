@@ -1,6 +1,6 @@
 {
     "homepage":  "https://freefilesync.org/",
-    "description": "A free open source data backup software that helps you synchronize files and folders.",
+    "description": "a free open source data backup software that helps you synchronize files and folders.",
     "version":  "10.10",
     "license":  "freeware",
     "url":  "https://freefilesync.org/download/FreeFileSync_10.12_Windows_Setup.exe#/dl.7z",

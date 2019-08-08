@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/fcFn/traymond",
-    "description": "A simple Windows app for minimizing windows to tray icons",
+    "description": "a simple Windows app for minimizing windows to tray icons",
     "version": "1.0.2",
     "license": "MIT",
     "url": "https://github.com/fcFn/traymond/releases/download/v1.0.2/Traymond.exe",

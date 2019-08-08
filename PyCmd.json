@@ -1,6 +1,6 @@
 {
     "homepage": "https://sourceforge.net/projects/pycmd/",
-    "description": "A smart command prompt extension for Windows' cmd.exe; its purpose is to emulate a few power features of UNIX shells (decent Tab-completion, persistent history, etc.)",
+    "description": "a smart command prompt extension for Windows' cmd.exe; its purpose is to emulate a few power features of UNIX shells (decent Tab-completion, persistent history, etc.)",
     "version": "20171215",
     "license": "LGPL-2.0-only",
     "extract_dir": "PyCmd",

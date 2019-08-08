@@ -1,6 +1,6 @@
 {
     "homepage": "http://www.gnuplot.info",
-    "description": "A portable command-line driven graphing utility.",
+    "description": "a portable command-line driven graphing utility.",
     "version": "5.2.7",
     "license": {
         "identifier": "gnuplot",
