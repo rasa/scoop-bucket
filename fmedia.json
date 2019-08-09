@@ -1,6 +1,6 @@
 {
     "homepage": "https://fmedia.firmdev.com/",
-    "description": "a fast media player/recorder/converter",
+    "description": "A fast media player/recorder/converter",
     "license": "GPL-3.0-only",
     "version": "1.10.1",
     "architecture": {
