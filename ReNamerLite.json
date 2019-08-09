@@ -1,9 +1,15 @@
 {
-    "homepage": "http://www.den4b.com/products/renamer",
+    "homepage": "https://www.den4b.com/products/renamer",
     "version": "7.1.0.1-beta",
-    "license": "freeware",
+    "license": "CC-BY-NC-ND-3.0",
+    "description": "Very powerful and flexible file renaming tool.",
     "url": "http://www.den4b.com/download/renamer/portable?key=c1e1ce11c51ebeb18e5ce7e8459dd9c1489be9ab8a27e871#/dl.zip",
     "hash": "9d0f586c0e1c65f06354a3c0bcc019b187372d167077238e6299246cb3986862",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\Settings.ini\")) {",
+        "   New-Item -Path \"$dir\\Settings.ini\" -ItemType 'File' | Out-Null",
+        "}"
+    ],
     "bin": [
         [
             "ReNamer.exe",
@@ -18,7 +24,7 @@
         ]
     ],
     "checkver": {
-            "url": "http://www.den4b.com/changelogs/renamer",
+            "url": "https://www.den4b.com/changelogs/renamer",
             "re": "tbody id=\"v(?<version>[\\d.\\w-]+)\" class=\"changelogVersionBlock"
     },
     "_autoupdate": {
