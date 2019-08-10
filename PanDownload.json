@@ -1,6 +1,6 @@
 {
     "homepage": "https://pandownload.com/",
-    "description": "a Baidu Netdisk Downloader",
+    "description": "A Baidu Netdisk Downloader",
     "version": "2.1.2",
     "license": "Freeware",
     "url": "http://dl.pandownload.club/dl/PanDownload_v2.1.2.zip",
@@ -12,6 +12,18 @@
             "PanDownload.exe",
             "PanDownload"
         ]
+    ],
+    "pre_install": [
+        "function CreateFile([String] $file, [String] $content = $null) {",
+        "    if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
+        "    }",
+        "}",
+        "CreateFile 'PanData/config.ini'",
+        "CreateFile 'PanData/pan.conf'",
+        "CreateFile 'PanData/share.db'",
+        "CreateFile 'PanData/task.db'",
+        "CreateFile 'PanData/user.db'"
     ],
     "persist": [
         "PanData/config.ini",

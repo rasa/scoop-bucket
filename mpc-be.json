@@ -1,7 +1,7 @@
 {
+    "homepage": "https://mpcbe.sourceforge.io/",
+    "description": "A free and open source audio and video player for Windows",
     "version": "1.5.3",
-    "description": "For of Media Player Classic containing additional features and bug fixes.",
-    "homepage": "https://sourceforge.net/projects/mpcbe/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
