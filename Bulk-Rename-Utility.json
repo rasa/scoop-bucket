@@ -1,8 +1,8 @@
 {
     "homepage": "http://www.bulkrenameutility.co.uk/",
-    "version": "3.0.0.1",
+    "version": "3.1.0.0",
     "url": "https://www.bulkrenameutility.co.uk/Downloads/BRU_NoInstall.zip",
-    "hash": "5a937012376f5533433c4b054e6f5c00d1f83b839c7a17f4f2ff6b5bc9a5cbc3",
+    "hash": "37bc7f897971f9c6f122d6d5aae348891908212348ada6309cfa3d329d723114",
     "architecture": {
         "64bit": {
             "extract_dir": [
