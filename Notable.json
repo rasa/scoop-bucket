@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/notable/notable",
     "description": "The markdown-based note-taking app that doesn't suck.",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/notable/notable/releases/download/v1.7.0/Notable-1.7.0-win.zip",
-            "hash": "a8e2cb9d13256b3dd0a1adff6bc5821f3bc653b0e92c1f2d493d36c2784a331b"
+            "url": "https://github.com/notable/notable/releases/download/v1.7.1/Notable-1.7.1-win.zip",
+            "hash": "da05ed59777203d66d1b68c8f0aa9c17bdf3609de9bcd1a89e1cf3f83c3d7d04"
         }
     },
     "bin": "Notable.exe",
