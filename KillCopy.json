@@ -1,7 +1,7 @@
 {
     "homepage": "http://www.killprog.com/killcopye.html",
     "version": "2.85",
-    "license": "unkown",
+    "license": "unknown",
     "url": "http://www.killprog.com/KCinst.exe#/dl.7z",
     "hash": "fe1f98e71f5edbc2c681d50c647c7ad1e641ae7aa60c31c8992e11f5c2f750ab",
     "installer": {
