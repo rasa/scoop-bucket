@@ -33,11 +33,18 @@
             ]
         }
     },
-    "persist": "mpc-be64.ini",
     "pre_install": [
         "$fold = (Get-ChildItem \"$dir\" 'MPC-BE*' | Select-Object -First 1).FullName",
         "Move-Item \"$fold\\*\" \"$dir\"",
-        "Remove-Item \"$fold\" -Force -Recurse"
+        "Remove-Item \"$fold\" -Force -Recurse",
+        "if (!(Test-Path \"$persist_dir\\mpc-be64.ini\")) { New-Item \"$dir\\mpc-be64.ini\" -ItemType File | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\mpc-be.ini\")) { New-Item \"$dir\\mpc-be.ini\" -ItemType File | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\Default.mpcpl\")) { New-Item \"$dir\\Default.mpcpl\" -ItemType File | Out-Null }"
+    ],
+    "persist": [
+        "mpc-be64.ini",
+        "mpc-be.ini",
+        "Default.mpcpl"
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/mpcbe/files/MPC-BE/Release%20builds/",
