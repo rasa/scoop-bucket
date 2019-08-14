@@ -28,7 +28,7 @@
         "url": "https://freecommander.com/downloads/FreeCommanderXE-32-public_portable.zip",
         "hash": {
             "url": "https://freecommander.com/en/downloads-portable/",
-            "find": "(?:$basename).*\\(SHA1:\\s+([a-fA-F0-9]{40})"
+            "find": "(?:$basename).*\\(SHA1:\\s+($sha1)"
         }
     }
 }
