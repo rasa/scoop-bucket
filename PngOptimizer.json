@@ -20,7 +20,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/hadrien-psydk/pngoptimizer"
+        "re": "Windows \\(64 bits\\)[\\w\\W]+?/download/pngoptimizer-([\\d.]+)-win-x64.zip"
     },
     "autoupdate": {
         "architecture": {
