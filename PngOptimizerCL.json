@@ -13,7 +13,10 @@
             "hash": "95708bc6d161d2b0b3a7f4e62c077d0c8baee6b592e4635e6a88c449aba335b8"
         }
     },
-    "checkver": "/download/pngoptimizercl-([\\d.]+)-win-x64",
+    "bin": "PngOptimizerCL.exe",
+    "checkver": {
+        "re": "PngOptimizerCL[\\w\\W]+?/download/pngoptimizercl-([\\d.]+)-win-x64"
+	},
     "autoupdate": {
         "architecture": {
             "64bit": {
