@@ -9,8 +9,8 @@
             "hash":"2237f0ee8fc4998f949f7d66ebd4b7a1e5eb3fe0198e0951dd3a19e2fe6494e2"
         },
         "32bit": {
-            "url": "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.2/FreeCAD-0.18.16117.dbb4cc6-WIN-x32-installer.exe#/dl.7z",
-            "hash":"10cae09ad5f86d8045a7ba0770f69ef5961f4d58a83ee87eb235a7b44ecdbd35",
+            "url": "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.3/FreeCAD-0.18.16131.3129ae4-WIN-x32-installer.exe#/dl.7z",
+            "hash": "ef5d4108329c71b4b5b60fbe2fbc49acef86694942e83765a4863010eabe0d79",
             "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse -Force"
         }
     },
