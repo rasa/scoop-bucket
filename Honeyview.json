@@ -1,13 +1,11 @@
 {
     "homepage": "https://www.bandisoft.com/honeyview/",
     "version": "5.31",
-    "description": "a fast image viewer.",
+    "description": "A fast image viewer.",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.bandisoft.com/honeyview/eula/"
     },
-    "url": "https://dl.bandisoft.com/honeyview/HONEYVIEW-SETUP.EXE#/dl.7z",
-    "hash": "086e3c5a83c69e95447704c533ce8b9a9d4cf655f46d644fdde6b8f92f22d175",
     "architecture":{
         "64bit":{
             "url": "https://dl.bandisoft.com/honeyview/HONEYVIEW-SETUP.EXE#/dl.7z",
