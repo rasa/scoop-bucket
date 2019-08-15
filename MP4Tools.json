@@ -25,6 +25,8 @@
     },
     "autoupdate": {
         "url": "https://www.fosshub.com/MP4Joiner.html?dwl=MP4Tools-$version-win32.exe",
-        "hash": "-win32.exe.*\"sha256\":\"($sha256)\""
+        "hash": {
+            "mode": "fosshub"
+        }
     }
 }
