@@ -5,11 +5,11 @@
     "architecture": {
         "64bit": {
             "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.5.0/smplayer-portable-19.5.0.0-x64.7z",
-            "hash": "5de447429d49e6b376347ec93c523f97a2dcff74f0728b63a6236da5334f4e3d"
+            "hash": "sha1:f5407081367e76e89df559ce54f4d5e2a15e8853"
         },
         "32bit": {
             "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.5.0/smplayer-portable-19.5.0.0.7z",
-            "hash": "32f65557de877b6a2df99b135d534a318f19b27436b43fd13f52147f15060151"
+            "hash": "sha1:76c84d17790096a7943b33fe07066b7e4fe6182f"
         }
     },
     "extract_dir": "smplayer-portable-19.5.0.0",
@@ -39,15 +39,13 @@
             "64bit": {
                 "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-portable-$version.0-x64.7z",
                 "hash": {
-                    "url": "https://www.fosshub.com/SMPlayer.html",
-                    "find": "SMPlayer  Windows 64 bit.*\\n.*\\n.*\\n.*\\n.*\\n.*\\n.*SHA256: ($sha256)</strong>"
+                    "mode": "fosshub"
                 }
             },
             "32bit": {
                 "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-portable-$version.0.7z",
                 "hash": {
-                    "url": "https://www.fosshub.com/SMPlayer.html",
-                    "find": "SMPlayer  Windows 32 bit.*\\n.*\\n.*\\n.*\\n.*\\n.*\\n.*SHA256: ($sha256)</strong>"
+                    "mode": "fosshub"
                 }
             }
         }
