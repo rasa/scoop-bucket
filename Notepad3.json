@@ -1,19 +1,20 @@
 {
     "homepage": "https://github.com/rizonesoft/Notepad3",
     "description": "Notepad like text editor based on the Scintilla source code. Notepad3 based on code from Notepad2 and MiniPath on code from metapath.",
-    "version": "5.19.630.2381",
+    "version": "5.19.815.2595",
+    "license": "BSD-3-Clause",
+    "url": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_5.19.815.2595/Notepad3_5.19.815.2595.zip",
+    "hash": "f837f7f054f9b681dd9d79d61661c04d3f2ed580b959a0ae3606cc6800b37958",
     "bin": "Notepad3.exe",
-    "url": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_5.19.630.2381/Notepad3_5.19.630.2381.zip",
-    "hash": "4c2ddca0f2e27b5980ad33f9f21b3fb9693631d6643568fff2e2e964092c1d4c",
     "architecture": {
         "64bit": {
             "installer": {
-                "script": "Expand-7ZipArchive \"$dir\\Notepad3_5.19.108.1602_x64.zip\" \"$dir\""
+                "script": "Expand-7ZipArchive \"$dir\\Notepad3_5.19.630.2381_x64.zip\" \"$dir\""
             }
         },
         "32bit": {
             "installer": {
-                "script": "Expand-7ZipArchive \"$dir\\Notepad3_5.19.108.1602_x86.zip\" \"$dir\""
+                "script": "Expand-7ZipArchive \"$dir\\Notepad3_5.19.630.2381_x86.zip\" \"$dir\""
             }
         }
     },
