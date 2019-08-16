@@ -1,10 +1,10 @@
 {
     "homepage": "http://sox.sourceforge.net/",
-    "description": "The Swiss Army knife of sound processing programs",
-    "version": "14.4.1",
+    "description": "Command line utility that can convert various formats of computer audio files in to other formats.",
+    "version": "14.4.2",
     "license": "GPL-2.0-only",
-    "url": "https://sourceforge.net/projects/sox/files/sox/14.4.2/sox-14.4.2-win32.zip",
-    "hash": "8072CC147CF1A3B3713B8B97D6844BB9389E211AB9E1101E432193FAD6AE6662",
+    "url": "https://downloads.sourceforge.net/project/sox/sox/14.4.2/sox-14.4.2-win32.zip",
+    "hash": "sha1:825b218c275687a38e96bf838dcfdd2e9bd55a25",
     "extract_dir": "sox-14.4.2",
     "bin":  [
         "sox.exe",
@@ -29,7 +29,8 @@
         "re":"sox-([\\d.]+)-win32.zip"
         },
     "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/sox/files/sox/$version/sox-$version-win32.zip",
+        "url": "https://downloads.sourceforge.net/project/sox/sox/$version/sox-$version-win32.zip",
+        "extract_dir": "sox-$version"
         "hash":{
             "mode":"sourceforge"
         }
