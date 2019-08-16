@@ -20,6 +20,11 @@
             "Free Commander"
         ]
     ],
+    "pre_install": [
+       "if(!(Test-Path \"$dir\\fcStart.ini\")) {",
+        "    Set-Content \"$dir\\fcStart.ini\" -Value \"[Start]`nfreeCommanderIniDir=%FcSrcPath%\"",
+        "}",
+    ],    
     "persist": [
         "Settings",
         "fcStart.ini"
