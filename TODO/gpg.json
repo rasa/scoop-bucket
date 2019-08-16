@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.gnupg.org/",
-    "version": "2.2.15",
-    "license": "GPL-3.0-only",
-    "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-2.2.15_20190326.exe#/dl.7z",
-    "hash": "sha1:f5f7eeadfdf6ad971b5313f045083b4f95ace07b",
+    "version": "2.2.17",
+    "license": "GPL-3.0-or-later",
+    "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-2.2.17_20190709.exe#/dl.7z",
+    "hash": "sha1:82abfbc79d1a99b27f25ba92fe878cad07a31532",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
     "env_add_path": "bin",
     "checkver": {
