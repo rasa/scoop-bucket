@@ -21,10 +21,10 @@
         ]
     ],
     "pre_install": [
-       "if(!(Test-Path \"$dir\\fcStart.ini\")) {",
+        "if(!(Test-Path \"$dir\\fcStart.ini\")) {",
         "    Set-Content \"$dir\\fcStart.ini\" -Value \"[Start]`nfreeCommanderIniDir=%FcSrcPath%\"",
-        "}",
-    ],    
+        "}"
+    ],
     "persist": [
         "Settings",
         "fcStart.ini"
@@ -33,7 +33,7 @@
         "url": "https://freecommander.com/downloads/FreeCommanderXE-32-public_portable.zip",
         "hash": {
             "url": "https://freecommander.com/en/downloads-portable/",
-            "find": "(?:$basename).*\\(SHA1:\\s+($sha1)"
+            "regex": "$basename.*SHA1:\\s+$sha1"
         }
     }
 }
