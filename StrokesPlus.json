@@ -18,7 +18,7 @@
     "persist": "StrokesPlus.xml",
     "checkver": {
         "url": "https://www.strokesplus.com/latestrelease.xml",
-        "re": "Version ([\\d.]+)"
+        "regex": "Version ([\\d.]+)"
     },
     "shortcuts": [
         [

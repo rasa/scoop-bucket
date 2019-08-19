@@ -20,7 +20,7 @@
     ],
     "checkver": {
         "url": "http://www.thinkcomposer.com/Home/Download.html",
-        "re": "\\# ([\\d.]+)"
+        "regex": "\\# ([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://instrumind.blob.core.windows.net/thinkcomposer/setup_imtc.exe#/dl.7z"

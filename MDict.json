@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "url": "https://www.mdict.cn/wp/?page_id=5325",
-        "re": "Windows \\(([\\d.]+)\\)\\:.*?(?<filename>MDictPC[\\d.]+\\.7z)"
+        "regex": "Windows \\(([\\d.]+)\\)\\:.*?(?<filename>MDictPC[\\d.]+\\.7z)"
     },
     "autoupdate": {
         "url": "https://www.mdict.cn/download/$matchFilename"

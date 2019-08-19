@@ -32,7 +32,7 @@
     ],
     "checkver": {
         "url": "https://wiki.octave.org/GNU_Octave_Wiki",
-        "re": "<b>GNU Octave ([\\d.]+)</b> is the current stable release"
+        "regex": "<b>GNU Octave ([\\d.]+)</b> is the current stable release"
     },
     "autoupdate": {
         "architecture": {

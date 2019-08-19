@@ -14,7 +14,7 @@
         ]
     ],
     "checkver": {
-        "re": "\\(version ([\\d.]+\\w?)"
+        "regex": "\\(version ([\\d.]+\\w?)"
     },
     "autoupdate": {
         "url": "http://github.com/downloads/jjafuller/DarkRoomW/dark_room_$version.zip",

@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "re": "<td>([\\d.]+)</td>"
+        "regex": "<td>([\\d.]+)</td>"
     },
     "autoupdate": {
         "url": "http://www.musetips.com/downloads/TextFilter_Portable.zip"

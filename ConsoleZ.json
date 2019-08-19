@@ -23,7 +23,7 @@
     ],
     "checkver": {
         "github": "https://github.com/cbucher/console",
-        "re": "ConsoleZ.x64.(?<version>(?<short>[\\d.]+)\\.[\\d]+).zip"
+        "regex": "ConsoleZ.x64.(?<version>(?<short>[\\d.]+)\\.[\\d]+).zip"
     },
     "autoupdate": {
         "architecture": {

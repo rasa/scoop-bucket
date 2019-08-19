@@ -23,7 +23,7 @@
     ],
     "checkver": {
         "url": "https://www.srware.net/software_srware_iron_download.php",
-        "re": "Version: <strong>([\\d.]+)"
+        "regex": "Version: <strong>([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/sqliteman/files/sqliteman/",
-        "re": "/sqliteman/([\\d.]+)/Sqliteman-[\\d.]+-win32.zip"
+        "regex": "/sqliteman/([\\d.]+)/Sqliteman-[\\d.]+-win32.zip"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/sqliteman/sqliteman/$version/Sqliteman-$version-win32.zip",

@@ -25,7 +25,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/madedit-mod/rss?path=/",
-        "re": "MadEdit-Mod([\\d.]+)_X\\d\\d.7z"
+        "regex": "MadEdit-Mod([\\d.]+)_X\\d\\d.7z"
     },
     "autoupdate": {
         "architecture": {

@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/otter-browser/rss?path=/",
-        "re": "otter-browser-win32-weekly([\\d.]+).7z"
+        "regex": "otter-browser-win32-weekly([\\d.]+).7z"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/otter-browser/otter-browser-weekly$version/otter-browser-win64-$version.7z",

@@ -20,7 +20,7 @@
         ]
     ],
     "checkver": {
-        "re": "<H2><span class=\"new\">New:</span> WinEdt ([\\d.]+)</H2>"
+        "regex": "<H2><span class=\"new\">New:</span> WinEdt ([\\d.]+)</H2>"
     },
     "autoupdate": {
         "architecture": {

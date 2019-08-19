@@ -23,7 +23,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/mpg123/rss?path=/mpg123",
-        "re": "mpg123-([\\d.]+).tar.bz2"
+        "regex": "mpg123-([\\d.]+).tar.bz2"
     },
     "autoupdate": {
         "architecture": {

@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "http://www.eagleget.com/download-eagleget-portable/",
-        "re": "Download EagleGet Portable v([\\d.]+)"
+        "regex": "Download EagleGet Portable v([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://dl.eagleget.com/latest/EagleGetProtable_$version.zip",

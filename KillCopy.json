@@ -26,7 +26,7 @@
         ]
     ],
     "checkver": {
-        "re": "KillCopy v([\\d.]+)"
+        "regex": "KillCopy v([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://www.killprog.com/KCinst.exe#/dl.7z"

@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://www.tracker-software.com/product/pdf-xchange-viewer",
-        "re": "<strong>Current version:</strong> ([\\d.]+)"
+        "regex": "<strong>Current version:</strong> ([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://downloads.pdf-xchange.com/PDFX_Vwr_Port.zip"

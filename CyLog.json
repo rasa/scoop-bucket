@@ -17,7 +17,7 @@
         "Wo.exe"
     ],
     "checkver": {
-        "re": "cylog_cmdline_megapack\\.zip</a>, [\\d,]+k \\((?<day>\\d{2})\\.(?<mon>\\w{3})\\.(?<year>\\d{4})\\)",
+        "regex": "cylog_cmdline_megapack\\.zip</a>, [\\d,]+k \\((?<day>\\d{2})\\.(?<mon>\\w{3})\\.(?<year>\\d{4})\\)",
         "replace": "${year}.${mon}.${day}"
     },
     "autoupdate": {

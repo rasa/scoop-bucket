@@ -30,7 +30,7 @@
         ]
     ],
     "checkver": {
-        "re": "The latest stable version of Pencil is <span[\\w\\W]+>([\\d.]+)</span>"
+        "regex": "The latest stable version of Pencil is <span[\\w\\W]+>([\\d.]+)</span>"
     },
     "autoupdate": {
         "url": "https://pencil.evolus.vn/dl/V$version/Pencil-Setup-$version.exe#/dl.7z",

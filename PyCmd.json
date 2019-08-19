@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/pycmd/rss?path=/pycmd/snapshots",
-        "re": "\\[CDATA\\[/pycmd/snapshots/PyCmd-(\\d{8})-w64.zip\\]\\]"
+        "regex": "\\[CDATA\\[/pycmd/snapshots/PyCmd-(\\d{8})-w64.zip\\]\\]"
     },
     "autoupdate": {
         "architecture": {

@@ -32,7 +32,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/regshot/rss?path=/regshot",
-        "re": "/regshot/[\\d\\-\\w.]+/Regshot\\-([\\d\\-\\w.]+)\\.7z"
+        "regex": "/regshot/[\\d\\-\\w.]+/Regshot\\-([\\d\\-\\w.]+)\\.7z"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/regshot/files/regshot/$matchHead/Regshot-$version.7z",

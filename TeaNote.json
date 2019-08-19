@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "https://haocha.co/static/js/main.084b66cb.chunk.js",
-        "re": "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%20([\\d.]+).exe"
+        "regex": "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%20([\\d.]+).exe"
     },
     "autoupdate": {
         "url": "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%20$version.exe#/dl.7z"

@@ -19,7 +19,7 @@
     "extract_dir": "gnuplot",
     "checkver": {
         "url": "https://sourceforge.net/projects/gnuplot/rss?path=/gnuplot",
-        "re": "gnuplot/([\\d.]+)/gp"
+        "regex": "gnuplot/([\\d.]+)/gp"
     },
     "bin": [
         "bin\\gnuplot.exe",

@@ -16,7 +16,7 @@
     ],
     "checkver": {
         "url": "https://github.com/DeaDBeeF-for-Windows/deadbeef/releases/latest",
-        "re": "/DeaDBeeF-for-Windows/deadbeef/releases/tag/([\\d.-]+)"
+        "regex": "/DeaDBeeF-for-Windows/deadbeef/releases/tag/([\\d.-]+)"
     },
     "autoupdate": {
         "url": "https://github.com/DeaDBeeF-for-Windows/deadbeef/releases/download/$version/deadbeef-x86_64-$version.zip"

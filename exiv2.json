@@ -47,7 +47,7 @@
     ],
     "checkver": {
         "url": "https://www.exiv2.org/download.html",
-        "re": "Download Exiv2  v([\\d.]+)"
+        "regex": "Download Exiv2  v([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://www.exiv2.org/builds/exiv2-$version-msvc64.zip",

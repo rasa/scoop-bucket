@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "http://www.donationcoder.com/software/mouser/popular-apps/farr",
-        "re": "Download v([\\d.]+)"
+        "regex": "Download v([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://www.donationcoder.com/Software/Mouser/findrun/downloads/FindAndRunRobotPortable.zip"

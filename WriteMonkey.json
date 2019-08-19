@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://writemonkey.com/download.php",
-        "re": "__files/wm(\\d+)\\.zip"
+        "regex": "__files/wm(\\d+)\\.zip"
     },
     "autoupdate": {
         "url": "https://writemonkey.com/__files/wm$version.zip"
