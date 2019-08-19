@@ -6,23 +6,18 @@
     "url": "https://downloads.sourceforge.net/project/sox/sox/14.4.2/sox-14.4.2-win32.zip",
     "hash": "sha1:825b218c275687a38e96bf838dcfdd2e9bd55a25",
     "extract_dir": "sox-14.4.2",
+    "installer": {
+        "script": [
+            "Copy-Item  \"$dir\\sox.exe\" \"$dir\\play.exe\"",
+            "Copy-Item  \"$dir\\sox.exe\" \"$dir\\rec.exe\"",
+            "Copy-Item  \"$dir\\sox.exe\" \"$dir\\soxi.exe\""
+        ]
+    },
     "bin":  [
         "sox.exe",
-        [
-                "sox.exe",
-                "play",
-                "play"
-        ],
-        [
-                "sox.exe",
-                "rec",
-                "rec"
-        ],
-        [
-                "sox.exe",
-                "soxi",
-                "soxi"
-        ]
+        "play.exe",
+        "rec.exe",
+        "soxi.exe"
     ],
     "checkver": {
         "url":"https://sourceforge.net/projects/sox/rss?path=/sox",
@@ -30,7 +25,7 @@
         },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/sox/sox/$version/sox-$version-win32.zip",
-        "extract_dir": "sox-$version"
+        "extract_dir": "sox-$version",
         "hash":{
             "mode":"sourceforge"
         }
