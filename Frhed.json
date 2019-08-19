@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/frhed/rss?path=/1.%20Stable%20Releases",
-        "re": "1\\. Stable Releases/([\\d.]+)/Frhed-[\\d.]+-exe\\.7z"
+        "regex": "1\\. Stable Releases/([\\d.]+)/Frhed-[\\d.]+-exe\\.7z"
     },
     "autoupdate": {
         "url": "https://sourceforge.net/projects/frhed/files/1.%20Stable%20Releases/$version/Frhed-$version-exe.7z",

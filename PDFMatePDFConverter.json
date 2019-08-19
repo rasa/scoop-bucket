@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://www.pdfmate.com/version-history.html",
-        "re": "PDFMate PDF Converter.*Free V([\\d.]+)"
+        "regex": "PDFMate PDF Converter.*Free V([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://www.pdfmate.com/setup_free_pdf_converter.exes"

@@ -16,7 +16,7 @@
         ]
     ],
     "checkver": {
-        "re": "Download version ([\\d.]+):"
+        "regex": "Download version ([\\d.]+):"
     },
     "persist": "ResourceHacker.ini",
     "autoupdate": {

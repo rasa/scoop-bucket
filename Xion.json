@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "http://www.xionplayer.com/page/download",
-        "re": "Version: <strong>([\\d.]+) build (\\d+)",
+        "regex": "Version: <strong>([\\d.]+) build (\\d+)",
         "replace": "${1}b${2}"
     },
     "autoupdate": {

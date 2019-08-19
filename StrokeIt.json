@@ -36,7 +36,7 @@
     ],
     "checkver": {
         "url": "https://www.tcbmi.com/strokeit/downloads.shtml",
-        "re": "<B>StrokeIt ([\\.\\d]+) Home</a></B>[\\w\\W]*?download.tcbmi.com/(?<path>[\\w\\d]{7})",
+        "regex": "<B>StrokeIt ([\\.\\d]+) Home</a></B>[\\w\\W]*?download.tcbmi.com/(?<path>[\\w\\d]{7})",
         "replace": "0${1}"
     },
     "autoupdate": {

@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/coolplayer/rss?path=/Coolplayer",
-        "re": "\\[CDATA\\[/Coolplayer/(\\d+)/CoolPlayer\\d+_Bin\\.zip\\]\\]"
+        "regex": "\\[CDATA\\[/Coolplayer/(\\d+)/CoolPlayer\\d+_Bin\\.zip\\]\\]"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/coolplayer/files/Coolplayer/$version/CoolPlayer$version_Bin.zip",

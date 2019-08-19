@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://github.com/pbek/QOwnNotes/releases",
-        "re": "windows-b(\\d+)"
+        "regex": "windows-b(\\d+)"
     },
     "autoupdate": {
         "url": "https://github.com/pbek/QOwnNotes/releases/download/windows-b$version/QOwnNotes.zip"

@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://www.2brightsparks.com/download-syncbackfree.html",
-        "re": "Download SyncBackFree V([\\d.]+)"
+        "regex": "Download SyncBackFree V([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://www.2brightsparks.com/assets/software/SyncBack_Setup.exe",

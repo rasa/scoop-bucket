@@ -20,7 +20,7 @@
     ],
     "checkver": {
         "url": "https://dl.bintray.com/byvoid/opencc/",
-        "re": "opencc-([\\d.]+)-win64.7z"
+        "regex": "opencc-([\\d.]+)-win64.7z"
     },
     "autoupdate": {
         "architecture": {

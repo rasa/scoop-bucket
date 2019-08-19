@@ -5,7 +5,7 @@
     "extract_dir": "",
     "url": "https://www.ntwind.com/download/VSubst_2.7-setup.exe#dl.7z",
     "hash": "d95d485c2224f6bd6d6611e975b1c51978d978bfa640db44162cfe337961a5bb",
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$TEMP\", \"$dir\\$2.nsis\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$TEMP\", \"$dir\\`$2.nsis\" -Force -Recurse",
     "bin": "VSubst.exe",
     "persist": "VSubst.ini",
     "checkver": "VSubst_([\\d.]+)-setup.exe",

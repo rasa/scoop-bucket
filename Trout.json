@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "url": "http://www.dcmembers.com/skwire/download/trout/",
-        "re": "Version:</strong>\\s*([\\d.]+)\\s*build"
+        "regex": "Version:</strong>\\s*([\\d.]+)\\s*build"
     },
     "autoupdate": {
         "url": "http://www.dcmembers.com/skwire/wp-content/uploads/sites/5/apps/trout/trout_portable.zip"

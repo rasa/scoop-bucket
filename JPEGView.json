@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/jpegview/rss?path=/",
-        "re": "/jpegview/([\\d.]+)/JPEGView_"
+        "regex": "/jpegview/([\\d.]+)/JPEGView_"
     },
     "persist": [
         "JPEGView.ini",

@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "url":"https://sourceforge.net/projects/sox/rss?path=/sox",
-        "re":"sox-([\\d.]+)-win32.zip"
+        "regex":"sox-([\\d.]+)-win32.zip"
         },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/sox/sox/$version/sox-$version-win32.zip",

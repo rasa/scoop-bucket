@@ -7,7 +7,7 @@
     "bin": "pngout.exe",
     "checkver": {
         "url": "http://advsys.net/ken/utils.htm",
-        "re": "PNGOUT.EXE[\\w\\W]+?(?<mon>\\d\\d)/(?<day>\\d\\d)/(?<year>\\d{4})",
+        "regex": "PNGOUT.EXE[\\w\\W]+?(?<mon>\\d\\d)/(?<day>\\d\\d)/(?<year>\\d{4})",
         "replace": "${year}-${mon}-${day}"
     },
     "autoupdate": {

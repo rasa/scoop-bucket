@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/latexdraw/rss?path=/latexdraw",
-        "re": "LaTeXDraw-([\\d.]+)-bin\\.zip"
+        "regex": "LaTeXDraw-([\\d.]+)-bin\\.zip"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/latexdraw/latexdraw/3.3.8/LaTeXDraw-3.3.8-bin.zip",

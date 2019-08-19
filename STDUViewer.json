@@ -20,7 +20,7 @@
     ],
     "checkver": {
         "url": "http://www.stdutility.com/stduviewer.html",
-        "re": "ver\\. ([\\d.]+)"
+        "regex": "ver\\. ([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://www.stdutility.com/download/stduviewer.zip"

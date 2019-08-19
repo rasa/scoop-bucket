@@ -17,7 +17,7 @@
     ],
     "checkver": {
         "url": "https://www.abareplace.com/download/",
-        "re": "Aba Search and Replace ([\\d.]+) installer"
+        "regex": "Aba Search and Replace ([\\d.]+) installer"
     },
     "autoupdate": {
         "url": "https://www.abareplace.com/AbaReplace$cleanVersionportable.zip"

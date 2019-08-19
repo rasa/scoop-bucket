@@ -15,6 +15,6 @@
         ]
     ],
     "checkver": {
-        "re": "Latest Version</td><td width=\"50%\">([\\d.]+)</td>"
+        "regex": "Latest Version</td><td width=\"50%\">([\\d.]+)</td>"
     }
 }

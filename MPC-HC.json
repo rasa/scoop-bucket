@@ -47,7 +47,7 @@
     ],
     "checkver": {
         "url": "https://mpc-hc.org/downloads/",
-        "re": "latest stable build is v([\\d.]+) which"
+        "regex": "latest stable build is v([\\d.]+) which"
     },
     "autoupdate": {
         "architecture": {

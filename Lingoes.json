@@ -12,7 +12,7 @@
     "persist": "app_data",
     "checkver": {
         "url": "http://www.lingoes.net/en/translator/download.htm",
-        "re": "Lingoes (?<version>[\\d.]+) Portable"
+        "regex": "Lingoes (?<version>[\\d.]+) Portable"
     },
     "autoupdate": {
         "url": "http://www.slymandata.com/lingoes_mirror_europe/lingoes_portable_$matchVersion.zip"

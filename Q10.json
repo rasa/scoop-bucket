@@ -13,7 +13,7 @@
     ],
     "persist": "Q10.ini",
     "checkver": {
-        "re": "Q10 ([\\d.]+)"
+        "regex": "Q10 ([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://www.baara.com/q10/downloads/q10-$majorVersion.$minorVersion-spell.zip"

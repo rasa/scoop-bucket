@@ -20,7 +20,7 @@
     ],
     "checkver": {
         "url": "https://www.eudic.net/v4/en/app/history",
-        "re": "Windows 桌面版 ([\\d.]+)"
+        "regex": "Windows 桌面版 ([\\d.]+)"
     },
     "autoupdate": {
         "url":  "http://static.frdic.com/pkg/eudic_win.zip"

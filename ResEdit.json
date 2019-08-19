@@ -24,7 +24,7 @@
         ]
     ],
     "checkver": {
-        "re": "The current version of ResEdit is ([\\d.]+)\\."
+        "regex": "The current version of ResEdit is ([\\d.]+)\\."
     },
     "autoupdate": {
         "architecture": {

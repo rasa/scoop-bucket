@@ -29,7 +29,7 @@
     },
     "checkver": {
         "url": "http://www.chuyu.me/en/",
-        "re": "<a href=\"http://cdn.chuyu.me/Dism\\+\\+([\\d+\\.]+\\w+?)_(?<hash>[a-fA-F\\d]{40})\\.zip\""
+        "regex": "<a href=\"http://cdn.chuyu.me/Dism\\+\\+([\\d+\\.]+\\w+?)_(?<hash>[a-fA-F\\d]{40})\\.zip\""
     },
     "autoupdate": {
         "url": "http://cdn.chuyu.me/Dism++$version_$matchHash.zip",

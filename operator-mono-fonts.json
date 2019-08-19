@@ -11,7 +11,7 @@
     "notes": "Please install fonts in $dir manually",
     "checkver": {
         "url": "https://github.com/coderJianXun/Operator-Mono",
-        "re": "/coderJianXun/Operator-Mono/commit/([a-z0-9]+)"
+        "regex": "/coderJianXun/Operator-Mono/commit/([a-z0-9]+)"
     },
     "autoupdate": {
         "url": "https://github.com/coderJianXun/Operator-Mono/archive/$version.zip"

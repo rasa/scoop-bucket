@@ -7,7 +7,7 @@
     "hash": "sha1:00124046586afd9ca21957363b00da3c2e72cb9b",
     "checkver": {
         "url": "http://www.jonasjohn.de/red.htm",
-        "re": "Download latest version \\(([\\d.]+)\\)"
+        "regex": "Download latest version \\(([\\d.]+)\\)"
     },
     "bin": "RED2.exe",
     "shortcuts": [

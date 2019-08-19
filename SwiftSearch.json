@@ -15,7 +15,7 @@
     "bin": "SwiftSearch.exe",
     "checkver": {
         "url": "https://sourceforge.net/projects/swiftsearch/files/",
-        "re": "<tr title=\"Version ([\\d.]+)\" class=\"folder \">"
+        "regex": "<tr title=\"Version ([\\d.]+)\" class=\"folder \">"
     },
     "autoupdate": {
         "architecture": {

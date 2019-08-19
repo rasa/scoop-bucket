@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "http://uvoutliner.com/download/",
-        "re": "Download\\s+UV Outliner v\\.([\\d.]+)"
+        "regex": "Download\\s+UV Outliner v\\.([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://uvoutliner.com/uvoutliner-setup-$version.exe"

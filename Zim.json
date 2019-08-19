@@ -11,7 +11,7 @@
         ]
     ],
     "checkver": {
-        "re": "zim-desktop-wiki-setup-([\\d.]+).exe"
+        "regex": "zim-desktop-wiki-setup-([\\d.]+).exe"
     },
     "persist": [
         "Notebooks",

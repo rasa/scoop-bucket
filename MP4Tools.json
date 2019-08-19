@@ -21,7 +21,7 @@
         ]
     ],
     "checkver": {
-        "re": "MP4Tools-([\\d.]+)-win32.exe"
+        "regex": "MP4Tools-([\\d.]+)-win32.exe"
     },
     "autoupdate": {
         "url": "https://www.fosshub.com/MP4Joiner.html?dwl=MP4Tools-$version-win32.exe",

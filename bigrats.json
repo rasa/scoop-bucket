@@ -11,7 +11,7 @@
     ],
     "checkver": {
         "url": "http://download.flvcd.com/",
-        "re": "ÕýÊ½°æ v([\\d.]+)"
+        "regex": "ï¿½ï¿½Ê½ï¿½ï¿½ v([\\d.]+)"
     },
     "autoupdate": {
         "url":  "http://app.flvcd.com/bigrats_setup_$version.exe#/dl.7z"

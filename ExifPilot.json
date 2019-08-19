@@ -16,7 +16,7 @@
     ],
     "checkver": {
         "url": "https://www.colorpilot.com/exif.html",
-        "re": ":: Version ([\\d.]+)"
+        "regex": ":: Version ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://www.colorpilot.com/load/exif.exe"

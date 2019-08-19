@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://dexpot.de/?id=changelog",
-        "re": "Dexpot ([\\d.]+) Build (\\d+)",
+        "regex": "Dexpot ([\\d.]+) Build (\\d+)",
         "replace": "${1}.${2}"
     },
     "autoupdate": {

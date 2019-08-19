@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "url": "https://gottcode.org/feed.atom",
-        "re": "FocusWriter ([\\d.]+) released"
+        "regex": "FocusWriter ([\\d.]+) released"
     },
     "autoupdate": {
         "architecture": {
