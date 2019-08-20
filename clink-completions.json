@@ -1,12 +1,13 @@
 {
     "homepage": "https://github.com/vladimir-kotikov/clink-completions",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "license": "MIT",
-    "url": "https://github.com/vladimir-kotikov/clink-completions/archive/0.3.3.zip",
-    "hash": "3a65a2f600202e895a2f6923b3bcc7463b4fc34105d245a029784c5e69dd535e",
-    "extract_dir": "clink-completions-0.3.3",
+    "url": "https://github.com/vladimir-kotikov/clink-completions/archive/0.3.4.zip",
+    "hash": "d89ba4b9f026f5581371f56a28c2a44040599ac93849db99a3bfe17f30b813dc",
+    "extract_dir": "clink-completions-0.3.4",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/vladimir-kotikov/clink-completions/archive/$version.zip"
+        "url": "https://github.com/vladimir-kotikov/clink-completions/archive/$version.zip",
+        "extract_dir": "clink-completions-$version"
     }
 }
