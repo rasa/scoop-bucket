@@ -1,11 +1,11 @@
 {
     "homepage": "https://yosoro.coolecho.net/",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/IceEnd/Yosoro/releases/download/v1.1.6/Yosoro-win32-x64.zip",
-            "hash": "8ff66bbc476eac9e51e35b22ff1b1b00cac9fecaa180a11205527a59874be96b"
+            "url": "https://github.com/IceEnd/Yosoro/releases/download/v1.1.7/Yosoro-win32-x64.zip",
+            "hash": "c2b7da3fb72f788f47509d745ccea08f24e1db6640e74a8879c255f5f3b0c446"
         }
     },
     "extract_dir": "Yosoro-win32-x64",
@@ -19,7 +19,7 @@
     "checkver": {
         "github": "https://github.com/IceEnd/Yosoro"
     },
-    "_autoupdate": {
+    "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/IceEnd/Yosoro/releases/download/v$version/Yosoro-win32-x64.zip"
