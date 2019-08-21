@@ -1,11 +1,11 @@
 {
-    "homepage":  "http://www.dropitproject.com/",
-    "version":  "8.5.1",
-    "license":  "",
+    "homepage": "http://www.dropitproject.com/",
+    "version": "8.5.1",
+    "license": "GPL-2.0-or-later",
     "url": "https://downloads.sourceforge.net/project/dropit/files/DropIt/v8.5.1/DropIt_v8.5.1_Portable.zip",
-    "hash":  "",
-    "extract_dir":  "DropIt_v8.5.1_Portable",
-    "bin":  "DropIt.exe",
+    "hash": "sha1:882c765830b307d8b2d90b4411e061d39d79a28c",
+    "extract_dir": "DropIt_v8.5.1_Portable",
+    "bin": "DropIt.exe",
     "persist": [
         "settings.ini",
         "Profiles",
@@ -17,12 +17,12 @@
             "DropIt"
         ]
     ],
-    "checkver":"/DropIt/v([\\d.]+)/",
+    "checkver": "/DropIt/v([\\d.]+)/",
     "autoupdate": {
-        "url":"https://downloads.sourceforge.net/project/dropit/files/DropIt/v$version/DropIt_v$version_Portable.zip",
+        "url": "https://downloads.sourceforge.net/project/dropit/files/DropIt/v$version/DropIt_v$version_Portable.zip",
         "hash": {
             "mode": "sourceforge"
         },
-        "extract_dir":  "DropIt_v$version_Portable_Portable"
+        "extract_dir": "DropIt_v$version_Portable"
     }
 }
