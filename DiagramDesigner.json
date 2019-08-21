@@ -18,6 +18,8 @@
     },
     "autoupdate": {
         "url": "https://www.fosshub.com/Diagram-Designer.html?dwl=DiagramDesignerSetup.$version.msi",
-        "hash": "sha256\":\"[\\d\\w]{64}\""
+        "hash": {
+            "mode": "fosshub"
+        }
     }
 }
