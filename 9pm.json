@@ -1,6 +1,6 @@
 {
     "homepage":  "https://github.com/nurmi-labs/9pm",
-    "description": "A Windows port of a number of plan 9 utilities."
+    "description": "A Windows port of a number of plan 9 utilities.",
     "version":  "1.0",
     "license":  "LPL-1.02",
     "url":  "https://github.com/nurmi-labs/9pm/archive/master.zip",
