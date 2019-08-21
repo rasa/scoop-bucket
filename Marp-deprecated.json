@@ -6,14 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/yhatt/marp/releases/download/v0.0.14/0.0.14-Marp-win32-x64.zip",
-            "hash": "531F0E28D97F855A705FE98D0FABBAD7A4FB3D0E1E1B910458002BA9FA4CD2EE"
+            "hash": "531f0e28d97f855a705fe98d0fabbad7a4fb3d0e1e1b910458002ba9fa4cd2ee"
         },
         "32bit": {
             "url": "https://github.com/yhatt/marp/releases/download/v0.0.14/0.0.14-Marp-win32-ia32.zip",
-            "hash": "1ABF564404ED0CBE36C9A6057B6868D5798818107C67F68A9B4A9FFCAFE15F66",
-            "autoupdate": {
-                "url": "https://github.com/yhatt/marp/releases/download/v$version/$version-Marp-win32-ia32.zip"
-            }
+            "hash": "1abf564404ed0cbe36c9a6057b6868d5798818107c67f68a9b4a9ffcafe15f66"
         }
     },
     "bin": "Marp.exe",

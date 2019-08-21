@@ -35,7 +35,7 @@
         "url": "http://cdn.chuyu.me/Dism++$version_$matchHash.zip",
         "hash": {
             "url": "http://www.chuyu.me/en/",
-            "find": "<a href=\"http://cdn.chuyu.me/Dism.*_([a-fA-F\\d]{40})\\.zip\""
+            "find": "<a href=\"http://cdn.chuyu.me/Dism.*_$sha1\\.zip\""
         }
     }
 }

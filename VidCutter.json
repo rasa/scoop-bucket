@@ -12,7 +12,7 @@
             "hash": "570519291defb459b9d9cdd18d195f6730ffd7e281bb9f5d4d90e3a3e7f426c5"
         }
     },
-    "innosetup":"true",
+    "innosetup": true,
     "bin": "vidcutter.exe",
     "post_install": "Remove-Item \"$dir\\uninstall.ico\" -Force",
     "shortcuts": [
