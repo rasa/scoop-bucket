@@ -18,7 +18,7 @@
         "url": "https://vorboss.dl.sourceforge.net/project/dia-installer/dia/$version/dia_$version_win32.zip",
         "hash": {
             "url": "https://sourceforge.net/projects/dia-installer/files/dia/$version/",
-            "find": "([a-f0-9]{40})(?=\", \"name\": \"dia_$version_win32.zip)"
+            "find": "$sha1(?=\", \"name\": \"dia_$version_win32.zip)"
         }
     }
 }
