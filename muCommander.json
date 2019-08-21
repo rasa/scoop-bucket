@@ -25,7 +25,7 @@
     },
     "autoupdate": {
         "url": "https://github.com/mucommander/mucommander/releases/download/$version/mucommander-$matchHead-portable.tar.gz"
-    }
+    },
     "suggest": {
         "JDK": [
             "java/oraclejdk-lts",
