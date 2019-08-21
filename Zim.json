@@ -2,8 +2,8 @@
     "homepage": "https://zim.glump.net/windows/",
     "version": "0.69.1",
     "license": "GPL-2.0-or-later",
-    "url": "https://zim.glump.net/site/assets/files/1095/zim-desktop-wiki-portable-0_69_1.exe#/zim.7z",
-    "hash": "679B31763BC73CAD0C823583695A63FE915A9F167FF663D8FD3F834A51CB9DAF",
+    "url": "https://zim.glump.net/site/assets/files/1095/zim-desktop-wiki-portable-0.69.1.exe#/dl.7z",
+    "hash": "679b31763bc73cad0c823583695a63fe915a9f167ff663d8fd3f834a51cb9daf",
     "shortcuts": [
         [
             "zim.exe",
@@ -18,7 +18,9 @@
         "App\\Config"
     ],
     "autoupdate": {
-        "url": "https://zim.glump.net/site/assets/files/1095/zim-desktop-wiki-portable-$version.exe#/zim.7z",
-        "hash": "https://zim.glump.net/site/assets/files/1095/zim-desktop-wiki-portable-$version.exe/?format=sha256sum"
+        "url": "https://zim.glump.net/site/assets/files/1095/zim-desktop-wiki-portable-$version.exe#/dl.7z",
+        "hash": {
+            "url": "https://zim.glump.net/windows/release/0.69.1/zim-desktop-wiki-portable-0.69.1.exe/?format=sha256sum"
+        }
     }
 }
