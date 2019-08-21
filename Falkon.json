@@ -9,7 +9,7 @@
         },
         "32bit": {
             "url": "https://download.kde.org/stable/falkon/3.1/Falkon.Installer.3.1.0.exe#/dl.7z",
-            "hash":""
+            "hash":"3b82d1a4661192b3d98c155bffc6a29605748be9ee0b974a8632f383abc88ebd"
         }
     },
     "persist": [
