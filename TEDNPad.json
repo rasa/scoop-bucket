@@ -1,9 +1,9 @@
 {
     "homepage": "http://jsimlo.sk/notepad/",
-    "version": "6.1.1",
+    "version": "6.2.1",
     "license": "freeware",
-    "url": "http://jsimlo.sk/notepad/files.php/tnp611se_uni.zip",
-    "hash": "ebda20c06674d5a38a903623e4cefde6b74928ffe8b44bfb1421f84df179e815",
+    "url": "http://jsimlo.sk/notepad/files.php/tnp621se_uni.zip",
+    "hash": "6a0524510e04a92a16a4c7d671f2ac4c8475854cfae733e403d55403bddc11b6",
     "bin": "TedNPad.exe",
     "persist": "TedNPad.ini",
     "shortcuts": [
