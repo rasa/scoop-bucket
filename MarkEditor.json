@@ -12,7 +12,7 @@
             "hash": "md5:ab3a3e0a5bee7df6f1a182caf6ab47de"
         }
     },
-    "innosetup":true,
+    "innosetup": true,
     "bin": "MarkEditor.exe",
     "shortcuts": [
         [

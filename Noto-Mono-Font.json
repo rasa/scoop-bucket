@@ -5,7 +5,10 @@
     "description": "Noto monospaced font",
     "homepage": "https://www.google.com/get/noto/",
     "license": "OFL-1.1",
-    "notes": "Hash for version 2017.10.25 is\n    2722ae9033c9e306e784b9254ca86c58c7af7483051583f767e05d03bc252bda",
+    "notes": [
+        "Hash for version 2017.10.25 is",
+        "2722ae9033c9e306e784b9254ca86c58c7af7483051583f767e05d03bc252bda"
+    ],
     "post_install": [
         "$fonts = (New-Object -ComObject Shell.Application).Namespace(0x14)",
         "dir \"$dir/*.ttf\" | %{ $fonts.CopyHere($_.fullname) }"
