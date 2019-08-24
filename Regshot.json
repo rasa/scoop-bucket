@@ -14,7 +14,7 @@
             }
         },
         "32bit": {
-            "installer":{
+            "installer": {
                 "script": [
                     "ren \"$dir\\Regshot-x86-Unicode.exe\" \"Regshot.exe\"",
                     "Remove-Item \"$dir\\Regshot-x64-Unicode.exe\", \"$dir\\Regshot-x64-ANSI.exe\", \"$dir\\Regshot-x86-ANSI.exe\" -Force"

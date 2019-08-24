@@ -17,11 +17,11 @@
         "category.db"
     ],
     "checkver": {
-        "url":"https://www.xnview.com/en/",
+        "url": "https://www.xnview.com/en/",
         "regex": "XnView Classic<small>([\\d.]+)</small>"
     },
     "autoupdate": {
-        "url":"https://download.xnview.com/XnView-win-small.zip",
+        "url": "https://download.xnview.com/XnView-win-small.zip",
         "hash": {
             "url": "https://www.xnview.com/en/xnview/",
             "find": "XnView-win-small.zip:($sha256)"

@@ -19,8 +19,8 @@
     "autoupdate": {
         "url": "https://sourceforge.net/projects/frhed/files/1.%20Stable%20Releases/$version/Frhed-$version-exe.7z",
         "hash": {
-            "mode":"sourceforge"
+            "mode": "sourceforge"
         },
-        "extract_dir":"Frhed-$version-exe"
+        "extract_dir": "Frhed-$version-exe"
     }
 }

@@ -8,7 +8,7 @@
         "script": "Set-Content \"$dir\\proxyee-down.bat\" (@('@echo off', 'start javaw.exe -jar %~dp0\\proxyee-down-main.jar %*') -join \"`r`n\") -Encoding Ascii"
     },
     "bin": "proxyee-down-main.jar",
-    "persist":[
+    "persist": [
         "pdown.cfg",
         "rest-server.cfg",
         "extensions"

@@ -6,9 +6,9 @@
         "64bit": {
             "url": "http://jacquelin.potier.free.fr/exe/ShortcutsSearchAndReplace_bin64.zip",
             "hash": "a7db92b0e51fdefc3c467cae652531979573acea6a60faaec2379ae5b89eb12d",
-			"installer": {
-				"script": "Rename-Item \"$dir\\ShortcutsSearchAndReplace64.exe\" \"ShortcutsSearchAndReplace.exe\""
-			}
+            "installer": {
+                "script": "Rename-Item \"$dir\\ShortcutsSearchAndReplace64.exe\" \"ShortcutsSearchAndReplace.exe\""
+            }
         },
         "32bit": {
             "url": "http://jacquelin.potier.free.fr/exe/ShortcutsSearchAndReplace_bin.zip",
@@ -16,12 +16,12 @@
         }
     },
     "bin": "ShortcutsSearchAndReplace.exe",
-	"shortcuts": [
-		[
-			"ShortcutsSearchAndReplace.exe",
-			"Shortcuts Search And Replace"
-		]
-	],
+    "shortcuts": [
+        [
+            "ShortcutsSearchAndReplace.exe",
+            "Shortcuts Search And Replace"
+        ]
+    ],
     "checkver": "Version&nbsp;\\:&nbsp;</td>\\s*<td>&nbsp;([\\d.]+)",
     "autoupdate": {
         "architecture": {

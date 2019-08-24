@@ -31,7 +31,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/fletcher/MultiMarkdown-6/releases/download/$version/MultiMarkdown-Windows-$version.zip"
-           },
+            },
             "32bit": {
                 "url": "https://github.com/fletcher/MultiMarkdown-6/releases/download/$version/MultiMarkdown-Windows-32-$version.zip"
             }

@@ -9,9 +9,9 @@
             "$pkgfile = (Get-ChildItem \"$dir\" '*.nupkg' | Select-Object -First 1).FullName",
             "Expand-7ZipArchive \"$pkgfile\" \"$dir\"",
             "Move-Item \"$dir\\lib\\net45\\*\" \"$dir\""
-       ]
+        ]
     },
-	"bin": "Soda Player.exe",
+    "bin": "Soda Player.exe",
     "shortcuts": [
         [
             "Soda Player.exe",

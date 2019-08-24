@@ -5,11 +5,11 @@
     "url": "http://instrumind.blob.core.windows.net/thinkcomposer/setup_imtc.exe#/dl.7z",
     "hash": "65f68397d66285a74ee1152852b240307f1a54017ae48867a5e68fc5b4d1db91",
     "installer": {
-        "script":[
+        "script": [
             "lessmsi x \"$dir\\Installer.msi\" \"$dir\\\"",
             "Move-Item \"$dir\\SourceDir\\*\" \"$dir\"",
             "Remove-Item \"$dir\\setup.exe\", \"$dir\\Installer.msi\""
-		]
+        ]
     },
     "bin": "Instrumind.ThinkComposer.exe",
     "shortcuts": [

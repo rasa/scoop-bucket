@@ -14,18 +14,18 @@
         }
     },
     "bin": [
-		"HotkeyP.exe",
-		"spy.exe"
-	],
+        "HotkeyP.exe",
+        "spy.exe"
+    ],
     "shortcuts": [
         [
             "hotkeyp.exe",
             "HotkeyP"
         ],
-		[
-			"spy.exe",
-			"HotkeyP Spy"
-		]
+        [
+            "spy.exe",
+            "HotkeyP Spy"
+        ]
     ],
     "checkver": "HotkeyP ([\\d.]+)",
     "autoupdate": {

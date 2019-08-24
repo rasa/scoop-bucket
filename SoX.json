@@ -13,21 +13,21 @@
             "Copy-Item  \"$dir\\sox.exe\" \"$dir\\soxi.exe\""
         ]
     },
-    "bin":  [
+    "bin": [
         "sox.exe",
         "play.exe",
         "rec.exe",
         "soxi.exe"
     ],
     "checkver": {
-        "url":"https://sourceforge.net/projects/sox/rss?path=/sox",
-        "regex":"sox-([\\d.]+)-win32.zip"
-        },
+        "url": "https://sourceforge.net/projects/sox/rss?path=/sox",
+        "regex": "sox-([\\d.]+)-win32.zip"
+    },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/sox/sox/$version/sox-$version-win32.zip",
         "extract_dir": "sox-$version",
-        "hash":{
-            "mode":"sourceforge"
+        "hash": {
+            "mode": "sourceforge"
         }
     }
 }

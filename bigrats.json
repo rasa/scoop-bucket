@@ -1,11 +1,11 @@
 {
-    "homepage":  "http://www.flvcd.com/",
-    "version":  "0.4.8.1",
-    "license":  "freeware",
-    "url":  "http://app.flvcd.com/bigrats_setup_0.4.8.1.exe#/dl.7z",
-    "hash":  "ebecdf6a802704dd1b1fbdc3e06d086113599982c16fe48360023cf495a84674",
+    "homepage": "http://www.flvcd.com/",
+    "version": "0.4.8.1",
+    "license": "freeware",
+    "url": "http://app.flvcd.com/bigrats_setup_0.4.8.1.exe#/dl.7z",
+    "hash": "ebecdf6a802704dd1b1fbdc3e06d086113599982c16fe48360023cf495a84674",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst.exe.nsis\" -Force -Recurse",
-    "bin":  [
+    "bin": [
         "commence.exe",
         "nano.exe"
     ],
@@ -14,6 +14,6 @@
         "regex": "��ʽ�� v([\\d.]+)"
     },
     "autoupdate": {
-        "url":  "http://app.flvcd.com/bigrats_setup_$version.exe#/dl.7z"
+        "url": "http://app.flvcd.com/bigrats_setup_$version.exe#/dl.7z"
     }
 }

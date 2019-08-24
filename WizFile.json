@@ -7,8 +7,8 @@
     "architecture": {
         "64bit": {
             "pre_install": "Remove-Item \"$dir\\WizFile.exe\"",
-            "installer":{
-                "script":"Rename-item \"$dir\\WizFile64.exe\" \"$dir\\WizFile.exe\""
+            "installer": {
+                "script": "Rename-item \"$dir\\WizFile64.exe\" \"$dir\\WizFile.exe\""
             }
         },
         "32bit": {

@@ -1,17 +1,17 @@
 {
-    "homepage":  "https://www.eudic.net/",
-    "version":  "12.2.3",
-    "license":  "freeware",
-    "url":  "http://static.frdic.com/pkg/eudic_win.zip",
-    "hash":  "f33508d41402cc1ab0de52ee6165f459887ccf7c9cc8435cd7315a7f0fcf49ec",
+    "homepage": "https://www.eudic.net/",
+    "version": "12.2.3",
+    "license": "freeware",
+    "url": "http://static.frdic.com/pkg/eudic_win.zip",
+    "hash": "f33508d41402cc1ab0de52ee6165f459887ccf7c9cc8435cd7315a7f0fcf49ec",
     "installer": {
         "script": [
             "Expand-7ZipArchive \"$dir\\eudic_win.exe\" \"$dir\\\"",
             "Expand-7ZipArchive \"$dir\\app.7z\" \"$dir\"",
             "Remove-Item \"$dir\\app.7z\",\"$dir\\uninst.exe.nsis\",\"$dir\\`$PLUGINSDIR\"  -Force -Recurse"
-		]
+        ]
     },
-    "bin":  "eudic.exe",
+    "bin": "eudic.exe",
     "shortcuts": [
         [
             "eudic.exe",
@@ -23,6 +23,6 @@
         "regex": "Windows 桌面版 ([\\d.]+)"
     },
     "autoupdate": {
-        "url":  "http://static.frdic.com/pkg/eudic_win.zip"
+        "url": "http://static.frdic.com/pkg/eudic_win.zip"
     }
 }

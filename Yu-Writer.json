@@ -28,7 +28,7 @@
         "Resources"
     ],
     "autoupdate": {
-        "architecture":{
+        "architecture": {
             "64bit": {
                 "url": "https://github.com/ivarptr/yu-writer.site/releases/download/beta.$version/yu-writer-beta-$version-windows-x64.zip"
             },
