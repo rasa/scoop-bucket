@@ -17,7 +17,6 @@
                     "--hide --mkmaps"
                 ]
             ],
-            "env_add_path": "texmfs\\install\\miktex\\bin\\x64",
             "shortcuts": [
                 [
                     "texmfs\\install\\miktex\\bin\\x64\\miktex-taskbar-icon.exe",
@@ -48,7 +47,6 @@
                     "--hide --mkmaps"
                 ]
             ],
-            "env_add_path": "texmfs\\install\\miktex\\bin",
             "shortcuts": [
                 [
                     "texmfs\\install\\miktex\\bin\\miktex-taskbar-icon.exe",
@@ -80,6 +78,10 @@
     "persist": [
         "texmfs\\config",
         "texmfs\\install\\miktex\\config"
+    ],
+    "env_add_path": [
+        "texmfs\\install\\miktex\\bin",
+        "texmfs\\install\\miktex\\bin\\x64"
     ],
     "checkver": {
         "url": "https://miktex.org/download",
