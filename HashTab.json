@@ -30,22 +30,6 @@
     },
     "checkver": "HashTab_v([\\d.]+)_Setup.exe",
     "autoupdate": {
-        "url": "http://implbits.com/products/hashtab/HashTab_v$version_Setup.exe#/dl.7z",
-        "architecture": {
-            "64bit": {
-                "pre_install": [
-                    "Rename-Item \"$dir\\`$R0\" \"$dir\\HashTab.dll\"",
-                    "Remove-Item \"$dir\\HashTab32-${version}.dll\" -Force",
-                    "sudo \"$env:COMSPEC\" /c \"regsvr32 /s \"$dir\\HashTab.dll\"\""
-                ]
-            },
-            "32bit": {
-                "pre_install": [
-                    "Rename-Item \"$HashTab32-${version}.dll\" \"$dir\\HashTab.dll\"",
-                    "Remove-Item \"$dir\\`$R0\" -Force",
-                    "sudo \"$env:COMSPEC\" /c \"regsvr32 /s \"$dir\\HashTab.dll\"\""
-                ]
-            }
-        }
+        "url": "http://implbits.com/products/hashtab/HashTab_v$version_Setup.exe#/dl.7z"
     }
 }
