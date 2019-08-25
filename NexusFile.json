@@ -6,6 +6,7 @@
     "extract_dir": "NexusFile5",
     "hash": "60a2792ba97072427f446d525dda61e2719ad747ae4e9617404e89dfd4b36a76",
     "bin": "NexusFile.exe",
+    "persist": "userdata",
     "shortcuts": [
         [
             "NexusFile.exe",
