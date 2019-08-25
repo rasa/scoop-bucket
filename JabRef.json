@@ -12,10 +12,16 @@
             "hash": "7abe526bccdcea38df236a3879bb60f7d444d064dd51a3fc31bc0954e504b28e"
         }
     },
-    "bin": "jabref-4.3.1.jar",
+    "installer": {
+        "script": [
+            "$jar = (Get-ChildItem \"$dir\" 'jabref-*.jar' | Select-Object -First 1).FullName",
+            "Move-Item \"$jar\" \"$dir\\jabref.jar\""
+        ]
+    },
+    "bin": "jabref.jar",
     "shortcuts": [
         [
-            "jabref-4.3.1.jar",
+            "jabref.jar",
             "JabRef"
         ]
     ],
@@ -25,12 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/JabRef/jabref/releases/download/v$version/JabRef_windows-x64_$underscoreVersion.exe#/dl.7z",
-                "bin": "jabref-$version.jar"
+                "url": "https://github.com/JabRef/jabref/releases/download/v$version/JabRef_windows-x64_$underscoreVersion.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/JabRef/jabref/releases/download/v$version/JabRef_windows_$underscoreVersion.exe#/dl.7z",
-                "bin": "jabref-$version.jar"
+                "url": "https://github.com/JabRef/jabref/releases/download/v$version/JabRef_windows_$underscoreVersion.exe#/dl.7z"
             }
         }
     }
