@@ -32,7 +32,7 @@
     ],
     "checkver": {
         "url": "https://www.bulkrenameutility.co.uk/Download.php",
-        "regex": "version\\s*<b>([\\d.]+)"
+        "regex": "version ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://www.bulkrenameutility.co.uk/Downloads/BRU_NoInstall.zip"
