@@ -1,0 +1,36 @@
+{
+    "homepage": "https://elv.sh/",
+    "version": "0.12",
+    "license": "BSD-2-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.elv.sh/windows-amd64/elvish-v0.12.zip",
+            "hash": "d6bfe60341e1aa4f8532145561050875800b4893ce3153d56b66e77dc8aac295"
+        },
+        "32bit": {
+            "url": "https://dl.elv.sh/windows-386/elvish-v0.12.zip",
+            "hash": "18612dddef68733849226bbaa52ffa9bd852b3bad642b19d55e17e9384b949cc"
+        }
+    },
+    "installer": {
+        "script": [
+            "$exefile = (Get-ChildItem \"$dir\" 'elvish-*.exe' | Select-Object -First 1).FullName",
+            "Rename-Item \"$exefile\" \"$dir\\elvish.exe\""
+        ]
+    },
+    "bin": "elvish.exe",
+    "checkver": {
+        "url": "https://elv.sh/get/",
+        "regex": "/blog/([\\d.]+)-release-notes.html"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.elv.sh/windows-amd64/elvish-v$version.zip"
+            },
+            "32bit": {
+                "url": "https://dl.elv.sh/windows-386/elvish-v$version.zip"
+            }
+        }
+    }
+}
