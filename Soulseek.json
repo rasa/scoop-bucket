@@ -1,0 +1,22 @@
+{
+    "homepage": "http://www.slsknet.org/",
+    "version": "2017-2-20",
+    "license": "unknown",
+    "url": "https://www.slsknet.org/SoulseekQt/Windows/SoulseekQt-2017-2-20.exe",
+    "hash": "0c9c9610669b8b3ce7b02f460b152d514e69499e78d17deb02c51d894eb703fc",
+    "innosetup": true,
+    "bin": "SoulseekQt.exe",
+    "shortcuts": [
+        [
+            "SoulseekQt.exe",
+            "Soulseek"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.slsknet.org/news/node/1",
+        "regex": "SoulseekQt-([\\d-]+)\\.exe"
+    },
+    "autoupdate": {
+        "url": "https://www.slsknet.org/SoulseekQt/Windows/SoulseekQt-$version.exe"
+    }
+}
