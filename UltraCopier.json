@@ -1,15 +1,15 @@
 {
     "homepage": "http://ultracopier.first-world.info/",
     "license": "GPL-3.0-only",
-    "version": "2.0.4.0",
+    "version": "2.0.4.1",
     "architecture": {
         "64bit": {
-            "url": "http://files.first-world.info/ultracopier/2.0.4.0/ultracopier-windows-x86_64-2.0.4.0-setup.exe#/dl.7z",
-            "hash": "5b60c2b6ca965e39455a67c2db59d3d8e7687955ebb2951e8590f18d4fe31434"
+            "url": "http://files.first-world.info/ultracopier/2.0.4.1/ultracopier-windows-x86_64-2.0.4.1-setup.exe#/dl.7z",
+            "hash": "018ac9174d650240138b97c95dde425dc9d3eba94e54f50a3d6a534031d4c6f0"
         },
         "32bit": {
-            "url": "http://files.first-world.info/ultracopier/2.0.4.0/ultracopier-windows-x86-2.0.4.0-setup.exe#/dl.7z",
-            "hash": "0392ef10e29bb1a918a1c7bfcf6fb8fe4751efd4ade5e29e1498c8bb82ea707d"
+            "url": "http://files.first-world.info/ultracopier/2.0.4.1/ultracopier-windows-x86-2.0.4.1-setup.exe#/dl.7z",
+            "hash": "6d8197491c6a0bbd464aa4fb7c42e4e9ea9071b8caa4d6bf954ea6adf6a973e0"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse",
