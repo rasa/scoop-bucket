@@ -1,11 +1,11 @@
 {
-    "homepage": "https://masterway.cc/",
-    "version": "0.5.3",
-    "url": "https://masterway.cc/download/win#/dl.7z",
-    "hash": "82ff7cdb9f3939c2f69a3323fca3cff62c80de26ff46ec7fd2ad0107769f1363",
+    "homepage": "https://masterwaynote.com/",
+    "version": "0.6.0",
+    "url": "https://prota.oss-cn-beijing.aliyuncs.com/officialweb/win/0.6/%E5%A4%A7%E5%B8%88%E7%AC%94%E8%AE%B0-0.6.0.66724397-%E5%AE%89%E8%A3%85%E5%8C%85.exe#/dl.7z",
+    "hash": "2e9001a8778bcf27ad116eafca61d79c573267283273615c4f4ac61aebd263d2",
     "installer": {
         "script": [
-            "Expand-7ZipArchive \"$dir\\Masterway-0.5.3-full.nupkg\" \"$dir\"",
+            "Expand-7ZipArchive \"$dir\\Masterway-0.6.0-full.nupkg\" \"$dir\"",
             "Move-Item \"$dir\\lib\\net45\\*\" \"$dir\""
         ]
     },
