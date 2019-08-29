@@ -1,10 +1,10 @@
-﻿{
-    "homepage":  "http://www.brianapps.net/sizer/",
+{
+    "homepage":  "http://www.brianapps.net/sizer4/",
     "license":  "freeware",
-    "version":  "3.34",
-    "url":  "http://www.brianapps.net/sizer/sizer334.zip",
-    "hash":  "d475037924749f26d2fc2200c003c278f5b5d6811ed20d51e9041a28e6e749e8",
-    "bin":  "sizer.exe"
+    "version":  "4.0dev570",
+    "url":  "http://www.brianapps.net/sizer4/sizer4_dev570.zip",
+    "hash":  "5b8b0483ef021a8b22d9b050ec21b2abb47f82ebaee663181dd8cccee784b349",
+    "bin":  "sizer.exe",
     "shortcuts":  [
         [
             "sizer.exe",
