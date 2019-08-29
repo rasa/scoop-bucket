@@ -1,6 +1,6 @@
 {
     "homepage": "http://impressive.sourceforge.net/",
-    "version": "0.12.0",
+    "version": "0.12.1",
     "license": "GPL-2.0-or-later",
     "description": "Impressive is a simple presentation program that displays slideshows of PDF documents, image files or video files. Rendering is done via OpenGL, which allows for some \\��eye candy\\�� effects.",
     "url": "https://downloads.sourceforge.net/project/impressive/files/Impressive/0.12.0/Impressive-0.12.0-win32.zip",
