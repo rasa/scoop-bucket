@@ -1,9 +1,9 @@
 {
     "homepage": "http://aimp.ru",
-    "version": "4.60.2144",
+    "version": "4.60.2146",
     "description": "AIMP is a music player and library manager",
     "license": "LGPL-2.1-only",
-    "url": "http://aimp.su/storage/e38e6a39351e1409b5075c89baa3ff32/aimp_4.60.2144.exe",
+    "url": "http://aimp.su/storage/2402daf0915b58f414a95800faa5c315/aimp_4.60.2146.exe",
     "hash": "c59179e832fc850046042bf0d994ec6e324fb62e3128904b959aedd2d78b09f1",
     "installer": {
         "args": [
