@@ -4,7 +4,7 @@
     "description": "AIMP is a music player and library manager",
     "license": "LGPL-2.1-only",
     "url": "http://aimp.su/storage/2402daf0915b58f414a95800faa5c315/aimp_4.60.2146.exe",
-    "hash": "c59179e832fc850046042bf0d994ec6e324fb62e3128904b959aedd2d78b09f1",
+    "hash": "19c3465721eef8031a8555df1c122656e76ea43636ac4baa8d441d99b82dbd9b",
     "installer": {
         "args": [
             "/AUTO=$dir",
