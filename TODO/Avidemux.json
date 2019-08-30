@@ -1,11 +1,19 @@
 {
     "homepage": "http://fixounet.free.fr/avidemux/",
-    "version": "2.7.3",
+    "version": "2.7.4",
     "license": "GPL-2.0-only",
     "extract_dir": "",
-    "url": "https://downloads.sourceforge.net/project/avidemux/files/avidemux/2.7.3/Avidemux_2.7.3%20VC%2B%2B%2064bits%20.exe",
-    "hash": "eb2e264b261d023d3b6891877dd8b5f9b6e32300ab363c2e04a60b5085ba4051",
-   "installer": {
+    "architecture": {
+        "64bit": {
+            "url": "https://www.fosshub.com/Avidemux.html?dwl=Avidemux_2.7.4VC++64bits.exe",
+            "hash": "21e9bca46e9e22e078435f2c463b51a639fc7dc0a8a7a0d1003fd70de3c25c2e"
+        },
+        "32bit": {
+            "url": "https://www.fosshub.com/Avidemux.html?dwl=Avidemux_2.7.4_win32.exe",
+            "hash": "md5:99bf1cabdee0e4737b53180e11460e69"
+        }
+    },
+    "installer": {
         "args": [
             "/AUTO=$dir",
             "/PORTABLE",
@@ -35,12 +43,24 @@
     ],
     "checkver": {
         "url": "http://fixounet.free.fr/avidemux/download.html",
-        "re": "win64/VC\\+\\+ <b>([\\d.]+)"
+        "re": "win64/VC\\+\\+ <b>([\\d.]+) Final</b> Install \\(64 bits\\),"
     },
     "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/avidemux/files/avidemux/$version/Avidemux_$version%20VC%2B%2B%2064bits%20.exe",
-        "hash": {
-            "mode": "sourceforge"
+        "architecture": {
+            "64bit": {
+                "url": "https://www.fosshub.com/Avidemux.html?dwl=Avidemux_$versionVC++64bits.exe",
+                "hash": {
+                    "url": "http://fixounet.free.fr/avidemux/download.html",
+                    "find": "win64/VC[\\w\\W]+?MD5:($md5)"
+                }
+            },
+            "32bit": {
+                "url": "https://www.fosshub.com/Avidemux.html?dwl=Avidemux_$version_win32.exe",
+                "hash": {
+                    "url": "http://fixounet.free.fr/avidemux/download.html",
+                    "find": "win32 \\(XP\\)[\\w\\W]+?MD5:($md5)"
+                }
+            }
         }
     }
 }
