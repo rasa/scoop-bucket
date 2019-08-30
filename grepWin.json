@@ -13,7 +13,7 @@
             "hash": "c1f154e8828e0a5724b3c6d0baabd1baa7471eed43fe73ebe274c56e95909e00"
         }
     },
-    "pre_install": "if (-not (Test-Path \"$persist_dir\\grepwin.ini\")) {Set-Content \"$dir\\grepwin.ini\" (@('[global]', '[Software\\grepWin\\History]') -join \"`r`n\") -Encoding ASCII}",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\grepwin.ini\")) {Set-Content \"$dir\\grepwin.ini\" (@('[global]', '[Software\\grepWin\\History]') -join \"`r`n\") -Encoding ASCII}",
     "bin": "grepWin.exe",
     "persist": "grepwin.ini",
     "shortcuts": [
