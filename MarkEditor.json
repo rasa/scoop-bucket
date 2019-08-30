@@ -31,7 +31,7 @@
                 "hash": {
                     "mode": "extract",
                     "url": "https://zrey.com/docs/markeditor-updates.txt",
-                    "find": "64位 MD5\\:  ($md5)"
+                    "find": "64位 MD5:  ($md5)"
                 }
             },
             "32bit": {
@@ -39,7 +39,7 @@
                 "hash": {
                     "mode": "extract",
                     "url": "https://zrey.com/docs/markeditor-updates.txt",
-                    "find": "32位 MD5\\:  ($md5)"
+                    "find": "32位 MD5:  ($md5)"
                 }
             }
         }
