@@ -25,7 +25,7 @@
             "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall.exe\" -Force -Recurse",
             "New-Item \"$dir\\portable_mode_enabled\" -Force | Out-Null",
             "if(!(Test-Path \"$persist_dir\\playlists\")) {",
-            "    New-Item \"$persist_dir\\playlists\" -ItemType Directory -Force | Out-Null",
+            "    New-Item \"$dir\\playlists\" -ItemType Directory -Force | Out-Null",
             "    if (Test-Path \"$env:Appdata\\foobar2000\") {",
             "        Write-Host -F yellow \"Copying old '$env:Appdata\\foobar2000' to '$persist_dir'\"",
             "        Copy-Item \"$env:Appdata\\foobar2000\\*\" \"$dir\" -Recurse -Force",
