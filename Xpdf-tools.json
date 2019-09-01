@@ -13,13 +13,15 @@
         "64bit": {
             "pre_install": [
                 "Rename-Item \"$dir\\bin64\" \"$dir\\bin\"",
-                "Remove-Item \"$dir\\bin32\" -Force -Recurse"
+                "Remove-Item \"$dir\\bin32\" -Force -Recurse",
+                "if (!(Test-Path \"$persist_dir\\xpdfrc\")) { Copy-Item \"$dir\\doc\\sample-xpdfrc\" \"$dir\\xpdfrc\" }"
             ]
         },
         "32bit": {
             "pre_install": [
                 "Rename-Item \"$dir\\bin32\" \"$dir\\bin\"",
-                "Remove-Item \"$dir\\bin64\" -Force -Recurse"
+                "Remove-Item \"$dir\\bin64\" -Force -Recurse",
+                "if (!(Test-Path \"$persist_dir\\xpdfrc\")) { Copy-Item \"$dir\\doc\\sample-xpdfrc\" \"$dir\\xpdfrc\" }"
             ]
         }
     },
@@ -34,6 +36,7 @@
         "bin\\pdfinfo.exe",
         "bin\\pdftops.exe"
     ],
+    "persist": "xpdfrc",
     "checkver": {
         "url": "https://www.xpdfreader.com/download.html",
         "re": "Current version:\\s*([^\\s<]+)"
