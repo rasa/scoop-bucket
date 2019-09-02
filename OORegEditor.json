@@ -24,9 +24,7 @@
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\OORegEdt.INI\")) { New-Item \"$dir\\OORegEdt.INI\" -ItemType File | Out-Null }",
-    "persist": [
-        "OORegEdt.INI"
-    ],
+    "persist": "OORegEdt.INI",
     "checkver": "Version (?<version>[\\d.]+)",
     "autoupdate": {
         "url": "https://dl5.oo-software.com/files/ooregeditor12/120/ooregeditor.zip"
