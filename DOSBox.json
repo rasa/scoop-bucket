@@ -8,8 +8,8 @@
     "bin": "DOSBox.exe",
     "shortcuts": [
         [
-        "DOSBox.exe",
-        "DOSBox"
+            "DOSBox.exe",
+            "DOSBox"
         ]
     ],
     "checkver": "Latest version:\\s+<a[^>]+>([\\d.-]+)",

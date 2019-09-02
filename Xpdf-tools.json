@@ -31,9 +31,7 @@
             ]
         }
     },
-    "post_install": [
-        "Rename-Item \"$dir\\xpdf-t1fonts\" \"$dir\\t1fonts\""
-    ],
+    "post_install": "Rename-Item \"$dir\\xpdf-t1fonts\" \"$dir\\t1fonts\"",
     "bin": [
         "bin\\pdftopng.exe",
         "bin\\pdftoppm.exe",
