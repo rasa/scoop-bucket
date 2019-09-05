@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.xnview.com/en/xnview/",
-    "version": "2.48",
+    "version": "2.49",
     "license": "freeware",
     "extract_dir": "XnView",
     "url": "https://download.xnview.com/XnView-win-full.zip",
-    "hash": "82E9B132CD47A2259D0137329B9E65D7AB9A835BDD86A58247A92C8915FCA7A6",
+    "hash": "9f20a1b93b248c38ed56c200dba0a2502f939238fa688362df6de967560b38b6",
     "bin": "xnview.exe",
     "shortcuts": [
         [
@@ -16,15 +16,12 @@
         "xnview.ini",
         "category.db"
     ],
-    "checkver": {
-        "url": "https://www.xnview.com/en/",
-        "regex": "XnView Classic<small>([\\d.]+)</small>"
-    },
+    "checkver": "Download <strong>XnView ([\\d.]+)</strong> for Windows",
     "autoupdate": {
         "url": "https://download.xnview.com/XnView-win-full.zip",
         "hash": {
             "url": "https://www.xnview.com/en/xnview/",
-            "find": "XnView-win-full.zip:($sha256)"
+            "find": "XnView-win-full.zip: ($sha256)"
         }
     }
 }
