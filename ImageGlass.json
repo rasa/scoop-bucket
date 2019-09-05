@@ -1,0 +1,26 @@
+{
+    "homepage": "https://imageglass.org/",
+    "version": "7.0.7.26",
+    "license": "GPL-3.0-or-later",
+    "extract_dir": "ImageGlass_7.0.7.26",
+    "url": "https://github.com/d2phap/ImageGlass/releases/download/7.0.7.26/ImageGlass_7.0.7.26.zip",
+    "hash": "8ec337c2123f40bac6ee4810ec1431c6c2bdac0527398efa89827cc2e4b36abe",
+    "bin": [
+        "ImageGlass.exe",
+        "igcmd.exe",
+        "igtask.exe"
+    ],
+    "shortcuts": [
+        [
+            "ImageGlass.exe",
+            "ImageGlass"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/d2phap/ImageGlass"
+    },
+    "autoupdate": {
+        "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version.zip",
+        "extract_dir": "ImageGlass_$version"
+    }
+}
