@@ -1,0 +1,14 @@
+name: Upgrade
+
+on:
+  schedule:
+  - cron: 0 2 * * 1-5
+  
+jobs:
+  build:
+
+    runs-on: windodws-latest
+    
+    steps:
+    - name: Upgrade scoop manifest
+      run: bin\update.ps1
