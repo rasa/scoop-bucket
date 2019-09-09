@@ -1,9 +1,9 @@
 {
     "homepage": "https://thonny.org/",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "license": "MIT",
-    "url": "https://github.com/thonny/thonny/releases/download/v3.2.0/thonny-3.2.0.exe",
-    "hash": "e1f39dac213dba9044581cbddaa77d928d02bdf9c6f36712341ca0be0adbfa65",
+    "url": "https://github.com/thonny/thonny/releases/download/v3.2.1/thonny-3.2.1.exe",
+    "hash": "6ced3ec7a70ee0b3cd9ffa6f465cffa585530f869cc57b86fff7f6229e417e97",
     "innosetup": true,
     "bin": "thonny.exe",
     "shortcuts": [
