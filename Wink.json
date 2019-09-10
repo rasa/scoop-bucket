@@ -2,7 +2,7 @@
     "homepage": "http://www.debugmode.com/wink/",
     "version": "2.0-1060",
     "license": "freeware",
-    "url": "http://files.snapfiles.com/directdl/wink20-1060.zip",
+    "url": "https://files.snapfiles.com/directdl/wink20-1060.zip",
     "hash": "d92e2a17288df1183b9b3d478bbe574df8eba2d3b20f5f7bb074f91440974a32",
     "installer": {
         "file": "wink20.exe",
@@ -19,11 +19,11 @@
         ]
     ],
     "checkver": {
-        "url": "http://www.debugmode.com/wink/download.htm",
+        "url": "https://www.debugmode.com/wink/download.htm",
         "regex": "<u>For Windows \\(<b>version (?<ver>[\\d.]+)</b> build (?<build>\\d+)\\)</u>",
         "replace": "${ver}-${build}"
     },
     "autoupdate": {
-        "url": "http://files.snapfiles.com/directdl/wink$cleanVersion.zip"
+        "url": "https://files.snapfiles.com/directdl/wink$cleanVersion.zip"
     }
 }
