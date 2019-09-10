@@ -1,9 +1,9 @@
 {
     "homepage": "http://dimio.altervista.org/eng/#DSynchronize",
-    "version": "2.44",
+    "version": "2.45",
     "license": "freeware",
     "url": "http://dimiodati.altervista.org/zip/dsynchronize.zip",
-    "hash": "46dddd135999ecf0173a4b0c786237dec71eed23613d8c33e46fe897bad1d958",
+    "hash": "65ffbe530552d14e4c722e027b99408799a8339fd5d72b8cdc2b030893a9f1bf",
     "extract_dir": "dsynchronize",
     "bin": "DSynchronize.exe",
     "persist": [
