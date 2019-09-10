@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.den4b.com/products/renamer",
-    "version": "7.1.0.1-beta",
+    "version": "7.1.0.2-beta",
     "license": "CC-BY-NC-ND-3.0",
     "description": "Very powerful and flexible file renaming tool.",
-    "url": "http://www.den4b.com/download/renamer/portable?key=2e07699d75755d110ffd53aa81141e4bbc61e40570701532#/dl.zip",
+    "url": "https://www.den4b.com/download/renamer/portable?key=8d6ab29aea084df38ca7834d388ffdef00d68e398ad35f34#/dl.zip",
     "hash": "9d0f586c0e1c65f06354a3c0bcc019b187372d167077238e6299246cb3986862",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\Settings.ini\")) {",
