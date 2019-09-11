@@ -1,9 +1,9 @@
 {
     "homepage": "https://icecreamapps.com/PDF-Editor/",
-    "version": "1.23",
+    "version": "1.30",
     "license": "freeware",
-    "url": "https://icecreamapps.com/download/pdf_editor_setup.exe",
-    "hash": "57f68b7a2c4c8a1bf1c4f29215034eb9a08e7a34f9f95c73bc2b000b5e774eea",
+    "url": "http://download.icecreamapps.com/pdf_editor_setup.exe",
+    "hash": "156a53c36b41663d97e8458f8c78fb7d2a4fd26298ed496139aedcd558ac9a6e",
     "innosetup": true,
     "bin": "icepdfeditor.exe",
     "shortcuts": [
@@ -17,6 +17,6 @@
         "regex": "<strong>Version:</strong> ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://icecreamapps.com/download/pdf_editor_setup.exe"
+        "url": "http://icecreamapps.com/download/pdf_editor_setup.exe"
     }
 }
