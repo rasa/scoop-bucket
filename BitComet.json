@@ -37,7 +37,7 @@
         "url": "https://www.bitcomet.com/en/archive",
         "regex": "BitComet_([\\d.]+)\\.zip"
     },
-    "_autoupdate": {
+    "autoupdate": {
         "url": "https://download.bitcomet.com/achive/BitComet_$version.zip",
         "hash": {
             "url": "https://www.bitcomet.com/en/archive",
