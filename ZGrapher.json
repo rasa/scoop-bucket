@@ -6,7 +6,7 @@
     "hash": "4c90a34e660cef48262e5ecd6a70cdc35f20fb38bf46bbb286ace6ae8152a777",
     "installer": {
         "script": [
-            "innounp -x -d\"$dir\" \"$dir\\setup.exe\"",
+            "& (Get-HelperPath 'innounp') -x -d\"$dir\" \"$dir\\setup.exe\" | Out-Null",
             "Move-Item \"$dir\\{app}\\*\" \"$dir\" -Force",
             "Remove-Item \"$dir\\{app}\",\"$dir\\{sys}\",\"$dir\\install_script.iss\",\"$dir\\setup.exe\" -Force -Recurse"
         ]
