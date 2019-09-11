@@ -26,8 +26,5 @@
     "checkver": {
         "url": "https://www.den4b.com/changelogs/renamer",
         "regex": "tbody id=\"v(?<version>[\\d.\\w-]+)\" class=\"changelogVersionBlock"
-    },
-    "_autoupdate": {
-        "url": "http://www.den4b.com/download/renamer/portable?key=$matchHash#/dl.zip"
     }
 }
