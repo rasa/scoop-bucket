@@ -1,0 +1,37 @@
+{
+    "description": "Oracle JDK 7",
+    "homepage": "https://www.oracle.com/technetwork/java/javase/overview/index.html",
+    "version": "7u80-b15",
+    "license": "https://www.oracle.com/technetwork/java/javase/terms/license/javase-license.html",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.oracle.com/otn/java/jdk/7u80-b15/jdk-7u80-windows-x64.exe#/dl.7z",
+            "hash": "4a0f77910f1373f526d6732896b870bc96f2a83e32d8390549331b602482f4ee"
+        },
+        "32bit": {
+            "url": "https://download.oracle.com/otn/java/jdk/7u80-b15/jdk-7u80-windows-i586.exe#/dl.7z",
+            "hash": "2e7b7976e59231f17ccd93ae28de547b2e31cb0c95544d4ee4de6a4785869355"
+        }
+    },
+    "cookie": {
+        "oraclelicense": "accept-securebackup-cookie"
+    },
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir"
+    },
+    "checkver": {
+        "url": "https://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html",
+        "regex": "otn/java/jdk/((?<major>[\\du]+)-[\\db]+)/jdk-.*?-windows-x64.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.oracle.com/otn/java/jdk/$version/jdk-$matchMajor-windows-x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://download.oracle.com/otn/java/jdk/$version/jdk-$matchMajor-windows-i586.exe#/dl.7z"
+            }
+        }
+    }
+}
