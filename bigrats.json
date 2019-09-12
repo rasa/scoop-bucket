@@ -11,7 +11,7 @@
     ],
     "checkver": {
         "url": "http://download.flvcd.com/",
-        "regex": "��ʽ�� v([\\d.]+)"
+        "regex": "正式版 v([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://app.flvcd.com/bigrats_setup_$version.exe#/dl.7z"
