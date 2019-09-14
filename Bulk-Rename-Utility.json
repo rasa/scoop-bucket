@@ -1,13 +1,13 @@
 {
     "homepage": "https://www.bulkrenameutility.co.uk",
-    "version": "3.2.0.0",
+    "version": "3.2.0.1",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.bulkrenameutility.co.uk/License.php"
     },
     "description": "File renaming software for Windows.",
     "url": "https://www.bulkrenameutility.co.uk/Downloads/BRU_NoInstall.zip",
-    "hash": "f13e19b57236795765a7e718e80e085c0fdac2c679fa73a9367d1ae68f1f51de",
+    "hash": "2f7c537715786f83ca2ff0ce9960e60b10ef773904c2936b8b23a569748042bf",
     "architecture": {
         "64bit": {
             "extract_dir": [
