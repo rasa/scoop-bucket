@@ -12,7 +12,7 @@
             "Text Filter"
         ]
     ],
-    "checkver":"Current version:.*?([\\d.]+)",
+    "checkver":"<td>([\\d.]+)</td>",
     "autoupdate": {
         "url":  "https://www.musetips.com/downloads/TextFilter_Portable.zip"
     }
