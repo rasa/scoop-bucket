@@ -1,11 +1,11 @@
 {
     "homepage": "https://gif.ski",
-    "version": "0.8.5",
+    "version": "0.9.1",
     "license": "AGPL-3.0-only",
     "description": "GIF encoder based on libimagequant (pngquant).",
     "extract_dir": "win",
-    "url": "https://gif.ski/gifski-0.8.5.zip",
-    "hash": "b8a354cebb8f5e0f499947ad0e3e85bb08a1a81678da739a41022aca403fbd3e",
+    "url": "https://gif.ski/gifski-0.9.1.zip",
+    "hash": "aa755c393dc0877a02edb4bda70c06427fd03f6629985a55ea4c0b2186baecaf",
     "bin": "gifski.exe",
     "checkver": "/gifski-([\\d.]+).zip",
     "autoupdate": {
