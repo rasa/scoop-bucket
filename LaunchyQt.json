@@ -1,7 +1,7 @@
 {
     "homepage": "https://launchyqt.com/",
     "version": "3.1.0",
-    "license": "",
+    "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://github.com/samsonwang/LaunchyQt/releases/download/v3.1.0/Launchy-3.1.0-win-amd64.7z",
