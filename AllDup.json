@@ -1,9 +1,16 @@
-﻿{
+{
     "homepage": "http://www.alldup.info/",
-    "license": "unknown",
+    "license": "freeware",
+    "description": "Find and remove duplicate files on your computer.",
     "version": "4.4.6",
-    "url": "http://www.alldup.de/download/AllDupPortable.zip",
-    "hash": "86b4dec0c2cf570c204e90ea5fe63256018df091b5f325eb6970f6b083756b0d",
+    "url": [
+        "http://www.alldup.de/download/AllDupPortable.zip",
+        "http://www.alldup.de/download/AllDupManualPDF.zip"
+    ],
+    "hash": [
+        "86b4dec0c2cf570c204e90ea5fe63256018df091b5f325eb6970f6b083756b0d",
+        "ee740a240d4b016f884f54ac96ffac029d043c4af3954d1bcd4a7d238f4f8ba0"
+    ],
     "bin": "AllDupPortable.exe",
     "shortcuts": [
         [
@@ -20,6 +27,9 @@
     ],
     "checkver": {
         "url": "http://www.alldup.info/en_download_alldup.php",
-        "regex": "AllDup Portable Edition.*?alldup_version\\.php.*?([\\d.]+)"
+        "regex": "AllDup Portable Edition[\\w\\W]*?alldup_version.php[\\w\\W]*?([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://www.alldup.de/download/AllDupPortable.zip"
     }
 }
