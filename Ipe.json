@@ -2,7 +2,6 @@
     "homepage": "http://ipe.otfried.org/",
     "version": "7.2.12",
     "license": "GPL-3.0-only",
-    "extract_dir": "",
     "architecture": {
         "64bit": {
             "url": "https://dl.bintray.com/otfried/generic/ipe/7.2/ipe-7.2.12-win64.zip",

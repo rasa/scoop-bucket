@@ -2,7 +2,6 @@
     "homepage": "http://www.vidown.cn/",
     "version": "3.0.1.0",
     "license": "freeware",
-    "extract_dir": "",
     "url": "http://dl1.vidowncdn.top/data/ViDown_3.0.1.0_v.exe#/dl.7z",
     "hash": "581762a54d27608b377edc6a166dc0034f9427c4fe252aed63b9a28330f5d207",
     "bin": "ViDown.exe",

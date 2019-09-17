@@ -2,7 +2,6 @@
     "homepage": "http://petr.lastovicka.sweb.cz/others.html#hotkey",
     "version": "4.9",
     "license": "freeware",
-    "extract_dir": "",
     "architecture": {
         "64bit": {
             "url": "https://downloads.sourceforge.net/project/hotkeyp/files/hotkeyp_64bit.zip",

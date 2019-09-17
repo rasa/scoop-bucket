@@ -1,7 +1,7 @@
 {
     "homepage": "https://okplayer.sourceforge.io/",
     "version": "0.3.2.0",
-    "license": "",
+    "license": "unknown",
     "url": "http://downloads.sourceforge.net/project/okplayer/files/0.3.2.0/okplayer-0.3.2.0-win32.exe",
     "hash": "sha1:ccda26524cef7b4e929333ebd44165ed63af197e",
     "innosetup": true,

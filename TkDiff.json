@@ -1,0 +1,22 @@
+{
+    "homepage": "https://tkdiff.sourceforge.io/",
+    "version": "4.3.4",
+    "license": "GPL-3.0-only",
+    "url": "https://downloads.sourceforge.net/project/tkdiff/tkdiff/4.3.5/tkdiff-4-3-5.zip",
+    "hash": "sha1:c2d616355caf7cf3da9ff46e24eb4d40c1138483",
+    "bin": "Tkdiff.sh",
+    "shortcuts": [
+        [
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/tkdiff/rss?path=/tkdiff",
+        "regex": "/tkdiff/([\\d.]+)/tkdiff[\\d-]+.zip"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/tkdiff/tkdiff/$version/tkdiff-$dashVersion.zip",
+        "hash": {
+            "mode": "sourceforge"
+        }
+    }
+}

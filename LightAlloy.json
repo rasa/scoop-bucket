@@ -1,7 +1,7 @@
 {
     "homepage": "http://light-alloy.verona.im/",
     "version": "4.10.2",
-    "license": "",
+    "license": "unknown",
     "url": "http://light-alloy.verona.im/LA_Portable_v4.10.2.7z",
     "hash": "1b2ec0b7a548770e0c06788ed52a091f9c59a47c540c9ba6cc82869a1532ab2d",
     "bin": "LA.exe",

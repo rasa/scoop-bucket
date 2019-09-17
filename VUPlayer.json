@@ -2,7 +2,6 @@
     "homepage": "http://www.vuplayer.com/vuplayer.php",
     "version": "4.8",
     "license": "freeware",
-    "extract_dir": "",
     "architecture": {
         "64bit": {
             "url": "https://github.com/jfchapman/VUPlayer/releases/download/v4.8/VUPlayer4_64bit.zip",

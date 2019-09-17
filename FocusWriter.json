@@ -2,7 +2,6 @@
     "homepage": "https://gottcode.org/focuswriter/",
     "version": "1.7.3",
     "license": "freeware",
-    "extract_dir": "",
     "architecture": {
         "64bit": {
             "url": "https://gottcode.org/focuswriter/FocusWriter_1.7.3.zip",

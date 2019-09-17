@@ -2,7 +2,6 @@
     "homepage": "http://www.softwareok.com/?seite=Freeware/ProcessKO",
     "version": "4.72",
     "license": "freeware",
-    "extract_dir": "",
     "architecture": {
         "64bit": {
             "url": "http://www.softwareok.com/Download/ProcessKO_x64.zip",
