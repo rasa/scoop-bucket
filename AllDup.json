@@ -1,0 +1,25 @@
+﻿{
+    "homepage": "http://www.alldup.info/",
+    "license": "unknown",
+    "version": "4.4.6",
+    "url": "http://www.alldup.de/download/AllDupPortable.zip",
+    "hash": "86b4dec0c2cf570c204e90ea5fe63256018df091b5f325eb6970f6b083756b0d",
+    "bin": "AllDupPortable.exe",
+    "shortcuts": [
+        [
+            "AllDupPortable.exe",
+            "AllDup"
+        ]
+    ],
+    "persist": [
+        "config4.ini",
+        "profile",
+        "data",
+        "export",
+        "log"
+    ],
+    "checkver": {
+        "url": "http://www.alldup.info/en_download_alldup.php",
+        "regex": "AllDup Portable Edition.*?alldup_version\\.php.*?([\\d.]+)"
+    }
+}
