@@ -12,7 +12,13 @@
             "hash": "sha1:c5eb8e7c84e4cd3be4e92d1aabe1645f61b573c2"
         }
     },
-    "bin": "",
+    "bin": "bomi.exe",
+    "shortcuts": [
+        [
+            "bomi.exe",
+            "BomiPlayer"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/xylosper/bomi"
     },
