@@ -1,11 +1,11 @@
 {
     "homepage": "https://dissenter.com/",
     "license": "MPL-2.0",
-    "version": "0.66.99",
+    "version": "0.68.131",
     "architecture": {
         "64bit": {
             "url": "https://dissenter.com/dist/browser/0.66.99/dissenter-browser-v0.66.99.exe#/dl.7z",
-            "hash": "md5:1d031b6bbe98d33b6d8487ff8dc981a1"
+            "hash": "3bea1e9592c5a92a627cfef586f329d18d2f4ff41fd0cb00c97cd9ac28767e89"
         }
     },
     "installer": {
