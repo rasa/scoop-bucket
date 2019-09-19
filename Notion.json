@@ -2,17 +2,19 @@
     "homepage": "https://www.notion.so/",
     "version": "1.0.7",
     "license": "freeware",
-    "url": "https://desktop-release.notion-static.com/Notion%20Setup%201.0.7.exe#/notion.7z",
+    "url": "https://desktop-release.notion-static.com/Notion%20Setup%201.0.7.exe#/dl.7z",
     "hash": "cea7d4a7a67541eab82e6801ff2bd4feced8e13f9abec7f9d917a25bbf303c4b",
     "architecture": {
         "64bit": {
             "installer": {
-                "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
+                "script": [
+                    "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\"  -Force -Recurse"
+                ]
             }
         }
     },
-    "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\StdUtils.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\SpiderBanner.dll\",\"$dir\\WinShell.dll\"",
-    "extract_dir": "\\$PLUGINSDIR",
+    "post_install": "Remove-Item \"$dir\\Uninstall Notion.exe\"",
     "bin": "Notion.exe",
     "shortcuts": [
         [
@@ -21,6 +23,6 @@
         ]
     ],
     "autoupdate": {
-        "url": "https://desktop-release.notion-static.com/Notion%20Setup%20$version.exe#/notion.7z"
+        "url": "https://desktop-release.notion-static.com/Notion%20Setup%20$version.exe#/dl.7z"
     }
 }
