@@ -15,7 +15,7 @@
     "bin": [
         "ImageGlass.exe",
         "igcmd.exe",
-        "igtask.exe"
+        "igtasks.exe"
     ],
     "shortcuts": [
         [
