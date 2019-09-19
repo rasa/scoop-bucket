@@ -12,11 +12,11 @@ if "x%~1" == "x" goto updall
 
 :updone
 if "x%~1" == "x" goto end
-%PWSH% -f %CHECKVER% -dir %DIR% "%~n1" -u
+%PWSH% -noprofile -ex unrestricted -f %CHECKVER% -dir %DIR% "%~n1" -u
 shift
 goto :updone
 
 :updall
-%PWSH% -f %CHECKVER% -dir %DIR% -u
+%PWSH% -noprofile -ex unrestricted -f %CHECKVER% -dir %DIR% -u
 
 :end
