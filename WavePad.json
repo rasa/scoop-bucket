@@ -1,4 +1,4 @@
-﻿{
+{
     "homepage": "https://www.nch.com.au/wavepad/",
     "license": "free for non-commercial home use",
     "version": "9.40",
@@ -11,7 +11,7 @@
             "WavePad"
         ]
     ],
-    "autopupdate": {
+    "autoupdate": {
         "url": "https://www.nch.com.au/components/wpsetup.exe#/dl.7z"
     }
 }
