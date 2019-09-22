@@ -10,7 +10,7 @@
         },
         "32bit": {
             "url": "http://x-diesel.biz/download/evolution/uncomsetup3.57x32(build1433).exe",
-            "hash": "1bd1a839d5af0ccd28b5f4662d24360e423daa9dcc27b7aaddb68c53ccc62dae"
+            "hash": "038eef2316db4b1c3b318d279fceb42dc94cb64959437e82e06594868e85feeb"
         }
     },
     "pre_install": [
