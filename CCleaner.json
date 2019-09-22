@@ -19,8 +19,9 @@
                     "CCleaner"
                 ],
                 [
-                    "CCleaner64.exe -Auto",
-                    "CCleaner Autoclean"
+                    "CCleaner64.exe",
+                    "CCleaner Autoclean",
+                    "/Auto"
                 ]
             ]
         },
@@ -32,8 +33,9 @@
                     "CCleaner"
                 ],
                 [
-                    "CCleaner.exe -Auto",
-                    "CCleaner Autoclean"
+                    "CCleaner.exe",
+                    "CCleaner Autoclean",
+                    "/Auto"
                 ]
             ]
         }
