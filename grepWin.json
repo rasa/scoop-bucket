@@ -19,7 +19,8 @@
     "shortcuts": [
         [
             "grepWin.exe",
-            "grepWin"
+            "grepWin",
+            "/portable"
         ]
     ],
     "checkver": {
