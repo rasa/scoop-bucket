@@ -2,13 +2,13 @@
     "homepage": "http://www.alldup.info/",
     "license": "freeware",
     "description": "Find and remove duplicate files on your computer.",
-    "version": "4.4.6",
+    "version": "4.4.8",
     "url": [
         "http://www.alldup.de/download/AllDupPortable.zip",
         "http://www.alldup.de/download/AllDupManualPDF.zip"
     ],
     "hash": [
-        "86b4dec0c2cf570c204e90ea5fe63256018df091b5f325eb6970f6b083756b0d",
+        "6a882b06c9d989e0ec6a1f84716aae13ed08c37ceca6df6832e581b1c35818f2",
         "ee740a240d4b016f884f54ac96ffac029d043c4af3954d1bcd4a7d238f4f8ba0"
     ],
     "bin": "AllDupPortable.exe",
