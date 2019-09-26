@@ -1,15 +1,15 @@
 {
     "homepage": "http://www.xpdfreader.com",
     "license": "freeware",
-    "version": "4.01.01",
+    "version": "4.02",
     "architecture": {
         "64bit": {
-            "url": "https://xpdfreader-dl.s3.amazonaws.com/XpdfReader-win64-4.01.01.exe#/dl.7z",
-            "hash": "118819d354c4147c1bec308024d1e53d917fb281a2036d79feab8f6f667e29c9"
+            "url": "https://xpdfreader-dl.s3.amazonaws.com/XpdfReader-win64-4.02.exe#/dl.7z",
+            "hash": "d88d17dbba62598848978f0dd720b589b86aad16a08d130dfc3d0b4c0c39942f"
         },
         "32bit": {
-            "url": "https://xpdfreader-dl.s3.amazonaws.com/XpdfReader-win32-4.01.01.exe#/dl.7z",
-            "hash": "ecc5ce0445b991d47e2bf64a8897d9654dc9f0b07dfd5de671d96cb96d365edb"
+            "url": "https://xpdfreader-dl.s3.amazonaws.com/XpdfReader-win32-4.02.exe#/dl.7z",
+            "hash": "a04f5154865857bdd4fe40b5db894e8ce9fbb400e6ac655a10c1d232f611aafa"
         }
     },
     "bin": "xpdf.exe",
