@@ -1,15 +1,15 @@
 {
     "homepage": "http://www.javaeditor.org/",
-    "version": "18.05",
+    "version": "18.06",
     "license": "freeware",
     "architecture": {
         "64bit": {
-            "url": "http://www.javaeditor.org/wiki/jedownload/javaeditor64.18.05.zip",
-            "hash": "15ca778b74fdfbaa6d749fa148b3ebd0876dc232ddb62dbca635050d1c358162"
+            "url": "http://www.javaeditor.org/wiki/jedownload/javaeditor64.18.06.zip",
+            "hash": "351d2f66439391d80a0cd10c7986bfca33284959dc45a5d18209f7a28848e736"
         },
         "32bit": {
-            "url": "http://www.javaeditor.org/wiki/jedownload/javaeditor18.05.zip",
-            "hash": "2051a96589ee3cc1764b310cd5c9d9b3c7338e1e1fc3915d752c51e354d70f7c"
+            "url": "http://www.javaeditor.org/wiki/jedownload/javaeditor18.06.zip",
+            "hash": "60bfd5edf9f0c1fac674531b73c643300509879a42fe177045e3fa6f8fe88063"
         }
     },
     "bin": "javaeditor.exe",
