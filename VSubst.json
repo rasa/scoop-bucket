@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.ntwind.com/software/visual-subst.html",
     "license": "freeware",
-    "version": "2.7",
-    "url": "https://www.ntwind.com/download/VSubst_2.7-setup.exe#dl.7z",
-    "hash": "d95d485c2224f6bd6d6611e975b1c51978d978bfa640db44162cfe337961a5bb",
+    "version": "2.8",
+    "url": "https://www.ntwind.com/download/VSubst_2.8-setup.exe#dl.7z",
+    "hash": "59e69846f6d2ddf10001c6a811b446747eea6b5a18a60116a3a7c8de90cc737e",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$TEMP\", \"$dir\\`$2.nsis\" -Force -Recurse",
     "bin": "VSubst.exe",
     "persist": "VSubst.ini",
