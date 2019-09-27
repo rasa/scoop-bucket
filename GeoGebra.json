@@ -1,0 +1,38 @@
+{
+    "homepage": "https://www.geogebra.org/",
+    "license": {
+        "identifier": "freeware for non-commercial use",
+        "url": "https://www.geogebra.org/license"
+    },
+    "description": "A dynamic mathematics software for education that brings together geometry, algebra, spreadsheets, graphing, statistics and calculus.",
+    "version": "6.0.559.0",
+    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-559-0.exe#/dl.7z",
+    "hash": "6375474441ccdf3a40072c89b2c5ddd910ab9ce8806e580102ab40fcaf86391e",
+    "installer": {
+        "script": [
+            "$file = (Get-ChildItem \"$dir\" 'GeoGebra_*-full.nupkg' | Select-Object -First 1).FullName",
+            "Expand-7ZipArchive \"$file\" \"$dir\" -Removal",
+            "Move-Item \"$dir\\lib\\net45\\*\" \"$dir\""
+        ]
+    },
+    "post_install": "Remove-Item \"$dir\\lib\",\"$dir\\package\",\"$dir\\_rels\",\"$dir\\GeoGebra_*.nuspec\",\"$dir\\`[Content_Types`].xml\" -Recurse",
+    "bin": [
+    	"GeoGebra.exe",
+    	"GeoGebraGraphing.exe",
+    	"GeoGebraGeometry.exe"
+    ],
+    "shortcuts": [
+    	[
+    		"GeoGebra.exe",
+    		"GeoGebra"
+    	],
+    	[
+    		"GeoGebraGraphing.exe",
+    		"GeoGebra Graphing"
+    	],
+    	[
+    		"GeoGebraGeometry.exe",
+    		"GeoGebra Geometry"
+    	]
+    ]
+}
