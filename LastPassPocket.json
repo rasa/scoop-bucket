@@ -4,7 +4,12 @@
     "version": "4.0.0",
     "url": "https://download.cloud.lastpass.com/pocket/pocket.exe",
     "hash": "8fb3305aadd62d72c7c7bf152f41cab9db525c258d57bd4d28e005e47888a5b7",
-    "bin": "pocket.exe",
+    "bin": [
+        [
+            "pocket.exe",
+            "LastPassPocket"
+        ]
+    ],
     "shortcuts": [
         [
             "pocket.exe",
