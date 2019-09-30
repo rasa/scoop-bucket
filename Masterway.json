@@ -19,6 +19,6 @@
     ],
     "checkver": {
         "url": "https://masterwaynote.com/win/static/js/main.2dcadf22.js",
-        "regex": "\"´óÊ¦±Ê¼Ç Windows ([\\d.]+)\""
+        "regex": "\"å¤§å¸ˆç¬”è®° Windows ([\\d.]+)\""
     }
 }
