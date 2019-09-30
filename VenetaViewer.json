@@ -17,7 +17,7 @@
     "bin": "",
     "checkver": {
         "url": "https://sourceforge.net/projects/veneta-viewer/files/Veneta%20Viewer/",
-        "regex": "Veneta_Viewer_([\\d.]+)_x64.+?Veneta_Viewer_(?<ver32>[\\d.]+)_x86"
+        "regex": "Veneta_Viewer_([\\d.]+)_x64[\\w\\W]+?Veneta_Viewer_(?<ver32>[\\d.]+)_x86"
     },
     "autoupdate": {
         "architecture": {
