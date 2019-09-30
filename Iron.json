@@ -1,5 +1,5 @@
 {
-    "homepage": "https://www.srware.net/",
+    "homepage": "https://www.srware.net/iron/",
     "description": "a browser based on Chromium",
     "version": "76.0.3950.0",
     "license": "BSD-3-Clause",
@@ -21,10 +21,6 @@
             "Iron"
         ]
     ],
-    "checkver": {
-        "url": "https://www.srware.net/software_srware_iron_download.php",
-        "regex": "Version: <strong>([\\d.]+)"
-    },
     "autoupdate": {
         "architecture": {
             "64bit": {
