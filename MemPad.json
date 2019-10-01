@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.horstmuc.de/wmem.htm",
-    "version": "3.65",
+    "version": "3.66",
     "license": "unknown",
     "architecture": {
         "64bit": {
             "url": "https://www.horstmuc.de/win64/mempad64.zip",
-            "hash": "f159f0e945f5510f3d68c649ee219d26b47664e160babe26c7394cb0372ebea5"
+            "hash": "fb843f4b451a93b1f3b01becd8ef5a199ad187f2e73935979c6d3870dce5caa8"
         },
         "32bit": {
             "url": "https://www.horstmuc.de/win/mempad.zip",
-            "hash": "79dd20967378dd44fe06fc9877d94d2a365fb1d2fb580ebd4bbaddbce9e48600"
+            "hash": "e9ea426d7b51ab3322303f78094ddc3b088507d14b3a70d4988210947ea8e06b"
         }
     },
     "pre_install": [
