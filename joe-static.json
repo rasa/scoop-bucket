@@ -1,0 +1,40 @@
+{
+    "homepage": "https://joe-editor.sourceforge.io/",
+    "description": "A full featured terminal-based screen editor.",
+    "version": "4.6",
+    "license": "GPL-2.0-only",
+    "url": [
+        "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/4.6/Standalone/joe.exe",
+        "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/4.6/Standalone/jstar.exe",
+        "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/4.6/Standalone/jpico.exe",
+        "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/4.6/Standalone/jmacs.exe",
+        "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/4.6/Standalone/cjoe.exe"
+    ],
+    "hash": [
+        "sha1:b04755726e90aa42f7fcaf9256d4d151effc3c24",
+        "sha1:0efa61dccbf3d6541e3977aac9e7443228a54f11",
+        "sha1:292dbb5f44128679386fc275ea4e0057d53284b7",
+        "sha1:17dccb4116bce57238dd46b17358d2d160b98a4e",
+        "sha1:0c4caad612d91595d8dd0dec4d1dcc22037069ae"
+    ],
+    "bin": [
+        "jmacs.exe",
+        "joe.exe",
+        "jpico.exe",
+        "jstar.exe",
+        "cjoe.exe"
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/joe-editor/rss?path=/",
+        "re": "joewin-([\\d.]+).msi"
+    },
+    "autoupdate": {
+        "url": [
+            "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/$version/Standalone/joe.exe",
+            "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/$version/Standalone/jstar.exe",
+            "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/$version/Standalone/jpico.exe",
+            "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/$version/Standalone/jmacs.exe",
+            "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/$version/Standalone/cjoe.exe"
+        ]
+    }
+}
