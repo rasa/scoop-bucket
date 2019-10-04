@@ -16,9 +16,5 @@
             "Masterway.exe",
             "Masterway"
         ]
-    ],
-    "checkver": {
-        "url": "https://masterwaynote.com/win/static/js/main.2dcadf22.js",
-        "regex": "\"大师笔记 Windows ([\\d.]+)\""
-    }
+    ]
 }
