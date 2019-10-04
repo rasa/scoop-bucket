@@ -32,7 +32,7 @@
     ],
     "checkver": {
         "url": "https://www.theinpaint.com/download.html",
-        "regex": "Inpaint for Windows[\\w\\W]*?Version ([\\d.]+)"
+        "regex": "<p>What's new in Inpaint ([\\d.]+)</p>"
     },
     "autoupdate": {
         "url": "https://www.theinpaint.com/download/InpaintSetup.exe"
