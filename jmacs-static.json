@@ -3,13 +3,13 @@
     "description": "A full featured terminal-based screen editor.",
     "version": "4.6",
     "license": "GPL-2.0-only",
-    "url": "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/4.6/Standalone/joe.exe",
-    "hash": "sha1:b04755726e90aa42f7fcaf9256d4d151effc3c24",
-    "bin": "joe.exe",
+    "url": "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/4.6/Standalone/jmacs.exe",
+    "hash": "sha1:17dccb4116bce57238dd46b17358d2d160b98a4e",
+    "bin": "jmacs.exe",
     "shortcuts": [
         [
-            "joe.exe",
-            "Joe's Own Editor"
+            "jmacs.exe",
+            "Joe's Own Editor - GNU-EMACS imitation"
         ]
     ],
     "checkver": {
@@ -17,6 +17,6 @@
         "re": "title=\"/JOE for Windows/([\\d.]+)/joewin-[\\d.]+.msi"
     },
     "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/$version/Standalone/joe.exe"
+        "url": "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/$version/Standalone/jmacs.exe"
     }
 }
