@@ -1,9 +1,9 @@
 {
     "homepage": "http://meesoft.logicnet.dk/DiagramDesigner/",
-    "version": "1.29.4",
+    "version": "1.29.5",
     "license": "freeware",
-    "url": "https://www.fosshub.com/Diagram-Designer.html?dwl=DiagramDesignerSetup.1.29.4.msi",
-    "hash": "615f52ab8cbf6d485e758861b65052b3618078d6cc021a7589944de1087f3f10",
+    "url": "https://www.fosshub.com/Diagram-Designer.html?dwl=DiagramDesignerSetup.1.29.5.msi",
+    "hash": "381c696c81ab57faaf40ce690c760f549056fb1af299ebf550c08dae5f379bf7",
     "post_install": "Remove-Item \"$dir\\DiagramDesignerSetup.1.29.4.msi\"",
     "bin": "DiagramDesigner.exe",
     "shortcuts": [
