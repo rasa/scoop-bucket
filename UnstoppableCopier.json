@@ -15,6 +15,9 @@
         ]
     ],
     "checkver": {
-        "regex": "Latest Version</td><td width=\"50%\">([\\d.]+)</td>"
+        "regex": "<a href=\"http://www.roadkil.net/download.php\\?FileID=(?<fileid>\\d+)&ProgramID=29\" class=\"Links\"><small>([\\d.]+)</small></a></td><td><small>Windows 2000, Windows XP, Windows Vista, Windows 7, Windows 8</small></td><td align=\"Center\"><small>No</small></td>"
+    },
+    "autoupdate": {
+        "url": "http://www.roadkil.net/download.php?FileID=$matchFileid&ProgramID=29"
     }
 }
