@@ -1,7 +1,7 @@
 ﻿{
     "homepage": "https://github.com/Jermolene/TiddlyDesktop",
     "license": "unknown",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Jermolene/TiddlyDesktop/releases/download/v0.0.13/tiddlydesktop-win64-v0.0.13.zip",
