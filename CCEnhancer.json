@@ -1,13 +1,15 @@
-{
+﻿{
     "homepage": "https://singularlabs.com/software/ccenhancer/",
-    "license": "freeware",
+    "license": "unknown",
     "version": "4.5.4",
     "url": "https://singularlabs.com/download/10320/#/dl.7z",
     "hash": "582bc3e4f6a07d3f8bb4fa1c58c6261e963c8a427d3f5d7a4a43120af6507aaf",
-    "pre_install": [
-        "$exe = (Get-ChildItem \"$dir\" 'CCEnhancer-*.exe' | Select-Object -First 1).FullName",
-        "Move-Item \"$exe\" \"$dir\\CCEnhancer.exe\""
-    ],
+    "installer": {
+        "script": [
+            "$exe = (Get-ChildItem \"$dir\" 'CCEnhancer-*.exe' | Select-Object -First 1).FullName",
+            "Rename-Item \"$exe\" \"$dir\\CCEnhancer.exe\""
+        ]
+    },
     "extract_dir": "CCEnhancer-multilingual-4.5.4",
     "bin": "CCEnhancer.exe",
     "shortcuts": [
