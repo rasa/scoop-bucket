@@ -7,11 +7,11 @@
     "architecture": {
         "64bit": {
             "installer": {
-                "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\""
+                "script": "Expand-7ZipArchive \"$dir\\app-64.7z\" \"$dir\" -Removal"
             }
         }
     },
-    "post_install": "Remove-Item \"$dir\\app-64.7z\",\"$dir\\System.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\WinShell.dll\",\"$dir\\nsExec.dll\",\"$dir\\SpiderBanner.dll\"",
+    "post_install": "Remove-Item \"$dir\\System.dll\",\"$dir\\nsis7z.dll\",\"$dir\\nsProcess.dll\",\"$dir\\WinShell.dll\",\"$dir\\nsExec.dll\",\"$dir\\SpiderBanner.dll\"",
     "extract_dir": "\\$PLUGINSDIR",
     "bin": "Tea.exe",
     "shortcuts": [

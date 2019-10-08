@@ -7,13 +7,13 @@
     "hash": "E2658BCEB589F2B17353E38D4ACCEF6969276ECAACD089428338F9F5490367B4",
     "installer": {
         "script": [
-            "Expand-7ZipArchive \"$dir\\cab1.cab\" \"$dir\"",
+            "Expand-7ZipArchive \"$dir\\cab1.cab\" \"$dir\" -Removal",
             "New-Item \"$dir\\Help\\images\" -Type Directory | Out-Null",
             "Move-Item \"$dir\\*.htm\" \"$dir\\Help\"",
             "Move-Item \"$dir\\*.css\" \"$dir\\Help\"",
             "Move-Item \"$dir\\*.jpg\" \"$dir\\Help\\images\"",
             "Move-Item \"$dir\\*.png\" \"$dir\\Help\\images\"",
-            "Remove-Item \"$dir\\cab1.cab\",\"$dir\\XmlNotepadSetup.msi\""
+            "Remove-Item \"$dir\\XmlNotepadSetup.msi\""
         ]
     },
     "bin": "XmlNotepad.exe",

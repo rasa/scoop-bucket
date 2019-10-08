@@ -6,7 +6,7 @@
         "64bit": {
             "url": "https://downloads.sourceforge.net/project/preccalc/files/preccalc-64bit.zip",
             "hash": "sha1:3320b2234728eaf7e63f8f86e1f2492dfd69a68b",
-            "pre_install": "ren \"$dir\\preccalc64.exe\" \"preccalc.exe\""
+            "pre_install": "Rename-Item \"$dir\\preccalc64.exe\" \"preccalc.exe\""
         },
         "32bit": {
             "url": "https://downloads.sourceforge.net/project/preccalc/files/preccalc-32bit.zip",
