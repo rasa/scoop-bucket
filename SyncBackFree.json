@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.2brightsparks.com/freeware/",
-    "version": "9.0.9.14",
+    "version": "9.1.12.0",
     "license": "freeware",
     "url": "https://www.2brightsparks.com/assets/software/SyncBack_Setup.exe",
-    "hash": "4c5a9911c0e241095cece17562c92e8432f8b558a17ccff41f138d341ac39413",
+    "hash": "dc2be97b3c87f37bf150e68ba577dace747c3c9f920e515698361cfcb795d7c5",
     "innosetup": true,
     "bin": "SyncBackFree.exe",
     "shortcuts": [
