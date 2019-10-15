@@ -1,5 +1,6 @@
 {
     "homepage": "https://www.gnu.org/software/octave/",
+    "description": "A high-level language primarily intended for numerical computations.",
     "version": "5.1.0",
     "license": "GPL-3.0-only",
     "architecture": {
@@ -8,7 +9,6 @@
             "hash": "05ba8de71b17ddf6c9f36bbba4e92a1344e3b505a15f1a5a2bd70021feecab93",
             "extract_dir": "octave-5.1.0-w64",
             "bin": [
-                "octave.vbs",
                 "mingw64\\bin\\octave.bat",
                 "mingw64\\bin\\octave-config.exe"
             ]
@@ -18,7 +18,6 @@
             "hash": "949d5b174410cfdcf60e543742adf4d9e206ae93a4face4b0258f16b7d081f63",
             "extract_dir": "octave-5.1.0-w32",
             "bin": [
-                "octave.vbs",
                 "mingw32\\bin\\octave.bat",
                 "mingw32\\bin\\octave-config.exe"
             ]
