@@ -5,6 +5,7 @@
     "license": "LGPL-2.1-only",
     "url": "http://aimp.su/storage/3d1c6f8e174ea83ff14be17050fe4386/aimp_4.60.2153_no-setup.zip",
     "hash": "217815a3cb47a1ddaafc02c91b267eb2d59591770e6952d17c7ea421ea3a90fa",
+    "extract_dir": "AIMP",
     "persist": [
         "Profile",
         "!Backup"
