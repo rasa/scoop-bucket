@@ -1,10 +1,10 @@
 {
     "homepage": "https://y.qq.com/",
     "description": "The official QQ Music client.",
-    "version": "1722",
+    "version": "1724",
     "license": "Freeware",
-    "url": "https://dldir1.qq.com/music/clntupate/QQMusic_Setup_1722.exe#/dl.7z",
-    "hash": "md5:430c0e873ae9bf93566db51a59680ce7",
+    "url": "https://dldir1.qq.com/music/clntupate/QQMusic_Setup_1724.exe#/dl.7z",
+    "hash": "md5:718c1b893b61f1164fc6698e87912e7a",
     "shortcuts": [
         [
             "QQMusic.exe",
