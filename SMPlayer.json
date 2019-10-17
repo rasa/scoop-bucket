@@ -1,14 +1,14 @@
 {
     "homepage": "https://www.smplayer.info/",
     "version": "19.5.0",
-    "license": "GPLv2",
+    "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.5.0/smplayer-portable-19.5.0.0-x64.7z",
+            "url": "https://downloads.sourceforge.net/projects/smplayer/SMPlayer/19.5.0/smplayer-portable-19.5.0.0-x64.7z",
             "hash": "sha1:f5407081367e76e89df559ce54f4d5e2a15e8853"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.5.0/smplayer-portable-19.5.0.0.7z",
+            "url": "https://downloads.sourceforge.net/projects/smplayer/SMPlayer/19.5.0/smplayer-portable-19.5.0.0.7z",
             "hash": "sha1:76c84d17790096a7943b33fe07066b7e4fe6182f"
         }
     },
@@ -37,13 +37,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-portable-$version.0-x64.7z",
+                "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/$version/smplayer-portable-$version.0-x64.7z",
                 "hash": {
                     "mode": "fosshub"
                 }
             },
             "32bit": {
-                "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-portable-$version.0.7z",
+                "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/$version/smplayer-portable-$version.0.7z",
                 "hash": {
                     "mode": "fosshub"
                 }
