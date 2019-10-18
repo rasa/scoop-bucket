@@ -1,18 +1,18 @@
 {
     "description": "Oracle JDK 11",
     "homepage": "https://www.oracle.com/technetwork/java/javase/overview/index.html",
-    "version": "11.0.4-10",
+    "version": "11.0.5-10",
     "license": "https://www.oracle.com/technetwork/java/javase/terms/license/javase-license.html",
     "architecture": {
         "64bit": {
-            "url": "https://download.oracle.com/otn/java/jdk/11.0.4+10/cf1bbcbf431a474eb9fc550051f4ee78/jdk-11.0.4_windows-x64_bin.zip",
-            "hash": "5ca724175f6518639d8ef720cbcd29bb19b9a17077656eede142138654bb2d5f"
+            "url": "https://download.oracle.com/otn/java/jdk/11.0.5+10/e51269e04165492b90fa15af5b4eb1a5/jdk-11.0.5_windows-x64_bin.zip",
+            "hash": "8cda919c402e92d6782e9a68bcb9fe462ac29304de48b4377eb4112891f351b2"
         }
     },
     "cookie": {
         "oraclelicense": "accept-securebackup-cookie"
     },
-    "extract_dir": "jdk-11.0.4",
+    "extract_dir": "jdk-11.0.5",
     "env_add_path": "bin",
     "env_set": {
         "JAVA_HOME": "$dir"
