@@ -8,7 +8,12 @@
     "hash": "sha1:e57896226a827b61c5621b429aaa0e03994b0939",
     "architecture": {
         "64bit": {
-            "bin": "SweetHome3D-windows-x64.exe",
+            "bin": [
+                [
+                    "SweetHome3D-windows-x64.exe",
+                    "SweetHome3D"
+                ]
+            ],
             "shortcuts": [
                 [
                     "SweetHome3D-windows-x64.exe",
@@ -17,15 +22,24 @@
             ]
         },
         "32bit": {
-            "bin": "SweetHome3D-windows-x86.exe",
-            "shortcuts": [
+            "bin": [
                 [
                     "SweetHome3D-windows-x86.exe",
                     "SweetHome3D"
                 ]
+            ],
+            "shortcuts": [
+                [
+                    "SweetHome3D-windows-x86.exe",
+                    "Sweet Home 3D"
+                ]
             ]
         }
     },
+    "persist": [
+        "data\\preferences.xml",
+        "data\\plugins"
+    ],
     "checkver": {
         "url": "https://sourceforge.net/projects/sweethome3d/files/SweetHome3D/",
         "regex": "Download Latest Version[\\w\\W]+?SweetHome3D-([\\d.]+)-windows.exe"
