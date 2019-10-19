@@ -13,16 +13,13 @@
             "hash": "bf7f0d7c9a9c38c1ebf2c4a49c36656e80cb5b433de5b36d12692c985b62bf42"
         }
     },
+    "extract_dir": "fmedia",
+    "bin": "fmedia.exe",
     "shortcuts": [
         [
             "fmedia-gui.exe",
             "fmedia"
         ]
-    ],
-    "extract_dir": "fmedia",
-    "bin": [
-        "fmedia.exe",
-        "fmedia-gui.exe"
     ],
     "persist": [
         "fmedia.conf",
