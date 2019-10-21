@@ -10,6 +10,7 @@
             "extract_dir": "octave-5.1.0-w64",
             "bin": [
                 "mingw64\\bin\\octave.bat",
+                "mingw64\\bin\\octave-cli.exe",
                 "mingw64\\bin\\octave-config.exe"
             ]
         },
@@ -19,6 +20,7 @@
             "extract_dir": "octave-5.1.0-w32",
             "bin": [
                 "mingw32\\bin\\octave.bat",
+                "mingw32\\bin\\octave-cli.exe",
                 "mingw32\\bin\\octave-config.exe"
             ]
         }
