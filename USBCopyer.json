@@ -1,0 +1,24 @@
+{
+    "homepage": "https://kenvix.com/post/usbcopyer/",
+    "license": "freeware",
+    "version": "5.1.1.0",
+    "url": "https://github.com/kenvix/USBCopyer/blob/master/Release/USBCopyer.Release.exe?raw=true",
+    "hash": "f032c10a61e2e24a422308b88908a39bc9172f9efa78b4e6879e3baf7c70c233",
+    "bin": [
+        [
+            "USBCopyer.Release.exe",
+            "USBCopyer"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "USBCopyer.Release.exe",
+            "USBCopyer"
+        ]
+    ],
+    "persist": [
+        "USBCopyerData\\Disks.csv",
+        "USBCopyerData\\USBCopyerSystem\\Config.xml",
+        "USBCopyerData\\USBCopyerSystem\\EventViewer.xml"
+    ]
+}
