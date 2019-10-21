@@ -1,0 +1,27 @@
+﻿{
+    "homepage": "https://www.visualsvn.com/",
+    "version": "1.12.2",
+    "license": "Apache-2.0",
+    "url": "https://www.visualsvn.com/files/Apache-Subversion-1.12.2.zip",
+    "hash": "6eef79b56de2a6a842f1a1c3bcd8bec94b7103c7bd64ba9c8cd02163107d8ef3",
+    "bin": [
+        "bin\\svn.exe",
+        "bin\\svnadmin.exe",
+        "bin\\svnbench.exe",
+        "bin\\svndumpfilter.exe",
+        "bin\\svnfsfs.exe",
+        "bin\\svnlook.exe",
+        "bin\\svnmucc.exe",
+        "bin\\svnrdump.exe",
+        "bin\\svnserve.exe",
+        "bin\\svnsync.exe",
+        "bin\\svnversion.exe"
+    ],
+    "checkver": {
+        "url": "https://www.visualsvn.com/downloads/",
+        "regex": "Apache-Subversion-([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://www.visualsvn.com/files/Apache-Subversion-$version.zip"
+    }
+}
