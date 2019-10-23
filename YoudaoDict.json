@@ -1,12 +1,12 @@
 {
     "homepage": "https://cidian.youdao.com/",
-    "version": "8.5.3.0",
+    "version": "8.6.0.0",
     "license": "freeware",
     "url": "http://cidian.youdao.com/download/YoudaoDict.exe#/dl.7z",
     "installer": {
         "script": "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\dict.7z\" \"$dir\""
     },
-    "hash": "5f6d547529fba6e34271fed85f9472bc2d8b6248734ffc4eca012a341a0c2aa5",
+    "hash": "95d88aa79aef928bc010abfdacaf3efb76d5da9a1553d5ab20f521fa2362848f",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$_*_\", \"$dir\\uninst.exe\" -Force -Recurse",
     "bin": "YoudaoDict.exe",
     "shortcuts": [
