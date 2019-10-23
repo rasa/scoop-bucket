@@ -1,0 +1,16 @@
+{
+    "homepage": "http://optimumx.com/",
+    "description": "Allows you to create, modify or query Windows shell links (shortcuts) from the command-line.",
+    "license": "freeware",
+    "version": "1.11",
+    "url": "http://optimumx.com/download/Shortcut.zip",
+    "hash": "5fb297825f74851803c6f1c6e6474c83826a53b7ddb8a49c08cde9c930fda90c",
+    "bin": "Shortcut.exe",
+    "checkver": {
+        "url": "http://optimumx.com/downloads.html",
+        "regex": "<b>Shortcut v([\\d.]+) \\(Shortcut.exe\\)</b>"
+    },
+    "autoupdate": {
+        "url": "http://optimumx.com/download/Shortcut.zip"
+    }
+}
