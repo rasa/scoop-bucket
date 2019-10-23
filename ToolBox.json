@@ -11,6 +11,10 @@
             "CyLog Toolbox"
         ]
     ],
+    "persist": [
+        "toolbox.ini",
+        "settings"
+    ],
     "checkver": "<h2 class=\"nomargin\">ToolBox v([\\d.]+)</h2>",
     "autoupdate": {
         "url": "https://www.cylog.org/files/utilities/tbox$cleanVersion.zip",
