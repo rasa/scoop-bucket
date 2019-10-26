@@ -41,8 +41,8 @@
         "data\\plugins"
     ],
     "checkver": {
-        "url": "https://sourceforge.net/projects/sweethome3d/files/SweetHome3D/",
-        "regex": "Download Latest Version[\\w\\W]+?SweetHome3D-([\\d.]+)-windows.exe"
+        "url": "http://www.sweethome3d.com/SweetHome3DUpdates.xml",
+        "re": "id=\"SweetHome3D#Portable\"\\s+version=\"([\\d.]+)\""
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-$version/SweetHome3D-$version-portable.7z",
