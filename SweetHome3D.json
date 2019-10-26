@@ -1,6 +1,6 @@
 {
     "homepage": "http://www.sweethome3d.com/",
-    "description": "An interior design application that helps you to quickly draw the floor plan of your house, arrange furniture on it, and visit the results in 3D.",
+    "description": "An interior design application that helps you to draw the floor plan of your house, arrange furniture on it, and visit the results in 3D.",
     "license": "GPL-2.0-only",
     "version": "6.2",
     "extract_dir": "SweetHome3D-6.2-portable",
@@ -19,7 +19,8 @@
                     "SweetHome3D-windows-x64.exe",
                     "Sweet Home 3D"
                 ]
-            ]
+            ],
+            "post_install": "Remove-Item \"$dir\\jre\\linux\", \"$dir\\jre\\macosx\", \"$dir\\jre\\windows\\i586\" -Force -Recurse"
         },
         "32bit": {
             "bin": [
@@ -33,7 +34,8 @@
                     "SweetHome3D-windows-x86.exe",
                     "Sweet Home 3D"
                 ]
-            ]
+            ],
+            "post_install": "Remove-Item \"$dir\\jre\\linux\", \"$dir\\jre\\macosx\", \"$dir\\jre\\windows\\x64\" -Force -Recurse"
         }
     },
     "persist": [
