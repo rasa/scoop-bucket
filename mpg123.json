@@ -1,18 +1,18 @@
 {
-    "version": "1.25.12",
+    "version": "1.25.13",
     "description": "Fast console MPEG Audio Player and decoder library",
     "license": "Freeware",
     "homepage": "https://mpg123.org/",
     "architecture": {
         "64bit": {
-            "url": "https://mpg123.org/download/win64/1.25.12/mpg123-1.25.12-static-x86-64.zip",
-            "hash": "f94df4721dcc346235b8c5bbee71315094cbe80d7ed07cf1baaba860160cfa63",
-            "extract_dir": "mpg123-1.25.12-static-x86-64"
+            "url": "https://mpg123.org/download/win64/1.25.13/mpg123-1.25.13-static-x86-64.zip",
+            "hash": "e94dcf7662df5cdcde18eeeb053f0e1076a309fb402f82ce0b5597e6af134b7b",
+            "extract_dir": "mpg123-1.25.13-static-x86-64"
         },
         "32bit": {
-            "url": "https://mpg123.org/download/win32/1.25.12/mpg123-1.25.12-static-x86.zip",
-            "hash": "64a01732d9df41717b023e3051b722ced3cca3ebed0ed5cf01b2a2ed05c9fcca",
-            "extract_dir": "mpg123-1.25.12-static-x86"
+            "url": "https://mpg123.org/download/win32/1.25.13/mpg123-1.25.13-static-x86.zip",
+            "hash": "9afaf91528b23e57cf78ebfeba98619d193f689046905842cc1fb58998e06207",
+            "extract_dir": "mpg123-1.25.13-static-x86"
         }
     },
     "bin": [
