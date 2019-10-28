@@ -20,7 +20,7 @@
                     "Sweet Home 3D"
                 ]
             ],
-            "post_install": "Remove-Item \"$dir\\jre\\linux\", \"$dir\\jre\\macosx\", \"$dir\\jre\\windows\\i586\" -Force -Recurse"
+            "post_install": "Remove-Item \"$dir\\jre\\linux\", \"$dir\\jre\\macosx\", \"$dir\\jre\\windows\\i586\", \"$dir\\SweetHome3D-macosx.app\", \"$dir\\SweetHome3D-macosx-10.6.app\" -Force -Recurse"
         },
         "32bit": {
             "bin": [
@@ -35,7 +35,7 @@
                     "Sweet Home 3D"
                 ]
             ],
-            "post_install": "Remove-Item \"$dir\\jre\\linux\", \"$dir\\jre\\macosx\", \"$dir\\jre\\windows\\x64\" -Force -Recurse"
+            "post_install": "Remove-Item \"$dir\\jre\\linux\", \"$dir\\jre\\macosx\", \"$dir\\jre\\windows\\x64\", \"$dir\\SweetHome3D-macosx.app\", \"$dir\\SweetHome3D-macosx-10.6.app\"  -Force -Recurse"
         }
     },
     "persist": [
