@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.smplayer.info/",
-    "version": "19.5.0",
+    "version": "19.10.0",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/projects/smplayer/SMPlayer/19.5.0/smplayer-portable-19.5.0.0-x64.7z",
-            "hash": "sha1:f5407081367e76e89df559ce54f4d5e2a15e8853"
+            "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/19.10.0/smplayer-portable-19.10.0.0-x64.7z",
+            "hash": "sha1:f8c1a34d03cbf70f6ac571dbae74de4c0389f115"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/projects/smplayer/SMPlayer/19.5.0/smplayer-portable-19.5.0.0.7z",
-            "hash": "sha1:76c84d17790096a7943b33fe07066b7e4fe6182f"
+            "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/19.10.0/smplayer-portable-19.10.0.0.7z",
+            "hash": "sha1:1029ad52cc4deee4912bcf0c460794da721e3d2b"
         }
     },
     "extract_dir": "smplayer-portable-19.5.0.0",
