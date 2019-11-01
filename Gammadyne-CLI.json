@@ -55,5 +55,6 @@
         "startas.exe",
         "timer.exe",
         "wol.exe"
-    ]
+    ],
+    "persist": "gs.ini"
 }
