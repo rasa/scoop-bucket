@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/leovan/SciHubEVA",
     "license": "MIT",
-    "version": "3.2.2",
+    "version": "3.2.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/leovan/SciHubEVA/releases/download/v3.2.2/SciHubEVA-x64-v3.2.2.exe",
-            "hash": "66fec6b107a13d0e30dbdcbeeec29a5b432f6adc5fcf85995c4620a8aae3f890"
+            "url": "https://github.com/leovan/SciHubEVA/releases/download/v3.2.3/SciHubEVA-x64-v3.2.3.exe",
+            "hash": "558bb0369283e8df79509d3238706de05267ca4eb92e4eb0d1646268eb6fcc94"
         }
     },
     "innosetup": true,
