@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD-0.18.4.980bf90-WIN-x64-portable.7z",
-            "hash": "d3fbf299e79c306817d60fc1c9e064e09c4d3142"
+            "hash": "sha1:d3fbf299e79c306817d60fc1c9e064e09c4d3142"
         },
         "32bit": {
             "url": "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD-0.18.4.980bf90-WIN-x32-portable.7z",
-            "hash": "211f903f8c942a01febdda6cb7cc72f331af6d77"
+            "hash": "sha1:211f903f8c942a01febdda6cb7cc72f331af6d77"
         }
     },
     "bin": [
