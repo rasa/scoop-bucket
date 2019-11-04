@@ -50,7 +50,8 @@
         "    if(!`$res) { error 'ArchWsl installation failed!'; return }",
         "    \" | Set-Content \"$dir\\install.ps1\"",
         "    & \"$dir\\install.ps1\"",
-        "}"
+        "}",
+        "& \"$dir\\Arch.exe\""
     ],
     "uninstaller": {
         "script": [
