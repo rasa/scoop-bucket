@@ -11,7 +11,9 @@
             "NPowerTray"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/gigaherz/NPowerTray"
+    },
     "autoupdate": {
         "url": "https://github.com/gigaherz/NPowerTray/releases/download/v$version/NPowerTray-$version.zip"
     }
