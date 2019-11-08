@@ -1,5 +1,5 @@
 {
-    "homepage": "https://www.falkon.org/",
+    "homepage": "https://www.falkon.org",
     "version": "3.1.0",
     "license": "LGPL",
     "architecture": {
@@ -28,11 +28,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/stable/falkon/$matchHead/Falkon.Installer.$version.x64.exe#/Falkon.7z"
+                "url": "https://download.kde.org/stable/falkon/$matchHead/Falkon.Installer.$version.x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://download.kde.org/stable/falkon/$matchHead/Falkon.Installer.$version.exe#/Falkon.7z"
+                "url": "https://download.kde.org/stable/falkon/$matchHead/Falkon.Installer.$version.exe#/dl.7z"
             }
+        },
+        "hash": {
+            "url": "$url.sha256"
         }
     }
 }
