@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/marp-team/marp-cli",
     "license": "MIT",
-    "version": "0.15.1",
-    "url": "https://github.com/marp-team/marp-cli/releases/download/v0.15.1/marp-cli-v0.15.1-win.zip",
-    "hash": "186deb822ed2c05479f3de462226559e2c6cb617c0d03aa00eb52429c5bf1f74",
+    "version": "0.16.1",
+    "url": "https://github.com/marp-team/marp-cli/releases/download/v0.16.1/marp-cli-v0.16.1-win.zip",
+    "hash": "d7c57fa43fb7cc859c43e9f4d73415bbfc3a605cd5806db4f43415ce5c340e93",
     "bin": "marp.exe",
     "checkver": "github",
     "autoupdate": {
