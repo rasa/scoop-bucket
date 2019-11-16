@@ -16,11 +16,7 @@
             "USBCopyer"
         ]
     ],
-    "persist": [
-        "USBCopyerData\\Disks.csv",
-        "USBCopyerData\\USBCopyerSystem\\Config.xml",
-        "USBCopyerData\\USBCopyerSystem\\EventViewer.xml"
-    ],
+    "persist": "USBCopyerData",
     "checkver": {
         "github": "https://github.com/kenvix/USBCopyer"
     },
