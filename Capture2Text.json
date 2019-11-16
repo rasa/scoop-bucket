@@ -1,6 +1,7 @@
 {
     "homepage": "http://capture2text.sourceforge.net/",
     "version": "4.6.2",
+    "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v4.6.2/Capture2Text_v4.6.2_64bit.zip",
@@ -18,6 +19,7 @@
             "Capture2Text"
         ]
     ],
+    "persist": "settings.ini",
     "checkver": {
         "url": "https://sourceforge.net/projects/capture2text/rss?path=/Capture2Text",
         "regex": "Capture2Text_v([\\d.]+)"
