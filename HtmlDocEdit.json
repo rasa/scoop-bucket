@@ -4,5 +4,9 @@
     "license": "freeware",
     "url": "https://www.nirsoft.net/utils/htmldocedit.zip",
     "hash": "eed77808621fa1331ba194b1593bc18ec7a1628601282ff0a5163b02ce945cde",
-    "bin": "HtmlDocEdit.exe"
+    "bin": "HtmlDocEdit.exe",
+    "checkver": "<td>HtmlDocEdit v([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.nirsoft.net/utils/htmldocedit.zip"
+    }
 }
