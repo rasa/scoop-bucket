@@ -2,11 +2,11 @@
     "homepage": "https://stsaz.github.io/fmedia/",
     "description": "A fast media player/recorder/converter",
     "license": "GPL-3.0-only",
-    "version": "1.12.1",
+    "version": "1.13",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stsaz/fmedia/releases/download/v1.12.1/fmedia-1.12.1-win-x64.zip",
-            "hash": "7a673d46761e5d3de7fc762b84334627c3d4e79624277d334b0d7211be8e35c8"
+            "url": "https://github.com/stsaz/fmedia/releases/download/v1.13/fmedia-1.13-win-x64.zip",
+            "hash": "f4e1bcc93ce34fdeefbb2714d46bd2b19bcb2673a6daf9ef97d9f28e829264b9"
         },
         "32bit": {
             "url": "https://github.com/stsaz/fmedia/releases/download/v1.6/fmedia-1.6-win-x86.zip",
