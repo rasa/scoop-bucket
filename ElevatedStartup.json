@@ -21,5 +21,18 @@
             "ElevatedStartup.exe",
             "Elevated Startup"
         ]
-    ]
+    ],
+    "checkver": {
+        "github": "https://github.com/stefansundin/elevatedstartup"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/stefansundin/elevatedstartup/releases/download/v$version/ElevatedStartup.exe",
+            },
+            "32bit": {
+                "url": "https://github.com/stefansundin/elevatedstartup/releases/download/v$version/ElevatedStartup-32bit.exe",
+            }
+        }
+    }
 }
