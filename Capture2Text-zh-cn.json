@@ -28,7 +28,7 @@
     "post_install": "Move-Item \"$dir\\*.traineddata\" \"$dir\\tessdata\"",
     "bin": [
         [
-            "Capture2Text_CLI.exe"
+            "Capture2Text_CLI.exe",
             "Capture2Text"
         ]
     ],
