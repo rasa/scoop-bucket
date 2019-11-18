@@ -11,6 +11,7 @@
             "Xtreme Download Manager"
         ]
     ],
+    "checkver": "Latest Release - XDM \\d+ Version ([\\d.]+)",
     "autoupdate": {
         "url": "http://xdman.sourceforge.net/xdman.jar"
     }
