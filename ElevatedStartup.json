@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/stefansundin/elevatedstartup/releases/download/v$version/ElevatedStartup.exe",
+                "url": "https://github.com/stefansundin/elevatedstartup/releases/download/v$version/ElevatedStartup.exe"
             },
             "32bit": {
-                "url": "https://github.com/stefansundin/elevatedstartup/releases/download/v$version/ElevatedStartup-32bit.exe",
+                "url": "https://github.com/stefansundin/elevatedstartup/releases/download/v$version/ElevatedStartup-32bit.exe"
             }
         }
     }
