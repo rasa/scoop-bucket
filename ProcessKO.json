@@ -1,11 +1,11 @@
 {
     "homepage": "http://www.softwareok.com/?seite=Freeware/ProcessKO",
-    "version": "4.75",
+    "version": "4.77",
     "license": "freeware",
     "architecture": {
         "64bit": {
             "url": "http://www.softwareok.com/Download/ProcessKO_x64.zip",
-            "hash": "53454dc19267e0bdc938f839aba07f021de231a0c0736504993f2492c0b1d995",
+            "hash": "64aeb9d49e64201419f7f83316e8049d53cf28fecbbead796f894732189122ec",
             "bin": [
                 [
                     "ProcessKO_x64.exe",
@@ -21,7 +21,7 @@
         },
         "32bit": {
             "url": "http://www.softwareok.com/Download/ProcessKO_Unicode.zip",
-            "hash": "db5510e7b465a209a76181c707f57de07a950cfa6133d27a4c187299a23e4b43",
+            "hash": "23d1814b93fdb7311c0f953de1e77069257e80424b8c1d2f4823daa07ab0eeb1",
             "bin": [
                 [
                     "ProcessKO_Unicode.exe",
