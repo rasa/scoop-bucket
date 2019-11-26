@@ -1,16 +1,16 @@
 {
     "homepage": "https://www.xnview.com/en/xnconvert/",
-    "version": "1.80",
+    "version": "1.82",
     "license": "freeware",
     "extract_dir": "XnConvert",
     "architecture": {
         "64bit": {
             "url": "https://download.xnview.com/XnConvert-win-x64.zip",
-            "hash": "ea11b5f68426bf07251087c93ef7705e997d833a91e8d112a89ccafed663521d"
+            "hash": "4e1c08977749e1a8fadcbca5f410d806708a551eceea2a6dc42e26baa06ae179"
         },
         "32bit": {
             "url": "https://download.xnview.com/XnConvert-win.zip",
-            "hash": "27c4f7d5821c7077af6d35e9873a330f83512d29c5cda83ec7a1765e02106f6f"
+            "hash": "d0f65dd3cf26fd0a86f146126be15770fb84cda620bfaa0c70ed2840f12bb789"
         }
     },
     "bin": "XnConvert.exe",
