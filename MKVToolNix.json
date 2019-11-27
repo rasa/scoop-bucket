@@ -1,5 +1,5 @@
 {
-    "homepage": "https://mkvtoolnix.download/",
+    "homepage": "https://mkvtoolnix.download",
     "description": "A set of tools to create, alter and inspect Matroska files.",
     "version": "40.0.0",
     "license": "GPL-2.0-only",
@@ -14,6 +14,13 @@
         }
     },
     "extract_dir": "mkvtoolnix",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\mkvtoolnix-gui.ini\")) {",
+        "    Set-Content \"$dir\\mkvtoolnix-gui.ini\" @('[settings]', 'updates\\checkForUpdates=false') -Encoding Ascii",
+        "} else {",
+        "    Copy-Item \"$persist_dir\\mkvtoolnix-gui.ini\" \"$dir\"",
+        "}"
+    ],
     "bin": [
         "mkvextract.exe",
         "mkvinfo.exe",
@@ -21,12 +28,15 @@
         "mkvpropedit.exe",
         "mkvtoolnix-gui.exe"
     ],
-    "persist": "mkvtoolnix-gui.ini",
     "shortcuts": [
         [
             "mkvtoolnix-gui.exe",
             "MKVToolNix GUI"
         ]
+    ],
+    "persist": [
+        "mkvtoolnix-gui.ini",
+        "jobQueue"
     ],
     "checkver": "Released v([\\d.]+)",
     "autoupdate": {
