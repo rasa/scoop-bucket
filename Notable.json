@@ -1,19 +1,19 @@
 {
     "homepage": "https://github.com/notable/notable",
     "description": "The markdown-based note-taking app that doesn't suck.",
-    "version": "1.8.1",
+    "version": "1.8.2",
     "license": {
         "identifier": "Freeware",
         "url": "https://github.com/notable/notable/blob/master/README.md#license"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/notable/notable/releases/download/v1.8.1/Notable-1.8.1-win.zip",
-            "hash": "4312a8cda4841427154b9620ed400f82f3dd66fdef0ee8ed026e25116f63bec2"
+            "url": "https://github.com/notable/notable/releases/download/v1.8.2/Notable-1.8.2-win.zip",
+            "hash": "4fad6651d72011aacd4c529202cd498b66bc39eb9b44bbe0ea38cc01640dea52"
         },
         "32bit": {
-            "url": "https://github.com/notable/notable/releases/download/v1.8.1/Notable-1.8.1-ia32-win.zip",
-            "hash": "3b72b6ec4649c60974bdae9ba7a5d0f2fd18fb3e512d4ed52817c23fa221d186"
+            "url": "https://github.com/notable/notable/releases/download/v1.8.2/Notable-1.8.2-ia32-win.zip",
+            "hash": "eec5b0ad99b660d9427dec3559a4e0fb209ace8853cb1242a688c346d446ae51"
         }
     },
     "bin": "Notable.exe",
