@@ -8,7 +8,7 @@
     "bin": "impressive.exe",
     "checkver": {
         "url": "https://sourceforge.net/projects/impressive/rss?path=/",
-        "regex": "Impressive-([\\d.]+)"
+        "regex": "Impressive-([\\d.]+(-beta\\d+)?)"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/impressive/files/Impressive/$version/Impressive-$version-win32.zip",
