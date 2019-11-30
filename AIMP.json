@@ -30,11 +30,13 @@
         "regex": "<h1>AIMP v(?<ver>[\\d.]+), build (?<build>\\d+) \\(No Installer\\)</h1>[\\w\\W]+?<nobr>SHA256:[\\w\\W]+?(?<hash>[a-fA-F0-9]{64})</nobr>",
         "replace": "${ver}.${build}"
     },
-    "autoupdate": {
-        "url": "http://aimp.su/storage/$matchHash/aimp_$version_no-installer.zip",
-        "hash": {
-            "url": "https://www.aimp.ru/?do=download&os=windows",
-            "find": "No Installer.*?SHA256: $sha256"
+    "##": {
+        "autoupdate": {
+            "url": "http://aimp.su/storage/$matchHash/aimp_$version_no-installer.zip",
+            "hash": {
+                "url": "https://www.aimp.ru/?do=download&os=windows",
+                "find": "No Installer.*?SHA256: $sha256"
+            }
         }
     }
 }
