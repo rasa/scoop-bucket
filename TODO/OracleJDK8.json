@@ -22,7 +22,7 @@
     },
     "checkver": {
         "url": "https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8u211-later-5573849.html",
-        "regex": "otn/java/jdk/((?<major>[\\du]+)-[\\db]+)/(?<hash>[a-fA-F0-9]{32})/jdk-.*?-windows-x64.exe"
+        "regex": "otn/java/jdk/((?<major>[\\du]+)-[\\db]+)/(?<hash>$md5)/jdk-.*?-windows-x64.exe"
     },
     "autoupdate": {
         "architecture": {
