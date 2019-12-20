@@ -27,7 +27,7 @@
     ],
     "checkver": {
         "url": "http://www.aimp.ru/?do=download&os=windows",
-        "regex": "<h1>AIMP v(?<ver>[\\d.]+), build (?<build>\\d+) \\(No Installer\\)</h1>[\\w\\W]+?<nobr>SHA256:[\\w\\W]+?(?<hash>$sha256)</nobr>",
+        "regex": "<h1>AIMP v(?<ver>[\\d.]+), build (?<build>\\d+) \\(No Installer\\)</h1>[\\w\\W]+?<nobr>SHA256:[\\w\\W]+?(?<hash>[a-fA-F0-9]{64})</nobr>",
         "replace": "${ver}.${build}"
     },
     "##": {

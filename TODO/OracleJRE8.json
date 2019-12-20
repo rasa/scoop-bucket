@@ -23,7 +23,7 @@
     },
     "checkver": {
         "url": "https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html",
-        "regex": "otn/java/jdk/((?<version>[\\du]+)-[\\db]+)/(?<hash>$md5)/jre-(?<major>(?<release>[\\d]+)u(?<update>[\\d]+))-windows-x64.tar.gz"
+        "regex": "otn/java/jdk/((?<version>[\\du]+)-[\\db]+)/(?<hash>[a-fA-F0-9]{32})/jre-(?<major>(?<release>[\\d]+)u(?<update>[\\d]+))-windows-x64.tar.gz"
     },
     "autoupdate": {
         "architecture": {
