@@ -1,5 +1,6 @@
 {
     "homepage": "http://kdiff3.sourceforge.net/",
+    "description": "A file and directory diff and merge tool.",
     "version": "0.9.98",
     "license": "GPL-2.0-only",
     "architecture": {
@@ -21,20 +22,17 @@
         ]
     ],
     "checkver": {
-        "url": "https://sourceforge.net/projects/kdiff3/rss?path=/kdiff3",
-        "regex": "/kdiff3/([\\d.]+)/KDiff3-64bit-Setup_[\\d.]+-(?<build64>\\d+).exe[\\w\\W]*?/kdiff3/[\\d.]+/KDiff3-32bit-Setup_[\\d.]+-(?<build32>\\d+).exe"
+        "url": "https://sourceforge.net/projects/kdiff3/files",
+        "regex": "/kdiff3/([\\d.]+)/KDiff3-64bit-Setup_[\\d.]+-\\d+.exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/kdiff3/kdiff3/$version/KDiff3-64bit-Setup_$version-$matchBuild64.exe#/dl.7z"
+                "url": "https://downloads.sourceforge.net/project/kdiff3/kdiff3/$version/KDiff3-64bit-Setup_$version-2.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://downloads.sourceforge.net/project/kdiff3/kdiff3/$version/KDiff3-32bit-Setup_$version-$matchBuild32.exe#/dl.7z"
+                "url": "https://downloads.sourceforge.net/project/kdiff3/kdiff3/$version/KDiff3-32bit-Setup_$version-3.exe#/dl.7z"
             }
-        },
-        "hash": {
-            "mode": "sourceforge"
         }
     }
 }
