@@ -13,12 +13,15 @@ for %%i in (%0) do set DIR=%%~dpi..
 if "x%~1" == "x" goto updall
 
 :updone
-if "x%~1" == "x" goto end
+if "x%~1" == "x" goto push
 %PWSH% -noprofile -ex unrestricted -f %CHECKVER% -dir %DIR% "%~n1" -u
 shift
 goto :updone
 
 :updall
 %PWSH% -noprofile -ex unrestricted -f %CHECKVER% -dir %DIR% -u
+
+:push
+call %DIR%\bin\autop.bat
 
 :end
