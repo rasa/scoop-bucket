@@ -1,8 +1,8 @@
 {
     "homepage": "http://support.xmplay.com",
-    "version": "3.8.3",
-    "url": "http://support.xmplay.com/files/20/xmplay383.zip",
-    "hash": "3ff935ab8b4486ab716afeb9080f0c0c53c5b004f7c1c446860a5d45d465e9c7",
+    "version": "3.8.4",
+    "url": "http://support.xmplay.com/files/20/xmplay384.zip",
+    "hash": "a3e19ec6426724667345c6e5666bd63c79abd66cc0154a6bce683b1612c574ae",
     "bin": "xmplay.exe",
     "persist": [
         "xmplay.ini",
