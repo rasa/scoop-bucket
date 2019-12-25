@@ -8,6 +8,7 @@
     "architecture": {
         "64bit": {
             "url": "http://www.wavpack.com/wavpack-5.1.0-x64.zip",
+            "url": "https://github.com/dbry/WavPack/releases/download/5.2.0/wavpack-5.2.0-x64.zip",
             "hash": "c0bed4dc2efba85954c4e920159d865cf9638504e9af879d3996af3a62287453"
         },
         "32bit": {
@@ -25,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://www.wavpack.com/wavpack-$version-x64.zip"
+                "url": "https://github.com/dbry/WavPack/releases/download/$version/$version-x64.zip"
             },
             "32bit": {
-                "url": "http://www.wavpack.com/wavpack-$version-x86.zip"
+                "url": "https://github.com/dbry/WavPack/releases/download/$version/$version-x86.zip"
             }
         }
     }
