@@ -21,7 +21,9 @@
         "wvtag.exe",
         "wvunpack.exe"
     ],
-    "checkver": "<center>WavPack ([\\d.]+) features include:</center>",
+    "checkver": {
+        "github": "https://github.com/dbry/WavPack"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
