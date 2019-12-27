@@ -4,8 +4,8 @@
     "description": "Scoop tab completion, work with powershell",
     "version": "0.2.2",
     "url": [
-        "https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.2.2/src/scoop-completion.psm1 https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.2.2/src/scoop-completion.psd1",
-        "https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.2.1/src/scoop-completion.psd1"
+        "https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.2.2/src/scoop-completion.psm1",
+        "https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.2.2/src/scoop-completion.psd1"
     ],
     "hash": [
         "99507dc734985a9735165f27552f7c68e72344f5bab0630ea6e1a5dd0855e37a",
