@@ -13,12 +13,10 @@
             "hash": "d4af9eca864d99a1b5183413fa761cb9765185be69ada804550665669630259a"
         }
     },
-    "bin": [
-        [
-            "elvish-v0.12.exe",
-            "elvish"
-        ]
-    ],
+    "installer": {
+        "script": "Rename-Item \"$dir\\elvish-v$version.exe\" \"$dir\\elvish.exe\""
+    },
+    "bin": "elvish.exe",
     "checkver": {
         "url": "https://elv.sh/get/",
         "regex": "([\\d.]+) \\(<a href=\"/blog/[\\d.]+-release-notes.html\">Release Note</a>\\)"
