@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.qownnotes.org/",
-    "version": "5168",
+    "version": "5182",
     "license": "GPL-2.0-only",
-    "url": "https://github.com/pbek/QOwnNotes/releases/download/windows-b5168/QOwnNotes.zip",
-    "hash": "2cf1d6343dfd391b2faf31a7788fbc5d6ddb3d7a22e092418b256b4d6136e8db",
+    "url": "https://github.com/pbek/QOwnNotes/releases/download/windows-b5182/QOwnNotes.zip",
+    "hash": "66de51b1ca1799d3f153e1b323770d55e4d7bd719feade443b91175c7b2a3e66",
     "bin": "QOwnNotes.exe",
     "shortcuts": [
         [
