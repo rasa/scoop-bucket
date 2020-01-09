@@ -2,7 +2,7 @@
     "homepage": "https://sourceforge.net/projects/openproj/",
     "version": "1.4",
     "license": "CPAL-1.0",
-    "url": "https://sourceforge.net/projects/openproj/files/OpenProj%20Binaries/1.4/openproj-1.4.zip",
+    "url": "https://downloads.sourceforge.net/project/openproj/OpenProj%20Binaries/1.4/openproj-1.4.zip",
     "hash": "sha1:ba29d611ba98bb1367caf0c5419d0f01897f638f",
     "extract_dir": "openproj-1.4",
     "installer": {
@@ -16,11 +16,11 @@
         ]
     ],
     "checkver": {
-        "url": "https://sourceforge.net/projects/openproj/files/OpenProj%20Binaries/",
+        "url": "https://downloads.sourceforge.net/project/openproj/OpenProj%20Binaries/",
         "regex": "<tr title=\"([\\d.]+)\" class=\"folder \">"
     },
     "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/openproj/files/OpenProj%20Binaries/$version/openproj-$version.zip",
+        "url": "https://downloads.sourceforge.net/project/openproj/OpenProj%20Binaries/$version/openproj-$version.zip",
         "extract_dir": "openproj-$version"
     }
 }
