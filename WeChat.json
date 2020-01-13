@@ -18,6 +18,6 @@
         "Remove-Item \"$dir\\`$_15_\" -Force -Recurse",
         "Remove-Item \"$dir\\`$R5\" -Force -Recurse"
     ],
-    "checkver": "Œ¢–≈ ([\\d.]+) for Windows ∑¢≤º",
+    "checkver": "ÂæÆ‰ø° ([\\d.]+) for Windows ÂèëÂ∏É",
     "notes": "We don't persist your WeChat data, they are still storaged in '%APPDATA%\\Tencent\\WeChat'."
 }
