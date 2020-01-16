@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/pyscripter/files/PyScripter-v$matchShort/PyScripter-$version-x64.zip"
+                "url": "https://sourceforge.net/projects/pyscripter/files/PyScripter-v$majorVersion.$minorVersion/PyScripter-$version-x64.zip"
             },
             "32bit": {
-                "url": "https://sourceforge.net/projects/pyscripter/files/PyScripter-v$matchShort/PyScripter-$version-x86.zip"
+                "url": "https://sourceforge.net/projects/pyscripter/files/PyScripter-v$majorVersion.$minorVersion/PyScripter-$version-x86.zip"
             }
         }
     }
