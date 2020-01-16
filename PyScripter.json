@@ -1,5 +1,5 @@
 {
-    "home": "https://sourceforge.net/projects/pyscripter",
+    "homepage": "https://github.com/pyscripter/pyscripter",
     "description": "an open-source Python Integrated Development Environment (IDE)",
     "version": "3.6.0",
     "architecture": {
@@ -14,7 +14,26 @@
             "extract_dir": "PyScripter"
         }
     },
-    "shortcuts": [
-        ["PyScripter.exe", "PyScripter"]
-    ]
+    "bin": "PyScripter.exe",
+    "shortcuts": 
+        [
+            [
+                "PyScripter.exe",
+                "PyScripter"
+            ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/pyscripter/files/",
+        "regex": "/PyScripter-v[\\d.]+/PyScripter-([\\d.]+)-x64-Setup.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://sourceforge.net/projects/pyscripter/files/PyScripter-v$matchShort/PyScripter-$version-x64.zip"
+            },
+            "32bit": {
+                "url": "https://sourceforge.net/projects/pyscripter/files/PyScripter-v$matchShort/PyScripter-$version-x86.zip"
+            }
+        }
+    }
 }
