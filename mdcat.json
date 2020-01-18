@@ -11,7 +11,8 @@
     },
     "bin": "mdcat.exe",
     "checkver": {
-        "github": "https://github.com/lunaryorn/mdcat"
+        "url": "https://github.com/lunaryorn/mdcat/releases/latest",
+        "regex": "\\/releases\\/tag\\/mdcat-([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
