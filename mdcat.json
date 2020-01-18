@@ -1,5 +1,6 @@
 ﻿{
     "homepage": "https://crates.io/crates/mdcat",
+    "description": "cat for Markdown",
     "license": "Apache-2.0",
     "version": "0.15.0",
     "architecture": {
