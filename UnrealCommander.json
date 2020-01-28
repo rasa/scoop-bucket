@@ -1,7 +1,7 @@
 {
     "version": "3.57.1437",
     "description": "Unreal Commander. Easy to use file manager.",
-    "homepage": "https://x-diesel.com/",
+    "homepage": "https://x-diesel.com",
     "license": "Freeware",
     "architecture": {
         "64bit": {
@@ -63,7 +63,6 @@
         ]
     ],
     "checkver": {
-        "url": "https://x-diesel.com/",
         "regex": "Unreal Commander v(?<pure>[\\d.]+) \\(build (?<build>\\d+)\\)",
         "replace": "${pure}.${build}"
     },
