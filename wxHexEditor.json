@@ -8,14 +8,14 @@
             "url": "https://downloads.sourceforge.net/project/wxhexeditor/wxHexEditor/v0.24%20Beta/wxHexEditor-v0.24-Win64.zip",
             "hash": "sha1:b6439a267b3d46e2ae3083822fcf652adf51c75e",
             "installer": {
-                "script": "Move-Item \"$dir\\wxHexEditor-64Bit.exe\" \"$dir\\wxHexEditor.exe\""
+                "script": "Rename-Item \"$dir\\wxHexEditor-64Bit.exe\" \"$dir\\wxHexEditor.exe\""
             }
         },
         "32bit": {
             "url": "https://downloads.sourceforge.net/project/wxhexeditor/wxHexEditor/v0.24%20Beta/wxHexEditor-v0.24-Win32.zip",
             "hash": "sha1:75677fd21e6aa51970e692b6276ba6290d3714dd",
             "installer": {
-                "script": "Move-Item \"$dir\\wxHexEditor-32Bit.exe\" \"$dir\\wxHexEditor.exe\""
+                "script": "Rename-Item \"$dir\\wxHexEditor-32Bit.exe\" \"$dir\\wxHexEditor.exe\""
             }
         }
     },
