@@ -28,14 +28,15 @@
         }
     },
     "checkver": {
-        "url": "http://www.chuyu.me/en/",
+        "github": "https://github.com/Chuyu-Team/Dism-Multi-language/releases",
+        "regex": "<a href=\"https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v[\\d.]+/Dism\\+\\+([\\d.]+)_(?<hash>[a-fA-F\\d]{40})\\.zip\""
         "regex": "<a href=\"http://cdn.chuyu.me/Dism\\+\\+([\\d+\\.]+\\w+?)_(?<hash>[a-fA-F\\d]{40})\\.zip\""
     },
     "autoupdate": {
         "url": "http://cdn.chuyu.me/Dism++$version_$matchHash.zip",
         "hash": {
             "url": "http://www.chuyu.me/en/",
-            "find": "<a href=\"http://cdn.chuyu.me/Dism.*_$sha1\\.zip\""
+            "find": "<a href=\"https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v[\\d.]+/Dism\\+\\+[\\d.]+_([a-fA-F\\d]{40})\\.zip\""
         }
     }
 }
