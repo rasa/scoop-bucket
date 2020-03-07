@@ -22,6 +22,6 @@ goto :updone
 %PWSH% -noprofile -ex unrestricted -f %CHECKVER% -dir %DIR% -u
 
 :push
-call %DIR%\bin\autop.bat
+::call %DIR%\bin\autop.bat
 
 :end
