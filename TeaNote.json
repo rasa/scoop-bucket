@@ -21,7 +21,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://haocha.co/static/js/main.85f67cbc.chunk.js",
+        "url": "https://haocha.co/static/js/main.8eca5d66.chunk.js",
         "regex": "https://tea-note.oss-cn-hangzhou.aliyuncs.com/download/Tea%20Setup%20([\\d.]+).exe"
     },
     "autoupdate": {
