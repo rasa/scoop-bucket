@@ -26,7 +26,7 @@
         "re": "/mucommander/mucommander/releases/tag/([\\d.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/mucommander/mucommander/releases/download/$version/mucommander-$matchHead-portable.tar.gz"
+        "url": "https://github.com/mucommander/mucommander/releases/download/$version/mucommander-$version-portable.tar.gz"
     },
     "suggest": {
         "JDK": [
