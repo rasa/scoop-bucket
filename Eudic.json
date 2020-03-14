@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.eudic.net/",
-    "version": "12.3",
+    "version": "2020-03-01",
     "license": "freeware",
     "url": "http://static.frdic.com/pkg/eudic_win.zip",
-    "hash": "4ccb765f334f24a9f3b149425a5a28d9c1d52dc1d35bf8c55021acc047b34fda",
+    "hash": "dfede74112fbc719f7e1b32bee2ff11c6a97dc6a4abed899ffb6e0279b6818a7",
     "installer": {
         "script": [
             "Expand-7ZipArchive \"$dir\\eudic_win.exe\" \"$dir\\\" -Removal",
