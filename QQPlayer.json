@@ -1,4 +1,4 @@
-﻿{
+{
     "homepage": "https://player.qq.com/",
     "license": "unknown",
     "version": "4.6.2.1089",
@@ -10,5 +10,9 @@
             "QQPlayer.exe",
             "QQPlayer"
         ]
-    ]
+    ],
+    "checkver": "<div class=\"version_info\">v ([\\d.]+)\\s",
+    "autoupdate": {
+        "url": "https://dldir1.qq.com/qqyy/pc/QQPlayerSetup$version.exe#/dl.7z"
+    }
 }
