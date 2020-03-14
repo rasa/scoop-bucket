@@ -1,5 +1,6 @@
 ﻿{
     "homepage": "https://www.audiocoding.com/faac.html",
+    "description": "An MPEG-4 and MPEG-2 AAC encoder",
     "license": "LGPL-3.0-or-later",
     "version": "1.28",
     "url": "http://www.rarewares.org/files/aac/faac-1.28-mod.zip",
