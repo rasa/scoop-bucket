@@ -1,0 +1,14 @@
+﻿{
+    "homepage": "https://player.qq.com/",
+    "license": "unknown",
+    "version": "4.6.2.1089",
+    "url": "https://dldir1.qq.com/qqyy/pc/QQPlayerSetup4.6.2.1089.exe#/dl.7z",
+    "hash": "1a4e44dd16a5a36e972468e98070629df5a2b1237de637b920e6eca8dffb830c",
+    "bin": "QQPlayer.exe",
+    "shortcuts": [
+        [
+            "QQPlayer.exe",
+            "QQPlayer"
+        ]
+    ]
+}
