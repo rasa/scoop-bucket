@@ -1,28 +1,33 @@
 {
-    "homepage": "https://www.voidtools.com/",
+    "homepage": "https://www.voidtools.com",
     "description": "Locate files and folders by name instantly.",
     "license": "MIT",
-    "version": "1.4.1.965",
+    "version": "1.4.1.969",
     "architecture": {
         "64bit": {
-            "url": "https://www.voidtools.com/Everything-1.4.1.965.x64.zip",
-            "hash": "b2afe2fd0c239ac9688f5897b096823293cc38c1f629ee2d39b3230c2be3e792"
+            "url": "https://www.voidtools.com/Everything-1.4.1.969.x64.zip",
+            "hash": "b45cccf15f6fdeaee688c9a1b9127cc143f73bc14f9cd09b1740bf3ba0bd7be0"
         },
         "32bit": {
-            "url": "https://www.voidtools.com/Everything-1.4.1.965.x86.zip",
-            "hash": "b39a274654a1937352142e1dde0b747d3fea320adc3b88c8242774542c8a1a3e"
+            "url": "https://www.voidtools.com/Everything-1.4.1.969.x86.zip",
+            "hash": "5956b000e7c0e823f784dba8421bb70384ed52494a2e85238ea254e6c13a462f"
         }
     },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\Everything.ini\")) { & \"$dir\\Everything.exe\" -install-config null }"
+    ],
     "bin": "Everything.exe",
-    "checkver": "Download Everything ([\\d.]+)",
+    "shortcuts": [
+        [
+            "Everything.exe",
+            "Everything"
+        ]
+    ],
     "persist": [
         "Everything.ini",
         "Filters.csv"
     ],
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\Everything.ini\")) { & \"$dir\\Everything.exe\" -install-config null }",
-        "if (!(Test-Path \"$persist_dir\\Everything.db\")) { Add-Content \"$dir\\Everything.db\" $null }"
-    ],
+    "checkver": "Download Everything ([\\d.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {
@@ -33,13 +38,7 @@
             }
         },
         "hash": {
-            "url": "https://www.voidtools.com/Everything-$version.sha256"
+            "url": "$baseurl/Everything-$version.sha256"
         }
-    },
-    "shortcuts": [
-        [
-            "Everything.exe",
-            "Everything"
-        ]
-    ]
+    }
 }
