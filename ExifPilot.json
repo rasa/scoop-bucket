@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.colorpilot.com/exif.html",
     "description": "EXIF/IPTC data viewer, EXIF data editor & creator",
-    "version": "5.5.1",
+    "version": "5.6.0",
     "license": "freeware",
     "url": "https://www.colorpilot.com/load/exif.exe",
-    "hash": "9b2e3b5934515f238a291d28e25155d3afba57cb4caebbfe6d5b0321dfc5c830",
+    "hash": "fbf1c923b6cee8000501bfc9c5fb062e2405aef294b8c482288290108510eb6a",
     "innosetup": true,
     "persist": "ExifPilot.tags",
     "bin": "ExifPilot.exe",
