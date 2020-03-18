@@ -6,6 +6,12 @@
     "hash": "sha1:bca30c4d9ac7ab418bff5bba4c78170b0050ac9e",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse",
     "bin": "WinDjView.exe",
+    "shortcuts": [
+        [
+            "WinDjView.exe",
+            "WinDjView"
+        ]
+    ],
     "checkver": {
         "url": "https://sourceforge.net/projects/windjview/rss?path=/WinDjView",
         "regex": "WinDjView/([\\d.]+)/WinDjView-[\\d.]+-Setup\\.exe"
