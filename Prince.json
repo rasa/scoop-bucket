@@ -1,17 +1,17 @@
 {
     "homepage": "http://www.princexml.com",
-    "version": "13.4",
+    "version": "13.5",
     "license": "free for non-commercial use",
     "architecture": {
         "64bit": {
-            "url": "https://www.princexml.com/download/prince-13.4-win64.zip",
-            "hash": "941c11d768b6b5f5349fbb77e6d0b3ee05a5ffa0bc3a70c7724f8ad23ca5e60a",
-            "extract_dir": "prince-13.4-win64"
+            "url": "https://www.princexml.com/download/prince-13.5-win64.zip",
+            "hash": "9bf6b3617df8d1de2779e835b94c445a365815c8f6e989757853efe369e9e6f6",
+            "extract_dir": "prince-13.5-win64"
         },
         "32bit": {
-            "url": "https://www.princexml.com/download/prince-13.4-win32.zip",
-            "hash": "1c690b886daeaf3f70a6e9fef9a6c055e5edb84858f0411c7ea43c83c0fc83a6",
-            "extract_dir": "prince-13.4-win32"
+            "url": "https://www.princexml.com/download/prince-13.5-win32.zip",
+            "hash": "b73999c2b55ad3f5fcb196486b0dcf9c47230976e975936c23fcfa164996f86e",
+            "extract_dir": "prince-13.5-win32"
         }
     },
     "bin": "bin\\prince.exe",
