@@ -10,7 +10,7 @@
             "Move-Item \"$fold\\*\" \"$dir\"",
             "Remove-Item \"$fold\" -Force -Recurse",
             "$jar = (Get-ChildItem \"$dir\" \"mucommander-*.jar\" | Select-Object -First 1).FullName",
-            "Rename-Item \"$jar\" \"$dir\"",
+            "Rename-Item \"$jar\" \"$dir\\mucommander.jar\"",
             "Set-Content \"$dir\\muCommander.bat\" (@('@echo off', 'start javaw.exe -jar %~dp0\\mucommander.jar %*') -join \"`r`n\") -Encoding Ascii"
         ]
     },
@@ -18,7 +18,9 @@
     "shortcuts": [
         [
             "mucommander.bat",
-            "muCommander"
+            "muCommander",
+            "",
+            "muCommander.exe"
         ]
     ],
     "checkver": {
