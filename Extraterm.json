@@ -1,0 +1,36 @@
+{
+    "homepage": "http://extraterm.org/",
+    "description": "The swiss army chainsaw of terminal emulators.",
+    "version": "0.49.2",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sedwards2009/extraterm/releases/download/v0.49.2/extraterm-0.49.2-win32-x64.zip",
+            "hash": "e86969cc4521737f7bd41097467c29480e4f14d8fdd4debe7da7404d7297ee5d",
+            "extract_dir": "extraterm-0.49.2-win32-x64"
+        }
+    },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\application_paths.json\")) {Set-Content \"$dir\\application_paths.json\" (@('{', '  \"userSettingsPath\": \"./config\"','}') -join \"`r`n\") -Encoding ASCII}",
+    "bin": "extraterm.exe",
+    "shortcuts": [
+        [
+            "extraterm.exe",
+            "Extraterm"
+        ]
+    ],
+    "persist": [
+        "application_paths.json",
+        "config"
+    ],
+    "checkver": {
+        "github": "https://github.com/sedwards2009/extraterm"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sedwards2009/extraterm/releases/download/v$version/extraterm-$version-win32-x64.zip",
+                "extract_dir": "extraterm-$version-win32-x64"
+            }
+        }
+    }
+}
