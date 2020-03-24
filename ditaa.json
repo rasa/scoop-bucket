@@ -1,27 +1,19 @@
 {
-    "homepage": "http://ditaa.sourceforge.net/",
-    "version": "0.9",
+    "homepage": "https://github.com/stathissideris/ditaa",
+    "version": "0.11.0",
     "license": "GPL-2.0-only",
-    "url": "https://downloads.sourceforge.net/project/ditaa/ditaa/0.9/ditaa0_9.zip",
-    "hash": "sha1:3efe5a3710627e19a414c305c82f0e58adf7c4f2",
+    "url": "https://github.com/stathissideris/ditaa/releases/download/v0.11.0/ditaa-0.11.0-standalone.jar",
+    "hash": "9418aa63ff6d89c5d2318396f59836e120e75bea7a5930c4d34aa10fe7a196a9",
     "installer": {
         "script": [
-            "Rename-Item \"$dir\\ditaa0_9.jar\" \"$dir\\ditaa.jar\"",
+            "$jar = (Get-ChildItem \"$dir\" 'ditaa-*-standalone.jar' | Select-Object -First 1).FullName",
+            "Rename-Item \"$jar\" \"$dir\\ditaa.jar\"",
             "Set-Content \"$dir\\ditaa.bat\" '@java.exe -jar \"%~dp0\\ditaa.jar\" %*' -Encoding Ascii"
         ]
     },
     "bin": "ditaa.bat",
-    "checkver": {
-        "url": "https://sourceforge.net/projects/ditaa/files/ditaa/",
-        "regex": "/ditaa/([\\d.]+)/ditaa([\\d_]+).zip"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/ditaa/ditaa/$version/ditaa$underscoreVersion.zip",
-        "installer": {
-            "script": [
-                "Rename-Item \"$dir\\ditaa$underscoreVersion.jar\" \"$dir\\ditaa.jar\"",
-                "Set-Content \"$dir\\ditaa.bat\" '@start java.exe -jar \"%~dp0\\ditaa.jar\" %*' -Encoding Ascii"
-            ]
-        }
+        "url": "https://github.com/stathissideris/ditaa/releases/download/v$version/ditaa-$version-standalone.jar"
     }
 }
