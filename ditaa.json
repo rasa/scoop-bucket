@@ -1,0 +1,27 @@
+{
+    "homepage": "http://ditaa.sourceforge.net/",
+    "version": "0.9",
+    "license": "GPL-2.0-only",
+    "url": "https://downloads.sourceforge.net/project/ditaa/ditaa/0.9/ditaa0_9.zip",
+    "hash": "sha1:3efe5a3710627e19a414c305c82f0e58adf7c4f2",
+    "installer": {
+        "script": [
+            "Rename-Item \"$dir\\ditaa0_9.jar\" \"$dir\\ditaa.jar\"",
+            "Set-Content \"$dir\\ditaa.bat\" '@java.exe -jar \"%~dp0\\ditaa.jar\" %*' -Encoding Ascii"
+        ]
+    },
+    "bin": "ditaa.bat",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/ditaa/files/ditaa/",
+        "regex": "/ditaa/([\\d.]+)/ditaa([\\d_]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/ditaa/ditaa/$version/ditaa$underscoreVersion.zip",
+        "installer": {
+            "script": [
+                "Rename-Item \"$dir\\ditaa$underscoreVersion.jar\" \"$dir\\ditaa.jar\"",
+                "Set-Content \"$dir\\ditaa.bat\" '@start java.exe -jar \"%~dp0\\ditaa.jar\" %*' -Encoding Ascii"
+            ]
+        }
+    }
+}
