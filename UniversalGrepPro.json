@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Genivia/ugrep/raw/master/bin/win64/ugrep.exe",
-            "hash": "3c7afd8847e6fc71d99cdb32c75ffc96f2238264f545cd1e2c0e5e48a06cdf67"
+            "hash": "d96233f94295987162f6c45c7d77fe7d9a2b8f8df2303b2e4d1e9d6607678d55"
         },
         "32bit": {
             "url": "https://github.com/Genivia/ugrep/raw/master/bin/win32/ugrep.exe",
-            "hash": "33db9cc0abf63b343fa9fba81cfd8c859683052a40a574484dfe854c3ed82913"
+            "hash": "dd3f24b3607de0e6062d131cef7ec7da57e3c7eeef285cffbe10a7a85c5ab908"
         }
     },
     "bin": "ugrep.exe",
