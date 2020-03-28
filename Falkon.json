@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://download.kde.org/stable/falkon/3.1/Falkon.Installer.3.1.0.x64.exe#/dl.7z",
-            "hash": "5ab4c139dee19c21114f7acbe38c40babb392bfb875cb977db11fd390b7aa7ee"
+            "hash": "57859102da4ebe871f63f9e286a6066aea6d634c480a193f56a7dcb39239c0ad"
         },
         "32bit": {
             "url": "https://download.kde.org/stable/falkon/3.1/Falkon.Installer.3.1.0.exe#/dl.7z",
-            "hash": "3b82d1a4661192b3d98c155bffc6a29605748be9ee0b974a8632f383abc88ebd"
+            "hash": "806dc30fd68edee4587e2f480054000f82d5d56df5047ee299547cb2247a3a88"
         }
     },
     "bin": "falkon.exe",
