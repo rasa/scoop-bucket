@@ -19,12 +19,12 @@
         ]
     ],
     "checkver": {
-        "regex": "span class=\"browser-download-item__name\">Windows</span><span class=\"browser-download-item__version\">v([\\d.]+)</span>"
+        "github": "https://github.com/gab-ai-inc/defiant-browser"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/gab-ai-inc/defiant-browser/releases/download/v$version/dissenter-browser-$version-installer.exe#/dl.7z"
+                "url": "https://github.com/gab-ai-inc/defiant-browser/releases/download/v$version/dissenter-$version-installer.exe#/dl.7z"
             }
         }
     }
