@@ -30,7 +30,6 @@
         ]
     ],
     "persist": [
-        "Everything.lng",
         "Everything.ini",
         "Filters.csv",
         "Run History.csv",
