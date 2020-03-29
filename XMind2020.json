@@ -1,5 +1,5 @@
 {
-    "homepage": "https://www.xmind.net/zen/",
+    "homepage": "https://www.xmind.net/",
     "version": "10.0.2",
     "license": "shareware",
     "architecture": {
@@ -24,24 +24,24 @@
             }
         }
     },
-    "bin": "XMind ZEN.exe",
+    "bin": "XMind.exe",
     "shortcuts": [
         [
-            "XMind ZEN.exe",
-            "XMind ZEN"
+            "XMind.exe",
+            "XMind 2020"
         ]
     ],
     "checkver": {
-        "url": "https://www.xmind.net/download/zen",
-        "regex": "<a href=//www\\.xmind\\.net/xmind/downloads/XMind-ZEN-for-Windows-32bit-[\\d.]+-(?<date32>\\d{12})\\.exe>Windows \\(32bit\\)</a>[\\w\\W]*<a href=//www\\.xmind\\.net/xmind/downloads/XMind-ZEN-for-Windows-64bit-([\\d.]+)-(?<date64>\\d{12})\\.exe>Windows \\(64bit\\)</a>"
+        "url": "https://www.xmind.net/download/",
+        "regex": "<a href=//www\\.xmind\\.net/xmind/downloads/XMind-2020-for-Windows-32bit-[\\d.]+-(?<date32>\\d{12})\\.exe>Windows \\(32bit\\)</a>[\\w\\W]*<a href=//www\\.xmind\\.net/xmind/downloads/XMind-2020-for-Windows-64bit-([\\d.]+)-(?<date64>\\d{12})\\.exe>Windows \\(64bit\\)</a>"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl2.xmind.cn/XMind-ZEN-for-Windows-64bit-$version-$matchDate64.exe#/dl.7z"
+                "url": "https://dl2.xmind.net/xmind-downloads/XMind-2020-for-Windows-64bit-$version-$matchDate64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://dl2.xmind.cn/XMind-ZEN-for-Windows-32bit-$version-$matchDate32.exe#/dl.7z"
+                "url": "https://dl2.xmind.net/xmind-downloads/XMind-2020-for-Windows-32bit-$version-$matchDate32.exe#/dl.7z"
             }
         }
     }
