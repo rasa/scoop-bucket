@@ -1,15 +1,15 @@
 {
     "homepage": "https://kurtzimmermann.com",
-    "version": "1.114",
+    "version": "1.115",
     "license": "freeware",
     "architecture": {
         "64bit": {
             "url": "https://kurtzimmermann.com/files/RegCoolX64.zip",
-            "hash": "b192a6497347a86ec0b956b6e94a883ac0b610f23bb549ce88bc185919867b64"
+            "hash": "78e610c75681d168c72a3d6d8d42d5f073516d8ec8493d6749453f45995957e1"
         },
         "32bit": {
             "url": "https://kurtzimmermann.com/files/RegCoolX32.zip",
-            "hash": "a15a17fd5b54573dc5319d034358a17d39ab541a15ed523a5fb99591acbd71de"
+            "hash": "1281692cc564613feb5702d9c2cfd8fb6e184cc0469164ac808c35b7d21c4c07"
         }
     },
     "bin": "RegCool.exe",
