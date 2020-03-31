@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/miaomiaosoft/PandaOCR",
+    "license": "unknown",
+    "version": "2.45",
+    "url": "https://github.com/miaomiaosoft/PandaOCR/files/3990113/PandaOCR.zip",
+    "hash": "4e5bc2d52d0122e2a2acc2d564c6a7656e42e28de8fc24afaa3a1ad750589f17",
+    "bin": "PandaOCR.exe",
+    "shortcuts": [
+        [
+            "PandaOCR.exe",
+            "PandaOCR"
+        ]
+    ],
+    "persist": "CONFIG.ini",
+    "checkver": {
+        "url": "https://github.com/miaomiaosoft/PandaOCR/releases/latest",
+        "regex": "<title>Release PandaOCR.v([\\d.]+)[\\w\\W]+<a href=\"https://github.com/miaomiaosoft/PandaOCR/files/(?<rel>\\d+)/PandaOCR.zip\">PandaOCR.zip</a>"
+    },
+    "autoupdate": {
+        "url": "https://github.com/miaomiaosoft/PandaOCR/files/$matchRel/PandaOCR.zip"
+    }
+}
