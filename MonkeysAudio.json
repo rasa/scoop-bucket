@@ -1,15 +1,15 @@
 {
     "homepage": "https://monkeysaudio.com/",
-    "version": "5.26",
+    "version": "5.28",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://monkeysaudio.com/files/MAC_526_x64.exe",
-            "hash": "ce07126417a6312089994349e2d45a093a3f1e9f787335313221145246eabcd5"
+            "url": "https://monkeysaudio.com/files/MAC_528_x64.exe",
+            "hash": "778db8cad447f11d3296d10d5330d47019a4ba8e0914f5109af95aadfff50833"
         },
         "32bit": {
-            "url": "https://monkeysaudio.com/files/MAC_526.exe",
-            "hash": "b84e4885c182e536fc4c5fbbc65c55126a12cfe743610ffe595b4c29059203fe"
+            "url": "https://monkeysaudio.com/files/MAC_528.exe",
+            "hash": "b39761ce6ebece9ce8603b8248818e3cb3ee68e2c7f6169112321674cd4f50e1"
         }
     },
     "innosetup": true,
