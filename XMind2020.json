@@ -1,11 +1,11 @@
 {
     "homepage": "https://www.xmind.net/",
-    "version": "10.1.0",
+    "version": "10.1.1",
     "license": "shareware",
     "architecture": {
         "64bit": {
             "url": "https://dl2.xmind.cn/XMind-2020-for-Windows-64bit-10.1.1-202003310622.exe#/dl.7z",
-            "hash": "",
+            "hash": "80467e529983ee05e8d171e58388e2c29ccf5fb4427f3a64f577be4552182003",
             "installer": {
                 "script": [
                     "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
@@ -14,8 +14,8 @@
             }
         },
         "32bit": {
-            "url": "https://dl2.xmind.cn/XMind-2020-for-Windows-32bit-10.1.1-202003310622.exe#/dl.7z",
-            "hash": "",
+            "url": "https://dl2.xmind.cn/XMind-2020-for-Windows-32bit-10.1.1-202003312309.exe#/dl.7z",
+            "hash": "5e7e9fb2de0911d4f2c1533e068e65fad2c98fd2e2b9c10608193a8fa3baec33",
             "installer": {
                 "script": [
                     "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\" -Removal",
