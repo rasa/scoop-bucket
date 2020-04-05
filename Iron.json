@@ -11,7 +11,7 @@
         },
         "32bit": {
             "url": "https://www.srware.net/downloads/IronPortable.zip",
-            "hash": "",
+            "hash": "5bacd5539d4a71bdbaafe11f28fb38c6ad0578662570585ec1d8e121804296fe",
             "extract_dir": "IronPortable\\Iron"
         }
     },
