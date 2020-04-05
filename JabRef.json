@@ -3,7 +3,7 @@
     "version": "5.0",
     "license": "MIT",
     "url": "https://www.fosshub.com/JabRef.html?dwl=JabRef-5.0-portable_windows.zip",
-    "hash": "4f410840f7821e25a09a5d1fa6408045df27bc4bcd8684fd8ab273b4933c08b7"
+    "hash": "4f410840f7821e25a09a5d1fa6408045df27bc4bcd8684fd8ab273b4933c08b7",
     "installer": {
         "script": [
             "$jar = (Get-ChildItem \"$dir\" 'jabref-*.jar' | Select-Object -First 1).FullName",
