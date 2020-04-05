@@ -90,7 +90,7 @@
         "    echo 'Default vimrc file created in ~/_vimrc, with shell set to PowerShell.'",
         "} else { echo 'Existing vimrc file found, no default configuration created' }"
     ],
-    "checkver": "Vim version:</b> ([\\d.]+)",
+    "checkver": "Vim version:</b>\\s+([\\d.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {
