@@ -5,7 +5,7 @@
     "version": "1.0.1.10",
     "url": "https://www.creawriter.com/download/CreaWriter%201.0.exe#/dl.7z",
     "hash": "57f7a85bdfff26275a449f0de1d82cd790dcd6f805bd2138b83e989b2c57d4ca",
-    "innosetup": "true",
+    "innosetup": true,
     "bin": "creawriter.exe",
     "shortcuts": [
         [
