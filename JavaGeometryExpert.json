@@ -1,4 +1,4 @@
-﻿{
+{
     "homepage": "http://www.cs.wichita.edu/~ye/",
     "license": "GPL-3.0-or-later",
     "version": "0.80",
@@ -7,12 +7,19 @@
     "extract_dir": "jgex0_80",
     "installer": {
         "script": "Set-Content \"$dir\\jgex.bat\" '@start javaw.exe -jar \"%~dp0\\jgex.jar\" %*' -Encoding Ascii"
-	},
+    },
     "bin": "jgex.bat",
-    "shortcuts": [  
+    "shortcuts": [
         [
             "jgex.bat",
             "Java Geometry Expert"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "http://www.cs.wichita.edu/~ye/download.html",
+        "regex": "<strong>Beta ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://www.cs.wichita.edu/~ye/jgex$underscoreVersion.zip"
+    }
 }
