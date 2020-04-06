@@ -8,8 +8,8 @@ git checkout master
 for /f %%i in ('git diff --name-only') do (
     git add %%i
     for /f %%v in ('jq .version %%i') do (
-        git commit -m "%%~ni: Update to version %%v"
         git tag "%%~ni-%%v"
+        git commit -m "%%~ni: Update to version %%v"
     )
 )
 git push origin master
