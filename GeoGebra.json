@@ -26,5 +26,8 @@
     		"GeoGebraGeometry.exe",
     		"GeoGebra Geometry"
     	]
-    ]
+    ],
+    "autoupdte": {
+        "url": "https://download.geogebra.org/installers/$match2/GeoGebra-Windows-Portable$dashVersion.zip"
+    }
 }
