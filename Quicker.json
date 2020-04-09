@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://deskpad.oss-cn-shanghai.aliyuncs.com/_productfiles/20200407/Quicker.x64.$version.msi"
+                "url": "https://deskpad.oss-cn-shanghai.aliyuncs.com/_productfiles/20200409/Quicker.x64.$version.msi"
             },
             "32bit": {
-                "url": "https://deskpad.oss-cn-shanghai.aliyuncs.com/_productfiles/20200407/Quicker.x86.$version.msi"
+                "url": "https://deskpad.oss-cn-shanghai.aliyuncs.com/_productfiles/20200409/Quicker.x86.$version.msi"
             }
         }
     }
