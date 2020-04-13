@@ -16,7 +16,7 @@
         "mecw32.exe",
         "mec32.exe"
     ],
-    "shortcut": [
+    "shortcuts": [
         [
         "me32.exe",
         "MicroEmacs"
