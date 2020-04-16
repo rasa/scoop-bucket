@@ -1,0 +1,451 @@
+{
+    "homepage": "https://github.com/kodybrown/rktools2k3",
+    "description": "Streamline manage administrator tasks. (troubleshooting OS, manage AD, deploy applications, ...)",
+    "version": "1.0",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx"
+    },
+    "url": "https://github.com/kodybrown/rktools2k3/archive/master.zip",
+    "hash": "421daae5ed40d2e69664fd4cb57e0efa0ea0fa5536107c8007be703ab617dbd0",
+    "extract_dir": "rktools2k3-master",
+    "bin": [
+        "adlb.exe",
+        "atmarp.exe",
+        "cdburn.exe",
+        "chklnks.exe",
+        "chknic.exe",
+        "compress.exe",
+        "confdisk.exe",
+        "consume.exe",
+        "creatfil.exe",
+        "custreasonedit.exe",
+        "delprof.exe",
+        "dh.exe",
+        "diskraid.exe",
+        "diskuse.exe",
+        "dvdburn.exe",
+        "empty.exe",
+        "getcm.exe",
+        "gpmonitor.exe",
+        "gpotool.exe",
+        "hlscan.exe",
+        "ifmember.exe",
+        "iniman.exe",
+        "instcm.exe",
+        "instexnt.exe",
+        "instsrv.exe",
+        "intfiltr.exe",
+        "kernrate.exe",
+        "klist.exe",
+        "linkd.exe",
+        "linkspeed.exe",
+        "list.exe",
+        "lockoutstatus.exe",
+        "logtime.exe",
+        "lsreport.exe",
+        "lsview.exe",
+        "memmonitor.exe",
+        "memtriage.exe",
+        "mibcc.exe",
+        "mqcast.exe",
+        "mqcatch.exe",
+        "nlsinfo.exe",
+        "now.exe",
+        "ntimer.exe",
+        "ntrights.exe",
+        "oh.exe",
+        "oleview.exe",
+        "pathman.exe",
+        "permcopy.exe",
+        "perms.exe",
+        "pfmon.exe",
+        "pmon.exe",
+        "printdriverinfo.exe",
+        "qgrep.exe",
+        "qtcp.exe",
+        "rassrvmon.exe",
+        "rcontrolad.exe",
+        "regini.exe",
+        "regview.exe",
+        "remapkey.exe",
+        "reportgen.exe",
+        "robocopy.exe",
+        "rpccfg.exe",
+        "rpcdump.exe",
+        "rpcping.exe",
+        "rpings.exe",
+        "rqc.exe",
+        "rqs.exe",
+        "setprinter.exe",
+        "showacls.exe",
+        "showperf.exe",
+        "showpriv.exe",
+        "sleep.exe",
+        "sonar.exe",
+        "splinfo.exe",
+        "srvany.exe",
+        "srvcheck.exe",
+        "srvinfo.exe",
+        "ssdformat.exe",
+        "subinacl.exe",
+        "tail.exe",
+        "tccom.exe",
+        "tcmon.exe",
+        "timeit.exe",
+        "timezone.exe",
+        "tsctst.exe",
+        "vadump.exe",
+        "vfi.exe"
+    ],
+    "shortcuts": [
+        [
+                "adlb.exe",
+                "Resource Kit/adlb"
+        ],
+        [
+                "atmarp.exe",
+                "Resource Kit/atmarp"
+        ],
+        [
+                "cdburn.exe",
+                "Resource Kit/cdburn"
+        ],
+        [
+                "chklnks.exe",
+                "Resource Kit/chklnks"
+        ],
+        [
+                "chknic.exe",
+                "Resource Kit/chknic"
+        ],
+        [
+                "compress.exe",
+                "Resource Kit/compress"
+        ],
+        [
+                "confdisk.exe",
+                "Resource Kit/confdisk"
+        ],
+        [
+                "consume.exe",
+                "Resource Kit/consume"
+        ],
+        [
+                "creatfil.exe",
+                "Resource Kit/creatfil"
+        ],
+        [
+                "custreasonedit.exe",
+                "Resource Kit/custreasonedit"
+        ],
+        [
+                "delprof.exe",
+                "Resource Kit/delprof"
+        ],
+        [
+                "dh.exe",
+                "Resource Kit/dh"
+        ],
+        [
+                "diskraid.exe",
+                "Resource Kit/diskraid"
+        ],
+        [
+                "diskuse.exe",
+                "Resource Kit/diskuse"
+        ],
+        [
+                "dvdburn.exe",
+                "Resource Kit/dvdburn"
+        ],
+        [
+                "empty.exe",
+                "Resource Kit/empty"
+        ],
+        [
+                "getcm.exe",
+                "Resource Kit/getcm"
+        ],
+        [
+                "gpmonitor.exe",
+                "Resource Kit/gpmonitor"
+        ],
+        [
+                "gpotool.exe",
+                "Resource Kit/gpotool"
+        ],
+        [
+                "hlscan.exe",
+                "Resource Kit/hlscan"
+        ],
+        [
+                "ifmember.exe",
+                "Resource Kit/ifmember"
+        ],
+        [
+                "iniman.exe",
+                "Resource Kit/iniman"
+        ],
+        [
+                "instcm.exe",
+                "Resource Kit/instcm"
+        ],
+        [
+                "instexnt.exe",
+                "Resource Kit/instexnt"
+        ],
+        [
+                "instsrv.exe",
+                "Resource Kit/instsrv"
+        ],
+        [
+                "intfiltr.exe",
+                "Resource Kit/intfiltr"
+        ],
+        [
+                "kernrate.exe",
+                "Resource Kit/kernrate"
+        ],
+        [
+                "klist.exe",
+                "Resource Kit/klist"
+        ],
+        [
+                "linkd.exe",
+                "Resource Kit/linkd"
+        ],
+        [
+                "linkspeed.exe",
+                "Resource Kit/linkspeed"
+        ],
+        [
+                "list.exe",
+                "Resource Kit/list"
+        ],
+        [
+                "lockoutstatus.exe",
+                "Resource Kit/lockoutstatus"
+        ],
+        [
+                "logtime.exe",
+                "Resource Kit/logtime"
+        ],
+        [
+                "lsreport.exe",
+                "Resource Kit/lsreport"
+        ],
+        [
+                "lsview.exe",
+                "Resource Kit/lsview"
+        ],
+        [
+                "memmonitor.exe",
+                "Resource Kit/memmonitor"
+        ],
+        [
+                "memtriage.exe",
+                "Resource Kit/memtriage"
+        ],
+        [
+                "mibcc.exe",
+                "Resource Kit/mibcc"
+        ],
+        [
+                "mqcast.exe",
+                "Resource Kit/mqcast"
+        ],
+        [
+                "mqcatch.exe",
+                "Resource Kit/mqcatch"
+        ],
+        [
+                "nlsinfo.exe",
+                "Resource Kit/nlsinfo"
+        ],
+        [
+                "now.exe",
+                "Resource Kit/now"
+        ],
+        [
+                "ntimer.exe",
+                "Resource Kit/ntimer"
+        ],
+        [
+                "ntrights.exe",
+                "Resource Kit/ntrights"
+        ],
+        [
+                "oh.exe",
+                "Resource Kit/oh"
+        ],
+        [
+                "oleview.exe",
+                "Resource Kit/oleview"
+        ],
+        [
+                "pathman.exe",
+                "Resource Kit/pathman"
+        ],
+        [
+                "permcopy.exe",
+                "Resource Kit/permcopy"
+        ],
+        [
+                "perms.exe",
+                "Resource Kit/perms"
+        ],
+        [
+                "pfmon.exe",
+                "Resource Kit/pfmon"
+        ],
+        [
+                "pmon.exe",
+                "Resource Kit/pmon"
+        ],
+        [
+                "printdriverinfo.exe",
+                "Resource Kit/printdriverinfo"
+        ],
+        [
+                "qgrep.exe",
+                "Resource Kit/qgrep"
+        ],
+        [
+                "qtcp.exe",
+                "Resource Kit/qtcp"
+        ],
+        [
+                "rassrvmon.exe",
+                "Resource Kit/rassrvmon"
+        ],
+        [
+                "rcontrolad.exe",
+                "Resource Kit/rcontrolad"
+        ],
+        [
+                "regini.exe",
+                "Resource Kit/regini"
+        ],
+        [
+                "regview.exe",
+                "Resource Kit/regview"
+        ],
+        [
+                "remapkey.exe",
+                "Resource Kit/remapkey"
+        ],
+        [
+                "reportgen.exe",
+                "Resource Kit/reportgen"
+        ],
+        [
+                "robocopy.exe",
+                "Resource Kit/robocopy"
+        ],
+        [
+                "rpccfg.exe",
+                "Resource Kit/rpccfg"
+        ],
+        [
+                "rpcdump.exe",
+                "Resource Kit/rpcdump"
+        ],
+        [
+                "rpcping.exe",
+                "Resource Kit/rpcping"
+        ],
+        [
+                "rpings.exe",
+                "Resource Kit/rpings"
+        ],
+        [
+                "rqc.exe",
+                "Resource Kit/rqc"
+        ],
+        [
+                "rqs.exe",
+                "Resource Kit/rqs"
+        ],
+        [
+                "setprinter.exe",
+                "Resource Kit/setprinter"
+        ],
+        [
+                "showacls.exe",
+                "Resource Kit/showacls"
+        ],
+        [
+                "showperf.exe",
+                "Resource Kit/showperf"
+        ],
+        [
+                "showpriv.exe",
+                "Resource Kit/showpriv"
+        ],
+        [
+                "sleep.exe",
+                "Resource Kit/sleep"
+        ],
+        [
+                "sonar.exe",
+                "Resource Kit/sonar"
+        ],
+        [
+                "splinfo.exe",
+                "Resource Kit/splinfo"
+        ],
+        [
+                "srvany.exe",
+                "Resource Kit/srvany"
+        ],
+        [
+                "srvcheck.exe",
+                "Resource Kit/srvcheck"
+        ],
+        [
+                "srvinfo.exe",
+                "Resource Kit/srvinfo"
+        ],
+        [
+                "ssdformat.exe",
+                "Resource Kit/ssdformat"
+        ],
+        [
+                "subinacl.exe",
+                "Resource Kit/subinacl"
+        ],
+        [
+                "tail.exe",
+                "Resource Kit/tail"
+        ],
+        [
+                "tccom.exe",
+                "Resource Kit/tccom"
+        ],
+        [
+                "tcmon.exe",
+                "Resource Kit/tcmon"
+        ],
+        [
+                "timeit.exe",
+                "Resource Kit/timeit"
+        ],
+        [
+                "timezone.exe",
+                "Resource Kit/timezone"
+        ],
+        [
+                "tsctst.exe",
+                "Resource Kit/tsctst"
+        ],
+        [
+                "vadump.exe",
+                "Resource Kit/vadump"
+        ],
+        [
+            "vfi.exe",
+            "Resource Kit/vfi"
+        ]
+    ]
+}
