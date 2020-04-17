@@ -1,9 +1,9 @@
 {
     "homepage": "http://www.brianapps.net/sizer4/",
     "license": "freeware",
-    "version": "4.0_dev630",
-    "url": "http://www.brianapps.net/sizer4/sizer4_dev630.zip",
-    "hash": "df60695ad5f7d26bdca1505930ff9e3cac00fc45ce73a8d3da456c506f2dd55b",
+    "version": "4.0_dev640",
+    "url": "http://www.brianapps.net/sizer4/sizer4_dev640.zip",
+    "hash": "1e6560e2040f929503372f74ba93b521d9c2c90bc4667a9696b04e28d1044f1a",
     "bin": "sizer.exe",
     "shortcuts": [
         [
