@@ -2,15 +2,15 @@
     "homepage": "https://github.com/Genivia/ugrep",
     "description": "A fast searcher of file systems, text and binary files, source code, archives, compressed files",
     "license": "BSD 3-Clause",
-    "version": "2.0",
+    "version": "2.0.1",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Genivia/ugrep/raw/master/bin/win64/ugrep.exe",
-            "hash": "2c2a6541521c1be2819d93a1784406ebe787d2ccec6484c457aa4a2e598faefc"
+            "hash": "f828ea066f97411769ff6521d09a85f1b4a11f21a3953c0212acbfbfcdea2951"
         },
         "32bit": {
             "url": "https://github.com/Genivia/ugrep/raw/master/bin/win32/ugrep.exe",
-            "hash": "07adb07cfc55f2e7018e9f0f3fdda7e43e3efdfba1607d15233886b08ab102fa"
+            "hash": "2ff4121371fd684520410f87fb2e9655c55f403815b45daf09feea95ea1605b6"
         }
     },
     "bin": "ugrep.exe",
