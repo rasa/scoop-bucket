@@ -1,14 +1,14 @@
 {
     "homepage": "https://github.com/kohsuke/winsw",
     "license": "MIT",
-    "version": "2.7.0",
+    "version": "2.8.0",
     "url": [
-        "https://github.com/kohsuke/winsw/releases/download/v2.7.0/WinSW.NET2.exe#/WinSW.exe",
+        "https://github.com/kohsuke/winsw/releases/download/v2.8.0/WinSW.NET2.exe#/WinSW.exe",
         "https://github.com/kohsuke/winsw/releases/download/v2.7.0/sample-minimal.xml",
         "https://github.com/kohsuke/winsw/releases/download/v2.7.0/sample-allOption.xml"
     ],
     "hash": [
-        "05bc731b6e9aeb859b74aa2ee27e5fc4d2bafbe938002b06805f9bce18c6e928",
+        "f3e71c7cb964bfeac49ad3533beca9a3e44018612b68d92c97f36b1a8823a0d1",
         "4fcdeca63faf6d272d34e88e3185fab03018f5153dd2bf3d9bf0f49bae7c4f59",
         "f03ea297d6a567e14e14c0f28ae1ce894c72e80254234fae0da98398172fddd6"
     ],
