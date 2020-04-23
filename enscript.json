@@ -9,6 +9,7 @@
         "bin\\enscript.exe",
         "bin\\states.exe"
     ],
+    "persist": "etc\\enscript.cfg",
     "checkver": {
         "url": "https://sourceforge.net/projects/gnuwin32/files/enscript/",
         "regex": "/projects/gnuwin32/files/enscript/([\\d.-]+)/"
