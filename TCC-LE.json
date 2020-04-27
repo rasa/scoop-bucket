@@ -1,6 +1,6 @@
 {
     "homepage": "https://jpsoft.com/products/tcc-le.html",
-    "descrption": "A Windows Command Prompt Replacement",
+    "description": "A Windows Command Prompt Replacement",
     "version": "14",
     "license": "freeware",
     "architecture": {
