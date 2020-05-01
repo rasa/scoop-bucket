@@ -1,15 +1,15 @@
 {
     "homepage": "http://ipe.otfried.org/",
-    "version": "7.2.14",
+    "version": "7.2.15",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://dl.bintray.com/otfried/generic/ipe/7.2/ipe-7.2.14-win64.zip",
-            "hash": "1fba3471f0f03635eab5e75835bc47f6954d017ff5f19ecf6ff75ef170e43cd5"
+            "url": "https://dl.bintray.com/otfried/generic/ipe/7.2/ipe-7.2.15-win64.zip",
+            "hash": "a0a04006fa03b4a9e47350fb04fcd63042b1ef80311d187d260083e92d81878f"
         },
         "32bit": {
-            "url": "https://dl.bintray.com/otfried/generic/ipe/7.2/ipe-7.2.14-win32.zip",
-            "hash": "1fb2332bb5f3de495ef3348a17cf57321ba58985347786855209dc5bc46ec2bb"
+            "url": "https://dl.bintray.com/otfried/generic/ipe/7.2/ipe-7.2.15-win32.zip",
+            "hash": "f24b28f378eb379db046e0cef76cb4f2d2ae82286c09e1e1a12d4370f73141b2"
         }
     },
     "bin": "bin\\ipe.exe",
