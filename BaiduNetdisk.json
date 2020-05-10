@@ -12,5 +12,8 @@
             "Baidu Netdisk"
         ]
     ],
-    "persist": "users"
+    "persist": [
+        "users",
+        "AppSettingApp.dat"
+    ]
 }
