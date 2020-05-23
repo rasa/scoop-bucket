@@ -12,11 +12,8 @@
         ]
     ],
     "persist": "CONFIG.ini",
-    "checkver": {
-        "url": "https://github.com/miaomiaosoft/PandaOCR/releases/latest",
-        "regex": "<a href=\"https://github.com/miaomiaosoft/PandaOCR/files/(?<rel>\\d+)/PandaOCR_([\\d.]+).zip\""
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/miaomiaosoft/PandaOCR/files/$matchRel/PandaOCR_$version.zip"
+        "url": "https://github.com/miaomiaosoft/PandaOCR/releases/download/$version/PandaOCR_$version.zip"
     }
 }
