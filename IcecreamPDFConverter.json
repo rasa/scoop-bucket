@@ -17,6 +17,6 @@
         "regex": "<strong>Version:</strong> ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://icecreamapps.com/download/pdf_converter_setup.exe"
+        "url": "https://download.icecreamapps.com/pdf_converter_setup.exe"
     }
 }
