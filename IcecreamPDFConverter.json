@@ -13,8 +13,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://icecreamapps.com/Download-PDF-Converter/",
-        "regex": "<strong>Version:</strong> ([\\d.]+)"
+        "url": "https://icecreamapps.com/PDF-Converter/",
+        "regex": "Version: ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://download.icecreamapps.com/pdf_converter_setup.exe"
