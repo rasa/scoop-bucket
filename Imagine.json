@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": "http://www.nyam.pe.kr/dev/imagine/download/x64/Imagine_1.1.1_x64_Unicode.zip",
-            "hash": "4527af899bc9d17fc5d4433b2f6722730b1fe6c9920ae193ae6890b25cee0041",
+            "hash": "0A334BF8AC3F23DF46DE87378A8D725292BFD71C453BFA4039BF448AE5A59ADB",
             "bin": "Imagine64.exe",
             "shortcuts": [
                 [
@@ -16,7 +16,7 @@
         },
         "32bit": {
             "url": "http://www.nyam.pe.kr/dev/imagine/download/x64/Imagine_1.1.1_x64_Unicode.zip",
-            "hash": "4527af899bc9d17fc5d4433b2f6722730b1fe6c9920ae193ae6890b25cee0041",
+            "hash": "0A334BF8AC3F23DF46DE87378A8D725292BFD71C453BFA4039BF448AE5A59ADB",
             "bin": "Imagine.exe",
             "shortcuts": [
                 [
