@@ -1,5 +1,6 @@
 {
     "homepage": "http://capture2text.sourceforge.net/",
+    "description": "OCR capture utility",
     "version": "4.6.2",
     "license": "GPL-3.0-or-later",
     "architecture": {
@@ -35,7 +36,8 @@
     "shortcuts": [
         [
             "Capture2Text.exe",
-            "Capture2Text"
+            "Capture2Text",
+            "--portable"
         ]
     ],
     "persist": "settings.ini",
@@ -46,16 +48,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_64bit.zip",
-                "hash": {
-                    "mode": "sourceforge"
-                }
+                "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_64bit.zip"
             },
             "32bit": {
-                "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_32bit.zip",
-                "hash": {
-                    "mode": "sourceforge"
-                }
+                "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_32bit.zip"
             }
         }
     }
