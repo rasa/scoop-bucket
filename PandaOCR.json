@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/miaomiaosoft/PandaOCR",
     "license": "unknown",
-    "version": "2.56",
-    "url": "https://github.com/miaomiaosoft/PandaOCR/releases/download/2.56/PandaOCR_2.56.zip",
-    "hash": "492d16955733cb19deba4a5fedd268e17cebadcea7c2f35626fc6a5833bab02a",
+    "version": "2.57",
+    "url": "https://github.com/miaomiaosoft/PandaOCR/releases/download/2.57/PandaOCR_2.57.zip",
+    "hash": "064eae41083c2b89a2eee4ac139ae76a96357dcde3ee525a2df033707684ddd7",
     "bin": "PandaOCR.exe",
     "shortcuts": [
         [
