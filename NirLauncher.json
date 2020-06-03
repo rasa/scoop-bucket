@@ -647,8 +647,8 @@
                     "NirSoft/MonitorInfoView"
                 ],
                 [
-                    "NirSoft/MozillaCacheView.exe",
-                    "NirSoft/MZCacheView"
+                    "NirSoft/MZCacheView.exe",
+                    "NirSoft/MozillaCacheView"
                 ],
                 [
                     "NirSoft/MozillaHistoryView.exe",
@@ -1238,7 +1238,7 @@
                 "NirSoft/x64/MMCSnapInsView.exe",
                 "NirSoft/x64/MobileFileSearch.exe",
                 "NirSoft/MonitorInfoView.exe",
-                "NirSoft/MozillaCacheView.exe",
+                "NirSoft/MZCacheView.exe",
                 "NirSoft/x64/MozillaHistoryView.exe",
                 "NirSoft/mspass.exe",
                 "NirSoft/MUICacheView.exe",
@@ -1764,7 +1764,7 @@
                 ],
                 [
                     "NirSoft/MozillaCacheView.exe",
-                    "NirSoft/MZCacheView"
+                    "NirSoft/MozillaCacheView"
                 ],
                 [
                     "NirSoft/x64/MozillaHistoryView.exe",
