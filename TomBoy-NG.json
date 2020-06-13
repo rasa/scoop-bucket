@@ -36,7 +36,7 @@
     ],
     "checkver": {
         "url": "https://github.com/tomboy-notes/tomboy-ng/releases/latest",
-        "regex": "/tomboy-notes/tomboy-ng/releases/download/v(?<main>[\\d.]+)/tomboy-ng-setup-([\\d.\\w]+).exe"
+        "regex": "[\\w\\W]*/tomboy-notes/tomboy-ng/releases/download/v(?<main>[\\d.]+)/tomboy-ng-setup-([\\d.\\w]+).exe"
     },
     "autoupdate": {
         "url": "https://github.com/tomboy-notes/tomboy-ng/releases/download/v$matchMain/tomboy-ng-setup-$version.exe"
