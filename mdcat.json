@@ -2,11 +2,11 @@
     "homepage": "https://crates.io/crates/mdcat",
     "description": "cat for Markdown",
     "license": "Apache-2.0",
-    "version": "0.18.2",
+    "version": "0.18.4",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lunaryorn/mdcat/releases/download/mdcat-0.18.2/mdcat-0.18.2-x86_64-pc-windows-msvc.zip",
-            "hash": "9da3ef7b905dfedcc7d71e39b74d69439b0b4cb4c38b614ea46dbf048662d0f8"
+            "url": "https://github.com/lunaryorn/mdcat/releases/download/mdcat-0.18.4/mdcat-0.18.4-x86_64-pc-windows-msvc.zip",
+            "hash": "3c5b9ef1b056b885b0129335719862c872bf7ccdff31380afedf0e40c8732b05"
         }
     },
     "bin": "mdcat.exe",
