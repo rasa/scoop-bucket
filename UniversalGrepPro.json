@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Genivia/ugrep/blob/master/bin/win64/ugrep.exe"
+                "url": "https://raw.githubusercontent.com/Genivia/ugrep/master/bin/win64/ugrep.exe"
             },
             "32bit": {
-                "url": "https://github.com/Genivia/ugrep/blob/master/bin/win32/ugrep.exe"
+                "url": "https://raw.githubusercontent.com/Genivia/ugrep/master/bin/win32/ugrep.exe"
             }
         }
     }
