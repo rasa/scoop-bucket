@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup64.exe",
-            "hash": "md5:8323b742661d5d89b3d6d48cfe439a2b",
+            "hash": "md5:a4a97780aa69d7cdf09bca0434b76714",
             "installer": {
                 "script": "Rename-Item \"$dir\\SQLiteExpertPers64.exe\" \"$dir\\SQLiteExpertPers.exe\""
             },
@@ -19,7 +19,7 @@
         },
         "32bit": {
             "url": "http://www.sqliteexpert.com/v5/SQLiteExpertPersSetup32.exe",
-            "hash": "md5:5704fed08eae9b4aa20e73540871f113",
+            "hash": "md5:3bb16b66d769ceae10ef68a328358ea2",
             "installer": {
                 "script": "Rename-Item \"$dir\\SQLiteExpertPers32.exe\" \"$dir\\SQLiteExpertPers.exe\""
             },
