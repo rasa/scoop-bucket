@@ -1,12 +1,13 @@
 {
     "homepage": "https://weixin.qq.com/",
     "description": "Free messaging and calling app.",
-    "version": "2.9.0",
+    "version": "2.9.5",
     "license": {
         "identifier": "EULA",
         "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=default"
     },
     "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
+    "hash": "df512197a1d0e471a1d64d692ec0c0d101a84f02d1c6382d70677653a135a77b",
     "shortcuts": [
         [
             "wechat.exe",
@@ -19,5 +20,8 @@
         "Remove-Item \"$dir\\`$R5\" -Force -Recurse"
     ],
     "checkver": "微信 ([\\d.]+) for Windows 发布",
+    "autoupdate": {
+        "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z"
+    },
     "notes": "We don't persist your WeChat data, they are still storaged in '%APPDATA%\\Tencent\\WeChat'."
 }
