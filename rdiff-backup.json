@@ -1,10 +1,10 @@
 {
     "homepage": "http://www.nongnu.org/rdiff-backup/",
     "license": "GPL-3.0-or-later",
-    "version": "2.0.4rc0",
-    "url": "https://github.com/rdiff-backup/rdiff-backup/releases/download/v2.0.4rc0/rdiff-backup-2.0.4rc0.win32exe.zip",
-    "hash": "d9311a694c55511d5e7197be756d6b22920f9f10a985bf06ec77e88ae2765242",
-    "extract_dir": "rdiff-backup-2.0.4rc0",
+    "version": "2.0.3",
+    "url": "https://github.com/rdiff-backup/rdiff-backup/releases/download/v2.0.3/rdiff-backup-2.0.3.win32exe.zip",
+    "hash": "f15fc8241b2223b2545de1e2f37b125fe8e5cb9778fb2902d07aaf19c0875afc",
+    "extract_dir": "rdiff-backup-2.0.3",
     "bin": "rdiff-backup.exe",
     "checkver": {
         "github": "https://github.com/rdiff-backup/rdiff-backup"
